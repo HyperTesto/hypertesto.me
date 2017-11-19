@@ -59,14 +59,14 @@ titleSeparator = "•"
 [params.social]
 codepen = ""
 email = "info@hypertesto.me"
-facebook = ""
+facebook = "enrico.testori.12"
 github = "HyperTesto"
 instagram = ""
-linkedin = ""
+linkedin = "enricotestori"
 twitter = ""
 
 [params.social.config]
-platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
+platforms = ["github","linkedin","facebook","twitter","instagram","email","codepen"]
 
 [taxonomies]
 author = "authors"
@@ -77,10 +77,16 @@ tag = "tags"
 page = "/:slug/"
 
 [[menu.main]]
+name = "Home"
+weight = -1000
+identifier = "home"
+url = "/"
+
+[[menu.main]]
 name = "Repo"
 weight = 100
 identifier = "repository"
-url = "https://github.com/MunifTanjim/minimo"
+url = "https://github.com/HyperTesto/hypertesto.me"
 
 [blackfriday]
 hrefTargetBlank = true
