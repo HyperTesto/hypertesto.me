@@ -19,6 +19,7 @@ Però si sa che la fortuna è cieca ma la sfiga le diottrie le ha ancora tutte..
 Forti dell'esperienza fatta, in qualche modo sistemiamo e, questa volta, applichiamo una policy di backup rigidissima, anche per il database.
 
 Quindi ricapitolando:
+
 1. il sito usa Wordpress
 2. su Wordpress sono installati vari plug-in per rendere la velocità del sito accettabile
 3. in qualche modo abbiamo messo in piedi una baracca per i backup dei file e del database
