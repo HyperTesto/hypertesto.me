@@ -26,11 +26,11 @@ Quindi ricapitolando:
 
 Ma... il committente, che supporremo senza mancare di generalità sia la "Pescheria da Tino", pubblica due articoli all'anno: gli auguri di Natale e quelli di Pasqua.
 
-Ma davvero serve tutta questa manfrina per due miseri "articoli" all'anno?
+Davvero serve tutta questa manfrina per due miseri "articoli" all'anno?
 
 Non bastava un po' di semplice HTML? Ipoteticamente sì, ma poi chi lo insegna l'HTML al signor Tino?
 
-Cercando di trovare una risposta mi sono più volte imbattuto in articoli che parlavano di questi generatori di siti statici. In sostanza sono piuttosto semplici: si prepara un template, si aggiungono dei contenuti seguendo un determinato schema (in sostanza aggiungendo file in delle directory specifiche), si compila il tutto e via! Basta prendere sito così come è stato generato e caricarlo presso il nostro hoster preferito.
+Cercando di trovare una risposta mi sono più volte imbattuto in articoli che parlavano di questi generatori di siti statici. In sostanza sono piuttosto semplici: si prepara un template, si aggiungono dei contenuti seguendo un determinato schema (aggiungendo file in alcune directory specifiche), si compila il tutto e via! Basta prendere sito così come è stato generato e caricarlo presso il nostro hoster preferito.
 
 L'HTML ha sicuramente un grande pregio: non richiede nessuna interpretazione di codice lato server (salvo casi eccezionali), di conseguenza è molto veloce, soprattutto rispetto a PHP.
 
