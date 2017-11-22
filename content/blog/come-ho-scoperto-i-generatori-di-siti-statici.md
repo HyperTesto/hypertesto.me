@@ -19,9 +19,9 @@ Però si sa che la fortuna è cieca ma la sfiga le diottrie le ha ancora tutte..
 Forti dell'esperienza fatta, in qualche modo sistemiamo e, questa volta, applichiamo una policy di backup rigidissima, anche per il database.
 
 Quindi ricapitolando:
-- il sito usa Wordpress
-- su Wordpress sono installati vari plug-in per rendere la velocità del sito accettabile
-- in qualche modo abbiamo messo in piedi una baracca per i backup dei file e del database
+1. il sito usa Wordpress
+2. su Wordpress sono installati vari plug-in per rendere la velocità del sito accettabile
+3. in qualche modo abbiamo messo in piedi una baracca per i backup dei file e del database
 
 Ma... il committente, che supporremo senza mancare di generalità sia la "Pescheria da Tino", pubblica due articoli all'anno: gli auguri di Natale e quelli di Pasqua.
 
