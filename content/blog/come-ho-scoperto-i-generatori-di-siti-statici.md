@@ -12,7 +12,7 @@ Tornando al discorso originale, quando ho cominciato a "ravanare" con i siti WEB
 
 Comunque nulla di insormontabile con Wordpress: una cache qua, un plug-in là ed un po' di compressione e sito funziona che è una meraviglia. Con 50 plug-in ma comunque funzionante. 
 
-Però si sa che la fortuna è cieca ma la sfiga le diottrie le ha ancora tutte... BOOM! Il sito si pianta. Nessun problema ci sono i back— cazzo i backup.
+Però si sa che la fortuna è cieca ma la sfiga le diottrie le ha ancora tutte... **BOOM!** Il sito si pianta. Nessun problema ci sono i back— cazzo i backup.
 
 ![backup questi sconosciuti](/images/uploads/dubt.png)
 
