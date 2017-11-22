@@ -3,9 +3,6 @@ backend:
   name: git-gateway
   branch: master
 
-# Use the Editorial workflow - https://github.com/netlify/netlify-cms/blob/master/docs/editorial_workflow.md
-publish_mode: editorial_workflow
-
 # Save image uploads to /img/uploads - https://gohugo.io/themes/creation/#static
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
@@ -26,9 +23,9 @@ collections: # A list of collections the CMS should be able to edit
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
       # Use required: false instead of optional: true - https://github.com/netlify/netlify-cms/issues/315
+      - {label: "Publish date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Publish date", name: "date", widget: "datetime"}
     meta:
 # Does not currently work, see https://github.com/netlify/netlify-cms/issues/248
 #      - {label: "Tags", name: "tags", widget: "list"}
