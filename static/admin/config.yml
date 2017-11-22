@@ -1,7 +1,6 @@
 # Save changes to GitHub
 backend:
-  name: github
-  repo: HyperTesto/hypertesto.me
+  name: git-gateway
   branch: master
 
 # Use the Editorial workflow - https://github.com/netlify/netlify-cms/blob/master/docs/editorial_workflow.md
