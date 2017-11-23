@@ -36,7 +36,7 @@ L'HTML ha sicuramente un grande pregio: non richiede nessuna interpretazione di 
 
 Ottimo: con una sola mossa ci siamo tolti di mezzo la necessità di ricorrere a plug-in o riti vodoo per velocizzare il caricamento dei contenuti. Rimangono solo quei maledetti backup.
 
-Non avendo un database, ma avendo solo semplici file di testo, il meccanismo più semplice è mettere il sito sono un sistema di controllo di versione, come ad esempio [Git](https://it.wikipedia.org/wiki/Git_(software)). In un colpo solo abbiamo i backup e anche un meccanismo che ci permette di fare rollback in caso qualcuno faccia danni.
+Non avendo un database, ma avendo solo semplici file di testo, il meccanismo più semplice è mettere il sito sotto un sistema di controllo di versione, come ad esempio [Git](https://it.wikipedia.org/wiki/Git_(software)). In un colpo solo abbiamo i backup e anche un meccanismo che ci permette di fare rollback in caso qualcuno faccia danni.
 
 
 Lasciando gli approfondimenti ad una serie di articoli che pubblicherò a breve, vi lascio una [comparativa](https://www.staticgen.com/) dei generatori di siti statici più utilizzati e [l'idea](https://jamstack.org/) attorno al quale sono stati sviluppati.
