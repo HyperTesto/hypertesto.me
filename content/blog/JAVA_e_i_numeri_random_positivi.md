@@ -6,11 +6,11 @@ draft: false
 
 Oggi stavo revisionando del codice JAVA che conteneva una funzione per generare dei Long casuali positivi scritta come segue:
 
-{{< highlight html "linenos=table" >}}
+```java
 public Long randomPositiveLong() {
     return Math.abs(new Random().nextLong());
 }
-{{< / highlight >}}
+```
 Riuscite a vedere il BUG nascosto tra le righe?
 
 Il problema di questa funzione si verifica esattamente quando si cerca di arrotondare il valori `Long.MIN_VALUE`. Perchè?
@@ -23,11 +23,11 @@ Ci sono più modi per riscrivere la funzione, io ho preferito non reiventare la 
 
 La funzione riscritta è la seguente
 
-{{< highlight html "linenos=table" >}}
+```java
 public Long randomPositiveLong() {
     return ThreadLocalRandom.current().nextLong(Long.MAX_VALUE);
 }
-{{< / highlight >}}
+```
 
 Come al solito i BUG peggiori si annidano sempre in aree del codice innocue all'apparenza!
 
