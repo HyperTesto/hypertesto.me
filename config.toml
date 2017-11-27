@@ -97,3 +97,10 @@ hrefTargetBlank = true
 lang = "en"
 languageName = "English"
 weight = 1
+
+[staticman]
+  endpoint = "https://api.staticman.net/v2/entry/"
+  username = "HyperTesto"
+  repository = "hypertesto.me"
+  branch = "master"
+
