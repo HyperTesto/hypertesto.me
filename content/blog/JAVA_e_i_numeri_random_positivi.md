@@ -13,7 +13,7 @@ public Long randomPositiveLong() {
 ```
 Riuscite a vedere il BUG nascosto tra le righe?
 
-Il problema di questa funzione si verifica esattamente quando si cerca di arrotondare il valori `Long.MIN_VALUE`. Perchè?
+Il problema di questa funzione si verifica esattamente quando si cerca di rendere positito il valore `Long.MIN_VALUE`. Perchè?
 
 Se prendiamo la [documentazione ufficale](https://docs.oracle.com/javase/7/docs/api/java/lang/Long.html) ed andiamo a vedere quali sono i valori che è possibile rappresentare troveremo che `Long.MIN_VALUE` è uguale a 2<sup>-63</sup>, mentre `Long.MAX_VALUE` è uguale a 2<sup>63</sup>-1 (questo perchè tra i numeri positivi c'è anche lo zero). Ciò significa che `Long.MIN_VALUE` non ha una controparte positiva; nella pratica quel che succede è che `Math.abs` ritornerà nuovamente il numero come negativo. Questo è anche indicato nella relativa [JavaDoc](https://docs.oracle.com/javase/7/docs/api/java/lang/Math.html#abs(long)):
 
