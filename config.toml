@@ -98,7 +98,7 @@ lang = "en"
 languageName = "English"
 weight = 1
 
-[staticman]
+[params.staticman]
   endpoint = "https://api.staticman.net/v2/entry/"
   username = "HyperTesto"
   repository = "hypertesto.me"
