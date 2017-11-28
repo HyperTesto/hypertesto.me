@@ -7,17 +7,25 @@ comments:
   #
   # Names of the fields the form is allowed to submit. If a field that is
   # not here is part of the request, an error will be thrown.
-  allowedFields: ["name", "email", "body"]
-
-  # When allowedOrigins is defined, only requests sent from one of the domains
-  # listed will be accepted.
-  allowedOrigins: ["localhost", "hypertesto.me", "www.hypertesto.me"]
+  allowedFields: ["name", "email", "message"]
 
   # (*) REQUIRED
   #
   # Name of the branch being used. Must match the one sent in the URL of the
   # request.
   branch: "master"
+
+  # Text to use as the commit message or pull request title. Accepts placeholders.
+  commitMessage: "Add Staticman data"
+
+  # (*) REQUIRED
+  #
+  # Destination path (filename) for the data files. Accepts placeholders.
+  filename: "entry{@timestamp}"
+
+  # The format of the generated data files. Accepted values are "json", "yaml"
+  # or "frontmatter"
+  format: "yaml"
 
   # List of fields to be populated automatically by Staticman and included in
   # the data file. Keys are the name of the field. The value can be an object
@@ -26,10 +34,8 @@ comments:
   generatedFields:
     date:
       type: date
-
-  # The format of the generated data files. Accepted values are "json", "yaml"
-  # or "frontmatter"
-  format: "json"
+      options:
+        format: "timestamp-seconds"
 
   # Whether entries need to be appproved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
@@ -37,21 +43,33 @@ comments:
   moderation: false
 
   # Name of the site. Used in notification emails.
-  name: "Enrico Testori - Blog personale"
+  name: "hypertesto.me"
+
+  # Notification settings. When enabled, users can choose to receive notifications
+  # via email when someone adds a reply or a new comment. This requires an account
+  # with Mailgun, which you can get for free at http://mailgun.com.
+  #notifications:
+    # Enable notifications
+    #enabled: false
+
+    # (!) ENCRYPTED
+    #
+    # Mailgun API key
+    #apiKey: "1q2w3e4r"
+
+    # (!) ENCRYPTED
+    #
+    # Mailgun domain (encrypted)
+    #domain: "4r3e2w1q"
 
   # (*) REQUIRED
   #
   # Destination path (directory) for the data files. Accepts placeholders.
   path: "data/comments/{options.entryId}"
 
-  # (*) REQUIRED
-  #
-  # Destination path (filename) for the data files. Accepts placeholders.
-  filename: "{@id}"
-
-  # Names of required files. If any of these isn't in the request or is empty,
+  # Names of required fields. If any of these isn't in the request or is empty,
   # an error will be thrown.
-  requiredFields: ["name", "body"]
+  requiredFields: ["name", "message"]
 
   # List of transformations to apply to any of the fields supplied. Keys are
   # the name of the field and values are possible transformation types.
