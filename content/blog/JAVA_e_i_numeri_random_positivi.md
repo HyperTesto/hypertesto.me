@@ -2,6 +2,11 @@
 title: "JAVA ed i numeri positivi casuali"
 date: 2017-11-26T23:44:42+01:00
 draft: false
+categories:
+  - appunti
+tags:
+  - java
+  - bug
 ---
 
 Oggi stavo revisionando del codice JAVA che conteneva una funzione per generare dei Long casuali positivi scritta come segue:
