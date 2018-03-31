@@ -20,7 +20,7 @@ pygmentsCodefences = true
 defaultContentLanguage = "it"
 
 [params.info]
-description = "Blog personale"
+description = "Mad programmer @work!"
 title404 = "Nothing's here!"
 
 [params.assets]
