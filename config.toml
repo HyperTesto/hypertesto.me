@@ -17,7 +17,7 @@ enableRobotsTXT = true # generate robots.txt
 pygmentsCodefences = true
 
 # Missing translations will default to this content language
-defaultContentLanguage = "en"
+defaultContentLanguage = "it"
 
 [params.info]
 description = "Blog personale"
@@ -37,12 +37,13 @@ suffix = ""
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
-dateFormat = "2006, Jan 02"
-listDateFormat = "2006, Jan 02"
+dateFormat = "Jan 02 2006"
+listDateFormat = "Jan 02 2006"
 hideEntryNavigation = ["page"] # boolean / array of sections
 hideSocialMenu = false
 showReadingTime = true
-noTermCloudShuffle = false
+taxonomyCloudShuffle = true
+accentColor = "#a1855b"
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
@@ -64,6 +65,13 @@ github = "HyperTesto"
 instagram = ""
 linkedin = "enricotestori"
 twitter = ""
+
+[params.sidebar]
+enable = true
+
+[params.widgets]
+homepage = ["recent_posts"]
+sidebar = ["about","taxonomy_cloud"]
 
 [params.social.config]
 platforms = ["github","linkedin","facebook","twitter","instagram","email","codepen"]
@@ -93,14 +101,20 @@ hrefTargetBlank = true
 
 [languages]
 # edit this block for your own language
-[languages.en]
-lang = "en"
-languageName = "English"
+[languages.it]
+lang = "it"
+languageName = "Italian"
 weight = 1
 
-[params.staticman]
-  endpoint = "https://api.staticman.net/v2/entry/"
-  username = "HyperTesto"
-  repository = "hypertesto.me"
-  branch = "master"
+[params.comments]
+enable = true
 
+[params.comments.staticman]
+enable = true
+apiEndpoint = "https://api.staticman.net/v2/entry"
+maxDepth = 2
+
+[params.comments.staticman.github]
+username = "HyperTesto"
+repository = "hypertesto.me"
+branch = "master"

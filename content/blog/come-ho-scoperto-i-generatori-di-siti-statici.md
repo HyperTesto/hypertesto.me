@@ -1,6 +1,11 @@
 ---
 title: Come ho scoperto i generatori di siti statici
 date: 2017-11-22T21:28:54.616Z
+categories:
+  - appunti
+tags:
+  - config
+  - bug
 ---
 Il mio primo avvicinamento al mondo dei generatori di siti statici è nato sostanzialmente ~~dall'odio profondo~~ dall'antipatia che ho sviluppato per il PHP e all'ecosistema che gravita attorno ad esso:
 
