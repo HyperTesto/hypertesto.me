@@ -6,5 +6,5 @@
 	m=f.getElementsByTagName('script')[0];
 	o.async=1; o.src=t; o.id='fathom-script';
 	m.parentNode.insertBefore(o,m)
-})(document, window, 'https//stats.hypertesto.me/tracker.js', 'fathom');
+})(document, window, '//stats.hypertesto.me/tracker.js', 'fathom');
 fathom('trackPageview');
