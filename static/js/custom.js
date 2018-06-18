@@ -1,5 +1,3 @@
-<!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
-<script>
 (function(f, a, t, h, o, m){
 	a[h]=a[h]||function(){
 		(a[h].q=a[h].q||[]).push(arguments)
@@ -10,5 +8,3 @@
 	m.parentNode.insertBefore(o,m)
 })(document, window, 'https//stats.hypertesto.me/tracker.js', 'fathom');
 fathom('trackPageview');
-</script>
-<!-- / Fathom -->
