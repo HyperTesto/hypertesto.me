@@ -9,7 +9,7 @@ tags:
   - debug
 ---
 
-Prima o poi capita di trovarsi di fronte messaggi di errore poco amichevoli. È quello che mi è successo recentemente con apache su una RedHat 7.4.
+Prima o poi capita di trovarsi di fronte messaggi di errore poco amichevoli. È quello che mi è successo recentemente con Apache su una RedHat 7.4.
 
 ## Il problema
 
@@ -19,9 +19,9 @@ Il processo httpd crasha circa alle 3 di notte ogni 3 giorni con un bel messaggi
 seg fault or similar nasty error detected in the parent process
 ```
 
-Con un po' di analisi ed un po' di aiuto sono riuscito a replicare il problema lanciando un graceful reload del servizio.  
+Il messaggio è davvero molto generico, ma con un po' di analisi ed un po' di aiuto sono riuscito a replicare il problema lanciando un graceful reload del servizio.  
 
-Il fatto che il problema si presenta con una cadenza molto regolare in momenti in cui il sistema è palesemente scarico mi ha indirizzato verso qualche operazione schedulata. Infatti ho subito trovato conferma di questa ipotesi: su RHEL 7 la cofigurazione standard di Apache di effettuare il logrotate esattamente con la cadenza con la quale si è verificata l'anomalia. Bingo!
+Il fatto che il problema si presenta con una cadenza molto regolare in momenti in cui il sistema è palesemente scarico mi ha indirizzato verso qualche operazione schedulata. Infatti ho subito trovato conferma di questa ipotesi: su RHEL 7 la cofigurazione standard di Apache prevede l'esecuzione del logrotate esattamente con la cadenza con la quale si è verificata l'anomalia. Bingo!
 
 ## Generare i core dump
 
@@ -75,7 +75,7 @@ In base al tipo di installazione effettuata (minimal, base, ...), potrebbe esser
 Per lanciare l'analisi:
 
 ```bash
-gdb /usr/sbin/apache2 /var/coredumps/core-\!usr\!sbin\!apach-11-0-0-3215-1485908109
+gdb httpd /var/coredumps/core-\!usr\!sbin\!apach-11-0-0-3215-1485908109
 ```
 
 Infine, per visualizzare il trace, dalla console di gdb lanciare:
