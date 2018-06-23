@@ -10,7 +10,7 @@ tags:
   - fathom
 ---
 
-Come annunciato nel mio [precedente articolo](gdpr-checklist), in ottemperanza alla nuova normativa europea sulla privacy, ho deciso di rimuovere dai miei siti tutti i servizi Google, Disqus e qualsiasi altro servizio che installa cookie di profilazione a tradimento. 
+Come annunciato nel mio [precedente articolo](/blog/gdpr-checklist), in ottemperanza alla nuova normativa europea sulla privacy, ho deciso di rimuovere dai miei siti tutti i servizi Google, Disqus e qualsiasi altro servizio che installa cookie di profilazione a tradimento. 
 
 Alle integazioni social ho rinunciato completamente poichè non mi interessano granchè, tuttavia vorrei avere un minimo di traccia del numero di visite ai vari articoli. 
 
@@ -43,7 +43,7 @@ Vi riporto direttamente l'introduzione tratta dal [sito ufficiale](https://usefa
 >
 >
 
-Per il momento il servizio è solo self-hosted, comunque installazione e configurazione sono davvero semplici (seguirà un breve guida) ed inoltre non occupa molte risorse (probabilmente gira senza problemi anche su un raspberry). 
+Per il momento il servizio è solo self-hosted, comunque installazione e configurazione sono davvero semplici (ho scritto una piccola [guida](/blog/installare-fathom-su-ubuntu-16.04) a riguardo) ed inoltre non occupa molte risorse (probabilmente gira senza problemi anche su un raspberry). 
 
 La dashboard è davvero molto semplice e c'è anche la possibilità di filtrare per data!
 
