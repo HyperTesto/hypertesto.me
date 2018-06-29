@@ -16,3 +16,11 @@ Il mio motto è "La GIF giusta al momento giusto!".
 
 
 PS: se vi trovate dalle parti di Belluno e volete conoscere il sistema operativo del pinguino: [LugAnegA](https://www.luganega.org)
+
+## La mia cassetta degli attrezzi
+
+* [Linux Mint](https://www.linuxmint.com/): desktop
+* [Visual Studio Code](https://code.visualstudio.com/): editor di testo
+* [Asciiflow](http://www.asciidraw.com): diagrammi in ascii
+* [Shaky](http://shaky.github.bushong.net/): giagrammi ascii -> png
+* [Gimp](http://www.gimp.org/): editing immagini
