@@ -133,13 +133,13 @@ Applicando questa definizione al nostro contesto, possiamo dire che il fattore d
 
 Possiamo immaginare, semplificando un bel po', che se ci aspettiamo che l'output da dare all'utente cambi con una frequenza elevata (potenzialmente ad ogni richiesta) come ad esempio l'anagrafica di un comune o una ricerca su DucDuckGo, la generazione dinamica del sito sia sicuramente la scelta giusta (per non dire obbligata: proviamo ad immmaginare se il vostro motore di ricerca dovesse pre-generare tutte le pagine per ogni possibile combinazione di chiavi di ricerca).
 
-Viceversa,se i contenuti tra una richiesta ed un altra non variano, o variano di rado, il sito dinamico non è poi così conveniente. Proviamo ad immaginare di ricevere 1000 visite al giorno (averle!) e di publicare un articolo a settimana, per tutte le 7000 richieste ricevute è stato prodotta la stessa identica pagina... un vero spreco di CPU! 
+Viceversa, se i contenuti tra una richiesta ed un altra non variano, o variano di rado, il sito dinamico non è poi così conveniente. Proviamo ad immaginare di ricevere 1000 visite al giorno (averle!) e di publicare un articolo a settimana, per tutte le 7000 richieste ricevute è stato prodotta la stessa identica pagina... un vero spreco di CPU! 
 
 ## Generatori di siti statici... Ma perchè nessuno ci ha pensato prima?!
 
 Ed ora finalmente veniamo al nocciolo della questione: è possibile provare a prendere il meglio dei due mondi? 
 
-È possibile farlo, ricalcando le denizioni date nel paragrafo precedente, applicando una funzione che, presi asset e contenuti, genera l'HTML *offline* ovvero in un flusso di lavorazione totalmente sconnesso dalla richiesta fatta dall'utente.
+È possibile farlo, ricalcando le definizioni date nel paragrafo precedente, applicando una funzione che, presi asset e contenuti, genera l'HTML *offline* ovvero in un flusso di lavorazione totalmente sconnesso dalla richiesta fatta dall'utente.
 
 L'idea di base è avere un programma da lanciare a mano o con qualche meccanismo semi-automatico, che genera l'HTML che poi è possibile pubblicare con il sitema che si preferisce. Questo programma viene chiamato generatore di siti statici, abbreviato con l'acronimo anglosassone "SSG" (Static Site Generator).
 
