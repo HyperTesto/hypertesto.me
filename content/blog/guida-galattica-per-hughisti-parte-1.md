@@ -1,5 +1,5 @@
 ---
-title: "Guida Galattica per hughisti: Introduzione"
+title: "Guida Galattica per hughisti - Parte 1"
 date: 2018-06-27T21:28:09+02:00
 cover: /images/dont_panic_hugo_part_1.jpeg
 draft: true
@@ -24,9 +24,15 @@ Miei cari autostoppisti del web, allacciate le cinture, stiamo per partire!
 
 ## Siti dinamici
 
-Cominciamo subito col dire che questa distinzione è puramente arbitraria, in quanto, come spesso succede nel mondo dell'informatica, il problema cambia molto a seconda di come lo si guarda.
+Premetto che ho riscritto questa sezione più volte poichè il mio discorso si era incasinato... ma volevo assolutamente far passare il concetto che come spesso succede, il problema cambia molto a seconda di come lo si guarda in tutte le sue sfaccettature. 
 
-Questa è una delle [riposte](https://www.quora.com/What-are-examples-of-a-dynamic-website/answer/Justin-Rashidi) che si trovano su Quora:
+### Dinamico! Non interattivo!
+
+Sul web si trovano molte definizioni, La più semplice è sicuramente quella che definisce un sito dinamico come "interattivo per l'utente". OK... Allora sulla base di questo possiamo tranquillamente considerare anche [questo](http://info.cern.ch/hypertext/WWW/TheProject.html) come dinamico? Dopotutto ci sono davvero un sacco di link da cliccare, potete passarci tutto il finesettimana, davvero!
+
+![that's enough internet](/images/enough_internet.jpg)
+
+Osserviamo il problema da un altro punto di vista; questa è una delle [riposte](https://www.quora.com/What-are-examples-of-a-dynamic-website/answer/Justin-Rashidi) che si trovano su Quora:
 
 >The main differences between a static and dynamic website is that with dynamic websites allow interaction while static websites all the information needs to be updated by an admin.
 
@@ -36,7 +42,7 @@ Non molto utile questa prima parte... Questo passaggio però ci viene più in ai
 
 OK! Questo è già più utile per la distinzione che voglio fare guardando il problema dal punto di vista del **momento in cui vengono assemblati i contenuti da servire all'utente**.
 
-Guardando il problema da questa prospettiva, si può definire dinamico il sito che "renderizza" i contenuti server side solo una volta ricevita una richiesta da parte dell'utente.
+Guardando il problema da questa prospettiva, si può definire dinamico il sito che "renderizza" i contenuti server side solo una volta ricevuta una richiesta da parte dell'utente.
 
 ![sito dinamico](/images/dynamic_site.gif)
 
@@ -48,47 +54,65 @@ Ho provato a riassumere tutto, semplificando al massimo, ricavando sostanzialmen
 4. caricamento dei dati da database
 5. restituzione all'utente della pagina testè assemblata
 
+Questo scenario è spesso associato allo stack LAMP (Linux - Apache - MySQL - PHP) e, più in generale, ad architetture composte da un server WEB, un database ed un linguaggio di programmazione con cui eseguire delle operazioni.
+
 Con questo sitema si possono servire contenuti altamente personalizzati ed interattivi come ad esempio:
 
 * Commenti
 * UI personalizzata secondo preferenze
 * CMS (Content Management System)
 * meteo live
+* ricerche
+
+### Davvero molto bello, ma...
 
 Ovviamente tutte queste cose belle non sono gratis: provate ad immaginare di andare al ristorante ed ordinare un risotto; la cottura del riso richiede tempo e dovrete attendere un po' prima che vi sia servito il piatto. 
 
 Lo stesso ragionamento si applica in questo caso, poichè assemblare i contenuti richiede tempo. Ma all'utente che (leggere con forte accento milanese) *non ha mica tempo da perdere*, non piace attendere, giusto?
 
-Per chi è più malizioso lancio una provocazione: renderizzare i contenuti tramite client-side scripting è da considerarsi dinamico?
+Un altro punto da non sottovalutare, è che, più elementi abbiamo nell'architettura e più diventa complicato gestirli. Qualcuno di voi ha mai dedicato del tempo all'ottimizzazione di siti Wordpress? Si comincia con il rimuovere qualche plugin superfluo per poi trovarsi a sguazzare in **caching** e compressione degli asset, **cache**  delle query, supponendo ovviamente che qualcosa nel mezzo non si rompa.
+
+
+
+Resta intesto che ci sono scenari in cui programmare un sito secondo questo paradigma è l'unica strada percorribile, come ad esempio:
+
+* un sito di prenotazione di voli/hotel/treni
+* un gestionale
+* una webapp (perchè usare qualche buzzword ogni tanto fa sempre bene)
+
+Ma... vale lo stesso per un blog? Secondo me no; almeno non per un blog personale.
 
 ## Siti statici
 
 Bene, ora che vi ho tediato con ragionamenti contorti passiamo alla parte più semplice.
 
-Riprendendo l'impostazione del discorso fatta poc'anzi, possiamo definire un sito come "statico" se non ha contenuti generati a al momento della richiesta da parte dell'utente. Ovviamente anche qui ci sono i soliti casi limite, ma come definizione può andre benissimo per il proseguo di questa serie di articoli.
+Riprendendo l'impostazione del discorso fatta poc'anzi, possiamo definire un sito come "statico" se non ha contenuti generati al momento della richiesta da parte dell'utente. Ovviamente anche qui ci sono i soliti casi limite, ma come definizione può andre benissimo per il proseguo di questa serie di articoli.
 
-Dal punto di vista storico, questa e la prima tipologia di siti ad essere stata utilizzata; anche perchè agli albori molte delle tecnologie che oggi sono utilizzate non erano ancora state inventate.
+Dal punto di vista storico, questa è la prima tipologia di siti ad essere stata utilizzata; anche perchè agli albori molte delle tecnologie che oggi sono utilizzate e che diamo per scontate non erano ancora state inventate.
 
 Sotto il profilo tecnologico, quello che serve ad un sito statico sono:
 
+* un server
 * HTML
 * contenuti multimediali
 
-Per servire HTML ed immagini non c'è bisogno di interpreti, database o riti voodoo: solo un server opportunamente configurato.
+Per servire HTML ed immagini non c'è bisogno di interpreti, database o riti voodoo: solo un server WEB opportunamente configurato.
 
 Avere solo un componente nello stack ha l'indubbio vantaggio che richiede uno sforzo nettamente minore in termini di gestione e manutenzione, senza dimenticare anche l'enorme beneficio in termini di sicurezza: niente SQL injection, bug di programmazione o menate varie.
 
-Ricalcando l'impostazione del paragrafo precedente, questi sono i punti salienti del processo che coninvolgono generazione e consegna dei contenuti statici:
+Ricalcando l'impostazione del paragrafo precedente, questi sono i punti salienti del processo che di generazione e consegna dei contenuti statici:
 
 1. Generazione HTML
 2. Ricezione richiesta da parte dell'utente
 3. Risposta all'utente con pagina HTML
 
+Da notare che la pagina HTML generata può essere servita più volte senza necessità di riassemblarla ad ogni richiesta.
+
 ![sito statico](/images/static_site.gif)
 
-Chiaramente anche questo sistema ha i suoi limiti: chiunque abbia scritto siti WEB *alla vecchia manierà* converrà con me nel dire che, se il numero di contenuti non è esiguio, il lavoro è molto tedioso ed incline ad errori. Soprattutto se c'è un sacco di codice ripetuto ma con minime variazioni.
+Chiaramente anche questo sistema ha i suoi limiti: chiunque abbia scritto siti WEB *alla vecchia manierà* converrà con me nel dire che se il numero di contenuti non è esiguo, il lavoro è molto tedioso ed incline ad errori; soprattutto se c'è un sacco di codice ripetuto ma con minime variazioni.
 
-Questa è sciuramente una delle lacune che un sito dinamico può colmare mettendo di fatto a fattor comune gli **asset** e separando i **contenuti**, è poi il server che, opportunamente istruito con un linguaggio come ad esempio il tanto celebre PHP, li assembla in una pagina HTML tramite un **processo ripetibile**.
+Questa è sciuramente una delle lacune che un sito dinamico può colmare mettendo di fatto a fattor comune gli **asset** e separando i **contenuti**, è poi il server che, opportunamente istruito con un linguaggio come ad esempio il tanto celebre PHP, li assembla in una pagina HTML tramite un **processo ripetibile** e quindi, tralasciando i BUG, non è incline ad errori di *copincollaggio*  (passatemi il termine).
 
 ### Due mondi a confronto
 
@@ -109,7 +133,7 @@ Applicando questa definizione al nostro contesto, possiamo dire che il fattore d
 
 Possiamo immaginare, semplificando un bel po', che se ci aspettiamo che l'output da dare all'utente cambi con una frequenza elevata (potenzialmente ad ogni richiesta) come ad esempio l'anagrafica di un comune o una ricerca su DucDuckGo, la generazione dinamica del sito sia sicuramente la scelta giusta (per non dire obbligata: proviamo ad immmaginare se il vostro motore di ricerca dovesse pre-generare tutte le pagine per ogni possibile combinazione di chiavi di ricerca).
 
-Viceversa,se i contenuti tra una richiesta ed un altra non variano, o variano di rado, il dinamico non è poi così conveniente. Proviamo ad immaginare di ricevere 1000 visite al giorno (magari averle) e di publicare un articolo a settimana, per tutte le 7000 richieste ricevute è stato prodotta la stessa identica pagina... un vero spreco di CPU! 
+Viceversa,se i contenuti tra una richiesta ed un altra non variano, o variano di rado, il sito dinamico non è poi così conveniente. Proviamo ad immaginare di ricevere 1000 visite al giorno (averle!) e di publicare un articolo a settimana, per tutte le 7000 richieste ricevute è stato prodotta la stessa identica pagina... un vero spreco di CPU! 
 
 ## Generatori di siti statici... Ma perchè nessuno ci ha pensato prima?!
 
@@ -117,7 +141,7 @@ Ed ora finalmente veniamo al nocciolo della questione: è possibile provare a pr
 
 È possibile farlo, ricalcando le denizioni date nel paragrafo precedente, applicando una funzione che, presi asset e contenuti, genera l'HTML *offline* ovvero in un flusso di lavorazione totalmente sconnesso dalla richiesta fatta dall'utente.
 
-L'idea di base è avere un programma da lanciare a mano o con qualche meccanismo semi-automatico, che genera l'HTML che poi è possibile pubblicare con il sitema che si preferisce. Questo programma viene chiamato generatore di siti statici, abbreviati con l'acronimo anglosassone "SSG" (Static Site Generator).
+L'idea di base è avere un programma da lanciare a mano o con qualche meccanismo semi-automatico, che genera l'HTML che poi è possibile pubblicare con il sitema che si preferisce. Questo programma viene chiamato generatore di siti statici, abbreviato con l'acronimo anglosassone "SSG" (Static Site Generator).
 
 ![ssg-vs-dynamic](/images/ssg-vs-dynamic.png)
 
@@ -145,3 +169,5 @@ Per questa prima parte è tutto, probabilemente non ci avrete capito una mazza, 
 * https://www.staticgen.com/
 * https://jamstack.org/
 * https://creativestate.com/blog/Have-You-Lived-The-Wordpress-Diy-Nightmare
+* https://www.yottaa.com/benchmarking-performance-of-8-cms-platforms-who-is-slowest/
+* https://securityintelligence.com/news/new-year-new-problems-cms-vulnerabilites-take-on-2016/
