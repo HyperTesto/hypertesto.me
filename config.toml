@@ -1,4 +1,4 @@
-baseURL = "http://www.hypertesto.me"
+baseURL = "https://www.hypertesto.me"
 title = "Enrico Testori"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
@@ -95,6 +95,12 @@ name = "Repo"
 weight = 100
 identifier = "repository"
 url = "https://github.com/HyperTesto/hypertesto.me"
+
+[[menu.main]]
+name = "Feed"
+weight = 1000
+identifier = "feed"
+url = "https://www.hypertesto.me/index.xml"
 
 [blackfriday]
 hrefTargetBlank = true
