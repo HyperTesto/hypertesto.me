@@ -1,8 +1,8 @@
 ---
 title: "Guida Galattica per hughisti - Parte 1"
-date: 2018-06-27T21:28:09+02:00
+date: 2018-07-02T21:28:09+02:00
 cover: /images/dont_panic_hugo_part_1.jpeg
-draft: true
+draft: false
 ---
 
 A distanza di mesi dal mio [primo aricolo](/blog/come-ho-scoperto-i-generatori-di-siti-statici), ho deciso di scrivere una guida a puntate sull'universo dei siti statici, con un approfondimento pratico su [Hugo](https://gohugo.io).
