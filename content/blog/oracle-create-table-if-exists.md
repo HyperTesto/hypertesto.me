@@ -10,7 +10,7 @@ tags:
 ---
 
 Il problema di oggi era apparentemente semplice: create una tabella se non era già presente nel DB.
-Erroneamente davo per scontato che la sitassi MySQL, con i dovuti adattamenti per Oracle, funzionasse:
+Erroneamente davo per scontato che la sintassi MySQL, con i dovuti adattamenti per Oracle, funzionasse:
 
 ```sql
 CREATE TABLE IF NOT EXISTS nome_tabella

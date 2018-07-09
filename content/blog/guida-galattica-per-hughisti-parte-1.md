@@ -5,11 +5,11 @@ cover: /images/dont_panic_hugo_part_1.jpeg
 draft: false
 ---
 
-A distanza di mesi dal mio [primo aricolo](/blog/come-ho-scoperto-i-generatori-di-siti-statici), ho deciso di scrivere una guida a puntate sull'universo dei siti statici, con un approfondimento pratico su [Hugo](https://gohugo.io).
+A distanza di mesi dal mio [primo articolo](/blog/come-ho-scoperto-i-generatori-di-siti-statici), ho deciso di scrivere una guida a puntate sull'universo dei siti statici, con un approfondimento pratico su [Hugo](https://gohugo.io).
 
 Ho deciso di farlo principalmente per due motivi:
 
-* la scarsità con contenuti di approfondimento in italiano (i pochi che ci sono sono tutti molto *SEO oriented*)
+* la scarsità con contenuti di approfondimento in italiano (i pochi che ci sono tutti molto *SEO oriented*)
 * avevo delle GIF animate pronte da un po'
 
 La guida sarà divisa in 5 parti:
@@ -24,11 +24,11 @@ Miei cari autostoppisti del web, allacciate le cinture, stiamo per partire!
 
 ## Siti dinamici
 
-Premetto che ho riscritto questa sezione più volte poichè il mio discorso si era incasinato... ma volevo assolutamente far passare il concetto che come spesso succede, il problema cambia molto a seconda di come lo si guarda in tutte le sue sfaccettature. 
+Premetto che ho riscritto questa sezione più volte poiché il mio discorso si era incasinato... ma volevo assolutamente far passare il concetto che come spesso succede, il problema cambia molto a seconda di come lo si guarda in tutte le sue sfaccettature.
 
 ### Dinamico! Non interattivo!
 
-Sul web si trovano molte definizioni, La più semplice è sicuramente quella che definisce un sito dinamico come "interattivo per l'utente". OK... Allora sulla base di questo possiamo tranquillamente considerare anche [questo](http://info.cern.ch/hypertext/WWW/TheProject.html) come dinamico? Dopotutto ci sono davvero un sacco di link da cliccare, potete passarci tutto il finesettimana, davvero!
+Sul web si trovano molte definizioni, La più semplice è sicuramente quella che definisce un sito dinamico come "interattivo per l'utente". OK... Allora sulla base di questo possiamo tranquillamente considerare anche [questo](http://info.cern.ch/hypertext/WWW/TheProject.html) come dinamico? Dopotutto ci sono davvero un sacco di link da cliccare, potete passarci tutto il fine settimana, davvero!
 
 ![that's enough internet](/images/enough_internet.jpg)
 
@@ -56,7 +56,7 @@ Ho provato a riassumere tutto, semplificando al massimo, ricavando sostanzialmen
 
 Questo scenario è spesso associato allo stack LAMP (Linux - Apache - MySQL - PHP) e, più in generale, ad architetture composte da un server WEB, un database ed un linguaggio di programmazione con cui eseguire delle operazioni.
 
-Con questo sitema si possono servire contenuti altamente personalizzati ed interattivi come ad esempio:
+Con questo sistema si possono servire contenuti altamente personalizzati e interattivi come ad esempio:
 
 * Commenti
 * UI personalizzata secondo preferenze
@@ -68,7 +68,7 @@ Con questo sitema si possono servire contenuti altamente personalizzati ed inter
 
 Ovviamente tutte queste cose belle non sono gratis: provate ad immaginare di andare al ristorante ed ordinare un risotto; la cottura del riso richiede tempo e dovrete attendere un po' prima che vi sia servito il piatto. 
 
-Lo stesso ragionamento si applica in questo caso, poichè assemblare i contenuti richiede tempo. Ma all'utente che (leggere con forte accento milanese) *non ha mica tempo da perdere*, non piace attendere, giusto?
+Lo stesso ragionamento si applica in questo caso, e assemblare i contenuti richiede tempo. Ma all'utente che (leggere con forte accento milanese) *non ha mica tempo da perdere*, non piace attendere, giusto?
 
 Un altro punto da non sottovalutare, è che, più elementi abbiamo nell'architettura e più diventa complicato gestirli. Qualcuno di voi ha mai dedicato del tempo all'ottimizzazione di siti Wordpress? Si comincia con il rimuovere qualche plugin superfluo per poi trovarsi a sguazzare in **caching** e compressione degli asset, **cache**  delle query, supponendo ovviamente che qualcosa nel mezzo non si rompa.
 
@@ -78,9 +78,9 @@ Resta intesto che ci sono scenari in cui programmare un sito secondo questo para
 
 * un sito di prenotazione di voli/hotel/treni
 * un gestionale
-* una webapp (perchè usare qualche buzzword ogni tanto fa sempre bene)
+* una webapp (perché usare qualche buzzword ogni tanto fa sempre bene)
 
-Ma... vale lo stesso per un blog? Secondo me no; almeno non per un blog personale.
+Ma... Vale lo stesso per un blog? Secondo me no; almeno non per un blog personale.
 
 ## Siti statici
 
@@ -88,7 +88,7 @@ Bene, ora che vi ho tediato con ragionamenti contorti passiamo alla parte più s
 
 Riprendendo l'impostazione del discorso fatta poc'anzi, possiamo definire un sito come "statico" se non ha contenuti generati al momento della richiesta da parte dell'utente. Ovviamente anche qui ci sono i soliti casi limite, ma come definizione può andre benissimo per il proseguo di questa serie di articoli.
 
-Dal punto di vista storico, questa è la prima tipologia di siti ad essere stata utilizzata; anche perchè agli albori molte delle tecnologie che oggi sono utilizzate e che diamo per scontate non erano ancora state inventate.
+Dal punto di vista storico, questa è la prima tipologia di siti ad essere stata utilizzata; anche perché agli albori molte delle tecnologie che oggi sono utilizzate e che diamo per scontate non erano ancora state inventate.
 
 Sotto il profilo tecnologico, quello che serve ad un sito statico sono:
 
@@ -96,7 +96,7 @@ Sotto il profilo tecnologico, quello che serve ad un sito statico sono:
 * HTML
 * contenuti multimediali
 
-Per servire HTML ed immagini non c'è bisogno di interpreti, database o riti voodoo: solo un server WEB opportunamente configurato.
+Per servire HTML e immagini non c'è bisogno di interpreti, database o riti voodoo: solo un server WEB opportunamente configurato.
 
 Avere solo un componente nello stack ha l'indubbio vantaggio che richiede uno sforzo nettamente minore in termini di gestione e manutenzione, senza dimenticare anche l'enorme beneficio in termini di sicurezza: niente SQL injection, bug di programmazione o menate varie.
 
@@ -110,13 +110,13 @@ Da notare che la pagina HTML generata può essere servita più volte senza neces
 
 ![sito statico](/images/static_site.gif)
 
-Chiaramente anche questo sistema ha i suoi limiti: chiunque abbia scritto siti WEB *alla vecchia manierà* converrà con me nel dire che se il numero di contenuti non è esiguo, il lavoro è molto tedioso ed incline ad errori; soprattutto se c'è un sacco di codice ripetuto ma con minime variazioni.
+Chiaramente anche questo sistema ha i suoi limiti: chiunque abbia scritto siti WEB *alla vecchia maniera* converrà con me nel dire che se il numero di contenuti non è esiguo, il lavoro è molto tedioso ed incline ad errori; soprattutto se c'è un sacco di codice ripetuto ma con minime variazioni.
 
 Questa è sciuramente una delle lacune che un sito dinamico può colmare mettendo di fatto a fattor comune gli **asset** e separando i **contenuti**, è poi il server che, opportunamente istruito con un linguaggio come ad esempio il tanto celebre PHP, li assembla in una pagina HTML tramite un **processo ripetibile** e quindi, tralasciando i BUG, non è incline ad errori di *copincollaggio*  (passatemi il termine).
 
 ### Due mondi a confronto
 
-> Eh ma... Enrico prima critichi un sitema e poi mi critichi anche l'altro! Sei davvero un infame!
+> Eh ma... Enrico prima critichi un sistema e poi mi critichi anche l'altro! Sei davvero un infame!
 
 Già... sono davvero una persona brutta, però ho quasi finito il mio ragionamento, ancora un po' di pazienza.
 
@@ -133,9 +133,9 @@ Applicando questa definizione al nostro contesto, possiamo dire che il fattore d
 
 Possiamo immaginare, semplificando un bel po', che se ci aspettiamo che l'output da dare all'utente cambi con una frequenza elevata (potenzialmente ad ogni richiesta) come ad esempio l'anagrafica di un comune o una ricerca su DucDuckGo, la generazione dinamica del sito sia sicuramente la scelta giusta (per non dire obbligata: proviamo ad immmaginare se il vostro motore di ricerca dovesse pre-generare tutte le pagine per ogni possibile combinazione di chiavi di ricerca).
 
-Viceversa, se i contenuti tra una richiesta ed un altra non variano, o variano di rado, il sito dinamico non è poi così conveniente. Proviamo ad immaginare di ricevere 1000 visite al giorno (averle!) e di publicare un articolo a settimana, per tutte le 7000 richieste ricevute è stato prodotta la stessa identica pagina... un vero spreco di CPU! 
+Viceversa, se i contenuti tra una richiesta ed un altra non variano, o variano di rado, il sito dinamico non è poi così conveniente. Proviamo ad immaginare di ricevere 1000 visite al giorno (averle!) e di pubblicare un articolo a settimana, per tutte le 7000 richieste ricevute è stato prodotta la stessa identica pagina... un vero spreco di CPU! 
 
-## Generatori di siti statici... Ma perchè nessuno ci ha pensato prima?!
+## Generatori di siti statici... Ma perché nessuno ci ha pensato prima?!
 
 Ed ora finalmente veniamo al nocciolo della questione: è possibile provare a prendere il meglio dei due mondi? 
 
@@ -145,7 +145,7 @@ L'idea di base è avere un programma da lanciare a mano o con qualche meccanismo
 
 ![ssg-vs-dynamic](/images/ssg-vs-dynamic.png)
 
-Di SSG ce ne sono a bizzeffe e se ne continuano ad aggiungere di nuovi. Ho scelto Hugo tra i tanti poichè:
+Di SSG ce ne sono a bizzeffe e se ne continuano ad aggiungere di nuovi. Ho scelto Hugo tra i tanti é:
 
 * È leggero
 * **È facile da installare**
@@ -159,7 +159,7 @@ Un altra cosa furba (come avevo già scritto nel mio [primo articolo](/blog/come
 
 Infine, il fatto di avere la generazione del contenuto svincolata dalla sua distribuzione permette di concentrarsi su aspetti più legati alla performance come ad esempio le cache dei browser piuttosto che la distribuzione dei contenuti tramice CDN (Content Delivery Network).
 
-Per questa prima parte è tutto, probabilemente non ci avrete capito una mazza, ma non è stato facile concentrare tutti i concetti in così poco spazio! Giuro che le prissime puntate saranno molto pratiche.
+Per questa prima parte è tutto, probabilmente non ci avrete capito una mazza, ma non è stato facile concentrare tutti i concetti in così poco spazio! Giuro che le prossime puntate saranno molto pratiche.
 
 
 ## Compiti per casa:
