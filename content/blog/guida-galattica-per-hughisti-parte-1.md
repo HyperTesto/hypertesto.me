@@ -86,7 +86,7 @@ Ma... Vale lo stesso per un blog? Secondo me no; almeno non per un blog personal
 
 Bene, ora che vi ho tediato con ragionamenti contorti passiamo alla parte più semplice.
 
-Riprendendo l'impostazione del discorso fatta poc'anzi, possiamo definire un sito come "statico" se non ha contenuti generati al momento della richiesta da parte dell'utente. Ovviamente anche qui ci sono i soliti casi limite, ma come definizione può andre benissimo per il proseguo di questa serie di articoli.
+Riprendendo l'impostazione del discorso fatta poc'anzi, possiamo definire un sito come "statico" se non ha contenuti generati al momento della richiesta da parte dell'utente. Ovviamente anche qui ci sono i soliti casi limite, ma come definizione può andare benissimo per il proseguo di questa serie di articoli.
 
 Dal punto di vista storico, questa è la prima tipologia di siti ad essere stata utilizzata; anche perché agli albori molte delle tecnologie che oggi sono utilizzate e che diamo per scontate non erano ancora state inventate.
 
@@ -112,7 +112,7 @@ Da notare che la pagina HTML generata può essere servita più volte senza neces
 
 Chiaramente anche questo sistema ha i suoi limiti: chiunque abbia scritto siti WEB *alla vecchia maniera* converrà con me nel dire che se il numero di contenuti non è esiguo, il lavoro è molto tedioso ed incline ad errori; soprattutto se c'è un sacco di codice ripetuto ma con minime variazioni.
 
-Questa è sciuramente una delle lacune che un sito dinamico può colmare mettendo di fatto a fattor comune gli **asset** e separando i **contenuti**, è poi il server che, opportunamente istruito con un linguaggio come ad esempio il tanto celebre PHP, li assembla in una pagina HTML tramite un **processo ripetibile** e quindi, tralasciando i BUG, non è incline ad errori di *copincollaggio*  (passatemi il termine).
+Questa è sicuramente una delle lacune che un sito dinamico può colmare mettendo di fatto a fattor comune gli **asset** e separando i **contenuti**, è poi il server che, opportunamente istruito con un linguaggio come ad esempio il tanto celebre PHP, li assembla in una pagina HTML tramite un **processo ripetibile** e quindi, tralasciando i BUG, non è incline ad errori di *copincollaggio*  (passatemi il termine).
 
 ### Due mondi a confronto
 
@@ -124,14 +124,14 @@ Ora, nel mondo della programmazione esiste il concetto di **funzione**, che Wiki
 
 > In matematica, una funzione è una relazione tra due insiemi, chiamati dominio e codominio della funzione, che associa a ogni elemento del dominio uno e un solo elemento del codominio. 
 
-Nel nostro caso, il dominio è l'insieme di asset e contenuti, mentre il codomio è la pagina HTML che dobbiamo produrre.
+Nel nostro caso, il dominio è l'insieme di asset e contenuti, mentre il codominio è la pagina HTML che dobbiamo produrre.
 
 Applicando questa definizione al nostro contesto, possiamo dire che il fattore discriminante tra dinamico e statico è il momento dell'applicazione di questa funzione:
 
 * nei siti dinamici la funzione viene eseguita ad ogni richiesta da parte dell'utente (apri la pagina X)
 * nei siti statici la funzione viene eseguita ogni qualvolta cambiano asset e contenuti.
 
-Possiamo immaginare, semplificando un bel po', che se ci aspettiamo che l'output da dare all'utente cambi con una frequenza elevata (potenzialmente ad ogni richiesta) come ad esempio l'anagrafica di un comune o una ricerca su DucDuckGo, la generazione dinamica del sito sia sicuramente la scelta giusta (per non dire obbligata: proviamo ad immmaginare se il vostro motore di ricerca dovesse pre-generare tutte le pagine per ogni possibile combinazione di chiavi di ricerca).
+Possiamo immaginare, semplificando un bel po', che se ci aspettiamo che l'output da dare all'utente cambi con una frequenza elevata (potenzialmente ad ogni richiesta) come ad esempio l'anagrafica di un comune o una ricerca su DucDuckGo, la generazione dinamica del sito sia sicuramente la scelta giusta (per non dire obbligata: proviamo ad immaginare se il vostro motore di ricerca dovesse pre-generare tutte le pagine per ogni possibile combinazione di chiavi di ricerca).
 
 Viceversa, se i contenuti tra una richiesta ed un altra non variano, o variano di rado, il sito dinamico non è poi così conveniente. Proviamo ad immaginare di ricevere 1000 visite al giorno (averle!) e di pubblicare un articolo a settimana, per tutte le 7000 richieste ricevute è stato prodotta la stessa identica pagina... un vero spreco di CPU! 
 
@@ -157,7 +157,7 @@ Il flusso di lavoro tipico prevede la generazione dei contenuti su una macchina 
 
 Un altra cosa furba (come avevo già scritto nel mio [primo articolo](/blog/come-ho-scoperto-i-generatori-di-siti-statici)), è che il flusso di lavoro tipico prevede l'utilizzo di **Git**; così **#aggratis** ci siamo anche messi al riparo da perdite di dati accidentali.
 
-Infine, il fatto di avere la generazione del contenuto svincolata dalla sua distribuzione permette di concentrarsi su aspetti più legati alla performance come ad esempio le cache dei browser piuttosto che la distribuzione dei contenuti tramice CDN (Content Delivery Network).
+Infine, il fatto di avere la generazione del contenuto svincolata dalla sua distribuzione permette di concentrarsi su aspetti più legati alla performance come ad esempio le cache dei browser piuttosto che la distribuzione dei contenuti tramite CDN (Content Delivery Network).
 
 Per questa prima parte è tutto, probabilmente non ci avrete capito una mazza, ma non è stato facile concentrare tutti i concetti in così poco spazio! Giuro che le prossime puntate saranno molto pratiche.
 

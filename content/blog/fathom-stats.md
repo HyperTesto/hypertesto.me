@@ -12,7 +12,7 @@ tags:
 
 Come annunciato nel mio [precedente articolo](/blog/gdpr-checklist), in ottemperanza alla nuova normativa europea sulla privacy, ho deciso di rimuovere dai miei siti tutti i servizi Google, Disqus e qualsiasi altro servizio che installa cookie di profilazione a tradimento. 
 
-Alle integazioni social ho rinunciato completamente poichè non mi interessano granchè, tuttavia vorrei avere un minimo di traccia del numero di visite ai vari articoli. 
+Alle integazioni social ho rinunciato completamente poiché non mi interessano granché, tuttavia vorrei avere un minimo di traccia del numero di visite ai vari articoli. 
 
 Girovagando su internet, ho trovato del materiale ([1][1], [2][2]) molto utile per inquadrare meglio la spinosa questione dell'anonimizzazione dati personali, nel caso specifico delle statistiche raccolti tramite cookie. 
 In internet troverete tonnellate di articoli su come fare con Google Analytics, ma il ragionamento vale per qualsiasi servizio stiate utilizzando.
@@ -24,11 +24,11 @@ I dati che voglio tracciare sono i seguenti:
 * numero di visite per pagina
 * numero di visite univoche per pagina
 
-Inoltre, vorrei anche avere un modo di fruire i dati raccolti tramite una dashboard minimale (possibilimente con login).
+Inoltre, vorrei anche avere un modo di fruire i dati raccolti tramite una dashboard minimale (possibilmente con login).
 
 ## Fathom to the resque
 
-Con un po' di ricerca mi sono inbattuto in Fathom, un progetto open-source che, rispetta i requisiti che mi sono fissato.
+Con un po' di ricerca mi sono imbattuto in Fathom, un progetto open-source che, rispetta i requisiti che mi sono fissato.
 
 Vi riporto direttamente l'introduzione tratta dal [sito ufficiale](https://usefathom.com/) che secondo me centra in pieno il problema:
 

@@ -13,7 +13,7 @@ tags:
 Phatom è un piccolo servizio opensource, sviluppato in Go, che fa una sola cosa e la fa bene: il tracciamento delle visite ad un sito.
 La raccolta di questo tipo dati non è una cosa da sottovalutare se si vuole essere conformi alla nuova normativa sulla privacy (e si ha un minimo di riguardo per i diritti degli utenti).
 
-Fathom, anche e soprattuto grazie alla sua natura open, permette di raccogliere ed analizzare le statistiche di un sito rispettando la privacy degli utenti, poichè non vengono nè raccolti nè memorizzati dati sensibili.
+Fathom, anche e sopratutto grazie alla sua natura open, permette di raccogliere ed analizzare le statistiche di un sito rispettando la privacy degli utenti, poichè non vengono né raccolti né memorizzati dati sensibili.
 
 Poichè per il momento non è disponibile come saas, l'unico modo di poterlo utilizzare è installarlo da sè (probabilmente ce ne sarà una a pagamento in futuro).
 
@@ -114,7 +114,7 @@ $ cd /home/fathom
 $ fathom server
 ```
 
-Se non ci sono errori di configurazione, il server è stato avviato correttamente e ha creato anche le tabelle nel DB (Potete verificarlo facendo un curl sulla porta 9000  per verificare l'effettiva risposta del server). Chiuedete servizio premendo `ctrl+c`.
+Se non ci sono errori di configurazione, il server è stato avviato correttamente e ha creato anche le tabelle nel DB (Potete verificarlo facendo un curl sulla porta 9000  per verificare l'effettiva risposta del server). Chiudete servizio premendo `ctrl+c`.
 
 Come ultimo step di configurazione del servizio occorre creare l'utente per accedere all'interfaccia WEB:
 
@@ -165,7 +165,7 @@ Installare e configurare SSL è davvero semplice con il tool ufficale:
 $ certbot --nginx -d fathom.mysite.com
 ```
 
-**Nota:** Se è la prima volta che usate certbot, vi verrà richiesto di inserire un indirizzo mail e accettare i termini di servizio. Dopodichè certbot scambierà alcuni messaggi con i server di Let's encrypt ed avvierà la "challange" con la quale verifica l'effettivo controllo del dominio per il quale è richiesto il certificato.
+**Nota:** Se è la prima volta che usate certbot, vi verrà richiesto di inserire un indirizzo mail e accettare i termini di servizio. Dopodiché certbot scambierà alcuni messaggi con i server di Let's encrypt ed avvierà la "challange" con la quale verifica l'effettivo controllo del dominio per il quale è richiesto il certificato.
 
 Se la challange di verifica del dominio è andata a buon fine otterrete questo output:
 
