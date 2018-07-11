@@ -28,18 +28,18 @@ Ci sono svariati modi in cui è possibile installare Fatom riportati sulla [docu
 L'architettura che andremo ad implementare prevede:
 
 * Nginx configurato come reverse proxye terminatore SSL
-* Una o più istanze di fathom in ascolto in locale
+* Una o più istanze di Fathom in ascolto in locale
 * MySQL / MariaDB
 
 ## Prerequisiti
 
 Prima di partire assicuratevi di avere:
 
-* accesso root alla macchina
-* nginx installato e funzionante
+* Accesso root alla macchina
+* Nginx installato e funzionante
 * MySQL / MariaBD installato e funzionante
-* un dominio valido con un puntamento al vostro server
-* certbot installato e funzionante
+* Un dominio valido con un puntamento al vostro server
+* Certbot installato e funzionante
 
 ### Configurazione del database
 
@@ -65,7 +65,7 @@ Le tabelle verranno create in automatico al primo avvio del servizio.
 
 ## Installazione ed avvio del servizio
 
-Fathom viene distribuito tramite un comodo binario precompilato che possiamo installare come comando disponibile a tutti gli utenti. 
+Fathom viene distribuito tramite un comodo binario precompilato che possiamo installare come comando disponibile a tutti gli utenti.
 
 ```bash
 $ wget https://github.com/usefathom/fathom/releases/download/latest/fathom-linux-amd64
@@ -103,7 +103,7 @@ Abbiate cura di cambiare `random-secret-string` con una strina a piacere (viene 
 
 Avendo creato il file da utente root è necessario cambiarne il proprietario:
 
-```bash 
+```bash
 $ chown fathom:fathom /home/fathom/.env
 ```
 
@@ -125,7 +125,7 @@ $ fathom register --email="john@email.com" --password="strong-password"
 
 ### Configurazione NGINX
 
-NGINX nella nostra architettura verrà utilizzato come reverse proxy e terminatore SSL. 
+NGINX nella nostra architettura verrà utilizzato come reverse proxy e terminatore SSL.
 
 *Nel resto della guida utilizzerò `fathom.mysite.com` come dominio di esempio, ricordatevi di rimpiazzarlo con il vostro dominio nei successivi comandi / file di configurazione*
 
@@ -139,7 +139,7 @@ server {
 		proxy_set_header X-Real-IP $remote_addr;
 		proxy_set_header X-Forwarded-For $remote_addr;
 		proxy_set_header Host $host;
-		proxy_pass http://127.0.0.1:9000; 
+		proxy_pass http://127.0.0.1:9000;
 	}
 }
 ```
@@ -189,7 +189,7 @@ Solo per essere sicuri che tale procedura funzioni è possibile lanciare una sim
 $ sudo certbot renew --dry-run -d fathom.mysite
 ```
 
-Se tutto è andato a buon fine fatom è raggiungibile all'indirizzo https://fathom.mysite.com (se il servizio fatom non è attivo lo potete avviare come fatto qualche comando fa). 
+Se tutto è andato a buon fine fatom è raggiungibile all'indirizzo https://fathom.mysite.com (se il servizio fatom non è attivo lo potete avviare come fatto qualche comando fa).
 
 ### Avvio automatico del servizio
 
@@ -253,5 +253,3 @@ fathom('trackPageview');
 Ovviamente ricordatevi di sostituire `fatom.mysite.com` con il dominio che avete utilizzato per puntare al server appena configurato.
 
 Per questa guida è tutto, spero di essere stato sufficientemente chiaro. Se riscontrate problemi non esitate a lasciare un commento!
-
-

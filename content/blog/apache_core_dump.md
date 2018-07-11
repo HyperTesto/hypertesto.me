@@ -21,7 +21,7 @@ seg fault or similar nasty error detected in the parent process
 
 Il messaggio è davvero molto generico, ma con un po' di analisi ed un po' di aiuto sono riuscito a replicare il problema lanciando un graceful reload del servizio.  
 
-Il fatto che il problema si presenta con una cadenza molto regolare in momenti in cui il sistema è palesemente scarico mi ha indirizzato verso qualche operazione schedulata. Infatti ho subito trovato conferma di questa ipotesi: su RHEL 7 la cofigurazione standard di Apache prevede l'esecuzione del logrotate esattamente con la cadenza con la quale si è verificata l'anomalia. Bingo!
+Il fatto che il problema si presenta con una cadenza molto regolare in momenti in cui il sistema è palesemente scarico mi ha indirizzato verso qualche operazione schedulata. Infatti ho subito trovato conferma di questa ipotesi: su RHEL 7 la configurazione standard di Apache prevede l'esecuzione del logrotate esattamente con la cadenza con la quale si è verificata l'anomalia. Bingo!
 
 ## Generare i core dump
 
@@ -49,7 +49,7 @@ chmod a+w /var/coredumps
 echo /var/coredumps/core-%e-%s-%u-%g-%p-%t > /proc/sys/kernel/core_pattern
 ```
 
-* Specificare la cartella per il salvataggio dei dump nel file di configurazione di Apache `/etc/httpd/conf/httpd.conf` aggiungendo: 
+* Specificare la cartella per il salvataggio dei dump nel file di configurazione di Apache `/etc/httpd/conf/httpd.conf` aggiungendo:
 
 
 ```bash
@@ -68,7 +68,7 @@ Se la procedura è andata a buon fine dovremmo trovare il core dump nella cartel
 ## Analizzare il file generato
 
 I core dump sono dei file binari, non è quindi possibile leggerli con un semplice editor di testo.
-Per farlo occore utilizzare strumenti specializzati, lo standard del mondo Linux è **gdb**.
+Per farlo occorre utilizzare strumenti specializzati, lo standard del mondo Linux è **gdb**.
 
 In base al tipo di installazione effettuata (minimal, base, ...), potrebbe essere già installato, nel caso non lo sia già basta lanciare il comando `yum install gdb`.
 
@@ -84,5 +84,4 @@ Infine, per visualizzare il trace, dalla console di gdb lanciare:
 bt full
 ```
 
-**Nota**: i dump possono occupare molto spazio, percui è bene ricordarsi di rimuoverli una volta teminata l'analisi ;-)
-
+**Nota**: i dump possono occupare molto spazio, per cui è bene ricordarsi di rimuoverli una volta terminata l'analisi ;-)

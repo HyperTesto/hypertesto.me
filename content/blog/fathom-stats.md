@@ -10,11 +10,11 @@ tags:
   - fathom
 ---
 
-Come annunciato nel mio [precedente articolo](/blog/gdpr-checklist), in ottemperanza alla nuova normativa europea sulla privacy, ho deciso di rimuovere dai miei siti tutti i servizi Google, Disqus e qualsiasi altro servizio che installa cookie di profilazione a tradimento. 
+Come annunciato nel mio [precedente articolo](/blog/gdpr-checklist), in ottemperanza alla nuova normativa europea sulla privacy, ho deciso di rimuovere dai miei siti tutti i servizi Google, Disqus e qualsiasi altro servizio che installa cookie di profilazione a tradimento.
 
-Alle integazioni social ho rinunciato completamente poiché non mi interessano granché, tuttavia vorrei avere un minimo di traccia del numero di visite ai vari articoli. 
+Alle integrazioni social ho rinunciato completamente poiché non mi interessano granché, tuttavia vorrei avere un minimo di traccia del numero di visite ai vari articoli. 
 
-Girovagando su internet, ho trovato del materiale ([1][1], [2][2]) molto utile per inquadrare meglio la spinosa questione dell'anonimizzazione dati personali, nel caso specifico delle statistiche raccolti tramite cookie. 
+Girovagando su internet, ho trovato del materiale ([1][1], [2][2]) molto utile per inquadrare meglio la spinosa questione dell'anonimizzazione dati personali, nel caso specifico delle statistiche raccolti tramite cookie.
 In internet troverete tonnellate di articoli su come fare con Google Analytics, ma il ragionamento vale per qualsiasi servizio stiate utilizzando.
 
 ## Cosa mi interessa tracciare
@@ -43,7 +43,7 @@ Vi riporto direttamente l'introduzione tratta dal [sito ufficiale](https://usefa
 >
 >
 
-Per il momento il servizio è solo self-hosted, comunque installazione e configurazione sono davvero semplici (ho scritto una piccola [guida](/blog/installare-fathom-su-ubuntu-16.04) a riguardo) ed inoltre non occupa molte risorse (probabilmente gira senza problemi anche su un raspberry). 
+Per il momento il servizio è solo self-hosted, comunque installazione e configurazione sono davvero semplici (ho scritto una piccola [guida](/blog/installare-fathom-su-ubuntu-16.04) a riguardo) ed inoltre non occupa molte risorse (probabilmente gira senza problemi anche su un raspberry).
 
 La dashboard è davvero molto semplice e c'è anche la possibilità di filtrare per data!
 
@@ -59,5 +59,3 @@ Pur utilizzandolo solo da pochi giorni devo dire che sono davvero soddisfatto (s
 
 [1]: http://blog.decaro.la/2018/02/13/gdpr-google-analytics-adactio/  "GDPR e Google Analytics"
 [2]: https://spreadprivacy.com/data-anonymization/ "Data Anonymization"
-
-
