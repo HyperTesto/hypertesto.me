@@ -1,7 +1,7 @@
 ---
 title: "Moduli Git in pillole"
 date: 2018-07-12T23:14:31+02:00
-draft: true
+draft: false
 categories:
   - appunti
 tags:
