@@ -9,7 +9,7 @@ comments:
       type: date
       options:
         format: "timestamp"
-  moderation: false
+  moderation: true
   name: "HyperTesto"
   path: "data/comments/{options.postId}"
   requiredFields: ["author", "email", "author", "permalink"]
