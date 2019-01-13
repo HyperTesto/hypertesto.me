@@ -62,7 +62,7 @@ codepen = ""
 email = "info@hypertesto.me"
 facebook = "enrico.testori.12"
 github = "HyperTesto"
-instagram = ""
+instagram = "hypertesto"
 linkedin = "enricotestori"
 twitter = ""
 
@@ -71,10 +71,10 @@ enable = true
 
 [params.widgets]
 homepage = ["recent_posts"]
-sidebar = ["about","taxonomy_cloud"]
+sidebar = ["about","social_menu","taxonomy_cloud"]
 
 [params.social.config]
-platforms = ["github","linkedin","facebook","twitter","instagram","email","codepen"]
+platforms = ["github","linkedin","facebook","twitter","instagram","email"]
 
 [taxonomies]
 author = "authors"
