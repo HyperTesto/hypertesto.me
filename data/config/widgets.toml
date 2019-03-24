@@ -1,7 +1,7 @@
 # About Widget config
 [about]
 title = ""                            # default: .Site.Title
-description = "Develper<br/>Opensource enthusiast<br/><br/><a href='https://brave.com/hyp012'><img src='https://www.hypertesto.me/images/brave_referal.png'/></a>"                      # default: .Site.Params.info.description
+description = "Software craftsman<br/>Opensource enthusiast<br/><br/><a href='https://brave.com/hyp012' target='_blank'><img src='https://www.hypertesto.me/images/brave_referal.png'/></a><br/><a href='https://buymeacoff.ee/hypertesto' target='_blank'><img src='https://www.hypertesto.me/images/bmc_button.png'/></a>"                      # default: .Site.Params.info.description
 logo = "/images/hypertesto.jpeg"             # default: "/images/logo.png"
 
 # Recent Posts Widget config
