@@ -20,7 +20,10 @@ PS: se vi trovate dalle parti di Belluno e volete conoscere il sistema operativo
 ## La mia cassetta degli attrezzi
 
 * [Linux Mint](https://www.linuxmint.com/): desktop
-* [Visual Studio Code](https://code.visualstudio.com/): editor di testo
-* [Asciiflow](http://www.asciidraw.com): diagrammi in ascii
+* [Atom](https://atom.io "Atom"): editor di testo
+* [Asciiflow](http://asciiflow.com/): diagrammi in ascii
 * [Shaky](http://shaky.github.bushong.net/): giagrammi ascii -> png
 * [Gimp](http://www.gimp.org/): editing immagini
+* [Forestry](https://forestry.io "Forestry"): CMS (Content Management System)
+* [Netlify](https://www.netlify.com "Netlify"): CDN (Content Delivery Network)
+* [Hugo](https://gohugo.io "Hugo"): SSG (Static Site Generator)
