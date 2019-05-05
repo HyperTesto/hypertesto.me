@@ -43,7 +43,7 @@ Questo particolare stack non è esente da problemi e non è la soluzione ad ogni
 
 # Hugo to the resque!
 
-Storicamente uno dei generatori di siti statici più utilizzati è Jekyll; che è emerso anche grazie a qualche spintarella da parte di GitHub, che lo usa tuttora per erogare le [GitHub Pages](https://pages.github.com).
+Storicamente uno dei generatori di siti statici più utilizzati è Jekyll; che GitHub, usa tuttora per erogare le [GitHub Pages](https://pages.github.com).
 
 Via via col tempo si sono aggiunti molti altri, tanto che ora sono un [centinaio](https://www.staticgen.com).
 
