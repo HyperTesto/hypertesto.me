@@ -11,3 +11,5 @@ fields:
 - type: file
   name: cover
   label: cover
+pages:
+- content/blog/finalmente-un-alternativa-comoda-a-disqus.md
