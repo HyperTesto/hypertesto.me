@@ -1,7 +1,6 @@
 +++
 cover = "/images/tim-mossholder-322350-unsplash.jpg"
 date = "2019-05-06T00:00:00+02:00"
-draft = true
 title = "Il mio primo test su strada con SVT-AV1"
 
 +++
