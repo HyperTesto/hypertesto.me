@@ -12,4 +12,5 @@ fields:
   name: cover
   label: cover
 pages:
+- content/blog/il-mio-primo-test-su-strada-con-svt-av1.md
 - content/blog/finalmente-un-alternativa-comoda-a-disqus.md
