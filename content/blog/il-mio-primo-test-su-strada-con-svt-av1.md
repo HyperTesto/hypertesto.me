@@ -5,10 +5,16 @@ draft = true
 title = "Il mio primo test su strada con SVT-AV1"
 
 +++
-Al National Association of Broadcasters Show (NAB Show) 2019 di Las Vegas, Intel e Netflix hanno presentato il codec video open source SVT-AV1, acronimo di _Scalable Video Technology for AV1_.
+Al National Association of Broadcasters Show (NAB Show) 2019 di Las Vegas, Intel e Netflix hanno presentato il codec video open source [SVT-AV1](https://github.com/OpenVisualCloud/SVT-AV1/), acronimo di _Scalable Video Technology for AV1_.
 Il codec è concepito per ottenere il miglior compromesso fra latenza, performance e qualità visiva rispetto alle attuali implementazioni<sup>[1](https://aomedia.googlesource.com/aom/)</sup> <sup>[2](https://github.com/xiph/rav1e)</sup>.
 
-L'encode con l'implementazione di riferimento (libaom) tarmite ffmpeg ha uno speedup (sulla mia macchina) dello 0.03x in media... immaginate quanto può durare la codifica di un film!
+Ho voluto provare velocemente quanto è più veloce rispetto all'implementazione di riferimento (liboam) tentando un encode di un due minuti di video alla risoluzione di 720x480 pixel:
+
+```bash
+Stream #0:0: Video: h264 (High), yuv420p(progressive), 720x480 [SAR 1:1 DAR 3:2], SAR 186:157 DAR 279:157, 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc (default)
+```
+
+L'encode con libaom tarmite ffmpeg ha uno speedup (sulla mia macchina) dello 0.03x in media... immaginate quanto può durare la codifica di un film!
 
 Questo è il test con liboam:
 
@@ -28,8 +34,40 @@ Input #0, matroska,webm, from 'SOURCE.mkv':
       encoder         : Lavc58.35.100 aac
 frame=   30 fps=0.7 q=0.0 size=       0kB time=00:00:01.25 bitrate=   0.6kbits/s dup=4 drop=0 speed=0.0309x
 ```
+Inutile dire che ho interrotto prima che producesse l'output.
 
+Invece questo è il test con SVT-AV1:
 
 ```bash
 $ ffmpeg -i ~/Video/SOURCE.mkv -nostdin -f rawvideo -pix_fmt yuv420p - | ./SvtAv1EncApp -i stdin -n 3600 -w 720 -h 480 -b /home/hypertesto/Video/TEST.ivf
+... [output rimosso] ...
+SVT [version]:	SVT-AV1 Encoder Lib v0.4.0
+SVT [build]  :	GCC 7.4.0	 64 bit
+LIB Build date: May  6 2019 21:45:54
+-------------------------------------------
+Number of logical cores available: 8
+Number of PPCS 72
+------------------------------------------- 
+SVT [config]: Main Profile	Tier (auto)	Level (auto)	
+SVT [config]: EncoderMode 							: 8 
+SVT [config]: EncoderBitDepth / EncoderColorFormat / CompressedTenBitFormat	: 8 / 1 / 0
+SVT [config]: SourceWidth / SourceHeight					: 720 / 480 
+SVT [config]: FrameRate / Gop Size						: 30 / 32 
+SVT [config]: HierarchicalLevels / BaseLayerSwitchMode / PredStructure		: 4 / 0 / 2 
+SVT [config]: BRC Mode / QP  / LookaheadDistance / SceneChange			: CQP / 50 / 33 / 0 
+------------------------------------------- 
+Encoding          frame=   11 fps=0.0 q=-0.0 size=    5569kB time=00:00:00.36 bitrate=124291.5kbits/s dup=2 drop=0 spe        3frame=   76 fps= 72 q=-0.0 size=   38475kB time=00:00:02.53 bitrate=124291.6kbits/s dup=13 drop=0 speed=2.41x       15frame=   92 fps= 58 q=-0.0 size=   46575kB time=00:00:03.06 bitrate=124291.6kbits/s dup=16 drop=0 speed=1.92x
+... [output rimosso] ...
+video:1821994kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000000%
+     4000
+Average System Encoding Speed:        58.51
+```
+La velocità media è risultata 58.51, quindi poichè il video è a 30 fps lo speedup è di circa 1.9x. Niente male davvero!
+
+Quello che è davvero notevole è la differenza di dimensione tra i due file:
+
+```bash
+$ ls -sh
+26M /home/hypertesto/Video/SOURCE.mkv
+3,0M /home/hypertesto/Video/TEST.ivf
 ```
