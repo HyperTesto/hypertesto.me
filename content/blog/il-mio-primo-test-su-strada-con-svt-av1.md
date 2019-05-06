@@ -1,8 +1,8 @@
 +++
-cover = ""
+cover = "/images/tim-mossholder-322350-unsplash.jpg"
 date = "2019-05-06T00:00:00+02:00"
 draft = true
-title = "Un semplice test su strada con SVT-AV1"
+title = "Il mio primo test su strada con SVT-AV1"
 
 +++
 Al National Association of Broadcasters Show (NAB Show) 2019 di Las Vegas, Intel e Netflix hanno presentato il codec video open source [SVT-AV1](https://github.com/OpenVisualCloud/SVT-AV1/), acronimo di _Scalable Video Technology for AV1_.
