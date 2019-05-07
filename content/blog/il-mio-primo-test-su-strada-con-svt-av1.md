@@ -10,7 +10,7 @@ Il codec è concepito per ottenere il miglior compromesso fra latenza, performan
 
 Ma prima di partire; cos'è [AV1](https://it.wikipedia.org/wiki/AOMedia_Video_1)?
 
-AV1 è un codec video open source. È pensato per l'utilizzo in ambito web per per fare in modo che piattaforme video o i produttori di dispositivi non paghino royalty alla Moving Picture Experts Group (MPEG), lo sviluppatore di codec come H.264 e HEVC (che è utilizzato un po' ovunque).
+AV1 è un codec video open source. È pensato per l'utilizzo in ambito web per per fare in modo che piattaforme video o i produttori di dispositivi non paghino royalty alla Moving Picture Experts Group (MPEG), lo sviluppatore di codec come H.264 e HEVC (che sono utilizzati un po' ovunque).
 
 Il progetto vanta il supporto di tutti i più grandi player di settore:
 
@@ -76,7 +76,7 @@ video:1821994kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxi
 Average System Encoding Speed:        58.51
 ```
 
-La velocità media è risultata 58.51fps, quindi poichè il video è a 30 fps lo speedup è di circa 1.9x. Niente male davvero!
+La velocità media è risultata 58.51fps, quindi poiché il video è a 30 fps lo speedup è di circa 1.9x. Niente male davvero!
 
 Quello che è davvero notevole è la differenza di dimensione tra i due file:
 
