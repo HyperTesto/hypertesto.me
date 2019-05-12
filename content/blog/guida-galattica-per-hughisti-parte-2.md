@@ -2,7 +2,6 @@
 title: Guida Galattica per Hughisti Parte 2
 date: 2019-01-15T16:17:09+01:00
 cover: "/images/guida_galattica_cover_2.png"
-draft: true
 
 ---
 Ciao, questa è la seconda parte della mia **guida galattica per Hughisti**!
@@ -92,7 +91,7 @@ Una volta installato potete verificare che tutto funziona con il comando:
 $ hugo version
 ```
 
-Al momento della stesura dell'articolo, l'ultima versione disponibile è òa `0.55`, perciò se avete fatto tutto come si deve dovreste ottenere una versione uguale o superiore.
+Al momento della stesura dell'articolo, l'ultima versione disponibile è la `0.55`, perciò se avete fatto tutto come si deve dovreste ottenere una versione uguale o superiore.
 
 Per creare lo scheletro del progetto, da terminale digitare:
 
@@ -177,7 +176,7 @@ Infine potete anche combinare i flag in questo modo:
 $ hugo server -wD
 ```
 
-Per renderizzare anche le bozze e mettere in modalità *watch* il server, tutto in uno.
+Per renderizzare anche le bozze e mettere in modalità _watch_ il server, tutto in uno.
 
 Nel prossimo articolo vedremo come configurare i vari aspetti del nostro blog: lingua, titolo, url...
 
