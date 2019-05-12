@@ -1,5 +1,5 @@
 +++
-cover = ""
+cover = "/images/1200x627-linkedin.png"
 date = "2019-05-31T00:00:00+02:00"
 draft = true
 title = "Le mie impressioni si Brave dopo cinque mesi di utilizzo"
