@@ -43,4 +43,15 @@ I pro sono innumerevoli, alcuni sono davvero piccolezze, ma anche nel mio ambito
 * I tempi di caricamento sono davvero eccezionali. Questo è collegato al punto precedente: bloccando le pubblicità infatti si risparmiano dati da caricare, e da una connessione dati mobile questo è molto apprezzato!
 * Di default è attivo un meccanismo per il passaggio in HTTPS ove supportato. Questo è quello che sugli altri browser viene fatto con l'estensione [HTTPS Everywhere](https://www.eff.org/https-everywhere). Sembra una cazzata, ma meglio evitare la compilazione di form (magari di login) su una connessione in chiaro.
 * Blocco tracker cross site: in soldoni quelle pubblicità che vi si attaccano alle palle e vi corrono dietro per tutto il web.
-* Hanno un programma per content creator che permette di guadagnare sia tramite siti/blog, che con Youtube e Twitch. Personalmente ho provato a registrarmi come publisher da qualche mese, posso dire che effettivamente qualcosina ho guadagnato.
+* Hanno un programma per content creator che permette di guadagnare sia tramite siti/blog, che con Youtube e Twitch. Personalmente ho provato a registrarmi come publisher da qualche mese, posso dire che effettivamente qualcosina ho guadagnato. Scriverò meglio di questa cosa in un prossimo articolo.
+* Permette agli utenti di guadagnare con la visualizzazione di ADS non invasivi e rispettosi della privacy (per ora non sono ancora disponibili in italia).
+
+#### Verdetto
+
+Il mio passaggio da Firefox e stato totalmente indolore, ci ho messo un paio di giorni ad abituarmi, non mi aspettavo che sarebbe stato così facile! Per chi proviene da Chrome  il passaggio dovrebbe essere molto meno traumatico.
+
+La qualità del software migliora di giorno in giorno, certo con qualche piccolo inciampo, ma non è facile fare un browser in grado di battere i due grandi player del settore.
+
+Anche se non siete interessati ad aspetti tecnici, vi consiglio di [scaricare](https://www.hypertesto.me/images/brave_referal.png "scaricare brave") Brave poiché rispetto ai competitor ha attive di default una serie di tecnologie che vi renderanno la vita migliore. 
+
+Brave è in missione per migliorare il web, ma dobbiamo essere anche noi a fare qualche mossa senza rimanere eternamente passivi a subire i dictat dei soliti accattoni.
