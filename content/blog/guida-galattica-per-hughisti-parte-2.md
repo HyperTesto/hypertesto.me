@@ -105,6 +105,17 @@ Spostiamoci nella cartella del progetto con
 ```bash
 $ cd ilmiobelsito
 ```
-E 
+E scarichiamo il template di defualt con questi comandi:
+
+```bash
+$ git init
+$ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+$ echo 'theme = "ananke"' >> config.toml
+```
+Questo è quello quello che viene fatto da questa sequenza di comandi:
+1. Inizializza un repository git (approfondiremo questo in un aritoclo futuro, per ora non vi preoccupate).
+2. Inizializza un modulo git con riferimento al repository ufficiale del tema "ananke".
+3. Imposta il tema "ananke" per il sito andando ad aggiungere la relativa configurazione in fondo al fine `config.toml`.
+
 
 
