@@ -71,9 +71,9 @@ In Hugo i contenuti vengono strutturati in questo modo:
 
 La struttura dovrebbe essere abbastanza autoesplicativa. Per un'utilizzo basilare, come ad esempio la semplice stesura di articoli, le cartelle che si utilizzano sono:
 
-* content: in questa directory trovano spazio i file markdown contenenti gli articoli e le pagine
-* static: qui vengono messi file e immagini da includere nel sito
-* themes: qui vengono memorizzati i temi da utilizzare
+* **content:** in questa directory trovano spazio i file markdown contenenti gli articoli e le pagine
+* **static:** qui vengono messi file e immagini da includere nel sito
+* **themes:** qui vengono memorizzati i temi da utilizzare
 
 Le altre cartelle contengono dati ed istruzioni per un'utilizzo più avanzato, come ad esempio la personalizzazione dei campi custom (archetypes), oppure layout personalizzati sulla base del tipo di articolo.
 
