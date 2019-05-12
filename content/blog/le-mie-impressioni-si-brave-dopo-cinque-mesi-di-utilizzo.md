@@ -41,6 +41,6 @@ I pro sono innumerevoli, alcuni sono davvero piccolezze, ma anche nel mio ambito
 
 * Ottimo blocco delle pubblicità. Non ne passa una.
 * I tempi di caricamento sono davvero eccezionali. Questo è collegato al punto precedente: bloccando le pubblicità infatti si risparmiano dati da caricare, e da una connessione dati mobile questo è molto apprezzato!
-* Di default è attivo un meccanismo per il passaggio in HTTPS ove supportato. Questo è quello che sugli altri browser viene fatto con l'estensione [HTTPS Everywere](). Sembra una cazzata, ma meglio evitare la compilazione di form (magari di login) su una connessione in chiaro.
+* Di default è attivo un meccanismo per il passaggio in HTTPS ove supportato. Questo è quello che sugli altri browser viene fatto con l'estensione [HTTPS Everywhere](https://www.eff.org/https-everywhere). Sembra una cazzata, ma meglio evitare la compilazione di form (magari di login) su una connessione in chiaro.
 * Blocco tracker cross site: in soldoni quelle pubblicità che vi si attaccano alle palle e vi corrono dietro per tutto il web.
-* 
+* Hanno un programma per content creator che permette di guadagnare sia tramite siti/blog, che con Youtube e Twitch. Personalmente ho provato a registrarmi come publisher da qualche mese, posso dire che effettivamente qualcosina ho guadagnato.
