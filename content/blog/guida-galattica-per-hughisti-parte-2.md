@@ -19,8 +19,6 @@ Successivamente sono arrivati i primi linguaggi lato server (PHP è l'esempio pi
 
 Oggigiorno la stragrande maggioranza dei siti sono dinamici, alcuni lo sono necessariamente per le loro caratteristiche intrinseche (ad esempio motori di ricerca e social), altri lo sono per... boh... inerzia suppongo.
 
-{{< figure src="/images/hard-work.jpg" caption="Photo by jesse orrico on Unsplash" >}}
-
 Il problema fondamentale di una soluzione dinamica è che, oltre ad essere esposta a varie vulnerabilità (SQL injection per citarne una), richiede manutenzione che spesso non viene fatta a dovere (o per nulla).
 
 Inoltre, dovendo generare la pagina _al volo_, spesso e la richiesta impiega un tempo non esattamente trascurabile prima di essere servita all'utente. Questo è un grosso problema soprattutto per chi con un sito ci deve fare del businness, poichè un sito che impiega troppo tempo a rispondere viene abbandonato dagli utenti con un tasso particolarmente elevato (e qui l'esempio calzante è quello del negozio: la gente si spazientisce se il commesso non è subito disponibile).
