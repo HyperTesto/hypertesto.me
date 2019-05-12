@@ -57,17 +57,15 @@ Parlando in termini tecnici, Hugo prende una directory con file sorgenti e templ
 
 In Hugo i contenuti vengono strutturati in questo modo:
 
-```
-    .
-    ├── archetypes
-    ├── assets
-    ├── config
-    ├── content
-    ├── data
-    ├── layouts
-    ├── static
-    └── themes
-```
+        .
+        ├── archetypes
+        ├── assets
+        ├── config
+        ├── content
+        ├── data
+        ├── layouts
+        ├── static
+        └── themes
 
 La struttura dovrebbe essere abbastanza autoesplicativa. Per un'utilizzo basilare, come ad esempio la semplice stesura di articoli, le cartelle che si utilizzano sono:
 
@@ -79,32 +77,38 @@ Le altre cartelle contengono dati ed istruzioni per un'utilizzo più avanzato, c
 
 Una volta generato il sito, la posizione di default dei file HTML è la cartella **public**.
 
-## Paretenza
+## Primi passi con Hugo
+
 Ora che sappiamo cosa troveremo una volta creato un progetto Hugo per la prima volta, non ci resta che provare!
 Per proseguire con il resto della guida avrete bisogno di:
 
 * un po' di dimestichezza con il terminale
 * git installato e funzionante
 
-
 Per prima cosa occorrerà installare Hugo seguendo la [guida ufficiale](https://gohugo.io/getting-started/installing/) per il vostro sistema operativo.
 
 Una volta installato potete verificare che tutto funziona con il comando:
+
 ```bash
 $ hugo version
 ```
+
 Al momento della stesura dell'articolo, l'ultima versione disponibile è òa `0.55`, perciò se avete fatto tutto come si deve dovreste ottenere una versione uguale o superiore.
 
 Per creare lo scheletro del progetto, da terminale digitare:
+
 ```bash
 $ hugo new site ilmiobelsito
 ```
+
 Verrà creata una nuova cartella `ilmiobelsito` nella posizione attuale. Il contenuto della cartella è quello affrontato nel paragrafo precedente.
 
-Spostiamoci nella cartella del progetto con
+Spostiamoci nella cartella del progetto con:
+
 ```bash
 $ cd ilmiobelsito
 ```
+
 E scarichiamo il template di defualt con questi comandi:
 
 ```bash
@@ -112,9 +116,10 @@ $ git init
 $ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
 $ echo 'theme = "ananke"' >> config.toml
 ```
+
 Questo è quello quello che viene fatto da questa sequenza di comandi:
 
-1. Inizializza un repository git (approfondiremo questo in un aritoclo futuro, per ora non vi preoccupate).
+1. Inizializza un repository git (approfondiremo questo in un articolo futuro, per ora non vi preoccupate).
 2. Inizializza un modulo git con riferimento al repository ufficiale del tema "ananke".
 3. Imposta il tema "ananke" per il sito andando ad aggiungere la relativa configurazione in fondo al fine `config.toml`.
 
@@ -124,7 +129,7 @@ Ora creare il primo articolo con il comando:
 $ hugo new posts/primo-post.md
 ```
 
-Viene creato un nuovo file markdown nella cartella `content/blog` con questo contenuto:
+Viene generato un nuovo file markdown nella cartella `content/blog` con questo contenuto:
 
 ```markdown
 ---
@@ -132,8 +137,8 @@ title: "Primo Post"
 date: 2019-05-12T18:16:56+02:00
 draft: true
 ---
-
 ```
+
 Modifichiamolo aggiungendo in fondo al file (dopo i tre trattini) questo testo:
 
 > Lo spazio è vasto. Veramente vasto. Non riuscireste mai a credere quanto enormemente incredibilmente spaventosamente vasto esso sia. Voglio dire, magari voi pensate che andare fino alla vostra farmacia sia un bel tratto di strada, ma quel tratto di strada è una bazzecola in confronto allo spazio.
@@ -144,4 +149,33 @@ Salvate il file e digitate il comando:
 $ hugo server
 ```
 
-Ora aprite il browser all'indirizzo `http://localhost:1313`. Vi comparirà il sito appena generato:
+Ora aprite il browser all'indirizzo `http://localhost:1313`. Vi comparirà il sito appena generato.
+
+![Hugo senza nessun articolo](/images/hugo_empty.png)
+
+Bella m**a, vero? Dove caspita è l'articolo?
+
+Bene... Io non vi ho detto una cosa: vi ricordate il contenuto del primo articolo? Era presente un `draft: true` che sta ad indicare che l'articolo o la pagina in questione è una bozza.
+
+Le bozze non vengono tenute in considerazione del comando `hugo server`, perciò per far si che il nostro primo articolo compaia abbiamo due strade:
+
+1. Cambiare quel `draft: true` in `draft: false`
+2. Rilanciare il comando `hugo server` con il flag `-D`
+
+In entrambi i casi dovrete _killare_ il processo server in esecuzione con `CTRL-C`, fatto ciò potete rilanciare il comando (se avete scelto l'opzione due, aggiungete `-D` in fondo al comando).
+
+Il risultato sarà questo:
+
+![](/images/hugo_first_article.png)
+
+Bene avete appena creato il vostro primo articolo sul blog!
+
+Prima di concludere questa seconda parte della mia guida, vi lascio un ultimo bit di informazione che di certo tornerà utile: lanciando il comando `hugo server` con un ulteriore flag `-w` la pagina web locale viene aggiornata un automatico ad ogni salvataggio del file su cui state lavorando.
+
+Infine potete anche combinare i flag in questo modo:
+
+```bash
+$ hugo server -wD
+```
+
+Per renderizzare anche le bozze e mettere in modalità *watch* il server.
