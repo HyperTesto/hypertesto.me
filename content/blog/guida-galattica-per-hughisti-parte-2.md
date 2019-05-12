@@ -79,7 +79,7 @@ Le altre cartelle contengono dati ed istruzioni per un'utilizzo più avanzato, c
 
 Una volta generato il sito, la posizione di default dei file HTML è la cartella **public**.
 
-## Partenza in quarta
+## Paretenza
 Ora che sappiamo cosa troveremo una volta creato un progetto Hugo per la prima volta, non ci resta che provare!
 Per proseguire con il resto della guida avrete bisogno di:
 
@@ -113,9 +113,29 @@ $ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/an
 $ echo 'theme = "ananke"' >> config.toml
 ```
 Questo è quello quello che viene fatto da questa sequenza di comandi:
+
 1. Inizializza un repository git (approfondiremo questo in un aritoclo futuro, per ora non vi preoccupate).
 2. Inizializza un modulo git con riferimento al repository ufficiale del tema "ananke".
 3. Imposta il tema "ananke" per il sito andando ad aggiungere la relativa configurazione in fondo al fine `config.toml`.
 
+Ora creare il primo articolo con il comando:
+
+```bash
+$ hugo new posts/primo-post.md
+```
+
+Viene creato un nuovo file markdown nella cartella `content/blog` con questo contenuto:
+
+```markdown
+---
+title: "Primo Post"
+date: 2019-05-12T18:16:56+02:00
+draft: true
+---
+
+```
+Modifichiamolo aggiungendo in fondo al file (dopo i tre trattini) questo testo:
+
+> Lo spazio è vasto. Veramente vasto. Non riuscireste mai a credere quanto enormemente incredibilmente spaventosamente vasto esso sia. Voglio dire, magari voi pensate che andare fino alla vostra farmacia sia un bel tratto di strada, ma quel tratto di strada è una bazzecola in confronto allo spazio.
 
 
