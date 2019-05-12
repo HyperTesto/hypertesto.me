@@ -138,4 +138,10 @@ Modifichiamolo aggiungendo in fondo al file (dopo i tre trattini) questo testo:
 
 > Lo spazio è vasto. Veramente vasto. Non riuscireste mai a credere quanto enormemente incredibilmente spaventosamente vasto esso sia. Voglio dire, magari voi pensate che andare fino alla vostra farmacia sia un bel tratto di strada, ma quel tratto di strada è una bazzecola in confronto allo spazio.
 
+Salvate il file e digitate il comando:
 
+```bash
+$ hugo server
+```
+
+Ora aprite il browser all'indirizzo `http://localhost:1313`. Vi comparirà il sito appena generato:
