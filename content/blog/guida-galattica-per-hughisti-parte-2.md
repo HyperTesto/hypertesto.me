@@ -17,17 +17,15 @@ Agli albori di Internet i primi siti erano una sola raccolta di documenti html s
 
 Successivamente sono arrivati i primi linguaggi lato server (PHP è l'esempio più calzante) con il quale era possibile agganciare un database e generare "al volo" una pagina combinando asset e contenuti vari. Lo stack architetturale più gettonato che ha reso possibile questo _artifizio_ è detto LAMP (Linux + Apache + MySQL + Php).
 
-Oggigiorno la stragrande maggioranza dei siti sono dinamici, alcuni lo sono necessariamente
-per le caratteristiche intrinseche (ad esempio motori di ricerca e social), altri lo sono per... boh... inerzia suppongo.
+Oggigiorno la stragrande maggioranza dei siti sono dinamici, alcuni lo sono necessariamente per le loro caratteristiche intrinseche (ad esempio motori di ricerca e social), altri lo sono per... boh... inerzia suppongo.
 
 {{< figure src="/images/hard-work.jpg" caption="Photo by jesse orrico on Unsplash" >}}
 
-Il problema fondamentale di una soluzione dinamica è che, oltre ad essere esposta a vulnerabilità (SQL injection per citarne una), richiede manutenzione che spesso non viene fatta a dovere (o per nulla).
+Il problema fondamentale di una soluzione dinamica è che, oltre ad essere esposta a varie vulnerabilità (SQL injection per citarne una), richiede manutenzione che spesso non viene fatta a dovere (o per nulla).
 
-Inoltre, dovendo generare la pagina al volo, spesso e volentieri impiega un tempo non esattamente trascurabile prima di generare le pagine da spedire. Questo è un grosso problema soprattutto per chi con un sito ci defe fare del businness, poichè un sito che impiega troppo tempo a rispondere viene abbandonato dagli utenti molto di frequente.
+Inoltre, dovendo generare la pagina _al volo_, spesso e la richiesta impiega un tempo non esattamente trascurabile prima di essere servita all'utente. Questo è un grosso problema soprattutto per chi con un sito ci deve fare del businness, poichè un sito che impiega troppo tempo a rispondere viene abbandonato dagli utenti con un tasso particolarmente elevato (e qui l'esempio calzante è quello del negozio: la gente si spazientisce se il commesso non è subito disponibile).
 
-Ultimo, ma non meno importante è il lato economico: un servizio di hosting con tutti i crismi
-può arrivare a costare parecchio.
+Ultimo, ma non meno importante è il lato economico: un servizio di hosting con tutti i crismi può arrivare a costare parecchio.
 
 Fatte queste dovute premesse / cenni storici veniamo al punto: qualcuno molto _smart_
 ha pensato di approcciare il problema creando di fatto un ibrido: generare le pagine offline con un qualche programma ed online caricare solo il risultato, ovvero pagine HTML. Ecco quindi che sono entrati in gioco i **generatori di siti statici**.
@@ -51,13 +49,31 @@ In questa giungla c'è davvero spazio per tutti i gusti. Io tra tutti ho scelto 
 
 > Eh finalmente! Ci sono voluti solo 3200 caratteri (spazi inclusi) per arrivare al nocciolo della questione!
 
-Comincio subito col sottolineare che la mia esperienza con Hugo riguarda quasi solamente la creazione di contenuti
-e la loro distribuzione **_nell'internet_**, perciò lascio eventuali considerazioni sullo sviluppo di template ad un futuro
-articolo.
+Comincio subito col sottolineare che la mia esperienza con Hugo riguarda quasi solamente la creazione di contenuti e la loro distribuzione, perciò lascio eventuali considerazioni sullo sviluppo di template ad un futuro articolo.
 
-Parlando in termini tecnici prende una directory con file sorgenti e template, e sforna in output un sito ben confezionato.
-Prima di tutto vediamo com'è la struttura delle directory e cosa contiene ognuna.
+Parlando in termini tecnici, Hugo prende una directory con file sorgenti e template, e sforna in output un sito ben confezionato. Prima di tutto vediamo com'è la struttura delle directory e cosa contiene ognuna.
 
 ## La struttura delle directory
 
-Ribadendo c
+In Hugo i contenuti vengono strutturati in questo modo:
+
+```
+    .
+    ├── archetypes
+    ├── assets
+    ├── config
+    ├── content
+    ├── data
+    ├── layouts
+    ├── static
+    └── themes
+```
+
+La struttura dovrebbe essere abbastanza autoesplicativa. Per un'utilizzo basilare, come ad esempio la semplice stesura di articoli, le cartelle che si utilizzano sono:
+
+* content: in questa directory trovano spazio i file markdown contenenti gli articoli e le pagine
+* static: qui vengono messi file e immagini da includere nel sito
+* themes: qui vengono memorizzati i temi da utilizzare
+
+Le altre cartelle contengono dati ed istruzioni per un'utilizzo più avanzato, come ad esempio la personalizzazione dei campi custom (archetypes), oppure layout personalizzati sulla base del tipo di articolo.
+
