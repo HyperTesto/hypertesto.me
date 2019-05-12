@@ -34,6 +34,7 @@ Partiamo con i contro, c'è meno da dire:
 
 * Rispetto a Firefox ritengo la modalità lettura, che in Brave si chiama _Pagina Distill,_ sia ancora migliorabile. Inoltre non mi dispiacerebbe un pulsante direttamente integrato nella barra degli indirizzi.
 * La sincronizzazione dei preferiti con finestre multiple ogni tanto perde qualche pezzo per strada. Con tre finestre con molta facilità perde i preferiti salvati in una delle tre sessioni (verificato solo con Brave beta).
+* L'integrazione con Pocket mi manca davvero :-(
 
 #### Pro
 
