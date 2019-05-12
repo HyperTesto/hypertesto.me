@@ -170,7 +170,7 @@ Il risultato sarà questo:
 
 Bene avete appena creato il vostro primo articolo sul blog!
 
-Prima di concludere questa seconda parte della mia guida, vi lascio un ultimo bit di informazione che di certo tornerà utile: lanciando il comando `hugo server` con un ulteriore flag `-w` la pagina web locale viene aggiornata un automatico ad ogni salvataggio del file su cui state lavorando.
+Prima di concludere questa seconda parte della mia guida, vi lascio un ultimo bit di informazione che di certo tornerà utile: lanciando il comando `hugo server` con un ulteriore flag `-w` la pagina web locale viene aggiornata in automatico ad ogni salvataggio del file su cui state lavorando.
 
 Infine potete anche combinare i flag in questo modo:
 
@@ -178,4 +178,8 @@ Infine potete anche combinare i flag in questo modo:
 $ hugo server -wD
 ```
 
-Per renderizzare anche le bozze e mettere in modalità *watch* il server.
+Per renderizzare anche le bozze e mettere in modalità *watch* il server, tutto in uno.
+
+Nel prossimo articolo vedremo come configurare i vari aspetti del nostro blog: lingua, titolo, url...
+
+Se l'articolo vi è piaciuto lasciate un commentino qua sotto!
