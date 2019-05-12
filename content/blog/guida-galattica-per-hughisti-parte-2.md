@@ -51,7 +51,7 @@ In questa giungla c'è davvero spazio per tutti i gusti. Io tra tutti ho scelto 
 
 Comincio subito col sottolineare che la mia esperienza con Hugo riguarda quasi solamente la creazione di contenuti e la loro distribuzione, perciò lascio eventuali considerazioni sullo sviluppo di template ad un futuro articolo.
 
-Parlando in termini tecnici, Hugo prende una directory con file sorgenti e template, e sforna in output un sito ben confezionato. Prima di tutto vediamo com'è la struttura delle directory e cosa contiene ognuna.
+Parlando in termini tecnici, Hugo prende una directory con file sorgenti e template, e sforna in output un sito ben confezionato. Perciò prima di tutto vediamo cosa contiene un progetto hugo appena sfornato.
 
 ## La struttura delle directory
 
@@ -76,4 +76,24 @@ La struttura dovrebbe essere abbastanza autoesplicativa. Per un'utilizzo basilar
 * **themes:** qui vengono memorizzati i temi da utilizzare
 
 Le altre cartelle contengono dati ed istruzioni per un'utilizzo più avanzato, come ad esempio la personalizzazione dei campi custom (archetypes), oppure layout personalizzati sulla base del tipo di articolo.
+
+Una volta generato il sito, la posizione di default dei file HTML è la cartella **public**.
+
+## Partenza in quarta
+Ora che sappiamo cosa troveremo una volta creato un progetto Hugo per la prima volta, non ci resta che provare!
+
+Per prima cosa occorrerà installare Hugo seguendo la [guida ufficiale](https://gohugo.io/getting-started/installing/) per il vostro sistema operativo.
+
+Una volta installato potete verificare che tutto funziona con il comando:
+```bash
+$ hugo version
+```
+Al momento della stesura dell'articolo, l'ultima versione disponibile è òa `0.55`, perciò se avete fatto tutto come si deve dovreste ottenere una versione uguale o superiore.
+
+Per creare lo scheletro del progetto, da terminale digitare:
+```bash
+$ hugo new site ilmiobelsito
+```
+Verrà creata una nuova cartella `ilmiobelsito` nella posizione attuale. Il contenuto della cartella è quello affrontato nel paragrafo precedente.
+
 
