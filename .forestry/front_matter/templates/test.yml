@@ -12,5 +12,6 @@ fields:
   name: cover
   label: cover
 pages:
+- content/blog/guida-galattica-per-hughisti-parte-2.md
 - content/blog/finalmente-un-alternativa-comoda-a-disqus.md
 - content/blog/il-mio-primo-test-su-strada-con-svt-av1.md
