@@ -81,6 +81,11 @@ Una volta generato il sito, la posizione di default dei file HTML è la cartella
 
 ## Partenza in quarta
 Ora che sappiamo cosa troveremo una volta creato un progetto Hugo per la prima volta, non ci resta che provare!
+Per proseguire con il resto della guida avrete bisogno di:
+
+* un po' di dimestichezza con il terminale
+* git installato e funzionante
+
 
 Per prima cosa occorrerà installare Hugo seguendo la [guida ufficiale](https://gohugo.io/getting-started/installing/) per il vostro sistema operativo.
 
@@ -95,5 +100,11 @@ Per creare lo scheletro del progetto, da terminale digitare:
 $ hugo new site ilmiobelsito
 ```
 Verrà creata una nuova cartella `ilmiobelsito` nella posizione attuale. Il contenuto della cartella è quello affrontato nel paragrafo precedente.
+
+Spostiamoci nella cartella del progetto con
+```bash
+$ cd ilmiobelsito
+```
+E 
 
 
