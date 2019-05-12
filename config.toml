@@ -64,7 +64,7 @@ facebook = "enrico.testori.12"
 github = "HyperTesto"
 instagram = "hypertesto"
 linkedin = "enricotestori"
-twitter = ""
+twitter = "hypertesto"
 
 [params.sidebar]
 enable = true
