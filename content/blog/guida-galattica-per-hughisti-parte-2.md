@@ -1,6 +1,6 @@
 ---
 title: Guida Galattica per Hughisti Parte 2
-date: 2019-01-15T16:17:09+01:00
+date: 2019-05-12T16:17:09+02:00
 cover: "/images/guida_galattica_cover_2.png"
 
 ---
