@@ -15,7 +15,7 @@ L'obiettivo di brave è descritto benissimo sulla pagina principale:
 
 > Brave is on a mission to fix the web by giving users a safer, faster and better browsing experience while growing support for content creators through a new attention-based ecosystem of rewards.
 
-Un web più sicuro per gli utenti con un supporto per i creatori di contenuti. 
+Un web più sicuro per gli utenti con un supporto per i creatori di contenuti.
 
 Il team invece è composto da alcune _star_ della silicon Valley:
 
@@ -24,7 +24,7 @@ Il team invece è composto da alcune _star_ della silicon Valley:
 * [**Yan Zhu**](https://lists.linkedin.com/2016/next-wave-top-professionals-35-and-under-20161011/software/yan-zhu): Team sicurezza presso Yahoo! Membro del "W3C Technical Advisory Group". [Certbot](https://certbot.eff.org/ "certbot") vi dice qualcosa?
 * [**Ben Livshits**](https://www.linkedin.com/in/ben-livshits/): ingegnere del software presso Netscape e Yahoo!, infine in Microsoft. Per un periodo anche ricercatore.
 * [**Holli Bohren**](https://www.linkedin.com/in/holli-bohren-91386b/): ha un'esperienza ventennale nel campo della finanza e delle operazioni esecutive. Ha lavorato per un sacco di compagine degne di nota, ad esempio Teachscape e BiteSize Networks.
-* [**Johnny Ryan**](https://www.linkedin.com/in/johnnyryan1/): giornalista e  _Chief Innovation Officer_ (questo è ancora più bello) presso _The Irish Times_. Infine esperto in GDPR in quanto [Head of Ecosystem ](https://www.forbes.com/sites/samantharadocchia/2019/01/10/chief-ecosystem-officer-the-new-role-every-blockchain-company-needs/#7d7e185627ce "Chief Ecosystem")presso PageFair.  
+* [**Johnny Ryan**](https://www.linkedin.com/in/johnnyryan1/): giornalista e  _Chief Innovation Officer_ (questo è ancora più bello) presso _The Irish Times_. Infine esperto in GDPR in quanto [Head of Ecosystem ](https://www.forbes.com/sites/samantharadocchia/2019/01/10/chief-ecosystem-officer-the-new-role-every-blockchain-company-needs/#7d7e185627ce "Chief Ecosystem")presso PageFair.
 
 Insomma... un team con le palle quadrate!
 
@@ -53,6 +53,6 @@ Il mio passaggio da Firefox e stato totalmente indolore, ci ho messo un paio di 
 
 La qualità del software migliora di giorno in giorno, certo con qualche piccolo inciampo, ma non è facile fare un browser in grado di battere i due grandi player del settore.
 
-Anche se non siete interessati ad aspetti tecnici, vi consiglio di [scaricare](https://www.hypertesto.me/images/brave_referal.png "scaricare brave") Brave poiché rispetto ai competitor ha attive di default una serie di tecnologie che vi renderanno la vita migliore. 
+Anche se non siete interessati ad aspetti tecnici, vi consiglio di [scaricare](https://www.hypertesto.me/images/brave_referal.png "scaricare brave") Brave poiché rispetto ai competitor ha attive di default una serie di tecnologie che vi renderanno la vita migliore.
 
-Brave è in missione per migliorare il web, ma dobbiamo essere anche noi a fare qualche mossa senza rimanere eternamente passivi a subire i dictat dei soliti accattoni.
+Brave è in missione per migliorare il we; io scommetto che la strada intrapresa è quella giusta!
