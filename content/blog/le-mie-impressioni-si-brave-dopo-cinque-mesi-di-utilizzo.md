@@ -1,7 +1,6 @@
 +++
 cover = "/images/1200x627-linkedin.png"
 date = "2019-05-31T00:00:00+02:00"
-draft = true
 title = "Le mie impressioni si Brave dopo cinque mesi di utilizzo"
 
 +++
@@ -15,9 +14,9 @@ L'obiettivo di brave è descritto benissimo sulla pagina principale:
 
 > Brave is on a mission to fix the web by giving users a safer, faster and better browsing experience while growing support for content creators through a new attention-based ecosystem of rewards.
 
-Un web più sicuro per gli utenti con un supporto per i creatori di contenuti.
+Un web più sicuro per gli utenti con un supporto per i creatori di contenuti. Bello!
 
-Il team invece è composto da alcune _star_ della silicon Valley:
+Il team invece è composto da alcune _star_ della Silicon Valley:
 
 * [**Brendan Eich**](https://www.linkedin.com/in/brendaneich/): _Chief architect_ sia alla Mozilla che a Netscape. Amministratore delegato come ultima posizione in Mozilla.
 * [**Brian Bondy**](https://www.linkedin.com/in/bbondy/): Ingegnere del software senior alla Mozilla e poi _Software Developer Lead_ (suona davvero bene) presso Khan Academy, una organizzazione no profit.​
@@ -30,22 +29,22 @@ Insomma... un team con le palle quadrate!
 
 #### Contro
 
-Partiamo con i contro, c'è meno da dire:
+Partiamo con i contro, ho meno cose da dire:
 
 * Rispetto a Firefox ritengo la modalità lettura, che in Brave si chiama _Pagina Distill,_ sia ancora migliorabile. Inoltre non mi dispiacerebbe un pulsante direttamente integrato nella barra degli indirizzi.
 * La sincronizzazione dei preferiti con finestre multiple ogni tanto perde qualche pezzo per strada. Con tre finestre con molta facilità perde i preferiti salvati in una delle tre sessioni (verificato solo con Brave beta).
-* L'integrazione con Pocket mi manca davvero :-(
+* L'integrazione con Pocket mi manca davvero tanto :-(
 
 #### Pro
 
 I pro sono innumerevoli, alcuni sono davvero piccolezze, ma anche nel mio ambito lavorativo fanno la differenza su otto ore di lavoro:
 
-* Ottimo blocco delle pubblicità. Non ne passa una.
-* I tempi di caricamento sono davvero eccezionali. Questo è collegato al punto precedente: bloccando le pubblicità infatti si risparmiano dati da caricare, e da una connessione dati mobile questo è molto apprezzato!
-* Di default è attivo un meccanismo per il passaggio in HTTPS ove supportato. Questo è quello che sugli altri browser viene fatto con l'estensione [HTTPS Everywhere](https://www.eff.org/https-everywhere). Sembra una cazzata, ma meglio evitare la compilazione di form (magari di login) su una connessione in chiaro.
-* Blocco tracker cross site: in soldoni quelle pubblicità che vi si attaccano alle palle e vi corrono dietro per tutto il web.
-* Hanno un programma per content creator che permette di guadagnare sia tramite siti/blog, che con Youtube e Twitch. Personalmente ho provato a registrarmi come publisher da qualche mese, posso dire che effettivamente qualcosina ho guadagnato. Scriverò meglio di questa cosa in un prossimo articolo.
-* Permette agli utenti di guadagnare con la visualizzazione di ADS non invasivi e rispettosi della privacy (per ora non sono ancora disponibili in italia).
+* Ottimo **blocco delle pubblicità**. Non ne passa una.
+* I **tempi di caricamento** sono davvero eccezionali. Questo è collegato al punto precedente: bloccando le pubblicità infatti si risparmiano dati da caricare, e da una connessione dati mobile questo è molto apprezzato!
+* Di default è attivo un meccanismo per il passaggio in **HTTPS** ove supportato. Questo è quello che sugli altri browser viene fatto con l'estensione [HTTPS Everywhere](https://www.eff.org/https-everywhere). Sembra una piccolezza, ma meglio evitare la compilazione di form (magari di login) su una connessione in chiaro.
+* **Blocco tracker** cross site: in soldoni quelle pubblicità che vi si attaccano alle palle e vi corrono dietro per tutto il web.
+* Hanno un programma per content creator che permette di guadagnare come **publisher** sia tramite siti/blog, che con Youtube e Twitch. Personalmente ho provato a registrarmi come publisher da qualche mese, posso dire che effettivamente qualcosina ho guadagnato. Scriverò meglio di questa cosa in un prossimo articolo.
+* Permette agli utenti di **guadagnare con la visualizzazione di ADS non invasivi** e rispettosi della privacy (per ora non sono ancora disponibili in Italia, ma spero lo saranno presto).
 
 #### Verdetto
 
@@ -53,6 +52,8 @@ Il mio passaggio da Firefox e stato totalmente indolore, ci ho messo un paio di 
 
 La qualità del software migliora di giorno in giorno, certo con qualche piccolo inciampo, ma non è facile fare un browser in grado di battere i due grandi player del settore.
 
-Anche se non siete interessati ad aspetti tecnici, vi consiglio di [scaricare](https://www.hypertesto.me/images/brave_referal.png "scaricare brave") Brave poiché rispetto ai competitor ha attive di default una serie di tecnologie che vi renderanno la vita migliore.
+Anche se non siete interessati ad aspetti tecnici, vi consiglio di [scaricarlo](https://www.hypertesto.me/images/brave_referal.png "scaricare brave") poiché rispetto ai competitor ha attive di default una serie di tecnologie che vi renderanno la vita migliore.
 
-Brave è in missione per migliorare il we; io scommetto che la strada intrapresa è quella giusta!
+Brave è in missione per cercare di rendere il WEB un pochino migliore; io scommetto che la strada intrapresa è quella giusta! 
+
+Fatemi sapere se lo avete provato e come vi trovate!
