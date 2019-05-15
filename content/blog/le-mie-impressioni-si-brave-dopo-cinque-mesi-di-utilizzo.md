@@ -1,7 +1,7 @@
 +++
 cover = "/images/1200x627-linkedin.png"
-date = "2019-05-31T00:00:00+02:00"
-title = "Le mie impressioni si Brave dopo cinque mesi di utilizzo"
+date = "2019-05-15T23:00:00+02:00"
+title = "Le mie impressioni su Brave dopo cinque mesi di utilizzo"
 
 +++
 Utilizzo Brave sia a casa (PC e cellulare) che al lavoro ormai da cinque mesi, quindi ho pensato di scrivere una breve recensione.
