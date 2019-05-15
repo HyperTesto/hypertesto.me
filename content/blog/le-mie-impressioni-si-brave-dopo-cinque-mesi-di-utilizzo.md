@@ -44,7 +44,7 @@ I pro sono innumerevoli, alcuni sono davvero piccolezze, ma anche nel mio ambito
 * Di default è attivo un meccanismo per il passaggio in **HTTPS** ove supportato. Questo è quello che sugli altri browser viene fatto con l'estensione [HTTPS Everywhere](https://www.eff.org/https-everywhere). Sembra una piccolezza, ma meglio evitare la compilazione di form (magari di login) su una connessione in chiaro.
 * **Blocco tracker** cross site: in soldoni quelle pubblicità che vi si attaccano alle palle e vi corrono dietro per tutto il web.
 * Hanno un programma per content creator che permette di guadagnare come **publisher** sia tramite siti/blog, che con Youtube e Twitch. Personalmente ho provato a registrarmi come publisher da qualche mese, posso dire che effettivamente qualcosina ho guadagnato. Scriverò meglio di questa cosa in un prossimo articolo.
-* Permette agli utenti di **guadagnare con la visualizzazione di ADS non invasivi** e rispettosi della privacy (per ora non sono ancora disponibili in Italia, ma spero lo saranno presto).
+* Permette agli utenti di **guadagnare con la visualizzazione di ADS non invasivi** e **rispettosi della privacy** (per ora non sono ancora disponibili in Italia, ma spero lo saranno presto).
 
 #### Verdetto
 
@@ -56,4 +56,4 @@ Anche se non siete interessati ad aspetti tecnici, vi consiglio di [scaricarlo](
 
 Brave è in missione per cercare di rendere il WEB un pochino migliore; io scommetto che la strada intrapresa è quella giusta! 
 
-Fatemi sapere se lo avete provato e come vi trovate!
+Fatemi sapere se lo avete provato e come vi trovate! 
