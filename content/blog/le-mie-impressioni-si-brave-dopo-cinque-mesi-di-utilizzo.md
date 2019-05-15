@@ -9,7 +9,7 @@ Utilizzo Brave sia a casa (PC e cellulare) che al lavoro ormai da cinque mesi, q
 
 La mia esperienza finora è davvero molto positiva, nessun Browser prima d'ora era riuscito a staccarmi da Firefox, che tra l'altro negli ultimi anni è [migliorato moltissimo](https://www.punto-informatico.it/firefox-48-finalmente-electrolysis/ "miglioramento firefox")!
 
-Prima di cominciare con la "recensione" partiamo con qualche cenno sulla _mission_ e sul team di talento che sta dietro al progetto.
+Prima di cominciare con la "recensione" partiamo con qualche cenno sulla _mission_ e sul team di talento che porta avanti il progetto.
 
 L'obiettivo di brave è descritto benissimo sulla pagina principale:
 
