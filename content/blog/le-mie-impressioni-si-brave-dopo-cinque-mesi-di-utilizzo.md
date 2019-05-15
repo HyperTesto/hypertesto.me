@@ -52,7 +52,7 @@ Il mio passaggio da Firefox e stato totalmente indolore, ci ho messo un paio di 
 
 La qualità del software migliora di giorno in giorno, certo con qualche piccolo inciampo, ma non è facile fare un browser in grado di battere i due grandi player del settore.
 
-Anche se non siete interessati ad aspetti tecnici, vi consiglio di [scaricarlo](https://www.hypertesto.me/images/brave_referal.png "scaricare brave") poiché rispetto ai competitor ha attive di default una serie di tecnologie che vi renderanno la vita migliore.
+Anche se non siete interessati ad aspetti tecnici, vi consiglio di [scaricarlo](https://www.hypertesto.me/images/brave_referal.png "scaricare brave") poiché rispetto ai competitor ha attive di default una serie di tecnologie che, secondo me, vi renderanno la vita migliore.
 
 Brave è in missione per cercare di rendere il WEB un pochino migliore; io scommetto che la strada intrapresa è quella giusta! 
 
