@@ -1,0 +1,9 @@
+_id: 1d672e70-7c75-11e9-96f0-5d7a6b5b439d
+honeypot: ''
+permalink: /blog/script-eliminazione-di-tutte-le-tabelle-db/
+parent_id: ''
+content: "Ummm gli amministratori di database, MySQL in particolare, vedono il parametro -p sulla linea di comando come fumo negli occhi :)\r\nMeglio levarlo: tanto il ti verrebbe chiesta in automatico in sua assenza e soprattutto cosi non lasci traccia nel file history della password!!"
+author: Joe Curto
+email: e2821cd884004d6bf1c522da7c34252c
+site: 'http://bal.bal.com'
+date: 1558517806231
