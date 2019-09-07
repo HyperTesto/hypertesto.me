@@ -12,6 +12,7 @@ fields:
   name: cover
   label: cover
 pages:
+- content/page/scrivo-anche.md
 - content/blog/finalmente-un-alternativa-comoda-a-disqus.md
 - content/blog/le-mie-impressioni-si-brave-dopo-cinque-mesi-di-utilizzo.md
 - content/blog/le-cinque-cose-che-faccio-immediatamente-dopo-aver-installato-linux-mint.md
