@@ -1,9 +1,12 @@
-+++
-cover = ""
-date = ""
-title = "Scrivo anche su..."
+---
+title: Scrivo anche su...
+date: 2017-11-19 15:47:32 +0000
+weight: -211
+menu:
+  main:
+    weight: -211
+---
 
-+++
 Nel tempo libero non scrivo solo su questo blog, ma provo e riposto o creo i miei contenuti anche su altre piattaforme:
 
 * [Publish0x](https://www.publish0x.com/?a=4QbY5LWbzq?a=4QbY5LWbzq&tid=blog "Publish0x")
