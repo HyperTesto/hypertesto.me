@@ -1,15 +1,14 @@
 +++
 cover = ""
 date = ""
-draft = true
-title = "Scrivo anche..."
+title = "Scrivo anche su..."
 
 +++
 Nel tempo libero non scrivo solo su questo blog, ma provo e riposto o creo i miei contenuti anche su altre piattaforme:
 
 * [Publish0x](https://www.publish0x.com/?a=4QbY5LWbzq?a=4QbY5LWbzq&tid=blog "Publish0x")
 * [HashNode](https://hypertesto.hashnode.dev/ "HashNode")
-* [Decentium](https://decentium.org/4a3bjk4pru31/some-notes-f4 "Decentium")
+* [Decentium](https://decentium.org/4a3bjk4pru31/ "Decentium")
 
 Questa una lista (incompleta) dei contenuti sparsi in giro:
 
