@@ -1,18 +1,18 @@
 comments:
-  allowedFields: ["author", "email", "parent_id", "site", "content", "permalink"]
-  branch: "master"
+  allowedFields: ['author', 'content', 'email', 'parent_id', 'permalink', 'site']
+  branch: 'master'
   commitMessage: "add [comment]: by {fields.author} <Staticman>\n\n{fields.permalink}#comment-{@id}"
-  filename: "{@id}"
-  format: "yaml"
+  filename: '{@id}'
+  format: 'yaml'
   generatedFields:
     date:
       type: date
       options:
-        format: "timestamp"
-  moderation: true
-  name: "www.hypertesto.me"
-  path: "data/comments/{options.postId}"
-  requiredFields: ["author", "email", "content", "permalink"]
+        format: 'timestamp'
+  moderation: false
+  name: 'www.hypertesto.me'
+  path: 'data/comments/{options.postId}'
+  requiredFields: ['author', 'content', 'email', 'permalink']
   reCaptcha:
     enabled: true
     siteKey: '6Lf2K9EUAAAAAM0aZ-cBztZl9P793s1i5fO985Dp'
