@@ -12,6 +12,6 @@ comments:
   moderation: true
   name: "HyperTesto"
   path: "data/comments/{options.postId}"
-  requiredFields: ["author", "email", "author", "permalink"]
+  requiredFields: ["author", "email", "content", "permalink"]
   transforms:
     email: md5
