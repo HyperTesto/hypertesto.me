@@ -119,8 +119,8 @@ enable = true
 enable = true
 apiEndpoint = "https://api.staticman.net/v2/entry"
 maxDepth = 2
-
-[params.comments.staticman.github]
 username = "HyperTesto"
 repository = "hypertesto.me"
-branch = "master"
+
+#[params.comments.staticman.github]
+#branch = "master"
