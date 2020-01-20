@@ -1,5 +1,5 @@
 comments:
-  allowedFields: ["author", "email", "site", "content", "permalink"]
+  allowedFields: ["author", "email", "parent_id", "site", "content", "permalink"]
   branch: "master"
   commitMessage: "add [comment]: by {fields.author} <Staticman>\n\n{fields.permalink}#comment-{@id}"
   filename: "{@id}"
@@ -10,8 +10,12 @@ comments:
       options:
         format: "timestamp"
   moderation: true
-  name: "HyperTesto"
+  name: "www.hypertesto.me"
   path: "data/comments/{options.postId}"
   requiredFields: ["author", "email", "content", "permalink"]
+  reCaptcha:
+    enabled: true
+    siteKey: '6LdaKtEUAAAAAGL1ovpzt07OOwhpGLqnu_h3tcxt'
+    secret: '6LdaKtEUAAAAAHS2bIeKAKEftP83Xpnrlvc5O0GG'
   transforms:
     email: md5
