@@ -20,7 +20,7 @@ pygmentsCodefences = true
 defaultContentLanguage = "it"
 
 [params.info]
-description = "Mad programmer @work!"
+description = "Se una cosa sembra troppo semplice, si fa sempre a tempo a renderla più complicata!"
 title404 = "Nothing's here!"
 
 [params.assets]
