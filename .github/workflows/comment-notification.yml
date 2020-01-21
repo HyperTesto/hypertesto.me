@@ -4,9 +4,9 @@ on:
     branches:
     - master
     # file paths to consider in the event. Optional; defaults to all.
-    paths:
-    - "data/comments/*"
-    - "data/comments/**"
+    #paths:
+    #- "data/comments/*"
+    #- "data/comments/**"
 jobs:
 
   build:
