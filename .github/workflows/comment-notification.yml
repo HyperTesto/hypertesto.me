@@ -2,10 +2,11 @@ name: telegram message
 on:
   push:
     branches:
-      - master
+    - master
     # file paths to consider in the event. Optional; defaults to all.
     paths:
-      - 'data/comments/**'
+    - "data/comments/*"
+    - "data/comments/**"
 jobs:
 
   build:
