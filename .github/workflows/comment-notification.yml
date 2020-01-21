@@ -1,14 +1,10 @@
 name: telegram message
 on:
   push:
-    branches:
-    - master
-    # file paths to consider in the event. Optional; defaults to all.
-    #paths:
-    #- "data/comments/*"
-    #- "data/comments/**"
-jobs:
+    paths:
+    - 'data/comments/**'
 
+jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
