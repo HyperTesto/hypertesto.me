@@ -19,4 +19,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: Hai un nuovo commento sul blog! (commit ${{ commit.sha }})
+        message: Hai un nuovo commento sul blog!
