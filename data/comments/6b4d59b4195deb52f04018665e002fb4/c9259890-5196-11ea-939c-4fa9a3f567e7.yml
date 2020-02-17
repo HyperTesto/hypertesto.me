@@ -1,0 +1,9 @@
+_id: c9259890-5196-11ea-939c-4fa9a3f567e7
+honeypot: ''
+permalink: /blog/il-mio-primo-test-su-strada-con-svt-av1/
+parent_id: df2b1930-3f62-11ea-a7cd-9132564666f6
+content: "Ciao!\r\n\r\nLa qualità video nel mio caso non era male ma presentava degli artefatti dovuti penso a dei bug sia nella parte di encode che di decode. Non ho fatto verifiche approfondite ma ho semplicemente comparato ad occhio i due video per verificare la presenza di difetti evidenti.\r\n\r\nPer quel che riguarda analisi della qualità più oggettive so che vengono usati SSIM e PSNR ma non ne conosco i dettagli tecnici.\r\n\r\nPer novità e altro su AV1 io seguo questo blog: https://www.singhkays.com/ se ti può interessare."
+author: Enrico
+email: a3d80b093e05b648fae26261e86d0496
+site: ''
+date: 1581951865738
