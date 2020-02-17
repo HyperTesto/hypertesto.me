@@ -1,12 +1,10 @@
 name: telegram message
-on:
-  push:
-    paths:
-    - 'data/comments/**'
+on: push
 
 jobs:
   build:
     name: Build
+    if: startsWith( github.event.commits[0].message , 'add [comment]')
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
