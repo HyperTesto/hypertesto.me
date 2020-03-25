@@ -117,7 +117,7 @@ enable = true
 
 [params.comments.staticman]
 enable = true
-apiEndpoint = "https://hyper-staticman.herokuapp.com/v3/entry/github/"
+apiEndpoint = "https://hyper-staticman.herokuapp.com/v2/entry"
 maxDepth = 2
 username = "HyperTesto"
 repository = "hypertesto.me"
