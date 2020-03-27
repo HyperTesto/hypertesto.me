@@ -1,7 +1,6 @@
 +++
 cover = ""
 date = 2020-03-27T20:00:00Z
-draft = true
 title = "Post muto"
 
 +++
