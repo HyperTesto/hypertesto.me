@@ -23,7 +23,7 @@ Ecco cosa sto facendo in queste settimane in ordine sparso:
 
 L'altro giorno in un condominio vicino, dai balconi qualcuno ha fatto una cover di Tiziano *Ferro* (però non ricordo la canzone esatta)... perciò mi sono detto: «Enrico, qua ci serve più *metal* per uscirne indenni!» (Ferro --> metal... 😉😇)
 
-Quindi eccomi qui davanti al PC a preparare una playlist e a scrivere l'introduzione di questa serie. L'idea è semplice, in ogni episodio :
+Quindi eccomi qui davanti al PC a preparare una playlist e a scrivere l'introduzione di questa serie. L'idea è semplice, in ogni episodio condividerò:
 * Una canzone che poi aggiungerò a [questa playlist](https://spoti.fi/3apGc1X)
 * La citazione di un libro che sto leggendo o ho letto in questo periodo
 
