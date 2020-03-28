@@ -3,7 +3,7 @@ title: Chiuso in casa
 menu: main
 weight: -230
 ---
-*Chiuso in casa* è una serie ad episodi per ingannare il tempo visto che, ahimé,
+*Chiuso in casa* è una serie a episodi per ingannare il tempo visto che, ahimé,
 non ho contatti umani da un bel po' e devo ingannare il tempo in qualche modo :-)
 
 Servirà anche come capsula del tempo quando dovrò raccontare tutta questa brutta faccenda alla mia progenie:
