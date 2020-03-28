@@ -1,12 +1,13 @@
 ---
-title: "Chiuso in casa - Episodio #0"
-date: 2020-03-28T20:41:19+01:00
-draft: false
+title: 'Chiuso in casa - Episodio #0'
+date: 2020-03-28T19:41:19.000+00:00
 categories:
-  - chiuso in casa
+- chiuso in casa
 tags:
-  - swag
-  - covid-19
+- swag
+- covid-19
+- "#iorestoacasa"
+
 ---
 Eccoci qui al primo episodio, che è il numero zero e non l'uno perchè noi informatici abbiamo le nostre *deformazioni professionali*.
 
