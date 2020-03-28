@@ -6,7 +6,7 @@ categories:
 tags:
 - swag
 - covid-19
-- "#iorestoacasa"
+- iorestoacasa
 
 ---
 Eccoci qui al primo episodio, che è il numero zero e non l'uno perchè noi informatici abbiamo le nostre _deformazioni professionali_.
