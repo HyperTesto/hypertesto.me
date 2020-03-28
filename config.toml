@@ -37,8 +37,8 @@ suffix = ""
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
-dateFormat = "Jan 02 2006"
-listDateFormat = "Jan 02 2006"
+dateFormat = "Monday, January 2, 2006"
+listDateFormat = "02/01/2006"
 hideEntryNavigation = ["page"] # boolean / array of sections
 hideSocialMenu = false
 showReadingTime = true
