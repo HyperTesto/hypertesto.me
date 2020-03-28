@@ -8,7 +8,7 @@ non ho contatti umani da un bel po' e devo ingannare il tempo in qualche modo :-
 
 Servirà anche come capsula del tempo quando dovrò raccontare tutta questa brutta faccenda alla mia progenie:
 > Bimbo: «Ma cosa facevi quando eri chiuso in casa?»  
-> Io: «[Cose](https://www.hypertesto.me/blog/post-muto/)»
+> Io: «[Cose](/blog/post-muto/)»
 
 
 Ecco cosa sto facendo in queste settimane in ordine sparso:
