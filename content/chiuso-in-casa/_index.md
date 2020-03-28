@@ -21,6 +21,8 @@ Ecco cosa sto facendo in queste settimane in ordine sparso:
 * Leggo
 * Gioco, con moderazione, a Dota
 
+## L'idea
+
 L'altro giorno in un condominio vicino, dai balconi qualcuno ha fatto una cover di Tiziano *Ferro* (però non ricordo la canzone esatta)... perciò mi sono detto: «Enrico, qua ci serve più *metal* per uscirne indenni!» (Ferro --> metal... 😉😇)
 
 Quindi eccomi qui davanti al PC a preparare una playlist e a scrivere l'introduzione di questa serie. L'idea è semplice, in ogni episodio condividerò:
