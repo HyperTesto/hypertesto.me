@@ -9,10 +9,9 @@ tags:
 - "#iorestoacasa"
 
 ---
-Eccoci qui al primo episodio, che è il numero zero e non l'uno perchè noi informatici abbiamo le nostre *deformazioni professionali*.
+Eccoci qui al primo episodio, che è il numero zero e non l'uno perchè noi informatici abbiamo le nostre _deformazioni professionali_.
 
 Ho appena terminato di scrivere l'introduzione della serie e di predisporre le prime nove canzoni che fungeranno da base per la [playlist](https://spoti.fi/3apGc1X).
-
 
 ### La canzone del giorno
 
@@ -25,20 +24,21 @@ Questa è l’ottava e ultima traccia del nono album dei Black Sabbath, Heaven a
 Cos'altro aggiungere... canzone adatta per i chiusi in casa!
 
 ### La citazione del giorno
-La citazione del giorno è tratta da **"I grandi classici riveduti e scorretti"**[^0].  
 
-Il grande classico riveduto e scorretto in questione è *La divina commedia*, credo che qui non ci sia bisogno di un'introduzione, giusto?  
+La citazione del giorno è tratta da **"I grandi classici riveduti e scorretti"**\[^0\].
+
+Il grande classico riveduto e scorretto in questione è _La divina commedia_, credo che qui non ci sia bisogno di un'introduzione, giusto?
 
 Dante si trova nel sesto cerchio, tra gli eretici, e incontra [Farinata](https://it.wikipedia.org/wiki/Farinata_degli_Uberti), che non riconoscendolo gli chiede di chi è figlio. Quando gli rivela che è un Alighieri, il buon Farinata si compiace poichè aveva fatto cacciare gli Alighieri da Firenze...
 
-> Dante allora gli rivela che dopo la morte di Farinata, anche tutta la sua famiglia ha seguito lo stesso destino, con la piccola differenza che gli Alighieri sono tornati a Firenze e i Farinata no. Dante droppa il microfono[^1], tutte le anime esclamano un «OOOOH». *Thug life*. Farinata è zittito. 1-0.
+> Dante allora gli rivela che dopo la morte di Farinata, anche tutta la sua famiglia ha seguito lo stesso destino, con la piccola differenza che gli Alighieri sono tornati a Firenze e i Farinata no. Dante droppa il microfono\[^1\], tutte le anime esclamano un «OOOOH». _Thug life_. Farinata è zittito. 1-0.
 
 Penso di aver riso almeno dieci minuti.
 
 E il primo episodio è andato!  
-Se l'episodio vi è piaciuto potete lasciare un commento qua sotto 👇, o ascoltare la [paylist su Spotify](https://spoti.fi/3apGc1X).
+Se l'episodio vi è piaciuto potete lasciare un commento qua sotto 👇, o ascoltare la [playlist su Spotify](https://spoti.fi/3apGc1X).
 
 A domani 👋
 
-[^0]: Forse trovate ancora l'eBook su [Amazon](https://www.amazon.it/dp/B07HC33MX9/) a 2.99€ tra le offerte del mese.
-[^1]: Per chi non conosce l'episodio a cui si allude: https://bit.ly/2UoZYFc
+\[^0\]: Forse trovate ancora l'eBook su [Amazon](https://www.amazon.it/dp/B07HC33MX9/) a 2.99€ tra le offerte del mese.
+\[^1\]: Per chi non conosce l'episodio a cui si allude: https://bit.ly/2UoZYFc
