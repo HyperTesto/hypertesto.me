@@ -1,7 +1,7 @@
 ---
 title: "Chiuso in casa - Episodio #1"
 date: 2020-03-29T12:49:38+02:00
-draft: false
+cover: /images/chiuso-in-casa/cover_ep01.jpg
 categories:
 - chiuso in casa
 tags:
