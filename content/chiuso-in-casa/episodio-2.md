@@ -40,7 +40,7 @@ nano che insegna incantesimi, e il professor Raptor, timido e balbettante, che i
 Difesa contro arti oscure. Che è un po' come affidare a Sgarbi la cattedra di diplomazia
 internazionale.
 
-Io ce lo vedo bene in aula a lanciare il suo caratteristico incantesimo di trasmutazione ⚡ **CAPRA!!** ⚡
+Io ce lo vedo bene in aula a lanciare il suo famigerato incantesimo di trasmutazione ⚡ **CAPRA!!** ⚡
 agli studenti che non hanno studiato per l'interrogazione.
 
 E anche oggi ce l'abbiamo fatta, a domani con il prossimo episodio!
