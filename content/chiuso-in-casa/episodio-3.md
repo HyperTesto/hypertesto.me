@@ -38,7 +38,7 @@ in modo magistrale il mestiere di ritrattista:
 con i ritocchini. Pensate che Leopardi, rispetto alla realtà, nei ritratti sembrava
 Marlon Brando.
 
-Eh niente, non ce la faccio a non ridere 😂😂.
+E niente, non ce la faccio a non ridere 😂😂.
 
 Anche per oggi è tutto, a domani con le citazioni da un nuovo libro!  
 Come sempre vi invito lasciare un commento qua sotto 👇, o ascoltare la [playlist su Spotify](https://spoti.fi/3apGc1X).  
