@@ -28,7 +28,7 @@ Ultima citazione tratta da _I grandi classici riveduti e scorretti_.
 Siamo nell'Inghilterra di metà Ottocento, con **Il ritratto di Dorian Gray**: sappiamo che
 il protagonista era un tantino narcisista e che durante lo sviluppo della storia ne
 ha combinate un po' di tutti i colori... delle innocue bravate 👼.  
-OK, forse non proprio innocue: sarà capitato anche a voi di ammazzare un amico mentre
+OK, forse non proprio innocue; ma sarà capitato anche a voi di ammazzare un amico mentre
 gli fate vedere la vostra collezione di carte Pokemon... no?  
 
 Comunque, la storia ruota fondamentalmente attorno ad un quadro, e gli autori introducono
