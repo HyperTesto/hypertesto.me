@@ -10,8 +10,8 @@ tags:
 - iorestoacasa
 ---
 Salve a tutti!
-Oggi, per festeggiare il 1 Aprile, e il fatto che sono chiuso in casa da quasi un mese,
-le canzoni condivise saranno due.  
+Oggi, per festeggiare il primo giorno di Aprile, e il fatto che sono chiuso in
+casa da quasi un mese, le canzoni condivise saranno due! 
 
 Le canzoni, udite udite, saranno di un gruppo _ITALIANO_. 😲😲😨😨.  
 Non ve lo aspettavate, eh?
