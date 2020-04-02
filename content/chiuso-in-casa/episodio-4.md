@@ -11,7 +11,7 @@ tags:
 ---
 Salve a tutti!
 Oggi, per festeggiare il primo giorno di Aprile, e il fatto che sono chiuso in
-casa da quasi un mese, le canzoni condivise saranno due! 
+casa da quasi un mese, le canzoni condivise saranno due!
 
 Le canzoni, udite udite, saranno di un gruppo _ITALIANO_. 😲😲😨😨.  
 Non ve lo aspettavate, eh?
@@ -83,7 +83,7 @@ Preparatevi al peggio, vi garantisco che non abbiamo ancora visto niente dei nos
 antenati ebbri. "_El vìn bòn_" scorrerà a fiumi.
 
 Se la gradazione alcolica di questo episodio vi è piaciuta, lasciate un commento qua sotto 👇,
-o ascoltare la [playlist su Spotify](https://spoti.fi/3apGc1X).  
+o ascoltate la [playlist su Spotify](https://spoti.fi/3apGc1X).  
 
 [^0]: https://www.independent.co.uk/news/people/obituary-andy-stewart-1510366.html
 [^1]: E lascio anche spazio a facili battute sugli asiatici. Che birbante!

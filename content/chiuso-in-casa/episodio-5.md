@@ -70,7 +70,7 @@ Anche per oggi è tutto!
 A domani! 👋
 
 Se la gradazione alcolica di questo episodio vi è piaciuta, lasciate un commento qua sotto 👇,
-o ascoltare la [playlist su Spotify](https://spoti.fi/3apGc1X).  
+o ascoltate la [playlist su Spotify](https://spoti.fi/3apGc1X).  
 
 [^0]: «E vosto no beve?» [cit.]
 [^1]: Sempre la dea della sveltina 😉
