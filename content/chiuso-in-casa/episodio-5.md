@@ -29,7 +29,7 @@ parlava dei Sumeri?
 Bel posto la Mesopotamia, vero? Terra fertile, aria buona... e a quanto pare
 anche la birra!  
 Come facciamo a saperlo? Grossomodo, è uno dei primi argomenti di cui
-si è cominciato a scrivere dopo l'invenzione della scrittura del quarto millennio a.C.
+si è cominciato a scrivere dopo l'invenzione della scrittura.
 Non avendo ancora a disposizione la moneta, quello che potremmo definire come uno
 scontrino **non** fiscale primitivo, consisteva in una nota in cui si indicava
 un generico "pagherò".
