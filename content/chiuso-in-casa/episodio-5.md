@@ -19,6 +19,7 @@ La canzone che vi propongo oggi è:
 
 La canzone è la sesta dell'album Atoma, uscito nel 2016. Questo è uno dei pochi
 album dove non ho una preferenza marcata per una canzone in particolare.
+
 Come direbbe una persona che conosco: «Un album onesto».
 
 ### Citazione del giorno
