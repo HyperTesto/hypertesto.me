@@ -25,7 +25,7 @@ Come direbbe una persona che conosco: «Un album onesto».
 ### Citazione del giorno
 Oggi si procede sempre con **La breve storia dell'ubriachezza**.
 
-Vi ricordate a scuola quando la maestra vi faceva colore la mezzaluna fertile e vi
+Vi ricordate a scuola quando la maestra vi faceva colorare la mezzaluna fertile e vi
 parlava dei Sumeri?
 Bel posto la Mesopotamia, vero? Terra fertile, aria buona... e a quanto pare
 anche la birra!  
