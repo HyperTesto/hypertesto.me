@@ -86,9 +86,9 @@ Ma torniamo a noi: la cerimonia non era ancora finita del tutto, se non avevi vo
 l'anima[^1]. Notare che la cosa poteva avvenire prima, durante o dopo l'atto sessuale.
 Insomma, una declinazione piuttosto originale del famoso detto "_l'importante è schizzare_".
 
-A questo punto, tutti si concedevano in bel pisolino ed entravano in azione i pochi rimasti sobri,
-che dovevano portare la statua della dea in un'altra stanza e
-ai primi bagliori dell'alba dovevano svegliare tutti quanti **A SUON DI TAMBURI**.  
+A questo punto, tutti si concedevano un bel pisolino ed entravano in azione i pochi rimasti sobri,
+che dovevano portare la statua della dea in un'altra stanza e,
+ai primi bagliori dell'alba, dovevano svegliare tutti quanti **A SUON DI TAMBURI**.  
 A quanto pare oltre che ad essere moooolto disinibiti, erano anche dei sadici.
 
 
