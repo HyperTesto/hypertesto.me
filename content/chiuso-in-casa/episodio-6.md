@@ -75,7 +75,7 @@ cominciava il vero festone.
 Venivano distribuiti fiumi di birra e vino. E giusto qualche snack per non appesantire troppo
 lo stomaco... l'idea di fondo è che si dovevano ubriacare di brutto.
 Poi quando erano tutti marci, il sacerdote ordinava loro di fare del sano bunga bunga.
-Sì, avete capito bene, un'orgia da Guinnes World Record, per di più ricorrente!
+Sì, avete capito bene: un'orgia da Guinnes World Record, per di più ricorrente!
 
 Succedeva che molte donne rimanessero incinte, ma per loro era un vanto. Bisognava
 quindi trovare un nome appropriato ad un pargolo di così straordinaria origine, ma si sa,
