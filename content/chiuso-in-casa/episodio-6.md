@@ -61,7 +61,7 @@ Quando si risvegliò, aveva dimenticato la sua missione originale.
 ...senza parole...
 
 
-Quindi, immaginate si essere degli egiziani vissuti qualche migliaio di anni fa,
+Quindi, immaginate di essere degli egiziani vissuti qualche migliaio di anni fa,
 e di dover festeggiare in qualche modo questo straordinario avvenimento.
 Come lo fate? Bevendo, ovviamente.
 
