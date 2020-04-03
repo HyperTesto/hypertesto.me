@@ -80,7 +80,7 @@ Sì, avete capito bene: un'orgia da Guinnes World Record, per di più ricorrente
 Succedeva che molte donne rimanessero incinte, ma per loro era un vanto. Bisognava
 quindi trovare un nome appropriato ad un pargolo di così straordinaria origine, ma si sa,
 con la bocca impastata è difficile pronunciare bene il nome in ufficio anagrafe...
-esistono quind iindividui che rispondono al pronunciabilissimo nome _Kenherkhepeshef_[^0]
+esistono quindi individui che rispondono al pronunciabilissimo nome di _Kenherkhepeshef_[^0]
 
 Ma torniamo a noi: la cerimonia non era ancora finita del tutto, se non avevi vomitato
 l'anima[^1]. Notare che la cosa poteva avvenire prima, durante o dopo l'atto sessuale.
