@@ -66,9 +66,9 @@ e di dover festeggiare in qualche modo questo straordinario avvenimento.
 Come lo fate? Bevendo, ovviamente.
 
 Si cominciava al tramonto: i fedeli si riunivano tutti belli lustri e profumati, e
-aspettavano l'arrivo della chiatta cerimoniale. A quel punto facevano un po' rumore
+aspettavano l'arrivo della chiatta cerimoniale. A quel punto facevano un po' di rumore
 con i tamburi e partiva una sorta di rappresentazione della storia della dea Hator.
-Seguiva poi la percussione delle palle (no, non quelle): il faraone faceva una cosa
+Seguiva poi la _percussione delle palle_ (no, non quelle): il faraone faceva una cosa
 che ricordava molto il golf, con queste sfere di terracotta. Poi, signori e signore,
 cominciava il vero festone.
 
