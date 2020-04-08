@@ -14,7 +14,7 @@ Caspita siamo a dieci episodi! (per chi non ha ancora letto gli episodi preceden
     la conta parte da zero, come è giusto che sia).
 
 ### Canzone del giorno
-La canzone che vi porto oggi è del 1984:
+La canzone che vi porto oggi è del 1973:
 
 > **Nutbush city limits**, Ike & Tina Turner
 
