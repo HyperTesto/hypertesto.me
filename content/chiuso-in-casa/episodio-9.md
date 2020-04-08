@@ -16,7 +16,7 @@ Caspita siamo a dieci episodi! (per chi non ha ancora letto gli episodi preceden
 ### Canzone del giorno
 La canzone che vi porto oggi è del 1984:
 
-> **Nightbush city limits**, Ike & Tina Turner
+> **Nutbush city limits**, Ike & Tina Turner
 
 Dovevamo dare anche qualche tocco femminile alla playlist, ma questo brano serve solo
 a prepararvi a ciò che ho in serbo per voi nei prossimi episodi.  
