@@ -23,10 +23,9 @@ a prepararvi a ciò che ho in serbo per voi nei prossimi episodi.
 Il filo conduttore sarà "_anche le donne rock e metal spaccano i culi!_ "[^0]
 
 
-### Citazione del giorno
-E si continua anche con la **Breve storia dell'ubriachezza**.  
+### Citazione del giorno  
 Oggi, carissimi amici[^1], ci spostiamo di continente e approdiamo nelle Americhe
-precolombiane.
+precolombiane per continuare il nostro viaggio nella **Breve storia dell'ubriachezza**.  
 
 Avete presente _Apocalypto_ di Mel Gibson? Ecco, se lo avete visto ricorderete sicuramente
 con dovizia di dettagli che i Maya erano un tantino assetati di sangue. Se non lo avete
@@ -78,7 +77,8 @@ settimana è. E quando i gesuiti finirono il lavoro, questa vitale conoscenza er
 ormai perduta.
 
 Giustamente! Se la sbronza comincia il venerdì sera e la mattina dopo sono tutti
-ancora talmente distrutti da non ricordare che giorno è, nel dubbio e meglio bere!
+ancora talmente distrutti da non ricordare che giorno è, nel dubbio e meglio bere...
+non sia mai che si manchi di rispetto a qualche divinità!
 
 ![you cant](https://gifimage.net/wp-content/uploads/2018/11/you-cant-gif-2.gif)
 
