@@ -100,7 +100,7 @@ url = "https://github.com/HyperTesto/hypertesto.me"
 name = "Feed"
 weight = 1000
 identifier = "feed"
-url = "https://www.hypertesto.me/index.xml"
+url = "/index.xml"
 
 [blackfriday]
 hrefTargetBlank = true
