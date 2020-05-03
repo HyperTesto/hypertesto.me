@@ -96,11 +96,11 @@ weight = 100
 identifier = "repository"
 url = "https://github.com/HyperTesto/hypertesto.me"
 
-[[menu.main]]
-name = "Feed"
-weight = 1000
-identifier = "feed"
-url = "/index.xml"
+#[[menu.main]]
+#name = "Feed"
+#weight = 1000
+#identifier = "feed"
+#url = "/index.xml"
 
 [blackfriday]
 hrefTargetBlank = true
