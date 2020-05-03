@@ -1,8 +1,13 @@
 ---
-title: Guida Galattica per Hughisti Parte 2
+title: Guida Galattica per Hughisti - Parte 2
 date: 2019-05-12T14:17:09.000+00:00
-cover: "/images/guida_galattica_cover_2.png"
-
+cover: "/images/ggph/ggph_cover_02.png"
+categories:
+- guida galattica per hughisti
+tags:
+- guide
+- hugo
+- ssg
 ---
 Ciao, questa è la seconda parte della mia **guida galattica per Hughisti**!
 
