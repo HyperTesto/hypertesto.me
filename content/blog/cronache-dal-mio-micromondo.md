@@ -23,7 +23,7 @@ Negli ultimi 60 giorni ogni uscita è stata ~~una gran rottura di balle~~ un'avv
     * **Il buco**: un film particolare e da immagini e tema molto forti. Sconsigliato ai deboli di stomaco.
     * **Kengan Ashura**: la trama è praticamente assente, non mi piacciono i disegni, però in compenso menano peggio che in Tekken
     * Come bonus mi sto rivedendo **Black Lagoon**: assieme a GTO è l'anime che ho rivisto di più... vi dico solo che ci sono le suore mafiose che accolgono i fedeli a fucilate. E qui mi fermo, non voglio fare spoiler.
-* **Ho fatto un'assistenza remota per aiutare un amico ad attivare la Premium offerta da PornHub**[^B]
+* **Ho fatto un'assistenza remota per aiutare un amico ad attivare la premium offerta da PornHub**[^B]
 * Ho sfruttato a mia volta la premium offerta da PornHub per i miei momenti di "introspezione"
 * Ho ricominciato a usare Twitter
 * Ho ricevuto il badge "Fan più attivo" sulla [pagina FB di Legolize](https://www.facebook.com/legolizeofficial). Adesso però l'ho perso, è stato breve ma intenso.
@@ -40,7 +40,7 @@ Sono uscito di casa sei volte:
 Pensate, ho scoperto che mi bastava attraversare la strada per andare dal fruttivendolo...
 quattro anni mi ci sono voluti per accorgermene![^0]
 
-Comunque in totale ho collezionato ben due ore d'aria, quasi il mio limite fisico di sopportazione. Tre ore non le avrei sicuramente rette!
+Comunque in totale ho collezionato ben due ore d'aria, quasi il mio limite fisico di sopportazione. Tre ore non le avrei sicuramente rette! 😂
 
 ### Sport
 Nonostante tutto, sono riuscito a continuare con il mio programma di allenamento a corpo libero. Adesso posso sfoggiare il mio fisco statuario e dal pallore nobiliare affacciandomi dal balcone per sfidare con fare minaccioso tutti i passanti non muniti di autocertificazione.
@@ -122,8 +122,10 @@ Ed ecco in fine l'elenco ci cose che mi sono segnato di fare durante gli ultimi 
 
 Il lockdown sicuramente mi ha spronato a riprendere a scrivere, sicuramente il 2020 sarà più proficuo del 2019!
 
+Ci si legge prossimamamente, buona fase due.
+
 [^B]:  Adesso sono un uomo completo
 
-[^A]: A mio modesto parere, l'interpretazione di Edgar Poe, l'intelligenza artificale che diventa gradualmente "umana" è magistrale.
+[^A]: A mio modesto parere, Edgar Poe, l'intelligenza artificale che diventa gradualmente "umana" é di una delicatezza immensa.
 [^0]: A mia discolpa, il fruttivendolo non si trova sulla traiettoria casa-ufficio. Ed è anche dal lato sbagliato della strada.
 [^1]: Venerdì 24 Aprile: mi collego in remote desktop sul mio laptop in ufficio e quel mattacchione di AnyDesk per qualche motivo continua ad attivare il microfono della macchina remota. **Sento trapanare**. Le bestemmie.
