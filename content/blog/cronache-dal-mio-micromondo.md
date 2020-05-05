@@ -9,7 +9,7 @@ tags:
   - quarantena
   - swag
 ---
-Questo venerdì, se governo e regioni non cambiano idea, riuscirò finalmente a tornare a casa dopo due mesi di clausura. Quindi ho deciso di fare una piccola restrospettiva di questo ultimo periodo.
+Questo venerdì, se governo e regioni non cambiano idea, riuscirò finalmente a tornare a casa dopo due mesi di clausura. Quindi ho deciso di fare una piccola retrospettiva di questo ultimo periodo.
 
 ## Come me la passo?
 Negli ultimi 60 giorni ogni uscita è stata ~~una gran rottura di balle~~ un'avventura:
@@ -128,6 +128,6 @@ Ci si legge prossimamente, buona fase due.
 
 [^B]:  Adesso sono un uomo completo
 
-[^A]: A mio modesto parere, Edgar Poe, l'intelligenza artificale che diventa gradualmente "umana" é di una delicatezza immensa.
+[^A]: A mio modesto parere, Edgar Poe, l'intelligenza artificiale che diventa gradualmente "umana" é di una delicatezza immensa.
 [^0]: A mia discolpa, il fruttivendolo non si trova sulla traiettoria casa-ufficio. Ed è anche dal lato sbagliato della strada.
 [^1]: Venerdì 24 Aprile: mi collego in remote desktop sul mio laptop in ufficio e quel mattacchione di AnyDesk per qualche motivo continua ad attivare il microfono della macchina remota. **Sento trapanare**. Le bestemmie.
