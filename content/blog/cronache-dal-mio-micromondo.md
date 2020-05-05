@@ -18,7 +18,7 @@ Negli ultimi 60 giorni ogni uscita è stata ~~una gran rottura di balle~~ un'avv
 * Sono quasi rimasto senza internet
 * È mancata la corrente per ben 10 minuti
 * Ho riattivato l'abbonamento a Netflix e mi sono sparato nell'ordine:
-    * **La casa di carta** (terza stagione): su questo non credo ci sia bisogno di introduzioni
+    * **La casa di carta** (quarta parte): su questo non credo ci sia bisogno di introduzioni
     * **Altered carbon** (seconda stagione): se vi piacciono le storie distopiche e i film crudi questo fa al caso vostro.[^A]
     * **Il buco**: un film particolare e da immagini e tema molto forti. Sconsigliato ai deboli di stomaco.
     * **Kengan Ashura**: la trama è praticamente assente, non mi piacciono i disegni, però in compenso menano peggio che in Tekken
@@ -29,6 +29,7 @@ Negli ultimi 60 giorni ogni uscita è stata ~~una gran rottura di balle~~ un'avv
 * Ho ricevuto il badge "Fan più attivo" sulla [pagina FB di Legolize](https://www.facebook.com/legolizeofficial). Adesso però l'ho perso, è stato breve ma intenso.
 * Ho cominciato una serie di articoli non tecnici (Nel menù in alto "[Chiuso in casa](/chiuso-in-casa)")
 * Ho scritto un [articolo](/blog/post-muto) composto di sole GIF
+* A Pasqua ho mangiato una pastiera napoletana di contrabbando 😇.
 
 ### Uscite
 Sono uscito di casa sei volte:
@@ -80,6 +81,7 @@ Trovo doveroso ringraziare:
 
 **Menzioni speciali:**
 
+* M. che per la consegna della pastiera napoletana a domicilio.
 * Lo sconosciuto benefattore che ha sistemato il citofono; ti voglio bene.
 * Quelli del piano di sotto che hanno inchiodato quadri alle pareti per 15 giorni; mi mancava il cantiere perenne che ci dobbiamo subire in ufficio[^1].
 
