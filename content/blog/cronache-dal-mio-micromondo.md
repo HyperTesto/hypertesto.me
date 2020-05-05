@@ -54,7 +54,7 @@ Devo dire che ho accumulato un bel po' di chilometri:
 
 ### Lavoro
 
-Il lavoro procede in remoto senza grossi problemi e lavorare dal mio fisso che è molto più carrozzato del portatile azienzale ha i suoi lati positivi.
+Il lavoro procede in remoto senza grossi problemi e lavorare dal mio fisso che è molto più carrozzato del portatile aziendale ha i suoi lati positivi.
 
 Non mi sto trovando nemmeno troppo male con le riunioni fatte via telematica, bene o male ci ero già parzialmente abituato avendo fatto parecchie trasferte nei miei primi due anni di lavoro.  
 Comunque durante le riunioni non mancano i momenti di svago, anzi, tra epici *momenti WTF* e GIF sparate a tradimento, penso che farò una piccola raccolta con gli screenshot dei "*The best of*".
@@ -110,7 +110,7 @@ Qualcuno potrebbe già averlo notato, ma ho fatto un po' di modifiche al sito:
 
 ### Piani per le guide in corso e articoli futuri
 
-Ed ecco in fine l'elenco ci cose che mi sono segnato di fare durante gli ultimi mesi e che per un motivo o per l'altro non hanno ancora visto la luce:
+Ed ecco infine l'elenco ci cose che mi sono segnato di fare durante gli ultimi mesi e che per un motivo o per l'altro non hanno ancora visto la luce:
 
 1. Guida Galattica per Hughisti - Parte 3
 2. Guida Galattica per Hughisti - Parte 4
@@ -120,11 +120,11 @@ Ed ecco in fine l'elenco ci cose che mi sono segnato di fare durante gli ultimi 
 6. Installare e configurare Staticman con Docker (*user-generated content* per siti statici)
 7. La mia istanza privata di Staticman diventerà pubblica e a disposizione di tutti! Devo solo preparare una pagina dedicata con le istruzioni per l'uso.
 8. Configurare una rete punto-punto con PFsense in modalità VTI
-9. Keynote sui due corsi erogati in streamind da Extraordy
+9. Keynote sui due corsi erogati in streaming da Extraordy
 
 Il lockdown sicuramente mi ha spronato a riprendere a scrivere, sicuramente il 2020 sarà più proficuo del 2019!
 
-Ci si legge prossimamamente, buona fase due.
+Ci si legge prossimamente, buona fase due.
 
 [^B]:  Adesso sono un uomo completo
 
