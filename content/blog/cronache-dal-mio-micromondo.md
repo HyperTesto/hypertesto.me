@@ -81,7 +81,7 @@ Trovo doveroso ringraziare:
 
 **Menzioni speciali:**
 
-* M. che per la consegna della pastiera napoletana a domicilio.
+* M. per la consegna della pastiera napoletana a domicilio.
 * Lo sconosciuto benefattore che ha sistemato il citofono; ti voglio bene.
 * Quelli del piano di sotto che hanno inchiodato quadri alle pareti per 15 giorni; mi mancava il cantiere perenne che ci dobbiamo subire in ufficio[^1].
 
