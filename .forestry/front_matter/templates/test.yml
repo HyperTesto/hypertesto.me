@@ -13,8 +13,8 @@ fields:
   label: cover
 pages:
 - content/blog/finalmente-un-alternativa-comoda-a-disqus.md
-- content/blog/guida-galattica-per-hughisti-parte-2.md
 - content/blog/il-mio-primo-test-su-strada-con-svt-av1.md
 - content/blog/le-cinque-cose-che-faccio-immediatamente-dopo-aver-installato-linux-mint.md
 - content/blog/le-mie-impressioni-si-brave-dopo-cinque-mesi-di-utilizzo.md
 - content/blog/post-muto.md
+- content/blog/ripristinare-il-pannello-di-default-in-lubuntu-20.04.md
