@@ -12,6 +12,7 @@ fields:
   name: cover
   label: cover
 pages:
+- content/blog/come-far-funzionare-la-wireless-dell-hp-255-g6-su-lubuntu-20.04.md
 - content/blog/finalmente-un-alternativa-comoda-a-disqus.md
 - content/blog/il-mio-primo-test-su-strada-con-svt-av1.md
 - content/blog/le-cinque-cose-che-faccio-immediatamente-dopo-aver-installato-linux-mint.md
