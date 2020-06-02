@@ -11,7 +11,7 @@ Era da un po' che volevo provare a muovermi dal mio SO di riferimento che è Min
 
 ## Installazione
 
-L'installazione è filata liscia, è sempre il solito installer che siamo abituati ad usare su Ubuntu. 
+L'installazione è filata liscia, è sempre il solito installer che siamo abituati ad usare su Ubuntu.
 
 Non funzionava la wireless perciò sono dovuto ricorrere al buon vecchio cavetto ethernet per installare anche i pacchetti di lingua, driver e compagnia bella. (Il problema comunque non è la distro, seguirà un breve articolo su come sanare la situazione)
 
@@ -21,7 +21,13 @@ Funziona. Tutto è al suo posto ed è magnificamente consistente. Sono rimasto d
 
 Mi mancano alcune feature più avanzate che avevo in Cinnamon e MATE, ma per l'uso che faccio di questo PC (navigazione e un po' di di videoscrittura) .
 
-Infine... lo screensaver attivo di default è meraviglioso
+## Temi e gigiate varie
+
+Non ho dovuto mettere mano al tema. È scuro al punto giusto e non sento la necessità di passare ad una variante più scura ancora (cosa che invece faccio sempre su MATE).
+
+Le icone mi piacciono, 
+
+Infine... lo screensaver attivo di default è **meraviglioso**
 
 ## Software
 
@@ -29,12 +35,18 @@ Trattandosi di Ubuntu, il software preinstallato è adeguato. Se manca qualcosa,
 
 Vorrei comunque spendere qualche parola sui software con cui interagisco maggiormente.
 
-### Cattura schermata
-
 ### L'applet del network manager
 
-Mi fa cagare un po' meno di quello di MATE ma di più di quello di Cinnamon
+Mi fa cagare un po' meno di quello di MATE ma di più di quello di Cinnamon.
+
+All'inizio è stato un trauma: dal menù a tendina non trovato nulla per abilitare o disabilitare wifi e ethernet o per gestire i vari profili di connessione. Invece ho scoperto che sono tutti presenti e raggiungibili con click del tasto destro del mouse.
 
 ### FeatherPad
+
+### PCManFM-QT
+
+### QTerminal
+
+### Cattura schermata
 
 L'ho trovato lo scorso anno in occasione su Ebay. Con meno di 300€ mi sono portato a casa un portatile con un bel Ryzen, disco SSD e schermo Full HD
