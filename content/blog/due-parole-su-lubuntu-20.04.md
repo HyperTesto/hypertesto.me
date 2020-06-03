@@ -39,7 +39,7 @@ Vorrei comunque spendere qualche parola sui software con cui interagisco maggior
 
 All'inizio è stato un trauma: dal menù a tendina non trovato nulla per gestire i vari profili di connessione. Invece ho scoperto che sono tutti presenti e raggiungibili con click del tasto destro del mouse. Secondo me come scelta è in controtendenza rispetto agli altri ma in fin dei conti aiuta a mantenere un minimo di ordine (potrei anche farci l'abitudine).
 
-Comunque.... il verdetto è che mi fa cagare un po' meno di quello di MATE ma di più di quello di Cinnamon. 
+Comunque.... il verdetto è che mi fa cagare un po' meno di quello di MATE ma di più di quello di Cinnamon.
 
 Al momento non ho ancora trovato un applet con cui mi trovo: infatti mi ritrovo spesso a taroccare reti direttamente da terminale.
 
@@ -71,8 +71,8 @@ Anche in questo caso non ho riscontrato mancanze, di fatto le cose che mi servon
 
 Riguardo questi ultimi due punti ci sono un paio di dettagli che secondo me avrebbero fatto una gran differenza:
 
-* nel menù contestuale generato dal click destro in un'area vuota manca la possibilità di aprire un terminale (come root o non). 
-*  dal menù contestuale generato al click destro su una cartella, è presente solo la possibilità di aprire un terminale come utente normale.
+* nel menù contestuale generato dal click destro in un'area vuota manca la possibilità di aprire un terminale (come root o non).
+* dal menù contestuale generato al click destro su una cartella, è presente solo la possibilità di aprire un terminale come utente normale.
 
 Carino invece che venga sempre mostrato lo spazio disponibile del volume corrente nella barra di stato in basso. Se fosse possibile avere un piccolo indicatore con l'occupazione sotto al nome di ogni volume (come in Nemo) sarebbe il top del sogno.
 
@@ -92,6 +92,9 @@ Questa è forse l'applicazione con cui mi sto trovando meno... ho dovuto smanett
 
 * L'applicazione alle volte si apre presentando già uno screenshot basato sulle impostazioni dell'ultimo effettuato.
 * la  combinazione `ALT-STAMP` non è configurata (questo però potrebbe avere a che vedere con il fatto che la tastiera è tedesca e io la sto usando come una italiana senza tasti morti)
-* 
+* Il path di salvataggio di default non è nella cartella "Immagini"
+* Il nome del file generato non contiene il timestamp
+
+Per questi ultimi due punti basta cambiare un paio di preferenze. Per il resto penso che dovrò sperimentare ancora un pochino, soprattutto con gli shortcut personalizzati.
 
 \[^0\]: L'ho trovato lo scorso anno in occasione su Ebay. Con meno di 300€ mi sono portato a casa un portatile con un bel Ryzen, SSD e schermo Full HD.
