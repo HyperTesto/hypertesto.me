@@ -2,7 +2,7 @@
 cover = ""
 date = 2020-06-01T22:00:00Z
 draft = true
-title = "La mia recensione rapida su Lubuntu 20.04"
+title = "Le mie prime impressioni su Lubuntu 20.04"
 
 +++
 Recentemente ho installato Lubuntu sul mio laptop **HP 255 G6**\[^0\] e volevo lasciare due note visto che la mia prima ed unica esperienza con LXDE risale a 8 anni fa.
@@ -88,9 +88,10 @@ Rispetto a Tilix, mi manca un modo comodo per muovermi tra le varie tab, ma anch
 
 ### Screen Grab
 
-Questa è forse l'applicazione con cui mi sto trovando meno... ho dovuto smanettare per una buona decina di minuti prima di capire bene come gira:
+Questa è forse l'applicazione con cui mi sto trovando meno... ho dovuto smanettare per una buona decina di minuti prima di capire bene come funziona:
 
 * L'applicazione alle volte si apre presentando già uno screenshot basato sulle impostazioni dell'ultimo effettuato.
-* Non
+* la  combinazione `ALT-STAMP` non è configurata (questo però potrebbe avere a che vedere con il fatto che la tastiera è tedesca e io la sto usando come una italiana senza tasti morti)
+* 
 
-\[^0\]: L'ho trovato lo scorso anno in occasione su Ebay. Con meno di 300€ mi sono portato a casa un portatile con un bel Ryzen, disco SSD e schermo Full HD
+\[^0\]: L'ho trovato lo scorso anno in occasione su Ebay. Con meno di 300€ mi sono portato a casa un portatile con un bel Ryzen, SSD e schermo Full HD.
