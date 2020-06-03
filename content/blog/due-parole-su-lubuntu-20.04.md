@@ -44,7 +44,7 @@ Vorrei comunque spendere qualche parola sui software con cui interagisco maggior
 
 All'inizio è stato un trauma: dal menù a tendina non trovato nulla per gestire i vari profili di connessione. Invece ho scoperto che sono tutti presenti e raggiungibili con click del tasto destro del mouse! Secondo me come scelta è in controtendenza rispetto agli altri, ma in fin dei conti aiuta a mantenere un minimo di ordine (potrei anche farci l'abitudine).
 
-Comunque.... il verdetto è che mi fa cagare un po' meno di quello di MATE ma di più di quello di Cinnamon.
+Comunque... il verdetto è che mi fa cagare un po' meno di quello di MATE ma di più di quello di Cinnamon.
 
 Al momento non ho ancora trovato un applet che mi piaccia veramente: infatti mi ritrovo spesso a taroccare reti direttamente da terminale.
 
