@@ -110,4 +110,10 @@ Questa è forse l'applicazione con cui mi sto trovando meno... ho dovuto smanett
 
 Per questi ultimi due punti basta cambiare un paio di preferenze. Per il resto penso che dovrò sperimentare ancora un pochino, soprattutto con gli shortcut personalizzati.
 
+
+Era un po' che non scrivevo nulla sul blog, ma ho già un altro paio di brevi guide in canna, penso di pubblicarle nei prossimi giorni.  
+
+Egregi signori, alla prossima!
+
+
 [^0]: L'ho trovato lo scorso anno in occasione su eBay. Con meno di 300€ mi sono portato a casa un portatile con un bel Ryzen, SSD e schermo Full HD.
