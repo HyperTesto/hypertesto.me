@@ -5,7 +5,7 @@ draft = true
 title = "Le mie prime impressioni su Lubuntu 20.04"
 
 +++
-Recentemente ho installato Lubuntu sul mio laptop **HP 255 G6**[^0] e volevo lasciare due note visto che la mia prima ed unica esperienza con LXDE risale a 8 anni fa.
+Recentemente ho installato Lubuntu sul mio laptop **HP 255 G6**\[^0\] e volevo lasciare due note visto che la mia prima ed unica esperienza con LXDE risale a 8 anni fa.
 
 Era da un po' che volevo provare a muovermi dal mio SO di riferimento che è Mint MATE, ho deciso quindi di provare ad usare Lubuntu. Capiamoci: non era indispensabile installare qualcosa di così _light,_ tuttavia la tattica che ho adottato è installare sempre qualcosa che uso in modo da essere efficiente se mi capita di dover dare assistenza.
 
@@ -97,4 +97,4 @@ Questa è forse l'applicazione con cui mi sto trovando meno... ho dovuto smanett
 
 Per questi ultimi due punti basta cambiare un paio di preferenze. Per il resto penso che dovrò sperimentare ancora un pochino, soprattutto con gli shortcut personalizzati.
 
-[^0]: L'ho trovato lo scorso anno in occasione su Ebay. Con meno di 300€ mi sono portato a casa un portatile con un bel Ryzen, SSD e schermo Full HD.
+\[^0\]: L'ho trovato lo scorso anno in occasione su Ebay. Con meno di 300€ mi sono portato a casa un portatile con un bel Ryzen, SSD e schermo Full HD.
