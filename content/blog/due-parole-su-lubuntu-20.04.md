@@ -1,5 +1,5 @@
 +++
-cover = ""
+cover = "/images/lubuntu.jpg"
 date = 2020-06-01T22:00:00Z
 draft = true
 title = "Le mie prime impressioni su Lubuntu 20.04"
@@ -19,13 +19,19 @@ Non funzionava la wireless perciò sono dovuto ricorrere al buon vecchio cavetto
 
 Funziona. Tutto è al suo posto ed è magnificamente consistente. Sono rimasto davvero impressionato dalla qualità del lavoro svolto dai team di LXDE e di Ubuntu.
 
-Mi mancano alcune feature più avanzate che avevo in Cinnamon e MATE, ma per l'uso che faccio di questo PC, ovvero navigazione e un po' di di videoscrittura, non mi fascio la testa .
+Mi mancano alcune feature più avanzate che avevo in Cinnamon e MATE, ma per l'uso che faccio di questo PC, ovvero navigazione e un po' di di videoscrittura, non mi fascio la testa.
+
+La batteria sta durando svariate ore: almeno 3 con Firefox aperto con due o tre tab, telegram in background e schermo con luminosità al massimo.
 
 ## Temi e gigiate varie
 
 Per la prima volta nella mia vita, **non ho messo mano al tema.** È scuro al punto giusto e non sento la necessità di passare ad una variante più scura ancora; cosa che invece faccio sempre su MATE.
 
 Le icone mi piacciono, e anche la variante azzurra è una piacevole differenza rispetto al verde Mint.
+
+Il pannello inferiore è ben organizzato: nulla di troppo diverso da quello di altri DE. Invece mi piace molto che di default siano presenti QClipper e lo storico delle notifiche; non rompono e sono davvero molto utili in parecchie occasioni.
+
+Unica nota circa il pannello inferiore, è che è estremamente facile romperlo (un po' come succede in quello di MATE). Per questo punto ho un paio di note su come fare a ripristinare quello di default che condividerò in un prossimo articolo.
 
 Infine... lo screensaver attivo di default è **meraviglioso**
 
@@ -37,13 +43,15 @@ Vorrei comunque spendere qualche parola sui software con cui interagisco maggior
 
 ### L'applet del network manager
 
-All'inizio è stato un trauma: dal menù a tendina non trovato nulla per gestire i vari profili di connessione. Invece ho scoperto che sono tutti presenti e raggiungibili con click del tasto destro del mouse. Secondo me come scelta è in controtendenza rispetto agli altri ma in fin dei conti aiuta a mantenere un minimo di ordine (potrei anche farci l'abitudine).
+All'inizio è stato un trauma: dal menù a tendina non trovato nulla per gestire i vari profili di connessione. Invece ho scoperto che sono tutti presenti e raggiungibili con click del tasto destro del mouse! Secondo me come scelta è in controtendenza rispetto agli altri, ma in fin dei conti aiuta a mantenere un minimo di ordine (potrei anche farci l'abitudine).
 
 Comunque.... il verdetto è che mi fa cagare un po' meno di quello di MATE ma di più di quello di Cinnamon.
 
-Al momento non ho ancora trovato un applet con cui mi trovo: infatti mi ritrovo spesso a taroccare reti direttamente da terminale.
+Al momento non ho ancora trovato un applet che mi piaccia veramente: infatti mi ritrovo spesso a taroccare reti direttamente da terminale.
 
 ### FeatherPad
+
+![](/images/editor.jpg "featherpad")
 
 Ha tutto quello che mi aspetto da un editor base:
 
@@ -58,6 +66,8 @@ Trovo invece meno pratico e più limitato il trova e sostituisci rispetto ad ese
 Promosso comunque a pieni voti.
 
 ### PCManFM-QT
+
+![](/images/pcmanfm.jpg)
 
 Anche in questo caso non ho riscontrato mancanze, di fatto le cose che mi servono sono:
 
@@ -80,6 +90,8 @@ Se dovessi utilizzare questo PC per scopi lavorativi, l'unica cosa che mi manche
 
 ### QTerminal
 
+![](/images/terminal.jpg)
+
 Fa quello che deve egregiamente, tra l'altro ho apprezzato particolarmente la paletta di colori presente di default... lo sfondo senza trasparenza per me è imprescindibile, e non capisco come tanta gente riesca a lavorare con lo sfondo trasparente.. chissà.
 
 Bello che ci sia nativamente la possibilità di splittare il terminale verticalmente e orizzontalmente. Non tutti gli emulatori di terminale presenti tra le applicazioni di default dei vari SO hanno questa caratteristica.
@@ -87,6 +99,8 @@ Bello che ci sia nativamente la possibilità di splittare il terminale verticalm
 Rispetto a Tilix, mi manca un modo comodo per muovermi tra le varie tab, ma anche in questo caso non è una cosa bloccante per l'utilizzo che faccio di questa installazione.
 
 ### Screen Grab
+
+![](/images/screen_grab.jpg)
 
 Questa è forse l'applicazione con cui mi sto trovando meno... ho dovuto smanettare per una buona decina di minuti prima di capire bene come funziona:
 
