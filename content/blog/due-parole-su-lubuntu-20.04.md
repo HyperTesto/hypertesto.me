@@ -10,13 +10,13 @@ Era da un po' che volevo provare a muovermi dal mio SO di riferimento che è Min
 
 ## Installazione
 
-L'installazione è filata liscia, è sempre il solito installer che siamo abituati ad usare su Ubuntu.
+L'installazione è filata liscia, Calamares, seppur con qualche lieve differenza, è sempre il solito installer che siamo abituati ad usare su Ubuntu.
 
 Non funzionava la wireless perciò sono dovuto ricorrere al buon vecchio cavetto ethernet per installare anche i pacchetti di lingua, driver e compagnia bella. (Il problema comunque non è la distro, seguirà un breve articolo su come sanare la situazione)
 
 ## Utilizzo
 
-Funziona. Tutto è al suo posto ed è magnificamente consistente. Sono rimasto davvero impressionato dalla qualità del lavoro svolto dai team di LXDE e di Ubuntu.
+Funziona. Tutto è al suo posto ed è magnificamente consistente. Sono rimasto davvero impressionato dalla qualità del lavoro svolto dai team di LXQt e di Ubuntu.
 
 Mi mancano alcune feature più avanzate che avevo in Cinnamon e MATE, ma per l'uso che faccio di questo PC, ovvero navigazione e un po' di di videoscrittura, non mi fascio la testa.
 
@@ -31,6 +31,8 @@ Le icone mi piacciono, e anche la variante azzurra è una piacevole differenza r
 Il pannello inferiore è ben organizzato: nulla di troppo diverso da quello di altri DE. Invece mi piace molto che di default siano presenti QClipper e lo storico delle notifiche; non rompono e sono davvero molto utili in parecchie occasioni.
 
 Unica nota circa il pannello inferiore, è che è estremamente facile romperlo (un po' come succede in quello di MATE). Per questo punto ho un paio di note su come fare a ripristinare quello di default che condividerò in un prossimo articolo.
+
+Il DE in è stato portato da `GTK+ 2` (GNOME) alle `QT` (KDE), infatti il nome del progetto è diventato `LXQt` . Non sono mai stato un fan delle librerie Qt: i programmi fatti con esse mi sono sempre sembrati più "giocosi" e meno professionali rispetto a quelli fatti in GTK. Qui non ho avuto questa percezione, tutto è molto curato è dal look pulito e moderno.
 
 Infine... lo screensaver attivo di default è **meraviglioso**
 
@@ -110,10 +112,14 @@ Questa è forse l'applicazione con cui mi sto trovando meno... ho dovuto smanett
 
 Per questi ultimi due punti basta cambiare un paio di preferenze. Per il resto penso che dovrò sperimentare ancora un pochino, soprattutto con gli shortcut personalizzati.
 
+## Verdetto
 
-Era un po' che non scrivevo nulla sul blog, ma ho già un altro paio di brevi guide in canna, penso di pubblicarle nei prossimi giorni.  
+Erano anni che non provavo qualcosa di diverso da Mint. La combo Ubuntu 20.04 + LXQt mi ha lasciato impressionato per la qualità e la stabilità del sistema nel suo complesso. 
+
+Non è assolutamente è una distro da usare solo su computer datati, anzi, personalmente penso che la installerò anche su un paio di macchine ben carrozzate che ho a casa!
+
+Era un po' che non scrivevo nulla sul blog, ma ho già un altro paio di brevi guide in canna, penso di pubblicarle nei prossimi giorni.
 
 Egregi signori, alla prossima!
-
 
 [^0]: L'ho trovato lo scorso anno in occasione su eBay. Con meno di 300€ mi sono portato a casa un portatile con un bel Ryzen, SSD e schermo Full HD.
