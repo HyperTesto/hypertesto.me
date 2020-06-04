@@ -4,7 +4,7 @@ date = 2020-06-01T22:00:00Z
 title = "Le mie prime impressioni su Lubuntu 20.04"
 
 +++
-Recentemente ho installato Lubuntu sul mio laptop **HP 255 G6**[^0] e volevo lasciare due note visto che la mia prima ed unica esperienza con LXDE risale a 8 anni fa.
+Recentemente ho installato Lubuntu sul mio laptop **HP 255 G7**[^0] e volevo lasciare due note visto che la mia prima ed unica esperienza con LXDE risale a 8 anni fa.
 
 Era da un po' che volevo provare a muovermi dal mio SO di riferimento che è Mint MATE, ho deciso quindi di provare ad usare Lubuntu. Capiamoci: non era indispensabile installare qualcosa di così _light,_ tuttavia la tattica che ho adottato è installare sempre qualcosa che uso in modo da essere efficiente se mi capita di dover dare assistenza.
 
@@ -32,9 +32,9 @@ Il pannello inferiore è ben organizzato: nulla di troppo diverso da quello di a
 
 Unica nota circa il pannello inferiore, è che è estremamente facile romperlo (un po' come succede in quello di MATE). Per questo punto ho un paio di note su come fare a ripristinare quello di default che condividerò in un prossimo articolo.
 
-Il DE in è stato portato da `GTK+ 2` (GNOME) alle `QT` (KDE), infatti il nome del progetto è diventato `LXQt` . Non sono mai stato un fan delle librerie Qt: i programmi fatti con esse mi sono sempre sembrati più "giocosi" e meno professionali rispetto a quelli fatti in GTK. Qui non ho avuto questa percezione, tutto è molto curato è dal look pulito e moderno.
+Il DE è stato portato da `GTK+ 2` (GNOME) alle `QT` (KDE), infatti il nome del progetto è diventato `LXQt` . Non sono mai stato un fan delle librerie Qt: i programmi fatti con esse mi sono sempre sembrati più "giocosi" e meno professionali rispetto a quelli fatti in GTK. Qui non ho avuto questa percezione, tutto è molto curato è dal look pulito e moderno.
 
-Infine... lo screensaver attivo di default è **meraviglioso**
+Infine... lo screensaver attivo di default è **meraviglioso**.
 
 ## Software
 
@@ -44,7 +44,7 @@ Vorrei comunque spendere qualche parola sui software con cui interagisco maggior
 
 ### L'applet del network manager
 
-All'inizio è stato un trauma: dal menù a tendina non trovato nulla per gestire i vari profili di connessione. Invece ho scoperto che sono tutti presenti e raggiungibili con click del tasto destro del mouse! Secondo me come scelta è in controtendenza rispetto agli altri, ma in fin dei conti aiuta a mantenere un minimo di ordine (potrei anche farci l'abitudine).
+All'inizio è stato un trauma: dal menù a tendina non trovavo nulla per gestire i vari profili di connessione. Invece ho scoperto che sono tutti presenti e raggiungibili con click del tasto destro del mouse! Secondo me come scelta è in controtendenza rispetto agli altri, ma in fin dei conti aiuta a mantenere un minimo di ordine (potrei anche farci l'abitudine).
 
 Comunque... il verdetto è che mi fa cagare un po' meno di quello di MATE ma di più di quello di Cinnamon.
 
