@@ -16,6 +16,6 @@ Comunque, il ripristino si esegue con una semplice sovrascrittura/copia di un fi
 sudo cp /usr/share/lxqt/panel.conf ~/.config/lxqt/
 ```
 
-Per rendere effettivo il ripristino, occorre riavviare o comunque iniziare una nuova sessione. Io per non per fare prima ho dato direttamente un bel `sudo reboot`.
+Per rendere effettivo il ripristino, occorre riavviare o comunque iniziare una nuova sessione. Io per fare prima ho dato direttamente un bel `sudo reboot`.
 
 Per questa volta è tutto, ci si legge prossimamente con un altra mini guida.
