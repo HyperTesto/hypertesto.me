@@ -25,7 +25,7 @@ A small blog done using:
 ## Building
 
 ```bash
-$ git clone https://github.com/HyperTesto/hypertesto.me --depth=1
+$ git clone --recursive https://github.com/HyperTesto/hypertesto.me --depth=1
 $ cd hypertesto.me
 $ hugo server
 ```
