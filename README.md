@@ -1,7 +1,6 @@
 <h4 align="center">
 
 ![last-commit](https://img.shields.io/github/last-commit/hypertesto/hypertesto.me)
-
 ![netlify-deploy](https://img.shields.io/netlify/25cdd3fd-ba3e-425f-bc9e-ced23c58524d)
 
 ![status](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fwww.hypertesto.me)
