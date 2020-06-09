@@ -10,3 +10,5 @@
     X-XSS-Protection = "1; mode=block"
     Content-Security-Policy = "frame-ancestors https://www.facebook.com"
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    Referrer-Policy = "no-referrer-when-downgrade"
+    X-Content-Type-Options = "nosniff"
