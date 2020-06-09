@@ -1,15 +1,15 @@
-<h2> www.hypertesto.me </h2>
+<h1 align="center"> www.hypertesto.me </h1>
 
 ![Homepage](/static/home_screenshot.png)
 
-<h4 align="center">[![Netlify Status](https://api.netlify.com/api/v1/badges/25cdd3fd-ba3e-425f-bc9e-ced23c58524d/deploy-status)](https://app.netlify.com/sites/infallible-northcutt-b5e5d6/deploys)<h4 align="center">
+<h4 align="center"><a>https://api.netlify.com/api/v1/badges/25cdd3fd-ba3e-425f-bc9e-ced23c58524d/deploy-status</a>
 
-### My personal site using Hugo
-
-
+## My personal site using Hugo
 
 
-### Build
+
+
+## Build
 
 ```bash
 $ git clone https://github.com/HyperTesto/hypertesto.me --depth=1
