@@ -23,6 +23,6 @@ $ sudo ./dkms-install.sh
 
 A questo punto vi basterà riavviare per godere delle gioie che solo la vostra scheda wireless vi potrà dare 😜.
 
-Il fix sul mio PC è stato totalmente risolutivo: non ho mai risontrato instabilità o drop improvvisi della connessione.
+Il fix sul mio PC è stato totalmente risolutivo: non ho mai riscontrato instabilità o drop improvvisi della connessione.
 
 Per questa volta è tutto, alla prossima!
