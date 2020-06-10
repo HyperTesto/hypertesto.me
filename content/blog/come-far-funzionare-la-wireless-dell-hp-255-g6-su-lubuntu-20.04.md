@@ -1,7 +1,6 @@
 +++
 cover = "/images/cables.jpg"
 date = 2020-06-10T21:30:00Z
-draft = true
 title = "Come far funzionare la wireless su un HP 255 G6 con Lubuntu 20.04"
 
 +++
