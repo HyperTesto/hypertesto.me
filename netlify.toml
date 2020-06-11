@@ -14,7 +14,7 @@
         style-src 'self' https://www.gstatic.com;
         script-src 'self' https://stats.hypertesto.me https://www.gstatic.com https://www.google.com;
         require-trusted-types-for 'script';
-        frame-ancestors 'deny';
+        frame-ancestors 'none';
         '''
 
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
