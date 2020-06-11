@@ -12,8 +12,8 @@
         base-uri 'self';
         block-all-mixed-content;
         font-src 'self' https://fonts.googleapis.com;
-        style-src 'self' 'unsafe-inline' https://www.gstatic.com;
-        script-src 'self'  'unsafe-inline' https://stats.hypertesto.me https://www.gstatic.com https://www.google.com;
+        style-src 'self' 'unsafe-inline' https://www.gstatic.com https://fonts.googleapis.com;
+        script-src 'self' 'unsafe-inline' https://stats.hypertesto.me https://www.gstatic.com https://www.google.com;
         require-trusted-types-for 'script';
         frame-ancestors 'none';
         '''
