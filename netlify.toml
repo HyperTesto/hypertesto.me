@@ -8,7 +8,12 @@
   [headers.values]
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
-    Content-Security-Policy = "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'"
+    Content-Security-Policy = "default-src https: 'unsafe-inline';"
+    Content-Security-Policy = "object-src 'none'; base-uri 'none';"
+    Content-Security-Policy = "block-all-mixed-content;"
+    Content-Security-Policy = "font-src 'self' 'https://fonts.googleapis.com';"
+    Content-Security-Policy = "style-src 'self' 'https://fonts.googleapis.com';"
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
     Referrer-Policy = "no-referrer-when-downgrade"
     X-Content-Type-Options = "nosniff"
+    Access-Control-Allow-Origin = "https://stats.hypertesto.me"
