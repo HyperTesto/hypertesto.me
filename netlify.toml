@@ -7,7 +7,7 @@
 
   [headers.values]
     Content-Security-Policy = '''
-        default-src https: 'unsafe-inline';
+        default-src https: 'unsafe-inline' 'unsafe-eval';
         object-src 'none';
         base-uri 'self';
         block-all-mixed-content;
