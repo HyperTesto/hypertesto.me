@@ -19,6 +19,7 @@
         script-src 'self' 'unsafe-inline' https://stats.hypertesto.me https://www.gstatic.com https://www.google.com *.cloudfront.net;
         require-trusted-types-for 'script';
         frame-ancestors 'none';
+        default-src 'none';
         '''
 
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
