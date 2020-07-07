@@ -1,6 +1,11 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
+date: "{{ .Date }}"
+title: "{{ replace .TranslationBaseName '-' ' ' | title }}"
+authors: ["hypertesto"]
+cover: ""
+categories:
+  -
+tags:
+  -
 draft: true
 ---
-
