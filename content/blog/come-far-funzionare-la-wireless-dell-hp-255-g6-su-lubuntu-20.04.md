@@ -2,6 +2,7 @@
 cover = "/images/cables.jpg"
 date = 2020-06-10T21:30:00Z
 title = "Come far funzionare la wireless su un HP 255 G6 con Lubuntu 20.04"
+authors = ["hypertesto"]
 
 +++
 Eccoci qui con un altra brevissima guida dedicata a Lubuntu 20.04 sul mio computer portatile HP 255 G6.
