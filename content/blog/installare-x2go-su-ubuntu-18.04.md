@@ -15,7 +15,7 @@ Non sono un amante dei desktop remoti; la maggior parte delle volte mi basta una
 
 Puntualmente ogni volta è un supplizio:
 
-* **TeamViewer** rogna ogni tre per due tra sospetto uso commerciale, differenze tra versioni, ecc...
+* **TeamViewer** rogna ogni tre per due tra sospetto uso commerciale, differenze tra versioni, ecc...[^1]
 * **AnyDesk** funziona, ma non troppo. Sarebbe anche figo dato che è praticamente un clone meno rompiballe di TeamViewer, però non riesco mai ad avere una sessione priva di disconnessioni o caratteri sparati a ripetizione ogni volta che premo troppo rapidamente qualche tasto.
 * **TightVNC** non mi ha dato mai problemi di stabilità, ma almeno che non siate connessi in fibra sia sul server che sul client, la qualità grafica è talmente bassa che rende impossibile fare alcune operazioni piuttosto basilari. Peccato perchè è facile da installare ed è anche open source.
 * **TigerVNC** valgono grossomodo le stesse considerazioni di TigerVNC
@@ -99,3 +99,4 @@ Ho volutamente tralasciato il discorso apertura porte poichè facendo tunnel via
 A presto signori!
 
 [^0]: Uncle singer? Zio cantante! (https://youtu.be/aQnT6FcJFkI?t=203)
+[^1]:  Uso TeamViewer con licenza regolarmente registrata, altra storia anche lì. Se capite come caspita funziona con il loro pannello e come disdire l'abbonamento senza invare raccomandate, lasciate un commento
