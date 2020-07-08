@@ -11,6 +11,18 @@ fields:
 - type: file
   name: cover
   label: cover
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: categories
+  type: tag_list
+  default: []
+  label: Categories
+- name: authors
+  type: tag_list
+  default: []
+  label: Authors
 pages:
 - content/blog/come-far-funzionare-la-wireless-dell-hp-255-g6-su-lubuntu-20.04.md
 - content/blog/due-parole-su-lubuntu-20.04.md
