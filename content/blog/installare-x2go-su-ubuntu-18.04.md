@@ -67,7 +67,7 @@ $ sudo apt-get install x2goclient
 
 L'interfaccia del client è piuttosto semplice, una volta avviato basterà aggiungere una nuova "sessione":
 
-![](/images/x2go_1.png)
+![x2go step 1](/images/x2go_1.png)
 
 ###### **Tab "Session"**
 
@@ -81,7 +81,9 @@ Da questa tab è possibile aggiustare con uno slider la banda a vostra disposizi
 
 ###### **Tab "Input/Output"**
 
-Da questa tab impostate la risoluzione della finestra (ad esempio io ho utilizzato 1280x1024), ma potete anche mettere un generico schermo intero.![](/images/x2go_2.png)
+Da questa tab impostate la risoluzione della finestra (ad esempio io ho utilizzato 1280x1024), ma potete anche mettere un generico schermo intero.!
+
+[x2go step 2](/images/x2go_2.png)
 
 Qualora il layout della tastiera non venga riconosciuto in automatico è possibile impostarlo a mano selezionando la voce "Configure keyboard".
 
