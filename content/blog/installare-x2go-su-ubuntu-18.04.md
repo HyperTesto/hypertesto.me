@@ -44,18 +44,24 @@ Consiglio mio: usate qualcosa di leggero senza troppe gigiate grafiche, quelle s
 
 Il server non si trova nei repo di default, perciò è necessario installarlo aggiungendo prima il relativo PPA:
 
-    $ sudo apt-add-repository ppa:x2go/stable
+```bash
+$ sudo apt-add-repository ppa:x2go/stable
+```
 
 E successivamente lo si installa normalmente
 
-    $ sudo apt-get update
-    $ sudo apt-get install x2goserver x2goserver-xsession
+```bash
+$ sudo apt-get update
+$ sudo apt-get install x2goserver x2goserver-xsession
+```
 
 ### Installazione del client
 
 Il client, al contrario del server, è già presente nei repo di default, perciò è sufficiente installarlo con:
 
-    $ sudo apt-get install x2goclient
+```bash
+$ sudo apt-get install x2goclient
+```
 
 ### Configurazione
 
