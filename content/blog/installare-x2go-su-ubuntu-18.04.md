@@ -97,5 +97,6 @@ Come ho già avuto modo di dire, sono rimasto sbalordito dalla qualità di X2Go.
 
 Ho volutamente tralasciato il discorso apertura porte poichè facendo tunnel via SSH, valgono le regole che applichereste ad esso.
 
+A presto signori!
 
 [^0]: Uncle singer? Zio cantante! (https://youtu.be/aQnT6FcJFkI?t=203)
