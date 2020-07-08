@@ -3,7 +3,6 @@ authors = ["hypertesto"]
 categories = ["guide"]
 cover = "/images/schermata-a-2020-07-08-21-50-14.png"
 date = 2020-07-08T19:00:00Z
-draft = true
 tags = ["linux", "server", "remote desktop"]
 title = "Installare X2Go su Ubuntu 18.04"
 
