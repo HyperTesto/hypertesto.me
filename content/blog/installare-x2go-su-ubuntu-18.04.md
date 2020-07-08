@@ -8,7 +8,7 @@ tags = ["linux", "server", "remote desktop"]
 title = "Installare X2Go su Ubuntu 18.04"
 
 +++
-_Ovvero: ho finalmente trovato una soluzione decente per connettermi in remote desktop sul portatile che ho lasciato in ufficio. Uncle singer._
+_Ovvero: ho finalmente trovato una soluzione decente per connettermi in remote desktop sul portatile che ho lasciato in ufficio. Uncle singer.[^0]
 
 Probabilmente ci avrete sbattuto la testa anche voi dato che nell'ultimo periodo per cause di forza maggiore stiamo sperimentando l'ebrezza del lavoro remoto (no, non vi darò la soddisfazione di chiamarlo "smart working").
 
@@ -88,3 +88,6 @@ Se non avete esigenze particolari questo è tutto ciò che dovete configurare. B
 Come ho già avuto modo di dire, sono rimasto sbalordito dalla qualità si X2Go. L'ho utilizzato una decina di ore facendo prove di connessioni da ADSL di casa, Iliad, Ho Mobile e tranne qualche inevitabile laggata (vivo in montagna, internet stabile qui è ancora un sogno) non mi sembrava di essere in remoto.
 
 Ho volutamente tralasciato il discorso apertura porte poichè facendo tunnel via SSH, valgono le regole che applichereste ad esso.
+
+
+[^0]: Uncle singer? Zio cantante! (https://www.youtube.com/watch?v=aQnT6FcJFkI&t=220s)
