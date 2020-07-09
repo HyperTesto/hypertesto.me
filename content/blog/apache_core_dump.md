@@ -2,8 +2,9 @@
 title: "Come tracciare i core dump di Apache su RedHat 7.x"
 date: 2018-06-18T21:39:05+02:00
 draft: false
+authors: ["hypertesto"]
 categories:
-  - articolo
+  - guide
 tags:
   - apache
   - debug

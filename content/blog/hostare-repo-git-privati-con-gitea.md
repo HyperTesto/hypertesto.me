@@ -2,6 +2,7 @@
 title: "Hostare repo Git privati con Gitea"
 date: 2018-09-12T22:13:31+02:00
 draft: false
+authors: ["hypertesto"]
 categories:
   - guida
 tags:

@@ -2,6 +2,7 @@
 title: "Installare Fathom su Ubuntu 16.04"
 date: 2018-06-22T23:53:08+02:00
 draft: false
+authors: ["hypertesto"]
 categories:
   - guida
 tags:

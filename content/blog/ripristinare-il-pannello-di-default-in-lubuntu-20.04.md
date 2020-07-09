@@ -2,7 +2,9 @@
 cover = "/images/lubuntu.jpg"
 date = 2020-06-07T10:00:00Z
 title = "Ripristinare il pannello di default in Lubuntu 20.04"
-
+authors = ["hypertesto"]
+tags = ["linux", "lubuntu", "lxqt"]
+categories = ["guide"]
 +++
 Come promesso nel precedente articolo, ecco una brevissima guida su come ripristinare il pannello di default in Lubuntu 20.04.
 

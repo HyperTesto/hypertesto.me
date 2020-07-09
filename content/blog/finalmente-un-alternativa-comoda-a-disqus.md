@@ -3,6 +3,8 @@ cover = "/images/kelly-sikkema-273133-unsplash.jpg"
 date = "2019-05-05T00:00:00+02:00"
 draft = true
 title = "Finalmente un'alternativa comoda a Disqus"
+authors = ["hypertesto"]
+categories = ["articolo"]
 
 +++
 Per parecchio tempo ho cercato un'alternativa valida a Disqus, sopratutto dopo l'avvento del famigerato nuovo regolamento europeo della privacy ([GDPR](https://eugdpr.org/ "GDPR")) entrato in vigore la primavera scorsa.

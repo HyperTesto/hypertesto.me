@@ -2,6 +2,12 @@
 title: "Cookie, addio!"
 date: 2018-06-19T23:58:27+02:00
 draft: false
+authors: ["hypertesto"]
+categories:
+  - articolo
+tags:
+  - quarantena
+  - swag
 ---
 
 Come sicuramente saprete, alla fine di Maggio scadeva il termine per l'adeguamento alla normativa europea sulla privacy, la tanto temuta GDPR.

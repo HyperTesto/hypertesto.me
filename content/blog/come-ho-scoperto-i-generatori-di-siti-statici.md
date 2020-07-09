@@ -1,6 +1,7 @@
 ---
 title: Come ho scoperto i generatori di siti statici
 date: 2017-11-22T21:28:54.616Z
+authors: ["hypertesto"]
 categories:
   - articolo
 tags:
@@ -15,7 +16,7 @@ Il mio primo avvicinamento al mondo dei generatori di siti statici è nato sosta
 
 Tornando al discorso originale, quando ho cominciato a "ravanare" con i siti WEB (principalmente blog), ho utilizzato un po' Joomla per poi passare a Wordpress, che è davvero un progretto fantastico e ben mantenuto, ma... c***o è pur sempre in PHP. Se parliamo di velocità in termini di semplicità di configurazione e tempo di apprendimento Wordpress è davvero un missile, però mannaggia a quella pagina che ci mette sempre una vita a caricare!
 
-Comunque nulla di insormontabile con Wordpress: una cache qua, un plug-in là ed un po' di compressione e sito funziona che è una meraviglia. Con 50 plug-in ma comunque funzionante. 
+Comunque nulla di insormontabile con Wordpress: una cache qua, un plug-in là ed un po' di compressione e sito funziona che è una meraviglia. Con 50 plug-in ma comunque funzionante.
 
 Però si sa che la fortuna è cieca ma la sfiga le diottrie le ha ancora tutte... **BOOM!** Il sito si pianta. Nessun problema ci sono i back— cazzo i backup.
 

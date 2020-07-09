@@ -2,7 +2,8 @@
 title: "[Link] Technical Debt Is Like Tetris"
 date: "2019-04-03T22:28:20+01:00"
 cover: /images/mess.jpg
-categories :
+authors: ["hypertesto"]
+categories:
   - appunti
 tag:
   - link

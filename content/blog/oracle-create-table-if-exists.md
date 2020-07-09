@@ -2,6 +2,7 @@
 title: CREATE TABLE IF NOT EXISTS su database Oracle
 date: 2018-07-09T20:50:00.000+00:00
 cover: "/images/create_table.jpg"
+authors: ["hypertesto"]
 categories:
 - guida
 tags:

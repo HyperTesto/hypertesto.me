@@ -2,6 +2,7 @@
 title: "Tracciamento delle visite GDPR friendly"
 date: 2018-06-20T22:28:19+02:00
 draft: false
+authors: ["hypertesto"]
 categories:
   - articolo
 tags:
@@ -12,7 +13,7 @@ tags:
 
 Come annunciato nel mio [precedente articolo](/blog/gdpr-checklist), in ottemperanza alla nuova normativa europea sulla privacy, ho deciso di rimuovere dai miei siti tutti i servizi Google, Disqus e qualsiasi altro servizio che installa cookie di profilazione a tradimento.
 
-Alle integrazioni social ho rinunciato completamente poiché non mi interessano granché, tuttavia vorrei avere un minimo di traccia del numero di visite ai vari articoli. 
+Alle integrazioni social ho rinunciato completamente poiché non mi interessano granché, tuttavia vorrei avere un minimo di traccia del numero di visite ai vari articoli.
 
 Girovagando su internet, ho trovato del materiale ([1][1], [2][2]) molto utile per inquadrare meglio la spinosa questione dell'anonimizzazione dati personali, nel caso specifico delle statistiche raccolti tramite cookie.
 In internet troverete tonnellate di articoli su come fare con Google Analytics, ma il ragionamento vale per qualsiasi servizio stiate utilizzando.

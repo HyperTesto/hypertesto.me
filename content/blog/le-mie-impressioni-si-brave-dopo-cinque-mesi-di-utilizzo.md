@@ -2,7 +2,9 @@
 cover = "/images/1200x627-linkedin.png"
 date = "2019-05-15T23:00:00+02:00"
 title = "Le mie impressioni su Brave dopo cinque mesi di utilizzo"
-
+authors = ["hypertesto"]
+tags = ["brave", "browser", "internet"]
+categories = ["articolo"]
 +++
 Utilizzo Brave sia a casa (PC e cellulare) che al lavoro ormai da cinque mesi, quindi ho pensato di scrivere una breve recensione.
 
@@ -54,6 +56,6 @@ La qualità del software migliora di giorno in giorno, certo con qualche piccolo
 
 Anche se non siete interessati ad aspetti tecnici, vi consiglio di [scaricarlo](https://www.hypertesto.me/images/brave_referal.png "scaricare brave") poiché rispetto ai competitor ha attive di default una serie di tecnologie che, secondo me, vi renderanno la vita migliore.
 
-Brave è in missione per cercare di rendere il WEB un pochino migliore; io scommetto che la strada intrapresa è quella giusta! 
+Brave è in missione per cercare di rendere il WEB un pochino migliore; io scommetto che la strada intrapresa è quella giusta!
 
-Fatemi sapere se lo avete provato e come vi trovate! 
+Fatemi sapere se lo avete provato e come vi trovate!

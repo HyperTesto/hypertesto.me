@@ -3,6 +3,7 @@ title: "Un semplice script per l'eliminazione di tutte le tabelle di un DB MySQL
 date: 2018-09-19T21:20:18+02:00
 cover: /images/alt.jpg
 draft: false
+authors: ["hypertesto"]
 categories:
   - snippet
   - appunti

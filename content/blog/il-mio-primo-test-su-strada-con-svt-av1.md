@@ -2,6 +2,9 @@
 cover = "/images/tim-mossholder-322350-unsplash.jpg"
 date = "2019-05-06T00:00:00+02:00"
 title = "Il mio primo test su strada con SVT-AV1"
+authors = ["hypertesto"]
+categories = ["articolo"]
+tags = ["AV1", "test"]
 
 +++
 Al National Association of Broadcasters Show (NAB Show) 2019 di Las Vegas, Intel e Netflix hanno presentato il codec video open source [SVT-AV1](https://github.com/OpenVisualCloud/SVT-AV1/), acronimo di _Scalable Video Technology for AV1_.
@@ -60,15 +63,15 @@ LIB Build date: May  6 2019 21:45:54
 -------------------------------------------
 Number of logical cores available: 8
 Number of PPCS 72
-------------------------------------------- 
-SVT [config]: Main Profile	Tier (auto)	Level (auto)	
-SVT [config]: EncoderMode 							: 8 
+-------------------------------------------
+SVT [config]: Main Profile	Tier (auto)	Level (auto)
+SVT [config]: EncoderMode 							: 8
 SVT [config]: EncoderBitDepth / EncoderColorFormat / CompressedTenBitFormat	: 8 / 1 / 0
-SVT [config]: SourceWidth / SourceHeight					: 720 / 480 
-SVT [config]: FrameRate / Gop Size						: 30 / 32 
-SVT [config]: HierarchicalLevels / BaseLayerSwitchMode / PredStructure		: 4 / 0 / 2 
-SVT [config]: BRC Mode / QP  / LookaheadDistance / SceneChange			: CQP / 50 / 33 / 0 
-------------------------------------------- 
+SVT [config]: SourceWidth / SourceHeight					: 720 / 480
+SVT [config]: FrameRate / Gop Size						: 30 / 32
+SVT [config]: HierarchicalLevels / BaseLayerSwitchMode / PredStructure		: 4 / 0 / 2
+SVT [config]: BRC Mode / QP  / LookaheadDistance / SceneChange			: CQP / 50 / 33 / 0
+-------------------------------------------
 Encoding          frame=   11 fps=0.0 q=-0.0 size=    5569kB time=00:00:00.36 bitrate=124291.5kbits/s dup=2 drop=0 spe        3frame=   76 fps= 72 q=-0.0 size=   38475kB time=00:00:02.53 bitrate=124291.6kbits/s dup=13 drop=0 speed=2.41x       15frame=   92 fps= 58 q=-0.0 size=   46575kB time=00:00:03.06 bitrate=124291.6kbits/s dup=16 drop=0 speed=1.92x
 ... [output rimosso] ...
 video:1821994kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000000%

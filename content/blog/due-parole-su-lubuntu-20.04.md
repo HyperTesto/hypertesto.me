@@ -2,7 +2,9 @@
 cover = "/images/lubuntu.jpg"
 date = 2020-06-01T22:00:00Z
 title = "Le mie prime impressioni su Lubuntu 20.04"
-
+authors = ["hypertesto"]
+categories = ["articolo"]
+tags = ["linux", "lubuntu"]
 +++
 Recentemente ho installato Lubuntu sul mio laptop **HP 255 G7**[^0] e volevo lasciare due note visto che la mia prima ed unica esperienza con LXDE risale a 8 anni fa.
 
@@ -114,7 +116,7 @@ Per questi ultimi due punti basta cambiare un paio di preferenze. Per il resto p
 
 ## Verdetto
 
-Erano anni che non provavo qualcosa di diverso da Mint. La combo Ubuntu 20.04 + LXQt mi ha lasciato impressionato per la qualità e la stabilità del sistema nel suo complesso. 
+Erano anni che non provavo qualcosa di diverso da Mint. La combo Ubuntu 20.04 + LXQt mi ha lasciato impressionato per la qualità e la stabilità del sistema nel suo complesso.
 
 Non è assolutamente è una distro da usare solo su computer datati, anzi, personalmente penso che la installerò anche su un paio di macchine ben carrozzate che ho a casa!
 

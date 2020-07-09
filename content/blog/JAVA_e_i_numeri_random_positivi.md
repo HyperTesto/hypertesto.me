@@ -2,6 +2,7 @@
 title: "JAVA ed i numeri positivi casuali"
 date: 2017-11-26T23:44:42+01:00
 draft: false
+authors: ["hypertesto"]
 categories:
   - appunti
 tags:

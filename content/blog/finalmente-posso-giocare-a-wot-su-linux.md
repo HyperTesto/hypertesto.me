@@ -2,6 +2,7 @@
 title: "Finalmente posso giocare a WoT Su Linux"
 date: 2019-03-25T22:28:20+01:00
 draft: false
+authors: ["hypertesto"]
 categories:
   - articolo
 tags:

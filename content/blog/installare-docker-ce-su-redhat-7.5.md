@@ -2,6 +2,7 @@
 title: "Installare Docker CE Su Redhat 7.5"
 date: 2018-07-04T16:53:03+02:00
 draft: false
+authors: ["hypertesto"]
 categories:
   - guida
 tags:
@@ -52,4 +53,3 @@ Questi sono gli step che ho dovuto seguire:
 Per le verifiche ed il post-installazione vi rimando alla [documentazione ufficiale](https://docs.docker.com/install/linux/linux-postinstall/).
 
 Alla prossima!
-

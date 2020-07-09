@@ -3,6 +3,7 @@ title: "Cronache del mio microcosmo"
 date: 2020-05-04T22:21:09+02:00
 draft: false
 cover: /images/cover_microcosmo.jpg
+authors: ["hypertesto"]
 categories:
   - articolo
 tags:
