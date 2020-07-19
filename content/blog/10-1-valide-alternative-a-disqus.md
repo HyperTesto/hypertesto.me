@@ -23,13 +23,13 @@ Questo elenco non vuole essere esaustivo, ma rappresenta il **mio** punto di vis
 
 > Every 30 days, Disqus collects 1.6 trillion data points across 2 billion monthly unique visits to our audience platform. A single Disqus user cookie can contain over 30,000 data points
 
-1. **Piazza pubblicità sul vostro sito:** di questo fatto sarete sicuramente già a conoscenza... quelle pubblicità con titoli clickbait in fondo agli articoli non le trovate anche voi fuori luogo.
-2. **Rallenta i tempi di caricamento:** non ne siete sicuri? aprite un qualsiasi sito che fa uso di Disqus e verificate. Se invece siete pigri vi potete accontentare di questa prova fatta su un blog che gestivo quando andavo ancora alle superiori (e che non ho ancora sistemato, _mea culpa_)
+3. **Piazza pubblicità sul vostro sito:** di questo fatto sarete sicuramente già a conoscenza... quelle pubblicità con titoli clickbait in fondo agli articoli non le trovate anche voi fuori luogo.
+4. **Rallenta i tempi di caricamento:** non ne siete sicuri? aprite un qualsiasi sito che fa uso di Disqus e verificate. Se invece siete pigri vi potete accontentare di questa prova fatta su un blog che gestivo quando andavo ancora alle superiori (e che non ho ancora sistemato, _mea culpa_)
 
    ![/images/disqus](https://app.forestry.io/sites/uksyov8ynxkynq/body-media//images/disqus_load_time.png)
 
    Notate non solo il tempo impiegato dalle varie risorse, ma anche la quantità di roba che carica; ci sono più richieste al CDN di Disqus che alla pagina stessa!
-3. **Non permette commenti anonimi:** da un lato essendo un servizio ancora molto utilizzato molti posseggono già un account Disqus, tuttavia obbligare qualcuno a creare un account  per lasciarvi magari un semplice grazie, è un deterrente. Io stesso tendo a non lasciare commenti se mi devo creare account per farlo; e questo per me  vale anche per siti che usano i commenti di wordpress ad esempio.
+5. **Non permette commenti anonimi:** da un lato essendo un servizio ancora molto utilizzato molti posseggono già un account Disqus, tuttavia obbligare qualcuno a creare un account  per lasciarvi magari un semplice grazie, è un deterrente. Io stesso tendo a non lasciare commenti se mi devo creare account per farlo; e questo per me  vale anche per siti che usano i commenti di wordpress ad esempio.
 
 Ora che vi ho spaventato abbastanza possiamo passare ad alcune considerazioni sull'utilizzo di soluzioni saas piuttosto che self-hosted ed infine alla mia comparazione dei servizi che ho provato in questi anni.
 
