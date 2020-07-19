@@ -26,9 +26,8 @@ Questo elenco non vuole essere esaustivo, ma rappresenta il **mio** punto di vis
 1. **Piazza pubblicità sul vostro sito:** di questo fatto sarete sicuramente già a conoscenza... quelle pubblicità con titoli clickbait in fondo agli articoli non le trovate anche voi fuori luogo.
 2. **Rallenta i tempi di caricamento:** non ne siete sicuri? aprite un qualsiasi sito che fa uso di Disqus e verificate. Se invece siete pigri vi potete accontentare di questa prova fatta su un blog che gestivo quando andavo ancora alle superiori (e che non ho ancora sistemato, _mea culpa_)
 
-   ![/images/disqus_load_time.png](https://app.forestry.io/sites/uksyov8ynxkynq/body-media//images/disqus_load_time.png)
+   ![/images/disqus](https://app.forestry.io/sites/uksyov8ynxkynq/body-media//images/disqus_load_time.png)
 
-     
    Notate non solo il tempo impiegato dalle varie risorse, ma anche la quantità di roba che carica; ci sono più richieste al CDN di Disqus che alla pagina stessa!
 3. **Non permette commenti anonimi:** da un lato essendo un servizio ancora molto utilizzato molti posseggono già un account Disqus, tuttavia obbligare qualcuno a creare un account  per lasciarvi magari un semplice grazie, è un deterrente. Io stesso tendo a non lasciare commenti se mi devo creare account per farlo; e questo per me  vale anche per siti che usano i commenti di wordpress ad esempio.
 
@@ -241,7 +240,7 @@ JustComments è stata una delle prime soluzioni che ho provato, tra queste prese
 
 Dal momento in cui ho iniziato a scrire l'articolo sono successe un po' di cose, quella che interessa direttamente questo servizio è che [sarà dismesso a fine 2020](https://just-comments.com/blog/2020-03-06-just-comments-is-shutting-down.html).
 
-I suoi sviluppatori comunque nell'ultimo articolo sul loro blog, indicato Hyvor Talk come sistema alternativo che supporta anche l'importazione dei commenti da questa piattaforma. 
+I suoi sviluppatori comunque nell'ultimo articolo sul loro blog, indicato Hyvor Talk come sistema alternativo che supporta anche l'importazione dei commenti da questa piattaforma.
 
 Spoiler: Hyvor Talk l'ho scoperto grazie a loro ed è anche quello che per il momento preferisco.
 
@@ -265,7 +264,7 @@ Se volete maggiori info, posso preparare un articoletto dedicato, fatemelo saper
 
 ### Soluzioni particolari
 
-Come ultimo bit di informazione, volevo citarvi [Utterances](https://utteranc.es/ "Utterances sito ufficiale"), che è particolare perchè sfrutta il sistema di commenti delle issue di GitHub effettuandone l'embed su sito. 
+Come ultimo bit di informazione, volevo citarvi [Utterances](https://utteranc.es/ "Utterances sito ufficiale"), che è particolare perchè sfrutta il sistema di commenti delle issue di GitHub effettuandone l'embed su sito.
 
 ![](/images/utterances.png)
 
