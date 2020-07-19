@@ -120,6 +120,8 @@ Per i più pigri, riassumo subito in una comoda tabella i risultai di questa mia
 | Remark42  | ✔                    | ✔             | ✔           | ✔                         | ✔                        | ✖    |
 | Staticman | ✔                    | ✔             | ✔           | ✔                         | ✖                        | ✔    |
 
+_La tabella è stata compilata in momenti diversi, se notate errori o avete precisazioni, non esitate a segnalarmelo tra i commenti._
+
 #### [Discourse](https://www.discourse.org/)
 
 Questo è sicuramente il più famoso dei software presentati poc'anzi. In realtà non si tratta di un sistema di commenti vero e proprio, ma piuttosto di un forum che permette opzionalmente di effettuare un embed sotto un articolo per permetterne la discussione in loco.
@@ -208,6 +210,8 @@ Come per la rassegna precedente, eccovi tutto riassunto in tabella:
 | ReplyBox                   | ✖                | ✔   | ✖    | ?                   | ✔         | ✔                         | ✖                         |
 | JustComments<br>(dismesso) | ✔                | ✔   | ✔    | ✖                   | ✔         | ✖                         | ✖                         |
 | Hyvor Talk                 | ✔                | ✔   | ✔    | ✔                   | ✔         | ✔                         | ✔                         |
+
+_La tabella è stata compilata in momenti diversi, se notate errori o avete precisazioni, non esitate a segnalarmelo tra i commenti._
 
 #### [Valine](https://valine.js.org/en/index.html)
 
