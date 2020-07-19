@@ -114,7 +114,7 @@ Per i più pigri, riassumo subito in una comoda tabella i risultai di questa mia
 
 TODO
 
-#### Discourse
+#### [Discourse](https://www.discourse.org/)
 
 Questo è sicuramente il più famoso dei software presentati poc'anzi. In realtà non si tratta di un sistema di commenti vero e proprio, ma piuttosto di un forum che permette opzionalmente di effettuare un embed sotto un articolo per permetterne la discussione in loco.
 
@@ -122,7 +122,7 @@ Discourse è mastodontico perciò sognatevi che giri con risorse minimali: vi se
 
 Come già indicato, questo è molto di più di un sistema di commenti, ritentevo perciò giusto citarlo tra le varie possibilità.
 
-#### Isso
+#### [Isso](https://posativ.org/isso/)
 
 ![/images/isso.png](https://app.forestry.io/sites/uksyov8ynxkynq/body-media//images/isso.png)
 
@@ -134,7 +134,7 @@ L'installazione e la configurazione avvengono in pochi semplici passaggi è l'ut
 
 Se volete farvi un'idea di come risulta integrato in una pagina potete dare un'occhiata [qui](https://stanislas.blog/2018/02/my-custom-ghost-theme/).
 
-#### Commento
+#### [Commento](https://commento.io/)
 
 ![/images/commento.png](https://app.forestry.io/sites/uksyov8ynxkynq/body-media//images/commento.png)
 
@@ -152,7 +152,7 @@ Se volete contribuire o mostrargli un po' di amore anche voi, [questa](https://g
 
 Potete anche usufruire della versione SaaS pagando ciò che vi sentite, di tutti i servizi che ho visto è l'unico con questo tipo di pricing.
 
-#### Remark42
+#### [Remark42](https://github.com/umputun/remark42)
 
 ![/images/remark42.png](https://app.forestry.io/sites/uksyov8ynxkynq/body-media//images/remark42.png)
 
@@ -164,7 +164,7 @@ Tra le varie soluzioni presenta secondo me l'editor più completo mantenendo com
 
 Non esiste ancora una versione SaaS, ma con molta probabilità verrà introdotta in futuro (spero non troppo remoto!). Per ora il miglior modo per supportare il progetto è contributire direttamente al suo svoluppo oppure donare tramite [Patreon](https://www.patreon.com/remark42 "remark42 patreon").
 
-#### Staticman
+#### [Staticman](https://staticman.net/)
 
 Staticman è una soluzione radicalmente differente dalle precedenti: non necessita di database ed è pensato per essere integrato nel workflow dei generatori di siti statici (il commenti su questo sito funzionano così).
 
@@ -197,7 +197,7 @@ Come per la rassegna precedente, eccovi tutto riassunto in tabella:
 
 TODO
 
-#### Valine
+#### [Valine](https://valine.js.org/en/index.html)
 
 ![](/images/valinejs.png)
 
@@ -209,7 +209,7 @@ Attualmente è supportato solo Leancloud come provider per la parte di storage, 
 
 Non mi risulta che sia presente una dashboard.
 
-#### CommentBox
+#### [CommentBox](https://commentbox.io/)
 
 ![](/images/commentbox.png)
 
@@ -222,7 +222,7 @@ Le funzionalità ci sono grossomodo tutte: voto ai commenti, ordinamento, ecc..
 
 Il tier di utilizzo gratuito è piuttosto interessante poichè garantisce 100 commenti al mese. Quello che non mi piace è che nel tier gratuito non è possibile moderare in modo granulare i commenti: o si modera tutto o niente.
 
-#### ReplyBox
+#### [ReplyBox](https://getreplybox.com/)
 
 ![](/images/replybox.png)
 
@@ -234,7 +234,7 @@ Il look and feel di base sembra molto una via di mezzo tra i commenti di WordPre
 
 Non mi risulta che sia disponibile la possibilità di commentare in modo anonimo, tuttavia è possibile configurare ogni aspetto di presentazione dei commenti tramite CSS.
 
-#### JustComments
+#### [JustComments](https://just-comments.com/)
 
 ![](/images/justcomments.png)
 
@@ -248,13 +248,13 @@ I suoi sviluppatori comunque nell'[ultimo articolo sul loro blog](https://just-c
 
 Spoiler: Hyvor Talk l'ho scoperto grazie a loro ed è anche quello che per il momento preferisco.
 
-#### Hyvor Talk
+#### [Hyvor Talk](https://talk.hyvor.com/)
 
 ![](/images/hyvor_talk_full-1.png)
 
 Ed eccoci all'uiltimo contendente della nostra rassegna. Se avete letto lo spoiler due righe sopra, saprete che per ora questa è la soluzione che preferisco. Vediamo il perchè.
 
-Ha tutte le feature che mi aspetto sia per la parte di frontend che sulla dashboard. Rispetto a molti altri ha un anche un sacco di opzioni di importazione, perciò se venite da Disqus o JustComments per fare due esempi, site coperti.
+Ha tutte le feature che mi aspetto sia per la parte di frontend che sulla dashboard. Rispetto a molti altri ha un anche un sacco di opzioni di importazione, perciò se venite da Disqus o JustComments, per fare due esempi, site coperti.
 
 Graficamente è un po' più "invadente" rispetto agli altri, ma questo gli da un suo carattere e lo distingue nettamente dalle altre soluzioni. A vederla così mi sembrava molto "giocosa" ma ho fatto varie prove e devo dire che fino ad ora è sempre calzata bene dove l'ho provata.
 
