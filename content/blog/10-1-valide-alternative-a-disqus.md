@@ -112,7 +112,13 @@ Prima di tutto, sarebbe ottimo se rispettassero i punti elencati nei paragrafi p
 
 Per i più pigri, riassumo subito in una comoda tabella i risultai di questa mia analisi:
 
-TODO
+| Software  | Facile da installare | Poche risorse | Spam detect | Community/Sviluppo attivi | Soluzione pronta all'uso | Saas |
+|-----------|----------------------|---------------|-------------|---------------------------|--------------------------|------|
+| Discourse | ✔                    | ✖             | ✔           | ✔                         | ✔                        | ✔    |
+| Isso      | ✔                    | ✔             | ✔           | ✔                         | ✔                        | ✖    |
+| Commento  | ✔                    | ✔             | ✔           | ✖                         | ✔                        | ✔    |
+| Remark42  | ✔                    | ✔             | ✔           | ✔                         | ✔                        | ✖    |
+| Staticman | ✔                    | ✔             | ✔           | ✔                         | ✖                        | ✔    |
 
 #### [Discourse](https://www.discourse.org/)
 
@@ -195,7 +201,13 @@ Prima di analizzarli uno ad uno, vi indico qual è il questo caso il mio framewo
 
 Come per la rassegna precedente, eccovi tutto riassunto in tabella:
 
-TODO
+| Software                   | Commenti anonimi | SSO | Voti | Moderazione in page | Dashboard | Customizzazione look&feel | Tier di utilizzo gratuito |
+|----------------------------|------------------|-----|------|---------------------|-----------|---------------------------|---------------------------|
+| Valine                     | ✔                | ✖   | ✖    | ✖                   | ✖         | ✖                         | ✔                         |
+| CommentBox                 | ✔                | ✖   | ✔    | ✔                   | ✔         | ✔                         | ✔                         |
+| ReplyBox                   | ✖                | ✔   | ✖    | ?                   | ✔         | ✔                         | ✖                         |
+| JustComments<br>(dismesso) | ✔                | ✔   | ✔    | ✖                   | ✔         | ✖                         | ✖                         |
+| Hyvor Talk                 | ✔                | ✔   | ✔    | ✔                   | ✔         | ✔                         | ✔                         |
 
 #### [Valine](https://valine.js.org/en/index.html)
 
