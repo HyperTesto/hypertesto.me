@@ -9,7 +9,7 @@ title = "10+1 valide alternative a Disqus"
 +++
 Negli ultimi due anni, ho investito svariate giornate nel testare e sperimentare delle soluzioni alternative a Disqus in quanto quest'ultimo non è proprio quello che definirei un servizio _"privacy fiendly"._
 
-Questo articolo è stato scritto in più fasi, perciò qualche informazione potrebbe aver subito delle variazioni. Nel caso potete segnalarmelo qua sotto [👇](https://apps.timwhitlock.info/emoji/tables/unicode#emoji-modal "U+1F447") lasciando un commento.
+Questo articolo è stato scritto in più fasi, perciò qualche informazione potrebbe aver subito delle variazioni. Nel caso potete segnalarmelo qua sotto [👇](#comments-area) lasciando un commento.
 
 Prima di passare alla parte interessante (spero!) dell'articolo, vi elenco un po' di motivi per i quali dovreste considerare di rimuoverlo dal vostro blog e sostituirlo con qualcosa di meno invasivo.
 
@@ -43,7 +43,7 @@ Queste considerazioni unite ad altre presenti tra le righe dei paragrafi precede
 1. **Formattazione avanzata**: dal più semplice grassetto all'inserimento di link o immagini. Il top del sogno per me è avere la possibilità di farlo anche scrivendo in markdown, ma non è un requisito stretto.
 2. **Voti ai commenti:** stile reddit, con upvote e downvote. Questo per introdurre anche il punto successivo.
 3. **Varie opzioni di ordinamento:** dal più recente al più vecchio e viceversa, e per pertinenza (ovvero in base ai voti ricevuti).
-4. **Commenti anonimi:** non voglio obbligare nessuno ad iscriversi ad un sevizio che magari userà una volta nella vita. Meglio impiegare cinque minuti ad esprimere un'opinione piuttosto che impiegarlo per a riempire form di iscrizione.
+4. **Commenti anonimi:** non voglio obbligare nessuno ad iscriversi ad un sevizio che magari userà una volta nella vita. Meglio impiegare cinque minuti ad esprimere un'opinione piuttosto che impiegarlo a riempire form di iscrizione.
 5. **Autenticazione tramite SSO:** nel caso uno desideri lasciare un commento dovrebbe poterlo fare autenticandosi con uno dei suoi account social o non delle principali piattaforme come ad esempio Google o Facebook (attenzione: sappiamo che FB e Google non sono dei santi dal punto di vista privacy, ma se c'è la possibilità di lasciare commenti anonimi, l'utente più effettuare una scelta ponderata).
 6. **Privacy by design:** punto importantissimo e fondamentale, non voglio assolutamente che i miei (pochissimi) utenti vengano usati come prodotti magari perché qualche servizio viene spacciato per gratuito.
 
