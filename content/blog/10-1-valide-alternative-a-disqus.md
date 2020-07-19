@@ -2,10 +2,9 @@
 authors = ["hypertesto"]
 categories = ["articolo", "meta"]
 cover = "/images/alternative_disqus_cover.png"
-date = 2020-07-19T20:00:00Z
-draft = true
+date = 2020-07-19T21:50:00Z
 tags = ["disqus", "saas", "self-hosted", "commenti", "privacy"]
-title = "10 + 1 valide alternative a Disqus"
+title = "10+1 valide alternative a Disqus"
 
 +++
 Negli ultimi due anni, ho investito svariate giornate nel testare e sperimentare delle soluzioni alternative a Disqus in quanto quest'ultimo non è proprio quello che definirei un servizio _"privacy fiendly"._
