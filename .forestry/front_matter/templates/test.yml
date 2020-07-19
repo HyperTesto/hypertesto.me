@@ -24,6 +24,7 @@ fields:
   default: []
   label: Authors
 pages:
+- content/blog/10-1-valide-alternative-a-disqus.md
 - content/blog/come-far-funzionare-la-wireless-dell-hp-255-g6-su-lubuntu-20.04.md
 - content/blog/due-parole-su-lubuntu-20.04.md
 - content/blog/finalmente-un-alternativa-comoda-a-disqus.md
