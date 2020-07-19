@@ -250,7 +250,7 @@ Spoiler: Hyvor Talk l'ho scoperto grazie a loro ed è anche quello che per il mo
 
 #### Hyvor Talk
 
-![](/images/hyvor_talk_full.png)
+![](/images/hyvor_talk_full-1.png)
 
 Ed eccoci all'uiltimo contendente della nostra rassegna. Se avete letto lo spoiler due righe sopra, saprete che per ora questa è la soluzione che preferisco. Vediamo il perchè.
 
