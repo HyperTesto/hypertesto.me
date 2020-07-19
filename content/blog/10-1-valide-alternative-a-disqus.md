@@ -224,7 +224,7 @@ Il tier di utilizzo gratuito è piuttosto interessante poichè garantisce 100 co
 
 ReplyBox è stato recentemente rebrandizzato e sono cambiate in modo sostanziale.
 
-Non è presente un tier di utilizzo gratuito, anche se è disponibilie un periodo di prova di 14 giorni, che forse sono un po' pochi per valutare per bene la soluzione.
+Non è presente un tier di utilizzo gratuito, anche se è disponibilie un periodo di prova di 14 giorni, che forse sono un po' pochi per valutare per bene la soluzione. Il piano base è di 10€/mese, non di certo il più economico.
 
 Il look and feel di base sembra molto una via di mezzo tra i commenti di WordPress e Disqus. Pulito ed elegante.
 
@@ -240,11 +240,13 @@ JustComments è stata una delle prime soluzioni che ho provato, tra queste prese
 
 Dal momento in cui ho iniziato a scrire l'articolo sono successe un po' di cose, quella che interessa direttamente questo servizio è che [sarà dismesso a fine 2020](https://just-comments.com/blog/2020-03-06-just-comments-is-shutting-down.html).
 
-I suoi sviluppatori comunque nell'ultimo articolo sul loro blog, indicato Hyvor Talk come sistema alternativo che supporta anche l'importazione dei commenti da questa piattaforma.
+I suoi sviluppatori comunque nell'[ultimo articolo sul loro blog](https://just-comments.com/blog/2020-03-23-hyvor-talk-alternative-system-supports-justcomments.html), indicano Hyvor Talk come sistema alternativo che supporta anche l'importazione dei commenti da questa piattaforma.
 
 Spoiler: Hyvor Talk l'ho scoperto grazie a loro ed è anche quello che per il momento preferisco.
 
 #### Hyvor Talk
+
+![](/images/hyvor_talk_full.png)
 
 Ed eccoci all'uiltimo contendente della nostra rassegna. Se avete letto lo spoiler due righe sopra, saprete che per ora questa è la soluzione che preferisco. Vediamo il perchè.
 
