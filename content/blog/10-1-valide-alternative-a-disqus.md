@@ -106,7 +106,7 @@ Prima di tutto, sarebbe ottimo se rispettassero i punti elencati nei paragrafi p
 * **Facilità di installazione**: deve essere possibile fare un deploy tramite docker (ormai sei server faccio solo così)
 * **Utilizzo minimo di risorse:** che per me equivale a poter girare dignitosamente ìn 512MB di RAM su uno o due core.
 * **Detect spam:** o tramite integrazione con strumenti di terze parti oppure facente parte nativamente della soluzione.
-* **Attività e community:**  ovvero se il progetto è attivamete mantenuto e se la community ha sufficiente massa per garantire supporto e molteplici test di casi d'uso.
+* **Attività e community:**  ovvero se il progetto è attivamente mantenuto e se la community ha sufficiente massa per garantire supporto e molteplici test di casi d'uso.
 * **Interfaccia pronta all'uso**: ovvero se basta effettuare un embed e siamo operativi oppure occorre scrivere qualche riga di codice per integrarlo nella pagine. Non essendo una cima in grafica, preferisco avere già qualcosa di pronto.
 * **Esistono anche come Saas?** Avete tutte le le garanzie di un prodotto open, ma non dovete impiegare il vostro tempo per mettere in piedi e mantenere la soluzione è un grade plus. Oltretutto così viene supportato direttamente lo sviluppo.
 
@@ -192,6 +192,10 @@ Prima di analizzarli uno ad uno, vi indico qual è il questo caso il mio framewo
 * **Possibilità di personalizzazione:** completa o parziale tramite impostazioni o css.
 * **Completezza della dashboard**: sono disponibili e ben implementate tutte le operazioni base di moderazione? Funziona in modo trasversale tra più siti?
 * **Tier di utilizzo gratuito**: è possibile utilizzarlo gratuitamente? Se sì con che limitazioni?
+
+Come per la rassegna precedente, eccovi tutto riassunto in tabella:
+
+TODO
 
 #### Valine
 
