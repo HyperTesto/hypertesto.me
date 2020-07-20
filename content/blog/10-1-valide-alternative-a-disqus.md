@@ -17,22 +17,19 @@ Prima di passare alla parte interessante (spero!) dell'articolo, vi elenco un po
 
 Questo elenco non vuole essere esaustivo, ma rappresenta il **mio** punto di vista sulla questione:
 
-1. **Spia gli utenti:** questo per me è l'aspetto più grave. Ho investito molto tempo i test e ricerca per essere sicuro di avere dei siti senza cookies ove possibile, e più in generale a norma con il GDPR. Ad onor del vero esistono delle impostazioni per migliorare gli aspetti di privacy, tuttavia non sono il default e comunque non vi garantiscono un bel niente.  
+1. **Spia gli utenti:** questo per me è l'aspetto più grave. Ho investito molto tempo i test e ricerca per essere sicuro di avere dei siti senza cookies ove possibile, e più in generale a norma con il GDPR. Ad onor del vero esistono delle impostazioni per migliorare gli aspetti di privacy, tuttavia non sono il default e comunque non vi garantiscono un bel niente.
+2. **Vende i dati dei vostri visitatori (e ne siete complici!):** Disqus non è un'azienda che campa solo sul servizio che offre a siti e blog, ma invece è posseduta dalla _ZetaGlobal_ che sostanzialmente si occupa di marketing, che non fa mistero di vedere i dati. Hanno perfino una [pagina dedicata](http://data.disqus.com/) a tale scopo. Vi riporto uno stralcio della pagina informativa così giusto per darvi un'idea:
 
-2. **Vende i dati dei vostri visitatori (e ne siete complici!):** Disqus non è un'azienda che campa solo sul servizio che offre a siti e blog, ma invece è posseduta dalla _ZetaGlobal_ che sostanzialmente si occupa di marketing, che non fa mistero di vedere i dati. Hanno perfino una [pagina dedicata](http://data.disqus.com/) a tale scopo. Vi riporto uno stralcio della pagina informativa così giusto per darvi un'idea:  
+> Every 30 days, Disqus collects 1.6 trillion data points across 2 billion monthly unique visits to our audience platform. A single Disqus user cookie can contain over 30,000 data points
 
-> Every 30 days, Disqus collects 1.6 trillion data points across 2 billion monthly unique visits to our audience platform. A single Disqus user cookie can contain over 30,000 data points  
-
-3. **Piazza pubblicità sul vostro sito:** di questo fatto sarete sicuramente già a conoscenza... quelle pubblicità con titoli clickbait in fondo agli articoli non le trovate anche voi fuori luogo?!  
-
-4. **Rallenta i tempi di caricamento:** non ne siete sicuri? aprite un qualsiasi sito che fa uso di Disqus e verificate. Se invece siete pigri vi potete accontentare di questa prova fatta su un blog che gestivo quando andavo ancora alle superiori (e che non ho ancora sistemato, _mea culpa_)  
+1. **Piazza pubblicità sul vostro sito:** di questo fatto sarete sicuramente già a conoscenza... quelle pubblicità con titoli clickbait in fondo agli articoli non le trovate anche voi fuori luogo?!
+2. **Rallenta i tempi di caricamento:** non ne siete sicuri? aprite un qualsiasi sito che fa uso di Disqus e verificate. Se invece siete pigri vi potete accontentare di questa prova fatta su un blog che gestivo quando andavo ancora alle superiori (e che non ho ancora sistemato, _mea culpa_)
 
    ![](/images/schermata-a-2020-07-20-09-03-45.png)  
-   _Poteve vedere l'immagine ingrandita cliccando_ [👉 _qui_](/images/schermata-a-2020-07-20-09-03-45.png)__  
+   _Poteve vedere l'immagine ingrandita cliccando_ [👉 _qui_](/images/schermata-a-2020-07-20-09-03-45.png)__
 
-   Notate non solo il tempo impiegato dalle varie risorse, ma anche la quantità di roba che carica; ci sono più richieste al CDN di Disqus che alla pagina stessa!  
-
-5. **Non permette commenti anonimi:** da un lato essendo un servizio ancora molto utilizzato molti posseggono già un account Disqus, tuttavia obbligare qualcuno a creare un account  per lasciarvi magari un semplice grazie, è un deterrente. Io stesso tendo a non lasciare commenti se mi devo creare account per farlo; e questo per me  vale anche per siti che usano i commenti di wordpress ad esempio.  
+   Notate non solo il tempo impiegato dalle varie risorse, ma anche la quantità di roba che carica; ci sono più richieste al CDN di Disqus che alla pagina stessa!
+3. **Non permette commenti anonimi:** da un lato essendo un servizio ancora molto utilizzato molti posseggono già un account Disqus, tuttavia obbligare qualcuno a creare un account  per lasciarvi magari un semplice grazie, è un deterrente. Io stesso tendo a non lasciare commenti se mi devo creare account per farlo; e questo per me  vale anche per siti che usano i commenti di wordpress ad esempio.
 
 Ora che vi ho spaventato abbastanza possiamo passare ad alcune considerazioni sull'utilizzo di soluzioni saas oppure self-hosted ed infine alla mia comparazione dei servizi che ho provato in questi anni.
 
@@ -127,11 +124,13 @@ _La tabella è stata compilata in momenti diversi, se notate errori o avete prec
 
 #### [Discourse](https://www.discourse.org/)
 
+![](/images/discourse.png)
+
 Questo è sicuramente il più famoso dei software presentati poc'anzi. In realtà non si tratta di un sistema di commenti vero e proprio, ma piuttosto di un forum che permette opzionalmente di effettuare un embed sotto un articolo per permetterne la discussione in loco.
 
 Discourse è mastodontico perciò sognatevi che giri con risorse minimali: vi serviranno almeno 2GB di RAM e anche una CPU adeguata per far funzionare il tutto.
 
-Come già indicato, questo è molto di più di un sistema di commenti, ritentevo perciò giusto citarlo tra le varie possibilità.
+Come già indicato, questo è molto di più di un sistema di commenti, ritentevo però giusto citarlo tra le varie possibilità.
 
 #### [Isso](https://posativ.org/isso/)
 
