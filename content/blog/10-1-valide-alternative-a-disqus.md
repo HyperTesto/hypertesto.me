@@ -300,10 +300,12 @@ Come per staticman, questo sistema è nato per gravitare attorno al mondo dei ge
 
 ### Conclusioni
 
-Queste erano le mie 10+1 alternative a Disqus, ciascuna di esse è valida. Ma alcune sono più complete di altre. Come succede molte volte nel mondo dell'informatica, non c'è una soluzione giusta ed una sbagliata. La cosa importante per me è essere consci che le scelte che spesso facciamo per i nostri blog, hanno un impatto sulla privacy degli utenti, che è la cosa in assoluto più importante in fin dei conti.
+Queste erano le mie 10+1 alternative a Disqus, ciascuna di esse è valida. Alcune per ora sono più complete di altre. 
+
+Come succede molte volte nel mondo dell'informatica, non c'è una soluzione giusta ed una sbagliata. La cosa importante per me è essere consci che le scelte che spesso facciamo per i nostri blog, hanno un impatto sulla privacy degli utenti, che in fin dei conti è la cosa in assoluto più importante.
 
 Esistono, e vanno assolutamente supportati, servizi che nascono e vengono sviluppati in ottica orienta alla privacy. Pagare qualche euro al mese non è necessariamente una sconfitta per chi sarebbe in grado di metter su una baracca per conto proprio, ma piuttosto una scelta libera fatta per rispetto di un'utenza che, nonostante le ultime norme europee, è sempre stata trattata come merce di scambio.
 
 Personalmente ritengo che allo stato attuale, nonostante la soddisfazione e le conoscienze che vi potete portate a casa hostando una soluzione per conto vostro, sia più conveniente affidarsi a servizi saas onesti che hanno fatto della privacy il motore della propria attività.
 
-La scelta finale è libera ed è vostra, io spero solo di avervi dato elementi sufficienti per decidere, io per ora mi limito a consigliarvi vivamente [Hyvor Talk](https://talk.hyvor.com?aff=6531).
+**La scelta finale è libera ed è vostra, io spero solo di avervi dato elementi sufficienti per decidere, io per ora mi limito a consigliarvi vivamente** [**Hyvor Talk**](https://talk.hyvor.com?aff=6531)**.**
