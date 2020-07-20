@@ -184,7 +184,7 @@ Vien da se che i dati, risiedendo in un repo pubblico (GitHub o GitLab) godono "
 
 Staticman è disponibile anche come Saas offerto gratuitamente dalla community, ma vi consiglio vivamente di provare ad installarlo a mano dato che la versione saas pubblica soffre di problemi relativi al superamento delle soglie di utilizzo imposte da Heroku nel tier free (Heroku è la piattaforma presso la quale è ospitato).
 
-Di staticman avrò modo di parlare approfonditamente in un futuro articolo, perciò se siete interessati fate un passaggio di tanto in tanto o iscrivetevi al feed rss 😉.
+Di staticman avrò modo di parlare approfonditamente in un futuro articolo, perciò se siete interessati fate un passaggio di tanto in tanto o iscrivetevi al [feed rss](/index.xml) 😉.
 
 ### Soluzioni SaaS
 
