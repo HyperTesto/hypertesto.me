@@ -73,11 +73,11 @@ Questo è un bel quesito. La mia risposta è che non ho una risposta precisa. Di
 
 * La quantità di commenti ricevuti
 * Le nostre capacita tecniche di installare e mantenere qualcosa per conto nostro
-* Quando ogni soluzione rispecchia le nostre esigenze
+* Quanto ogni soluzione rispecchia le nostre esigenze
 * Che grado di interazione di aspetta la nostra utenza
 * Quanto la nostra utenza premia lo sforzo di mantenere un sistema dedicato ai commenti che rispecchia i vostri valori
 
-Essendo programmatore e sistemista, le capacità tecniche per installare e mantenere soluzioni self-hosted non mi mancano, anzi, ho parecchi servizi servizi che mantengo da vari anni. Il mondo dei commenti, come quello delle mail, per me rappresentano un'eccezione, poiché sono complessi da mantenere secondo me.
+Essendo programmatore e sistemista, le capacità tecniche per installare e mantenere soluzioni self-hosted non mi mancano, anzi, ho parecchi servizi che mantengo da vari anni. Il mondo dei commenti, come quello delle mail, per me rappresentano un'eccezione, poiché sono complessi da mantenere secondo me.
 
 Ecco quindi le considerazioni che mi portano, analogamente alle mail, a preferire soluzioni saas per i commenti piuttosto che soluzioni che mi tengo in casa:
 
