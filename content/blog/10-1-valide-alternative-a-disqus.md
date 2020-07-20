@@ -260,7 +260,7 @@ JustComments è stata una delle prime soluzioni che ho provato, tra queste prese
 
 È possibile ordinare i commenti e c'è anche la possibilità di votare un commento con una reaction. Idea carina.
 
-Dal momento in cui ho iniziato a scrire l'articolo sono successe un po' di cose, quella che interessa direttamente questo servizio è che [sarà dismesso a fine 2020](https://just-comments.com/blog/2020-03-06-just-comments-is-shutting-down.html).
+Dal momento in cui ho iniziato a scrivere l'articolo sono successe un po' di cose, quella che interessa direttamente questo servizio è che [sarà dismesso a fine 2020](https://just-comments.com/blog/2020-03-06-just-comments-is-shutting-down.html).
 
 I suoi sviluppatori comunque nell'[ultimo articolo sul loro blog](https://just-comments.com/blog/2020-03-23-hyvor-talk-alternative-system-supports-justcomments.html), indicano Hyvor Talk come sistema alternativo che supporta anche l'importazione dei commenti da questa piattaforma.
 
