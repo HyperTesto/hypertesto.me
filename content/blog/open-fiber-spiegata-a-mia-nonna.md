@@ -7,7 +7,7 @@ tags = ["fibra"]
 title = "Open Fiber spiegata a mia nonna"
 
 +++
-Non ve la spiego io, ma ve la spiegano direttamente i tecnici Open Fiber in questo grab bel video di Andrea Galeazzi.
+Non ve la spiego io, ma ve la spiegano direttamente i tecnici Open Fiber in questo gran bel video di Andrea Galeazzi.
 
 Buona visione!
 
