@@ -71,10 +71,15 @@ enable = true
 
 [params.widgets]
 homepage = ["recent_posts"]
-sidebar = ["about","social_menu","taxonomy_cloud"]
+sidebar = ["about","social_menu","sidebar_menu","taxonomy_cloud"]
+footer = ["social_menu"]
 
 [params.social.config]
 platforms = ["github","linkedin","facebook","twitter","instagram","email"]
+
+[sidebar_menu]
+title = "sidebar"                            # default: ""
+mirror = "sidebar"                           # default: ""
 
 [taxonomies]
 author = "authors"
@@ -83,6 +88,16 @@ tag = "tags"
 
 [permalinks]
 page = "/:slug/"
+
+[[menu.sidebar]]
+name = "» Chiuso in casa"
+identifier = "chiuso-in-casa"
+url = "/chiuso-in-casa"
+
+[[menu.sidebar]]
+name = "» Guida galattica per hughisti"
+identifier = "ggph"
+url = "/ggph"
 
 [[menu.main]]
 name = "Home"
@@ -96,11 +111,11 @@ weight = 100
 identifier = "repository"
 url = "https://github.com/HyperTesto/hypertesto.me"
 
-#[[menu.main]]
-#name = "Feed"
-#weight = 1000
-#identifier = "feed"
-#url = "/index.xml"
+[[menu.main]]
+name = "Feed"
+weight = 1000
+identifier = "feed"
+url = "/index.xml"
 
 [blackfriday]
 hrefTargetBlank = true

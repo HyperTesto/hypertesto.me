@@ -1,16 +1,12 @@
 ---
 title: Chiuso in casa
 weight: "-230"
-menu:
-  main:
-    weight: -230
-
 ---
 _Chiuso in casa_ è una serie a episodi per ingannare il tempo visto che, ahimé, non ho contatti umani da un bel po' e devo fingere di fare qualcosa di produttivo :-)
 
 Servirà anche come capsula del tempo quando dovrò raccontare tutta questa brutta faccenda alla mia progenie:
 
-> Bimbo: «Ma cosa facevi quando eri chiuso in casa?»  
+> Bimbo: «Ma cosa facevi quando eri chiuso in casa?»
 > Io: «[Cose](/blog/post-muto/)»
 
 Ecco cosa sto facendo in queste settimane in ordine sparso:
