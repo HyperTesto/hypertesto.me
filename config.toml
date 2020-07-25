@@ -51,7 +51,7 @@ appID = ""
 pageID = ""
 
 [params.opengraph.twitter]
-page = "" # Twitter page username
+page = "hypertesto"
 
 [params.seo]
 # Title Separator: - – — · • * ⋆ | ~ « » < >
