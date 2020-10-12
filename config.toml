@@ -65,6 +65,7 @@ github = "HyperTesto"
 instagram = "hypertesto"
 linkedin = "enricotestori"
 twitter = "hypertesto"
+rss = "/index.xml"
 
 [params.sidebar]
 enable = true
@@ -73,9 +74,6 @@ enable = true
 homepage = ["recent_posts"]
 sidebar = ["about","social_menu","sidebar_menu","taxonomy_cloud"]
 footer = ["social_menu"]
-
-[params.social.config]
-platforms = ["github","linkedin","facebook","twitter","instagram","email"]
 
 [sidebar_menu]
 title = "sidebar"                            # default: ""
