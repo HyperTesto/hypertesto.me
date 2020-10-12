@@ -3,7 +3,6 @@ authors = ["hypertesto"]
 categories = []
 cover = ""
 date = 2020-10-11T22:00:00Z
-draft = true
 tags = ["contest", "mozilla", "deep speech"]
 title = "Mozilla Italia Developer Contest"
 
