@@ -13,16 +13,16 @@ Sperando che possa interessare a qualcuno vi inoltro il link con maggiori info p
 
 [https://www.reddit.com/r/ItalyInformatica/comments/j6112h/mozilla_italia_developer_contest_in/](https://www.reddit.com/r/ItalyInformatica/comments/j6112h/mozilla_italia_developer_contest_in/ "https://www.reddit.com/r/ItalyInformatica/comments/j6112h/mozilla_italia_developer_contest_in/")
 
-In breve si tratta di un concorso informale (ovvero niente attestati o frivolezze che interessano solo ai markettari :evil: ) in cui vi si chiede di utilizzare il modello italiano di Deep Speech per produrre qualcosa di interessante, ad esempio:
+In breve si tratta di un concorso informale (ovvero niente attestati o frivolezze che interessano solo ai markettari :evil: ) in cui vi si chiede di utilizzare il modello italiano di DeepSpeech per produrre qualcosa di interessante, ad esempio:
 
 * riconoscitore di comandi vocali
 * assistente vocale
 * tecnoligie di assistenza a disabilità (controllo vocale del sistema operativo)
 
-### Cos'è Deep Speech
+### Cos'è DeepSpeech
 
-[DeepSpeech o DS](https://github.com/mozilla/DeepSpeech) è il progetto di Mozilla che sfruttando dei dataset genera un modello di riconoscimento vocale.   
- Per tale progetto vengono utilizzati dataset di pubblico dominio o che la licenza ci permette di aggregarli in modo tale da non permettere la creazione del materiale originali evitando complicazioni legali, essendo il progetto rilasciato a sua volta come prodotto open source.
+[DeepSpeech o DS](https://github.com/mozilla/DeepSpeech) è il progetto di Mozilla che sfruttando dei dataset genera un modello di riconoscimento vocale.  
+Per tale progetto vengono utilizzati dataset di pubblico dominio o che la licenza ci permette di aggregarli in modo tale da non permettere la creazione del materiale originali evitando complicazioni legali, essendo il progetto rilasciato a sua volta come prodotto open source.
 
 ### Cos'è Common Voice
 
