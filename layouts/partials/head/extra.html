@@ -6,5 +6,5 @@
 <meta name="theme-color" content="#ffffff">
 
 {{ if (in (slice (getenv "HUGO_ENV") hugo.Environment) "production") }}
-<script async src="https://stats.hypertesto.me/tracker.js" data-ackee-server="https://stats.hypertesto.me" data-ackee-domain-id="77cff830-e2a2-42b4-837e-66f706172bf8"></script>
+<script async defer data-domain="hypertesto.me" src="https://plausible.io/js/plausible.js"></script>
 {{ end }}
