@@ -2,7 +2,7 @@
 [about]
 title = ""                            # default: .Site.Title
 description = "A crashed PC is rocket science"
-logo = "/images/hypertesto.jpeg"             # default: "/images/logo.png"
+logo = "/images/avatar_rounded_small.png"             # default: "/images/logo.png"
 
 # Recent Posts Widget config
 [recent_posts]
