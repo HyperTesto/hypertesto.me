@@ -26,7 +26,7 @@
         frame-src https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/;
         child-src 'none';
         form-action 'self' https://hyper-staticman.herokuapp.com/v2/entry;
-        frame-ancestors 'none' https://www.youtube.com/embed;
+        frame-ancestors https://www.youtube.com/embed;
         '''
 
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
