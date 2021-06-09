@@ -23,10 +23,10 @@
         style-src 'self' 'unsafe-inline' https://www.gstatic.com https://fonts.googleapis.com *.cloudfront.net;
         script-src 'unsafe-inline' 'self' https://plausible.io https://www.gstatic.com https://www.google.com https://www.google.com/recaptcha/api.js *.cloudfront.net;
         img-src 'self' https:;
-        frame-src https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha/;
+        frame-src https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha https://www.youtube.com/embed;
         child-src 'none';
         form-action 'self' https://hyper-staticman.herokuapp.com/v2/entry;
-        frame-ancestors https://www.youtube.com/embed;
+        frame-ancestors 'none';
         '''
 
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
