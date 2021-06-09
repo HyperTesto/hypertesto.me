@@ -17,7 +17,6 @@
         font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com;
         style-src 'self' 'unsafe-inline' https://www.gstatic.com https://fonts.googleapis.com *.cloudfront.net;
         script-src 'self' 'unsafe-inline' https://plausible.io https://www.gstatic.com https://www.google.com *.cloudfront.net;
-        require-trusted-types-for 'script';
         frame-ancestors 'none';
         default-src 'none';
         '''
@@ -30,3 +29,18 @@
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
+
+    Permissions-Policy = "interest-cohort=()"
+
+# Redirects for plausible
+[[redirects]]
+  from = "/js/script.js"
+  to = "https://plausible.io/js/plausible.js"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/event"
+  to = "https://plausible.io/api/event"
+  status = 202
+  force = true
