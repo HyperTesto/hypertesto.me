@@ -1,0 +1,12 @@
+{{- $scriptSrc := "//talk.hyvor.com/web-api/embed" -}}
+{{- $hyvorSiteID := .Page.Site.Params.comments.hyvor.siteID -}}
+
+<div id="hyvor-talk-view"></div>
+<script type="text/javascript">
+    var HYVOR_TALK_WEBSITE = {{ $hyvorSiteID }};
+    var HYVOR_TALK_CONFIG = {
+        url: false,
+        id: '{{ .File.UniqueID }}'
+    };
+</script>
+<script async type="text/javascript" src="{{ $scriptSrc }}"></script>

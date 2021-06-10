@@ -129,11 +129,15 @@ weight = 1
 enable = true
 
 [params.comments.staticman]
-enable = true
+enable = false
 apiEndpoint = "https://hyper-staticman.herokuapp.com/v2/entry"
 maxDepth = 2
 username = "HyperTesto"
 repository = "hypertesto.me"
+
+[params.comments.hyvor]
+enable = true
+siteID = 4292
 
 #[params.comments.staticman.github]
 #branch = "master"
