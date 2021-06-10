@@ -23,7 +23,7 @@
         style-src 'self' 'unsafe-inline' https://www.gstatic.com https://fonts.googleapis.com *.cloudfront.net;
         script-src 'unsafe-inline' 'self' https://plausible.io https://www.gstatic.com https://www.google.com https://www.google.com/recaptcha/api.js https://storage.ko-fi.com/cdn/widget/Widget_2.js https://talk.hyvor.com/web-api/embed *.cloudfront.net;
         img-src 'self' https:;
-        frame-src https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha youtube.com www.youtube.com;
+        frame-src https://www.google.com/recaptcha/ https://recaptcha.google.com/recaptcha youtube.com www.youtube.com talk.hyvor.com;
         child-src 'none';
         form-action 'self' hyper-staticman.herokuapp.com;
         frame-ancestors 'none';
