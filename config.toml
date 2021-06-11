@@ -138,6 +138,7 @@ repository = "hypertesto.me"
 [params.comments.hyvor]
 enable = true
 siteID = 4292
+language = "it"
 
 #[params.comments.staticman.github]
 #branch = "master"
