@@ -13,7 +13,7 @@ di volta in volta, non è semplicemente possibile dire "con il mio *software*[^1
 chiamata non funziona per questi X motivi", anche fornendo a corredo dei log perfettamente chiari perchè:
 
 * non è detto che gli interlocutori siano in grado e abbiano la voglia di interpretare i tuoi log
-* è più facile assumere che sua tu il problema
+* è più facile assumere che sia tu il problema
 * non si parla con la persona giusta
 
 Ora, siccome i programmi che scrivo io sono **assolutamente infallibili**[^2] e quindi non
