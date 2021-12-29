@@ -83,7 +83,7 @@ del comando:
 Ovviamente senza dimenticare il caso contrario:
 
 * *Ho fatto qualche curlata qua e là*
-* *Cuirlo cose, vedo gente*
+* *Curlo cose, vedo gente*
 * *I test di curlazione sono giunti al termine*
 
 **Un'ultima nota prima di andare**: nell'immagine ho messo "negoziazione SSL" in modo un po' improprio
