@@ -49,3 +49,8 @@
   name = "Feed"
   url = "/index.xml"
   weight = 50
+
+[[footer]]
+  name = "Repo"
+  url = "https://github.com/HyperTesto/hypertesto.me"
+  weight = 60
