@@ -1,0 +1,9 @@
+/* Increase the default font size */
+html {
+  font-size: 14pt;
+}
+
+/* Hyvor inject 100% which breaks the class width, so we force it */
+#hyvor-talk-view {
+  max-width: 65ch !important;
+}
