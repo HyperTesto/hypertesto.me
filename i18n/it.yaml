@@ -1,5 +1,5 @@
 article:
-  anchor_label: "Anchor"
+  anchor_label: "Ancora"
   date: "{{ .Date }}"
   date_updated: "Aggiornato: {{ .Date }}"
   draft: "Bozza"
@@ -21,7 +21,7 @@ code:
   copied: "Copiato"
 
 error:
-  404_title: "Pagina Non Trovata :confused:"
+  404_title: "Pagina non trovata :confused:"
   404_error: "Errore 404"
   404_description: "Sembra che la pagina che hai richiesto non esista."
 
