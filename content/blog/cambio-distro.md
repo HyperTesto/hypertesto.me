@@ -1,5 +1,5 @@
 ---
-title: "Ho cambiato distro e sono sopravvissuto per raccontarlo"
+title: "Ho cambiato distro e sono sopravvissuto per poterlo raccontare"
 date: 2022-06-07T19:19:08+02:00
 draft: false
 categories:
