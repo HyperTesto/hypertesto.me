@@ -1,7 +1,12 @@
 ---
 title: "Ho cambiato distro e sono sopravvissuto per raccontarlo"
 date: 2022-06-07T19:19:08+02:00
-draft: true
+draft: false
+categories:
+  - articolo
+tags:
+  - distro
+  - fedora
 ---
 Non sono mai stato una persona che ama i cambiamenti, men che meno se si tratta di qualcosa come un S.O. che uso quotidianamente, anche per lavoro.
 Questa volta però, un po' per _una serie di sfortunati eventi_[^0], un po' per volontà di apportare dei cambiamenti al mio modo di lavorare, la transizione
