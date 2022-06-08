@@ -86,7 +86,7 @@ Fedora si è rivelata una distro molto più nelle mie corde di quanto pensassi, 
 
 - È una distro [upstream first](https://docs.fedoraproject.org/en-US/package-maintainers/Staying_Close_to_Upstream_Projects/), ovvero cerca nei limiti del possibile di usare software così come viene fornito da chi lo sviluppa, senza applicare patch o personalizzazioni. Questo porta con se dei vantaggi non da poco:
   1. Gli aggiornamenti arrivano con maggior rapidità e frequenza
-  2. Se ci sono problemi con il software è facile ottenere supporto direttamente dalla fonte (ricordatevi che non sempre chi _pacchettizza_ un software ha lo stesso livello di conoscenza di chi lo sviluppa, anzi nel caso
+  2. Se ci sono problemi con il software  facile ottenere supporto direttamente dalla fonte (ricordatevi che non sempre chi _pacchettizza_ un software ha lo stesso livello di conoscenza di chi lo sviluppa, anzi nel caso
   estremo potrebbe non essere nemmeno programmatore!)
   3. Se ci sono delle patch prodotte dalla community, vengono applicate al progetto upstream, quindi ne beneficiano tutti quanti sia che siano utenti di altre distro o potenzialmente anche di Windows o Mac  
 
