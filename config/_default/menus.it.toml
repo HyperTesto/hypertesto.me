@@ -54,3 +54,8 @@
   name = "Repo"
   url = "https://github.com/HyperTesto/hypertesto.me"
   weight = 60
+
+[[footer]]
+name = "Stats"
+url = "https://plausible.io/hypertesto.me"
+weight = 70
