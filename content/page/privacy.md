@@ -13,7 +13,7 @@ Come qualsiasi altro sito web, da qualche parte alcuni dati transitano e altri v
 
 
 ## Hosting
-Il sisto è hostato tramite [Netlify](https://www.netlify.com). Netlify in qualità di CDN/Host non effettua alcun tracciamento o elaborazione per mio conto.
+Il sito è hostato tramite [Netlify](https://www.netlify.com). Netlify in qualità di CDN/Host non effettua alcun tracciamento o elaborazione per mio conto.
 Può, come ogni servizio di questo tipo, memorizzare alcuni log per fini di debug e di esigenze di funzionamento.
 
 Un log è un elenco cronologico di messaggi prodotti da uno o più software; spesso tali messaggi sono memorizzati in un file normale di testo.  
@@ -25,7 +25,7 @@ Un messaggio di log nell'ambito di un server WEB normalmente riporta informazion
 Nel caso specifico Netlify memorizza l'IP sorgente.
 Per maggiori dettagli è possibile consultare la loro [pagina dedicata al GDPR](https://www.netlify.com/gdpr-ccpa/).
 
-# Statistiche
+## Statistiche
 Per le statistiche di utilizzo del sito utilizzo Plausible Analytics che è un tool per le statistiche compatibile con GDPR, CCPA e la cookie law (ed è anche [open source](https://github.com/plausible/analytics)). 
 I dati collezionati sono i seguenti:
 
