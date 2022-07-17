@@ -25,7 +25,7 @@ Un messaggio di log nell'ambito di un server WEB normalmente riporta informazion
 Nel caso specifico Netlify memorizza l'IP sorgente.
 Per maggiori dettagli è possibile consultare la loro [pagina dedicata al GDPR](https://www.netlify.com/gdpr-ccpa/).
 
-## Statistiche
+# Statistiche
 Per le statistiche di utilizzo del sito utilizzo Plausible Analytics che è un tool per le statistiche compatibile con GDPR, CCPA e la cookie law (ed è anche [open source](https://github.com/plausible/analytics)). 
 I dati collezionati sono i seguenti:
 
