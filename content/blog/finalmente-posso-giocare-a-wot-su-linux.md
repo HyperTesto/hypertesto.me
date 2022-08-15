@@ -110,7 +110,7 @@ $ sudo apt install --install-recommends wine-staging winehq-staging
 ### Lutris
 Prima di passare al lato pratico, lascio giusto due parole su cos'è Lutris e perchè è comodo da utilizzare: semplicemente è il [pacman][5ea28501] per Wine! Qualche santo pacchettizza uno script di installazione funzionante e lo mette a disposizione della community (e se avete mai bisticciato con Wine sapete quanto è dura trovare una configurazione funzionante).
 
-Per l'installazione basta seguire la [giuda ufficiale][9678fa76], che riporto qui per comodità:
+Per l'installazione basta seguire la [guida ufficiale][9678fa76], che riporto qui per comodità:
 ```bash
 $ ver=$(lsb_release -sr); if [ $ver != "18.10" -a $ver != "18.04" -a $ver != "16.04" ]; then ver=18.04; fi
 $ echo "deb http://download.opensuse.org/repositories/home:/strycore/xUbuntu_$ver/ ./" | sudo tee /etc/apt/sources.list.d/lutris.list
