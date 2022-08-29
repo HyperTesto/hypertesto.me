@@ -28,6 +28,7 @@ copyright = "&copy; 2017-2022 HyperTesto | [CC BY-NC 4.0](https://creativecommon
   showRecent = true
 
 [article]
+  showComments = true
   showDate = true
   showDateUpdated = true
   showAuthor = true
