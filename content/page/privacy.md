@@ -2,6 +2,7 @@
 title: "Privacy"
 date: 2022-06-01T00:51:06+02:00
 draft: false
+showComments: false
 ---
 ## In soldoni
 
@@ -26,7 +27,7 @@ Nel caso specifico Netlify memorizza l'IP sorgente.
 Per maggiori dettagli è possibile consultare la loro [pagina dedicata al GDPR](https://www.netlify.com/gdpr-ccpa/).
 
 ## Statistiche
-Per le statistiche di utilizzo del sito utilizzo Plausible Analytics che è un tool per le statistiche compatibile con GDPR, CCPA e la cookie law (ed è anche [open source](https://github.com/plausible/analytics)). 
+Per le statistiche di utilizzo del sito utilizzo Plausible Analytics che è un tool per le statistiche compatibile con GDPR, CCPA e la cookie law (ed è anche [open source](https://github.com/plausible/analytics)).
 I dati collezionati sono i seguenti:
 
 * URL della pagina: questo è il dato di maggior interesse per la raccolta di dati (per la verità anche l'unico che mi interessa), questo dato è ripulito da qualsiasi query string (che potrebbe potenzialmente riportare dati sensibili)
@@ -52,6 +53,6 @@ Per i commenti questo sito usa Hyvor Talk come piattaforma per i commenti. Quest
   * I commenti vengono analizzati da un sistema antispam sviluppato in casa da Hyvor Talk
   * Per mia scelta **non viene memorizzato** alcun indirizzo IP (che sarebbe utile per effettuare ban nel caso di spam, ma per ora non è necessario)
   * Il campo `email` è **totalmente opzionale** e viene solamente utilizzato per generare la miniatura tramite [Gravatar](https://it.gravatar.com/)
-  * I cookie `authsess` viene generato **se e solo se** viene scelto di effettuare il login sul portale di Hyvor 
+  * I cookie `authsess` viene generato **se e solo se** viene scelto di effettuare il login sul portale di Hyvor
 
 Per ulteriori informazioni ecco la [privacy policy di Hyvor](https://talk.hyvor.com/docs/privacy).
