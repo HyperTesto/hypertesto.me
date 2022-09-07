@@ -1,14 +1,15 @@
 ---
-title: "Hostare repo Git privati con Gitea"
-date: 2018-09-12T22:13:31+02:00
-draft: false
-authors: ["hypertesto"]
+authors:
+- hypertesto
 categories:
-  - guida
+- guida
+date: "2018-09-12T22:13:31+02:00"
+draft: false
 tags:
-  - git
-  - gogs
-  - server
+- git
+- gogs
+- server
+title: Hostare repo Git privati con Gitea
 ---
 
 Negli anni ho accumulato un sacco di sorgenti tra codice Java, Bash e altri linguaggi (addirittura il [Moonscript](https://moonscript.org/) di cui non ricordavo nemmeno l'esistenza), prima di perderli accidentalmente ho deciso di caricarli su un server Git privato.

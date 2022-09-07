@@ -1,12 +1,16 @@
-+++
-authors = ["hypertesto"]
-categories = ["guide"]
-cover = "/images/schermata-a-2020-07-08-21-50-14.png"
-date = 2020-07-08T19:00:00Z
-tags = ["linux", "server", "remote desktop"]
-title = "Installare X2Go su Ubuntu 18.04"
-
-+++
+---
+authors:
+- hypertesto
+categories:
+- guide
+cover: /images/schermata-a-2020-07-08-21-50-14.png
+date: "2020-07-08T19:00:00Z"
+tags:
+- linux
+- server
+- remote desktop
+title: Installare X2Go su Ubuntu 18.04
+---
 _Ovvero: ho finalmente trovato una soluzione decente per connettermi in remote desktop sul portatile che ho lasciato in ufficio. Uncle singer.[^0]_
 
 Probabilmente ci avrete sbattuto la testa anche voi dato che nell'ultimo periodo per cause di forza maggiore stiamo sperimentando l'ebrezza del lavoro remoto (no, non vi darò la soddisfazione di chiamarlo "smart working").

@@ -1,13 +1,13 @@
 ---
-title: "Chiuso in casa - Episodio #1"
-date: 2020-03-29T12:49:38+02:00
-cover: /images/chiuso-in-casa/cover_ep01.jpg
 categories:
 - chiuso in casa
+cover: /images/chiuso-in-casa/cover_ep01.jpg
+date: "2020-03-29T12:49:38+02:00"
 tags:
 - swag
 - covid-19
 - iorestoacasa
+title: 'Chiuso in casa - Episodio #1'
 ---
 Secondo giorno, secondo episodio. Andiamo dritti al punto.
 

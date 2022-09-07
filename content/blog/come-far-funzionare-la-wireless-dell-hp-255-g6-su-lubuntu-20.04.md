@@ -1,11 +1,15 @@
-+++
-cover = "/images/cables.jpg"
-date = 2020-06-10T21:30:00Z
-title = "Come far funzionare la wireless su un HP 255 G6 con Lubuntu 20.04"
-authors = ["hypertesto"]
-categories = ["guide"]
-tags=["linux", "HP 255 G6"]
-+++
+---
+authors:
+- hypertesto
+categories:
+- guide
+cover: /images/cables.jpg
+date: "2020-06-10T21:30:00Z"
+tags:
+- linux
+- HP 255 G6
+title: Come far funzionare la wireless su un HP 255 G6 con Lubuntu 20.04
+---
 Eccoci qui con un altra brevissima guida dedicata a Lubuntu 20.04 sul mio computer portatile HP 255 G6.
 
 Breve storia triste: la scheda wireless non funziona con i driver caricati di default[^0].

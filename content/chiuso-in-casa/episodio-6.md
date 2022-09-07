@@ -1,13 +1,13 @@
 ---
-title: "Chiuso in casa - Episodio #6"
-date: 2020-04-03T21:39:00+02:00
-cover: /images/chiuso-in-casa/cover_ep06.jpg
 categories:
 - chiuso in casa
+cover: /images/chiuso-in-casa/cover_ep06.jpg
+date: "2020-04-03T21:39:00+02:00"
 tags:
 - swag
 - covid-19
 - iorestoacasa
+title: 'Chiuso in casa - Episodio #6'
 ---
 Eccoci qua, in puntuale ritardo.  
 Non sapevo che canzone condividere, così ho chiesto al forno... non lo avessi mai

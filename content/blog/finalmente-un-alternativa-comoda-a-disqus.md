@@ -1,12 +1,13 @@
-+++
-cover = "/images/kelly-sikkema-273133-unsplash.jpg"
-date = "2019-05-05T00:00:00+02:00"
-draft = true
-title = "Finalmente un'alternativa comoda a Disqus"
-authors = ["hypertesto"]
-categories = ["articolo"]
-
-+++
+---
+authors:
+- hypertesto
+categories:
+- articolo
+cover: /images/kelly-sikkema-273133-unsplash.jpg
+date: "2019-05-05T00:00:00+02:00"
+draft: true
+title: Finalmente un'alternativa comoda a Disqus
+---
 Per parecchio tempo ho cercato un'alternativa valida a Disqus, sopratutto dopo l'avvento del famigerato nuovo regolamento europeo della privacy ([GDPR](https://eugdpr.org/ "GDPR")) entrato in vigore la primavera scorsa.
 
 Ma facciamo un paio di passi indietro.

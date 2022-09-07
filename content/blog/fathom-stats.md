@@ -1,14 +1,15 @@
 ---
-title: "Tracciamento delle visite GDPR friendly"
-date: 2018-06-20T22:28:19+02:00
-draft: false
-authors: ["hypertesto"]
+authors:
+- hypertesto
 categories:
-  - articolo
+- articolo
+date: "2018-06-20T22:28:19+02:00"
+draft: false
 tags:
-  - gdpr
-  - statistiche
-  - fathom
+- gdpr
+- statistiche
+- fathom
+title: Tracciamento delle visite GDPR friendly
 ---
 
 Come annunciato nel mio [precedente articolo](/blog/gdpr-checklist), in ottemperanza alla nuova normativa europea sulla privacy, ho deciso di rimuovere dai miei siti tutti i servizi Google, Disqus e qualsiasi altro servizio che installa cookie di profilazione a tradimento.

@@ -1,13 +1,13 @@
 ---
-title: "Chiuso in casa - Episodio #9"
-date: 2020-04-08T21:49:23+02:00
-cover: /images/chiuso-in-casa/cover_ep09.jpg
 categories:
 - chiuso in casa
+cover: /images/chiuso-in-casa/cover_ep09.jpg
+date: "2020-04-08T21:49:23+02:00"
 tags:
 - swag
 - covid-19
 - iorestoacasa
+title: 'Chiuso in casa - Episodio #9'
 ---
 Ciao a tutti! Eccoci qui anche oggi con un altro episodio.  
 Caspita siamo a dieci episodi! (per chi non ha ancora letto gli episodi precedenti,

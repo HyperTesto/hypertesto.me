@@ -1,13 +1,14 @@
 ---
-title: "Finalmente posso giocare a WoT Su Linux"
-date: 2019-03-25T22:28:20+01:00
-draft: false
-authors: ["hypertesto"]
+authors:
+- hypertesto
 categories:
-  - articolo
+- articolo
+date: "2019-03-25T22:28:20+01:00"
+draft: false
 tags:
-  - games
-  - wine
+- games
+- wine
+title: Finalmente posso giocare a WoT Su Linux
 ---
 Vi è mai capitato di avere quella voglia di rispolverare quel gioco che non toccate da un paio d'anni? Bè a me è successo un po' di volte, solo che non avendo più una singola installazione Windows alla fine sono sempre andato in _fallback_ su DOTA 2 che gira tranquillamente con Steam anche sul sistema operativo del pinguino.
 

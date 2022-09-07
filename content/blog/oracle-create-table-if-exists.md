@@ -1,14 +1,14 @@
 ---
-title: CREATE TABLE IF NOT EXISTS su database Oracle
-date: 2018-07-09T20:50:00.000+00:00
-cover: "/images/create_table.jpg"
-authors: ["hypertesto"]
+authors:
+- hypertesto
 categories:
 - guida
+cover: /images/create_table.jpg
+date: "2018-07-09T20:50:00.000+00:00"
 tags:
 - sql
 - oracle
-
+title: CREATE TABLE IF NOT EXISTS su database Oracle
 ---
 Il problema di oggi era apparentemente semplice: create una tabella se non era già presente nel DB.
 Erroneamente davo per scontato che la sintassi MySQL, con i dovuti adattamenti per Oracle, funzionasse:

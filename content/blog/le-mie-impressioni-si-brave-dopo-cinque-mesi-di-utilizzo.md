@@ -1,11 +1,16 @@
-+++
-cover = "/images/1200x627-linkedin.png"
-date = "2019-05-15T23:00:00+02:00"
-title = "Le mie impressioni su Brave dopo cinque mesi di utilizzo"
-authors = ["hypertesto"]
-tags = ["brave", "browser", "internet"]
-categories = ["articolo"]
-+++
+---
+authors:
+- hypertesto
+categories:
+- articolo
+cover: /images/1200x627-linkedin.png
+date: "2019-05-15T23:00:00+02:00"
+tags:
+- brave
+- browser
+- internet
+title: Le mie impressioni su Brave dopo cinque mesi di utilizzo
+---
 Utilizzo Brave sia a casa (PC e cellulare) che al lavoro ormai da cinque mesi, quindi ho pensato di scrivere una breve recensione.
 
 La mia esperienza finora è davvero molto positiva, nessun Browser prima d'ora era riuscito a staccarmi da Firefox, che tra l'altro negli ultimi anni è [migliorato moltissimo](https://www.punto-informatico.it/firefox-48-finalmente-electrolysis/ "miglioramento firefox")!

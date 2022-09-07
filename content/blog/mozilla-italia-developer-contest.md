@@ -1,12 +1,15 @@
-+++
-authors = ["hypertesto"]
-categories = []
-cover = ""
-date = 2020-10-11T22:00:00Z
-tags = ["contest", "mozilla", "deep speech"]
-title = "Mozilla Italia Developer Contest"
-
-+++
+---
+authors:
+- hypertesto
+categories: []
+cover: ""
+date: "2020-10-11T22:00:00Z"
+tags:
+- contest
+- mozilla
+- deep speech
+title: Mozilla Italia Developer Contest
+---
 Ciao a tutti!
 
 Sperando che possa interessare a qualcuno vi inoltro il link con maggiori info per un contest organizzato da Mozilla Italia:

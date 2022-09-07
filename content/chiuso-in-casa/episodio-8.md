@@ -1,13 +1,13 @@
 ---
-title: "Chiuso in casa - Episodio #8"
-date: 2020-04-07T18:57:11+02:00
-cover: /images/chiuso-in-casa/cover_ep08.jpg
 categories:
 - chiuso in casa
+cover: /images/chiuso-in-casa/cover_ep08.jpg
+date: "2020-04-07T18:57:11+02:00"
 tags:
 - swag
 - covid-19
 - iorestoacasa
+title: 'Chiuso in casa - Episodio #8'
 ---
 Salve a tutti. Oggi si riparte con la puntata numero otto dopo un paio di giorni di
 pausa.   

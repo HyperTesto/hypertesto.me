@@ -1,13 +1,13 @@
 ---
-title: "Chiuso in casa - Episodio #5"
-date: 2020-04-02T22:02:07+02:00
-cover: /images/chiuso-in-casa/cover_ep05.jpg
 categories:
 - chiuso in casa
+cover: /images/chiuso-in-casa/cover_ep05.jpg
+date: "2020-04-02T22:02:07+02:00"
 tags:
 - swag
 - covid-19
 - iorestoacasa
+title: 'Chiuso in casa - Episodio #5'
 ---
 Salve a tutti, oggi l'articolo esce più tardi del solito. Sono dovuto andare in
 missione a caccia di cibo. Ho una vita avventurosa 😂.

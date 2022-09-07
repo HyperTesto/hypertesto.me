@@ -1,13 +1,13 @@
 ---
-title: "Chiuso in casa - Episodio #4"
-date: 2020-04-01T13:42:33+02:00
-cover: /images/chiuso-in-casa/cover_ep04.jpg
 categories:
 - chiuso in casa
+cover: /images/chiuso-in-casa/cover_ep04.jpg
+date: "2020-04-01T13:42:33+02:00"
 tags:
 - swag
 - covid-19
 - iorestoacasa
+title: 'Chiuso in casa - Episodio #4'
 ---
 Salve a tutti!
 Oggi, per festeggiare il primo giorno di Aprile, e il fatto che sono chiuso in

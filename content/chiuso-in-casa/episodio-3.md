@@ -1,13 +1,13 @@
 ---
-title: "Chiuso in casa - Episodio #3"
-date: 2020-03-31T19:36:45+02:00
-cover: /images/chiuso-in-casa/cover_ep03.jpg
 categories:
 - chiuso in casa
+cover: /images/chiuso-in-casa/cover_ep03.jpg
+date: "2020-03-31T19:36:45+02:00"
 tags:
 - swag
 - covid-19
 - iorestoacasa
+title: 'Chiuso in casa - Episodio #3'
 ---
 Eccoci qua, un po' in ritardo sulle tabelle di marcia. I contrattempi, a quanto pare,
 sono esentati dallo stare a casa loro... brutti! 凸(￣ヘ￣).  

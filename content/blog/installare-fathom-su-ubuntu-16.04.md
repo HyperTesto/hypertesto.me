@@ -1,14 +1,15 @@
 ---
-title: "Installare Fathom su Ubuntu 16.04"
-date: 2018-06-22T23:53:08+02:00
-draft: false
-authors: ["hypertesto"]
+authors:
+- hypertesto
 categories:
-  - guida
+- guida
+date: "2018-06-22T23:53:08+02:00"
+draft: false
 tags:
-  - gdpr
-  - statistiche
-  - fathom
+- gdpr
+- statistiche
+- fathom
+title: Installare Fathom su Ubuntu 16.04
 ---
 
 Phatom è un piccolo servizio opensource, sviluppato in Go, che fa una sola cosa e la fa bene: il tracciamento delle visite ad un sito.

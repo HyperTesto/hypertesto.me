@@ -1,8 +1,8 @@
 ---
-title: "Il discorso di fine anno"
-date: 2021-12-31T00:20:31+01:00
+cover: /images/discorso_fine_anno.jpg
+date: "2021-12-31T00:20:31+01:00"
 draft: false
-cover: "/images/discorso_fine_anno.jpg"
+title: Il discorso di fine anno
 ---
 Cari Elettori, la realizzazione dei doveri del programma ci obbliga all'analisi
 delle condizioni finanziarie e amministrative esistenti.

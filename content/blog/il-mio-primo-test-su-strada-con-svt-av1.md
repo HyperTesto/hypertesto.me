@@ -1,12 +1,15 @@
-+++
-cover = "/images/tim-mossholder-322350-unsplash.jpg"
-date = "2019-05-06T00:00:00+02:00"
-title = "Il mio primo test su strada con SVT-AV1"
-authors = ["hypertesto"]
-categories = ["articolo"]
-tags = ["AV1", "test"]
-
-+++
+---
+authors:
+- hypertesto
+categories:
+- articolo
+cover: /images/tim-mossholder-322350-unsplash.jpg
+date: "2019-05-06T00:00:00+02:00"
+tags:
+- AV1
+- test
+title: Il mio primo test su strada con SVT-AV1
+---
 Al National Association of Broadcasters Show (NAB Show) 2019 di Las Vegas, Intel e Netflix hanno presentato il codec video open source [SVT-AV1](https://github.com/OpenVisualCloud/SVT-AV1/), acronimo di _Scalable Video Technology for AV1_.
 
 Il codec è concepito per ottenere il miglior compromesso fra latenza, performance e qualità visiva rispetto alle attuale implementazioni AV1: [libaom](https://aomedia.googlesource.com/aom/) che non brilla certo in termini di performance.

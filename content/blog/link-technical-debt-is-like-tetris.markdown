@@ -1,13 +1,14 @@
 ---
-title: "[Link] Technical Debt Is Like Tetris"
-date: "2019-04-03T22:28:20+01:00"
-cover: /images/mess.jpg
-authors: ["hypertesto"]
+authors:
+- hypertesto
 categories:
-  - appunti
+- appunti
+cover: /images/mess.jpg
+date: "2019-04-03T22:28:20+01:00"
 tag:
-  - link
-  - ingegneria del software
+- link
+- ingegneria del software
+title: '[Link] Technical Debt Is Like Tetris'
 ---
 Ogni tanto capita di imbattersi in quell'articolo e riuscire a dire solamente "WOW, vorrei che me lo avessero spiegato così".
 È esattamente ciò che mi è successo oggi mentre con un articolo su Medium scritto da [Eric Higgigs][e7068f7a]: [_Technical Debt Is Like Tetris_](https://medium.com/s/story/technical-debt-is-like-tetris-168f64d8b700).

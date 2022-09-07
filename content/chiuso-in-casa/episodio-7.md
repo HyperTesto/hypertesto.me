@@ -1,13 +1,13 @@
 ---
-title: "Chiuso in casa - Episodio #7"
-date: 2020-04-04T21:56:38+02:00
-cover: /images/chiuso-in-casa/cover_ep07.jpg
 categories:
 - chiuso in casa
+cover: /images/chiuso-in-casa/cover_ep07.jpg
+date: "2020-04-04T21:56:38+02:00"
 tags:
 - swag
 - covid-19
 - iorestoacasa
+title: 'Chiuso in casa - Episodio #7'
 ---
 Eccoci qua. Diamo il via alle danze!
 

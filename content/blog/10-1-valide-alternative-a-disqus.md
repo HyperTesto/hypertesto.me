@@ -1,12 +1,19 @@
-+++
-authors = ["hypertesto"]
-categories = ["articolo", "meta"]
-cover = "/images/alternative_disqus_cover.png"
-date = 2020-07-19T21:50:00Z
-tags = ["disqus", "saas", "self-hosted", "commenti", "privacy"]
-title = "10+1 valide alternative a Disqus"
-
-+++
+---
+authors:
+- hypertesto
+categories:
+- articolo
+- meta
+cover: /images/alternative_disqus_cover.png
+date: "2020-07-19T21:50:00Z"
+tags:
+- disqus
+- saas
+- self-hosted
+- commenti
+- privacy
+title: 10+1 valide alternative a Disqus
+---
 Negli ultimi due anni, ho investito svariate giornate nel testare e sperimentare delle soluzioni alternative a Disqus in quanto quest'ultimo non è proprio quello che definirei un servizio _"privacy friendly"._
 
 Questo articolo è stato scritto in più fasi, perciò qualche informazione potrebbe aver subito delle variazioni. Nel caso potete segnalarmelo qua sotto [👇](#comments-area) lasciando un commento.

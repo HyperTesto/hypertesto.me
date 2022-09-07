@@ -1,11 +1,16 @@
-+++
-cover = "/images/lubuntu.jpg"
-date = 2020-06-07T10:00:00Z
-title = "Ripristinare il pannello di default in Lubuntu 20.04"
-authors = ["hypertesto"]
-tags = ["linux", "lubuntu", "lxqt"]
-categories = ["guide"]
-+++
+---
+authors:
+- hypertesto
+categories:
+- guide
+cover: /images/lubuntu.jpg
+date: "2020-06-07T10:00:00Z"
+tags:
+- linux
+- lubuntu
+- lxqt
+title: Ripristinare il pannello di default in Lubuntu 20.04
+---
 Come promesso nel precedente articolo, ecco una brevissima guida su come ripristinare il pannello di default in Lubuntu 20.04.
 
 Quando si smanetta con i pannelli dei vari DE, capita spesso di incasinarli e fare disastri, nel mio caso specifico, ho inavvertitamente rimosso il pannello inferiore di LXQt.

@@ -1,7 +1,7 @@
 ---
-title: "Il curlese come lingua franca per gli addetti ai lavori"
-date: 2021-12-28T22:34:17+01:00
+date: "2021-12-28T22:34:17+01:00"
 draft: false
+title: Il curlese come lingua franca per gli addetti ai lavori
 ---
 Nell'ultimo periodo mi capita spesso di essere al lavoro su progetti che richiedono
 vari tipi di integrazioni con API di terze parti, quasi sempre HTTP(s).

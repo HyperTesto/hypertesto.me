@@ -1,13 +1,14 @@
 ---
-title: "Installare Docker CE Su Redhat 7.5"
-date: 2018-07-04T16:53:03+02:00
-draft: false
-authors: ["hypertesto"]
+authors:
+- hypertesto
 categories:
-  - guida
+- guida
+date: "2018-07-04T16:53:03+02:00"
+draft: false
 tags:
-  - RHEL7
-  - docker
+- RHEL7
+- docker
+title: Installare Docker CE Su Redhat 7.5
 ---
 
 Oggi ho battagliato un po' per installare Docker Community Edition su Redhat 7.5 non essendo ancora ufficialmente supportato.

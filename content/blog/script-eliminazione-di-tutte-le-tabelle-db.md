@@ -1,16 +1,17 @@
 ---
-title: "Un semplice script per l'eliminazione di tutte le tabelle di un DB MySQL"
-date: 2018-09-19T21:20:18+02:00
-cover: /images/alt.jpg
-draft: false
-authors: ["hypertesto"]
+authors:
+- hypertesto
 categories:
-  - snippet
-  - appunti
+- snippet
+- appunti
+cover: /images/alt.jpg
+date: "2018-09-19T21:20:18+02:00"
+draft: false
 tags:
-  - database
-  - MySQL
-  - Bash
+- database
+- MySQL
+- Bash
+title: Un semplice script per l'eliminazione di tutte le tabelle di un DB MySQL
 ---
 Ieri mi sono trovato nella situazione di dover ricreare un database poichè le tabelle ed i dati contenuti erano cambiati.
 

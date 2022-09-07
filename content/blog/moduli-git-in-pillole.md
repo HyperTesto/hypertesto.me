@@ -1,12 +1,13 @@
 ---
-title: "Moduli Git in pillole"
-date: 2018-07-12T23:14:31+02:00
-draft: false
-authors: ["hypertesto"]
+authors:
+- hypertesto
 categories:
-  - appunti
+- appunti
+date: "2018-07-12T23:14:31+02:00"
+draft: false
 tags:
-  - git
+- git
+title: Moduli Git in pillole
 ---
 
 I moduli di Git sono davvero comodi, tuttavia mi capita di usarli di rado... Infatti ogni volta non ricordo mai come devo fare :-)

@@ -1,14 +1,15 @@
 ---
-title: "Cronache del mio microcosmo"
-date: 2020-05-04T22:21:09+02:00
-draft: false
-cover: /images/cover_microcosmo.jpg
-authors: ["hypertesto"]
+authors:
+- hypertesto
 categories:
-  - articolo
+- articolo
+cover: /images/cover_microcosmo.jpg
+date: "2020-05-04T22:21:09+02:00"
+draft: false
 tags:
-  - quarantena
-  - swag
+- quarantena
+- swag
+title: Cronache del mio microcosmo
 ---
 Questo venerdì, se governo e regioni non cambiano idea, riuscirò finalmente a tornare a casa dopo due mesi di clausura. Quindi ho deciso di fare una piccola retrospettiva di questo ultimo periodo.
 

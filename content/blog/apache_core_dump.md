@@ -1,13 +1,14 @@
 ---
-title: "Come tracciare i core dump di Apache su RedHat 7.x"
-date: 2018-06-18T21:39:05+02:00
-draft: false
-authors: ["hypertesto"]
+authors:
+- hypertesto
 categories:
-  - guide
+- guide
+date: "2018-06-18T21:39:05+02:00"
+draft: false
 tags:
-  - apache
-  - debug
+- apache
+- debug
+title: Come tracciare i core dump di Apache su RedHat 7.x
 ---
 
 Prima o poi capita di trovarsi di fronte messaggi di errore poco amichevoli. È quello che mi è successo recentemente con Apache su una RedHat 7.4.

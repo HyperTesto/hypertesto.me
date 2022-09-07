@@ -1,11 +1,11 @@
 ---
-title: About
 date: 2017-11-19 15:47:32 +0000
-weight: -210
 menu:
   main:
     weight: -210
 showComments: false
+title: About
+weight: -210
 ---
 Mi chiamo Enrico Testori e sono l'autore di questo blog (ma va?).
 

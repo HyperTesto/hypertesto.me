@@ -1,13 +1,13 @@
 ---
-title: "Chiuso in casa - Episodio #2"
-date: 2020-03-30T13:00:03+02:00
-cover: /images/chiuso-in-casa/cover_ep02.jpg
 categories:
 - chiuso in casa
+cover: /images/chiuso-in-casa/cover_ep02.jpg
+date: "2020-03-30T13:00:03+02:00"
 tags:
 - swag
 - covid-19
 - iorestoacasa
+title: 'Chiuso in casa - Episodio #2'
 ---
 Eccoci qua! Terzo giorno, terzo episodio che, ricordiamolo sempre, è il numero due
 visto che la conta inizia da zero.
