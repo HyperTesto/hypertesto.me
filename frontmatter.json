@@ -1,0 +1,132 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        }
+      ]
+    }
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "path": "[[workspace]]/archetypes",
+      "title": "archetypes"
+    },
+    {
+      "path": "[[workspace]]/content/blog",
+      "title": "blog"
+    },
+    {
+      "path": "[[workspace]]/content/ggph",
+      "title": "ggph"
+    },
+    {
+      "path": "[[workspace]]/content/chiuso-in-casa",
+      "title": "chiuso-in-casa"
+    },
+    {
+      "path": "[[workspace]]/content/page"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [
+    "AV1",
+    "Bash",
+    "HP 255 G6",
+    "MySQL",
+    "RHEL7",
+    "apache",
+    "brave",
+    "browser",
+    "bug",
+    "commenti",
+    "contest",
+    "covid-19",
+    "database",
+    "debug",
+    "deep speech",
+    "disqus",
+    "distro",
+    "docker",
+    "fathom",
+    "fedora",
+    "fibra",
+    "games",
+    "gdpr",
+    "git",
+    "gogs",
+    "guide",
+    "hugo",
+    "internet",
+    "iorestoacasa",
+    "java",
+    "linux",
+    "lubuntu",
+    "lxqt",
+    "mozilla",
+    "oracle",
+    "privacy",
+    "quarantena",
+    "remote desktop",
+    "saas",
+    "self-hosted",
+    "server",
+    "siti statici",
+    "sql",
+    "ssg",
+    "statistiche",
+    "swag",
+    "test",
+    "wine"
+  ],
+  "frontMatter.taxonomy.categories": [
+    "appunti",
+    "articolo",
+    "chiuso in casa",
+    "guida",
+    "guida galattica per hughisti",
+    "guide",
+    "meta",
+    "note",
+    "snippet",
+    "swag"
+  ]
+}
