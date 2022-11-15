@@ -277,7 +277,7 @@ Spoiler: Hyvor Talk l'ho scoperto grazie a loro ed è anche quello che per il mo
 
 ![](/images/hyvor_talk_full-1.png)
 
-Ed eccoci all'uiltimo contendente della nostra rassegna. Se avete letto lo spoiler due righe sopra, saprete che per ora questa è la soluzione che preferisco. Vediamo il perchè.
+Ed eccoci all'ultimo contendente della nostra rassegna. Se avete letto lo spoiler due righe sopra, saprete che per ora questa è la soluzione che preferisco. Vediamo il perchè.
 
 Ha tutte le feature che mi aspetto sia per la parte di frontend che sulla dashboard. Rispetto a molti altri ha un anche un sacco di opzioni di importazione, perciò se venite da Disqus o JustComments, per fare due esempi, site coperti.
 
