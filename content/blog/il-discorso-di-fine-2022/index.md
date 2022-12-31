@@ -13,7 +13,7 @@ Carissime genti che popolano l'Internet,
 
 Siamo giunti alla fine di un altro anno, e come sempre è il momento di guardare indietro a tutto quello che abbiamo fatto e a ciò che ci aspetta in futuro.  
 
-Ma quest'anno è stato ancora più speciale, perché abbiamo avuto l'opportunità di guardare oltre i confini della Terra e di esplorare i misteri dell'universo. Ma non è anche stato un anno in cui abbiamo affrontato sfide che nessuno di noi avrebbe mai immaginato, e a volte ci siamo sentiti come se il mondo intero fosse contro di noi.  
+Ma quest'anno è stato ancora più speciale, perché abbiamo avuto l'opportunità di guardare oltre i confini della Terra e di esplorare i misteri dell'universo. Ma è anche stato un anno in cui abbiamo affrontato sfide che nessuno di noi avrebbe mai immaginato, e a volte ci siamo sentiti come se il mondo intero fosse contro di noi.  
 
 
 Abbiamo imparato che _l'universo è un posto molto strano, più strano di quanto tu possa immaginare_[^0].  
@@ -33,7 +33,7 @@ Ma non è tutto! Con questo pacchetto di fine anno, otterrete anche una dose ext
 E non dimentichiamo il bonus speciale: un anno intero di avventure e di opportunità per essere la miglior versione possibile di voi stessi.  
 
 
-Non perdete questa occasione! Ordinate il pacchetto di fine anno ora e preparati a un futuro pieno di successi. Costa state aspettando? 
+Non perdete questa occasione! Ordinate il pacchetto di fine anno ora e preparatevi a un futuro pieno di successi. Costa state aspettando? 
 
 {{< button href="#hyvor-talk-view" target="_self" >}}
 Alza la cornetta HyperTesto ti aspetta!
