@@ -4,7 +4,7 @@ date: 2023-01-08T19:52:39.514Z
 draft: false
 tags:
   - "2022"
-  - "#hyperwrapped"
+  - "hyperwrapped"
 categories: ""
 authors: hypertesto
 ---
