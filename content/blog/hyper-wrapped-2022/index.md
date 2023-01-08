@@ -197,7 +197,7 @@ Come per gli audiolibri, il 2022 è stato l'anno in cui ho cominciato a seguire 
 
 Questi sono i podcast che ho cominciato ad ascoltare quest'anno:
 
-* [DataKnightmare: L'algoritmo è politico](https://open.spotify.com/show/6Es1phkjQsJtfx4JSej4r7) di Walter Vannini  
+* [DataKnightmare: L'algoritmico è politico](https://open.spotify.com/show/6Es1phkjQsJtfx4JSej4r7) di Walter Vannini  
 *Il livello di *rant* che ha raggiunto con le ultime puntate è a dir poco godurioso, non confondete il *rant* con una critica sterile comunque.*
 * [Ciao Internet](https://open.spotify.com/show/5q7jh01YLFtru7iqUlj6lu) di Matteo Flora  
 *Di norma fa anche vedere cose a schermo, perciò se avete il tempo da dedicargli probabilmente è più efficace seguirlo da YouTube.*
