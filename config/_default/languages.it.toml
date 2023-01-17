@@ -16,7 +16,7 @@ dateFormat = "2 January 2006"
 
   name = "HyperTesto"
   image = "img/avatar_rounded.png"
-  headline = "Un po' programmatore, un po' sistemista. Caotico buono... Forse."
+  headline = "Always coding, always debugging. I thrive in chaos and chaos loves me.</br>But I guarantee I can fix any computer with a hug."
   bio = "Ehi, sono la stessa persona dell'homepage, incredibile vero?"
   links = [
     { github = "https://github.com/HyperTesto" },
