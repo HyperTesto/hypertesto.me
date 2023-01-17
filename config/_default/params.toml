@@ -15,7 +15,10 @@ enableCodeCopy = true
 mainSections = ["blog", "chiuso-in-casa", "ggph"]
 # robots = ""
 
-copyright = "&copy; 2017-2022 HyperTesto | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)"
+copyright = "&copy; 2017-2023 HyperTesto | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)"
+
+[header]
+  layout = "hybrid"
 
 [footer]
   showCopyright = true
