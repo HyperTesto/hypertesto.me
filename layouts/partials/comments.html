@@ -1,6 +1,6 @@
 {{ if hugo.IsProduction }}
   {{ with .Site.Params.hyvorTalk.siteID }}
     <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
-    <hyvor-talk-comments website-id="{{ . }}" page-id="{{ $.File.UniqueID }}"></hyvor-talk-comments>></hyvor-talk-comments>
+    <hyvor-talk-comments website-id="{{ . }}" page-id="{{ $.File.UniqueID }}"></hyvor-talk-comments>
   {{ end }}
 {{ end }}
