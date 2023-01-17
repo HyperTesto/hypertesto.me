@@ -20,6 +20,7 @@ dateFormat = "2 January 2006"
   bio = "Ehi, sono la stessa persona dell'homepage, incredibile vero?"
   links = [
     { github = "https://github.com/HyperTesto" },
+    { mastodon = "https://mastodon.uno/@hypertesto" },
     { twitter = "https://twitter.com/hypertesto" },
     { linkedin = "https://linkedin.com/in/enricotestori" },
     { telegram = "https://t.me/hypertesto_me" },
