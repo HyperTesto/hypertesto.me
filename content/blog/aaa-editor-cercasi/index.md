@@ -136,7 +136,7 @@ che serve, personalizzabile ma non troppo. Questo trova un ulteriore dettaglio t
     comodamente nella stessa finestra di lavoro)
 
 Queste premesse si sono per ora materializzate in una serie di [feature](https://zed.dev/features) molto interessanti, soprattutto per chi è interessato all'editing collaborativo. Le due
-cose che mi piacciono maggiormente è che è completamente scritto in Rust e usa una libreria per la UI (con accelerazione GPU) che si sono completamente sviluppati in casa. Su questo punto ha inciso molto il fatto che quando hanno iniziato il progetto non c'erano ancora librerie per UI molto mature.
+cose che mi piacciono maggiormente sono che è completamente scritto in Rust e che usa una libreria per la UI (con accelerazione GPU) che si sono completamente sviluppati in casa. Su questo punto ha inciso molto il fatto che quando hanno iniziato il progetto non c'erano ancora librerie per UI molto mature.
 
 Ho già detto quanto mi piace che non sia l'ennesima robaccia basata su Electron?
 
