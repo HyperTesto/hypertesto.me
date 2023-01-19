@@ -155,7 +155,7 @@ Può essere tranquillamente considerato l'editor spirituale di [Xi](https://xi-e
 Da Xi ha ereditato la [Rope Science](https://xi-editor.io/docs/rope_science_00.html) di cui vi invito a leggere seguendo il link poichè si tratta di una dissertazione davvero
 interessante su codice e strutture dati.
 
-A differenza di Zed, la libreria UI utilizzata in questo caso è [Druid](https://github.com/linebender/druid). Su questa libreria, e più in generale su Rust e le UI, vale la pena fare una piccola analisi.
+A differenza di Zed, la libreria UI utilizzata in questo caso è [Druid](https://github.com/linebender/druid). Su questa libreria, e più in generale su Rust e le UI, vale la pena fare una piccola analisi magari in un futuro articolo.
 
 {{< figure src="lapce_screen.png" title="Uno screenshot di come Lapce apre il repo di questo blog" caption="Uno screenshot di come Lapce apre il repo di questo blog">}}
 
