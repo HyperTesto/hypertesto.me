@@ -25,6 +25,13 @@
   pageRef = "/ggph"
   weight = 30
 
+
+[[main]]
+  identifier = "appearance"
+  weight = 99
+  [main.params]
+    action = "appearance"
+
 [[footer]]
   name = "Categorie"
   url = "/categories"
