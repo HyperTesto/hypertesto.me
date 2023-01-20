@@ -61,6 +61,8 @@
   name = "Repo"
   url = "https://github.com/HyperTesto/hypertesto.me"
   weight = 60
+  [footer.params]
+    icon = "github"
 
 [[footer]]
 name = "Stats"
