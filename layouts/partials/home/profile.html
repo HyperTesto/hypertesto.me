@@ -9,7 +9,7 @@
       {{ if $authorImage }}
         {{ $authorImage := $authorImage.Fill "288x288" }}
         <img
-          class="mb-2 rounded-full h-36 w-36 u-logo u-photo"
+          class="mb-2 rounded-full h-36 w-36 u-photo u-logo"
           width="144"
           height="144"
           alt="{{ $.Site.Author.name | default "Author" }}"
@@ -18,7 +18,7 @@
       {{ end }}
     {{ end }}
     <h1 class="text-4xl font-extrabold p-nickname">
-      {{ .Site.Author.name | default .Site.Title }}
+      <a href="{{ .RelPermalink }}" class="u-url" rel="me">{{ .Site.Author.name | default .Site.Title }}</a>
     </h1>
     {{ with .Site.Author.headline }}
       <h2 class="text-xl text-neutral-500 dark:text-neutral-400 p-note">
