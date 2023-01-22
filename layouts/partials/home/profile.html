@@ -3,7 +3,7 @@
     h-full
   {{ end }} flex flex-col items-center justify-center text-center"
 >
-  <header class="flex flex-col items-center mb-3 p-author h-card">
+  <header class="flex flex-col items-center mb-3 h-card">
     {{ with .Site.Author.image }}
       {{ $authorImage := resources.Get . }}
       {{ if $authorImage }}
