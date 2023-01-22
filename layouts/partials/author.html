@@ -5,7 +5,7 @@
       {{ if $authorImage }}
         {{ $authorImage := $authorImage.Fill "192x192" }}
         <img
-          class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4 u-logo u-photo"
+          class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4 u-photo u-logo"
           width="96"
           height="96"
           alt="{{ $.Site.Author.name | default "Author" }}"
@@ -18,8 +18,8 @@
         <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
           {{ i18n "author.byline_title" | markdownify | emojify }}
         </div>
-        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300 p-nickname">
-          <a rel="author" class="p-name u-url" href="https://www.hypertesto.me/">{{ . }}</a>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          <a rel="author" class="p-nickname u-url" href="https://www.hypertesto.me/">{{ . }}</a>
         </div>
       {{ end }}
       {{ with .Site.Author.bio | markdownify | emojify }}
