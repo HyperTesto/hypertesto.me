@@ -1,0 +1,4 @@
+<time class="dt-published" datetime="{{ . }}">
+    {{- i18n "article.date" (dict "Date" (partial "functions/date.html" .)) | markdownify | emojify -}}
+  </time>
+  {{- /* Trim EOF */ -}}
