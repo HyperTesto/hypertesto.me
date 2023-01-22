@@ -32,7 +32,9 @@
     {{ $meta.Add "partials" (slice (partial "meta/edit.html" .)) }}
   {{ end }}
 
-  {{ $meta.Add "partials" (slice (partial "meta/permalink.html" .)) }}
+  {{ if eq $scope "single" }}
+    {{ $meta.Add "partials" (slice (partial "meta/permalink.html" .)) }}
+  {{ end }}
 
   <div class="flex flex-row flex-wrap items-center">
     {{/* Output partials */}}
