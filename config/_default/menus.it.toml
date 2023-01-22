@@ -56,6 +56,8 @@
   name = "Feed"
   url = "/index.xml"
   weight = 50
+  [footer.params]
+    icon = "rss"
 
 [[footer]]
   name = "Repo"
@@ -68,3 +70,5 @@
 name = "Stats"
 url = "https://plausible.io/hypertesto.me"
 weight = 70
+  [footer.params]
+    icon = "chart-simple-solid"
