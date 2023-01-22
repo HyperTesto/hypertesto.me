@@ -1,10 +1,10 @@
-<article class="flex flex-row mt-6 max-w-prose h-card">
+<article class="flex flex-row mt-6 max-w-prose h-entry">
     {{- $images := $.Resources.ByType "image" }}
     {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
     {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $thumbnail }}
     {{- with $feature }}
-      <div class="flex-none pr-4 sm:pr-6 u-url">
-        <a
+      <div class="flex-none pr-4 sm:pr-6">
+        <a class="u-url p-name"
           href="{{ with $.Params.externalUrl }}
             {{ . }}
           {{ else }}
