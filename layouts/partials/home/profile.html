@@ -3,13 +3,13 @@
     h-full
   {{ end }} flex flex-col items-center justify-center text-center"
 >
-  <header class="flex flex-col items-center mb-3 h-card">
+  <header class="flex flex-col items-center mb-3 p-author h-card">
     {{ with .Site.Author.image }}
       {{ $authorImage := resources.Get . }}
       {{ if $authorImage }}
         {{ $authorImage := $authorImage.Fill "288x288" }}
         <img
-          class="mb-2 rounded-full h-36 w-36 u-logo"
+          class="mb-2 rounded-full h-36 w-36 u-logo u-photo"
           width="144"
           height="144"
           alt="{{ $.Site.Author.name | default "Author" }}"
@@ -21,7 +21,7 @@
       {{ .Site.Author.name | default .Site.Title }}
     </h1>
     {{ with .Site.Author.headline }}
-      <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
+      <h2 class="text-xl text-neutral-500 dark:text-neutral-400 p-note">
         {{ . | markdownify | emojify }}
       </h2>
     {{ end }}
