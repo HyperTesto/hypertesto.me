@@ -1,14 +1,1 @@
-{{ if hugo.IsProduction }}
-  {{ with .Site.Params.hyvorTalk.siteID }}
-    <div id="hyvor-talk-view" class="pt-8 max-w-prose print:hidden"></div>
-    <script type="text/javascript">
-        var HYVOR_TALK_WEBSITE = {{ . }};
-        var HYVOR_TALK_CONFIG = {
-            url: false,
-            id: '{{ $.File.UniqueID }}',
-            language: '{{ $.Site.LanguageCode }}'
-        };
-    </script>
-    <script async type="text/javascript" src="https://talk.hyvor.com/web-api/embed"></script>
-  {{ end }}
-{{ end }}
+{{ partial "hyvor-comments.html" }}

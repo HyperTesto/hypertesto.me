@@ -1,0 +1,28 @@
+{{ if hugo.IsProduction }}
+  {{ with .Site.Params.hyvorTalk.siteID }}
+    {{ if .Site.Params.hyvorTalk.useVersion3 }}
+        <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
+        <hyvor-talk-comments 
+            website-id="{{ . }}" 
+            page-id="{{ $.File.UniqueID }}"
+            class="pt-8 max-w-prose print:hidden">
+        </hyvor-talk-comments>
+    {{ else }}
+        <div id="hyvor-talk-view" class="pt-8 max-w-prose print:hidden"></div>
+        <script type="text/javascript">
+            var HYVOR_TALK_WEBSITE = {{ . }};
+            var HYVOR_TALK_CONFIG = {
+                url: false,
+                id: '{{ $.File.UniqueID }}',
+                language: '{{ $.Site.LanguageCode }}'
+            };
+        </script>
+        <script async type="text/javascript" src="https://talk.hyvor.com/web-api/embed"></script>
+    {{ end }}
+  {{ end }}
+{{ else }}
+    <div>
+        <h3 class="text-xl"> HYVOR comments are disabled in local site </h3>
+    </div>
+{{ end }}
+
