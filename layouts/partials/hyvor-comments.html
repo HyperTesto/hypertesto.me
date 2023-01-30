@@ -1,6 +1,6 @@
 {{ if hugo.IsProduction }}
     {{ with .Site.Params.hyvorTalk.siteID }}
-        {{ if .Site.Params.hyvorTalk.useVersion3 }}
+        {{ if .Site.Params.hyvorTalk.useVersion3 | default false }}
             version 3
             <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
             <hyvor-talk-comments 
