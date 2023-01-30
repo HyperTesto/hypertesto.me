@@ -1,6 +1,7 @@
 {{ if hugo.IsProduction }}
     {{ with .Site.Params.hyvorTalk.siteID }}
         {{ if .Site.Params.hyvorTalk.useVersion3 }}
+            version 3
             <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
             <hyvor-talk-comments 
                 website-id="{{ . }}" 
@@ -8,6 +9,7 @@
                 class="pt-8 max-w-prose print:hidden">
             </hyvor-talk-comments>
         {{ else }}
+            version 2
             <div id="hyvor-talk-view" class="pt-8 max-w-prose print:hidden"></div>
             <script type="text/javascript">
                 var HYVOR_TALK_WEBSITE = {{ . }};
