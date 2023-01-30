@@ -35,7 +35,7 @@ package = "netlify-plugin-csp-generator"
     childSrc = "'none'"
     frameAncestors = "'none'"
     formAction = "'self'"
-    connect-src = "talk.hyvor.com 'self'"
+    connect-src = "talk.hyvor.com soketi.hyvor.com 'self'"
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
