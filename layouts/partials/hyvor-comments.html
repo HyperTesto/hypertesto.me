@@ -1,15 +1,15 @@
 {{ if hugo.IsProduction }}
-    {{ with .Site.Params.hyvorTalk.siteID }}
-        {{ if .Site.Params.hyvorTalk.useVersion3 | default false }}
-            version 3
+    {{ if .Site.Params.hyvorTalk.useVersion3 | default false }}
+        {{ with .Site.Params.hyvorTalk.siteID }}
             <script async src="https://talk.hyvor.com/embed/embed.js" type="module"></script>
             <hyvor-talk-comments 
                 website-id="{{ . }}" 
                 page-id="{{ $.File.UniqueID }}"
                 class="pt-8 max-w-prose print:hidden">
             </hyvor-talk-comments>
-        {{ else }}
-            version 2
+        {{ end }}
+    {{ else }}
+        {{ with .Site.Params.hyvorTalk.siteID }}
             <div id="hyvor-talk-view" class="pt-8 max-w-prose print:hidden"></div>
             <script type="text/javascript">
                 var HYVOR_TALK_WEBSITE = {{ . }};
