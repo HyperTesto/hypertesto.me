@@ -16,7 +16,7 @@ Ma bando alle ciance, di seguito trovate l'elenco delle mie scoperte preferite e
 ne pensate e soprattutto se avete suggerimenti, sono tutt'orecchi 👂👂
 
 * **Wasteland**, *Irving Force*  
-Cominciamo la rassegna con qualcosa di soft: della synthwave con delle sonorità dissonanti con qualche nota vagamente metal.
+Cominciamo la rassegna con qualcosa di soft: della synthwave con delle sonorità dissonanti e qualche nota vagamente metal.
 * **Bizancio / Byzantium**, *Toundra*  
 Direttamente dalla Spagna questo rock strumentale molto evocativo e rilassante ve lo consiglio tantissimo durante le sessioni di lavoro.
 * **Mehana**, *Daliborovo Granje*  
