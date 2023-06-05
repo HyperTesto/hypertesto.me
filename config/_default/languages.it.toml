@@ -1,16 +1,16 @@
 languageCode = "it"
 languageName = "Italiano"
-displayName = "IT"
-isoCode = "it"
+title = "Home"
 weight = 1
-rtl = false
 
-title = "HyperTesto"
-# logo = "img/logo.jpg"
-# description = "My awesome website"
-# copyright = "Copy, _right?_ :thinking_face:"
-
-dateFormat = "2 January 2006"
+[params]
+  displayName = "IT"
+  isoCode = "it"
+  rtl = false
+  # logo = "img/logo.jpg"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+  dateFormat = "2 January 2006"
 
 [author]
 

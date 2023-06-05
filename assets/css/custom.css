@@ -1,6 +1,6 @@
 /* Increase the default font size */
 html {
-  font-size: 14pt;
+  /*font-size: 14pt;*/
 }
 
 /* Hyvor inject 100% which breaks the class width, so we force it */

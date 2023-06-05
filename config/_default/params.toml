@@ -28,7 +28,7 @@ copyright = "&copy; 2017-2023 HyperTesto | [CC BY-NC 4.0](https://creativecommon
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom
-  showRecent = true
+  showRecent = false
 
 [article]
   showComments = true
