@@ -3,6 +3,7 @@ date: "2022-06-01T00:51:06+02:00"
 draft: false
 showComments: false
 title: Privacy
+layout: "simple" 
 ---
 ## In soldoni
 

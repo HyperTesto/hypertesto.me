@@ -6,6 +6,7 @@ menu:
 showComments: false
 title: About
 weight: -210
+layout: "simple"
 ---
 Mi chiamo Enrico Testori e sono l'autore di questo blog (ma va?).
 
