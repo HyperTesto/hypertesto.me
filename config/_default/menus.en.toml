@@ -1,26 +1,16 @@
 [[main]]
-  name = "Chiuso in casa"
-  pageRef = "chiuso-in-casa"
-  weight = 20
-
-[[main]]
-  name = "Guida Galattica per Hughisti"
-  pageRef = "ggph"
-  weight = 30
-
-[[main]]
   identifier = "appearance"
   weight = 99
   [main.params]
     action = "appearance"
 
 [[footer]]
-  name = "Categorie"
+  name = "Categories"
   pageRef = "categories"
   weight = 30
 
 [[footer]]
-  name = "Tag"
+  name = "Tags"
   pageRef = "tags"
   weight = 20
 
