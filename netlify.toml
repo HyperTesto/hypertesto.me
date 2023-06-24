@@ -28,14 +28,14 @@ package = "netlify-plugin-csp-generator"
     objectSrc = "'none'"
     fontSrc = "'self'"
     styleSrc = "'self' 'unsafe-hashes'"
-    scriptSrc = "'self' 'unsafe-hashes' talk.hyvor.com"
+    scriptSrc = "'self' 'unsafe-hashes' remark42.hypertesto.me"
     imgSrc = "'self' https:"
     mediaSrc = "'self' https:"
-    frameSrc = "youtube.com www.youtube.com talk.hyvor.com"
+    frameSrc = "youtube.com www.youtube.com remark42.hypertesto.me"
     childSrc = "'none'"
     frameAncestors = "'none'"
     formAction = "'self'"
-    connect-src = "talk.hyvor.com wss://soketi.hyvor.com 'self'"
+    connect-src = "remark42.hypertesto.me 'self'"
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.

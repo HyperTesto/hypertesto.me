@@ -74,6 +74,10 @@ copyright = "&copy; 2017-2023 HyperTesto | [CC BY-NC 4.0](https://creativecommon
   # pinterest = ""
   # yandex = ""
 
-[hyvorTalk]
-  siteID = 4292
-  useVersion3 = false
+#[hyvorTalk]
+#  siteID = 4292
+#  useVersion3 = false
+
+[remark42]
+  url = 'https://remark42.hypertesto.me'
+  siteID = 'hypertesto.me'
