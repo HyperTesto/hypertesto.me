@@ -1,10 +1,8 @@
-#/bin/bash
-
-CURRENT_SCRIPT=$(readlink $0)
+#!/bin/bash
 
 if [ -z "$1" ] || [ "$1" == "-h" ] || [ "$1" == "--help" ]; then
     echo "Convert plain markdown files (.md) in DIR to hugo bundles"
-    echo "Usage: $CURRENT_SCRIPT DIR [OPTIONS]"
+    echo "Usage: $0 DIR [OPTIONS]"
     echo "ARGUMENTS:"
     echo "DIR          Directory where .md files are placed"
     echo "OPTIONS:"
