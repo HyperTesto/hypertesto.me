@@ -57,8 +57,7 @@ Ma come bevevano i barbari nelle occasioni speciali? Abbiamo una testimonianza d
 un greco di nome Prisco che nel 448 d.C. dovette andare in missione... a cena con **Attila**[^2].
 Qualcuno aveva rubato i calici romani di quest'ultimo, che era andato
 su tutte le furie, perciò voleva fare quattro chiacchiere moooolto
-amichevoli con il nuovo proprietario delle coppe 😨. Prisco quindi era stato mandato qualcuno
-per provare a calmare le acque.  
+amichevoli con il nuovo proprietario delle coppe 😨. Prisco quindi era stato mandato per provare a calmare le acque.  
 
 Dunque, la cena cominciò facendo disporre gli ospiti su due lunghi tavoli seguendo
 un ordine di anzianità e di importanza, ma non prima di aver bevuto un sorso di vino
