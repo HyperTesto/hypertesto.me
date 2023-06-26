@@ -17,7 +17,7 @@ Ho appena terminato di scrivere l'introduzione della serie e di predisporre le p
 
 Di queste nove canzoni, quella che vi condivido oggi é:
 
-> **Lonley is the word**, Black Sabbath
+> **Lonely is the word**, Black Sabbath
 
 Questa è l’ottava e ultima traccia del nono album dei Black Sabbath, Heaven and Hell, uscito il 25 aprile del **1980**. Quarant'anni e la loro musica spacca ancora di brutto!
 
