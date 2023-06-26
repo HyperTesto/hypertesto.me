@@ -20,9 +20,16 @@
   weight = 40
 
 [[footer]]
-  name = "Feed"
+  name = "Feed (IT)"
   url = "/index.xml"
   weight = 50
+  [footer.params]
+    icon = "rss"
+
+[[footer]]
+  name = "Feed (EN)"
+  url = "/en/index.xml"
+  weight = 51
   [footer.params]
     icon = "rss"
 
