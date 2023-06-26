@@ -2,6 +2,9 @@
 date: 2017-11-19 15:47:32 +0000
 showComments: false
 sharingLinks: false
+showAuthor: false
+showDate: false
+showReadingTime: false
 title: About
 coverCaption: "Io e il mio ~~umano~~ assistente felino"
 menu:
