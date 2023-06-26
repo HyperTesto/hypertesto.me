@@ -23,7 +23,7 @@ Nel tempo libero faccio più o meno le stesse cose che faccio al lavoro e in pi�
 
 ## Informatica
 
-Come un vero *"algoritmo della montagna"*, mi piace scalare le vette più alte e affrontare i problemi di programmazione più complessi (sentite come suona bene).  
+Come un vero *"algoritmo della montagna"*, mi piace scalare le vette più alte e affrontare i problemi di programmazione più complessi e sfidanti (sentite come suona bene).  
 Trovo soddisfazione nel risolvere gli enigmi del codice come se fossero sentieri intricati, e quando riesco a trovare la soluzione giusta, è come raggiungere la cima di una montagna imponente (in realtà spesso è più come indagare su un caso di omicidio dove io stesso sono il colpevole).
 
 Al lavoro e nel mio tempo libero uso questi linguaggi di programmazione:

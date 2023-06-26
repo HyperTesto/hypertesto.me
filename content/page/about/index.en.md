@@ -23,7 +23,7 @@ In my spare time, I do pretty much the same things I do at work, plus I like to 
 
 ## IT
 
-As a true *"mountain algorithm"*, I enjoy climbing the highest peaks and tackling the most complex programming problems (hear how good that sounds).
+As a true *"mountain algorithm"*, I enjoy climbing the highest peaks and tackling the most complex and challenging programming problems (hear how good that sounds).
 
 I find satisfaction in solving code puzzles as if they were intricate paths, and when I manage to find the right solution, it's like reaching the top of a towering mountain (actually, it's often more like investigating a murder case where I myself am the culprit).
 
@@ -37,7 +37,7 @@ I'm also studying **Go** and **Rust**!
 
 ## Literature
 
-Although my passion for programming occupies most of my days, I also have an insatiable thirst for knowledge that I find in reading.
+Although my passion for programming occupies most of my days, I also have an insatiable thirst for knowledge that I quench in reading.
 
 I am fascinated by the great classics, those literary masterpieces that have stood the test of time and offer a unique perspective on the human condition. I immerse myself with pleasure in nonfiction, which offers me the opportunity to explore fascinating topics and deepen my knowledge in various fields. I also enjoy science books and articles, which open the door to a universe of discoveries and knowledge beyond our everyday lives.
 
