@@ -3,6 +3,9 @@ title: A simple script to migrate plain markdown files to hugo page bundles
 date: 2023-06-26T19:59:18+02:00
 draft: false
 description: ""
+tags:
+  - hugo
+  - Bash
 ---
 I am activating multi language for my website, and I've decided to work with page bundles to manage content translations.
 
