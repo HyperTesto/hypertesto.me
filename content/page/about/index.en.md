@@ -35,11 +35,11 @@ I use these programming languages at work and in my spare time:
 
 I'm also studying **Go** and **Rust**!
 
-## Literature
+## Reading
 
 Although my passion for programming occupies most of my days, I also have an insatiable thirst for knowledge that I quench in reading.
 
-I am fascinated by the great classics, those literary masterpieces that have stood the test of time and offer a unique perspective on the human condition. I immerse myself with pleasure in nonfiction, which offers me the opportunity to explore fascinating topics and deepen my knowledge in various fields. I also enjoy science books and articles, which open the door to a universe of discoveries and knowledge beyond our everyday lives.
+I am fascinated by the great classics, those literary masterpieces that have stood the test of time and offer a unique perspective on the human condition. I immerse myself with pleasure in non-fiction, which offers me the opportunity to explore fascinating topics and deepen my knowledge in various fields. I also enjoy science books and articles, which open the door to a universe of discoveries and knowledge beyond our everyday lives.
 
 Finally, satire has a special place in my heart, as it gives me laughter and an ironic reflection on society and its idiosyncrasies.
 
@@ -51,7 +51,7 @@ I am a great lover of **rock**, **metal**, **black metal** and all those genres 
 Recently, Spotify labeled me as a lover of "patient spectral," although I must admit that the exact meaning of this definition still remains an intriguing mystery.
 
 ## This website
-On my personal site, I would like to share with you my passion for programming, literature, music, tell you about my experiences and, why not, exchange some bad jokes.
+On my personal site, I would like to share with you my passion for programming, reading, music; tell you about my experiences and, why not, exchange some bad jokes.
 
 Please feel free to leave a comment or send me a message: in the vast virtual world, we are all connected by a simple click.
 

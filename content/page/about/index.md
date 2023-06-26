@@ -34,7 +34,7 @@ Al lavoro e nel mio tempo libero uso questi linguaggi di programmazione:
 
 Sto anche studiando **Go** e **Rust**!
 
-## Letteratura
+## Lettura
 
 Nonostante la mia passione per la programmazione occupi la maggior parte delle mie giornate, ho anche una sete insaziabile di conoscenza che trovo nella lettura.  
 
@@ -51,7 +51,7 @@ Recentemente, Spotify mi ha etichettato come amante dello "*spettrale paziente*"
 
 ## Questo sito
 
-Sul mio sito personale, desidero condividere con voi la mia passione per la programmazione, la letteratura, la musica, raccontare le mie esperienze e, perché no, scambiare qualche battuta di pessimo gusto.  
+Sul mio sito personale, desidero condividere con voi la mia passione per la programmazione, la letteratura, la musica; raccontare le mie esperienze e, perché no, scambiare qualche battuta di pessimo gusto.  
 
 Non esitate a lasciare un commento o a inviarmi un messaggio: nel vasto mondo virtuale, siamo tutti collegati da un semplice click.
 
