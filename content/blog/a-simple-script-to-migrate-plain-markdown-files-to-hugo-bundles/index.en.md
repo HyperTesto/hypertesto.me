@@ -4,7 +4,7 @@ date: 2023-06-26T19:59:18+02:00
 draft: false
 description: ""
 ---
-I am activating multi language for my website, and i've decided to work with page bundles to manage content translations.
+I am activating multi language for my website, and I've decided to work with page bundles to manage content translations.
 
 I'll write more about hugo content management soon (hopefully), but for the scope of this post let's say page bundles are very handy for this use case (and in general).
 
