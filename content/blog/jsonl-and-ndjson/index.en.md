@@ -21,11 +21,11 @@ This format is very simple, but it's standardization is not; in fact there are 2
 * Newline Delimited JSON (ndjson)
 * JSON Lines (jsonl[^1])
 
-The only difference i could find i those two specs it's ndjson ays: 
+The only difference i could find i those two specs are that ndjson says: 
 
 > All serialized data MUST use the UTF8 encoding.
 
-While jsonl says:
+while jsonl says:
 
 > JSON allows encoding Unicode strings with only ASCII escape sequences, however those escapes will be hard to read when viewed in a text editor. The author of the JSON Lines file may choose to escape characters to work with plain ASCII files.
 
