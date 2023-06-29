@@ -12,7 +12,7 @@ I admit that I had never heard of this data format before this spring.
 I was getting some errors following the official documentation of an open source library for creating ASR systems[^0].  
 Nothing was making sense until i noticed i wasn't working with a JSON array of object, but rather JSON objects separated by a newline. _Eureka_!
 
-In its simplicity is truly an ingenious solution to the problem of deserializing large JSON files: you read it line by line, simple, flexible, easy to understand and very effective!
+In its simplicity is truly an ingenious solution to the problem of deserializing large JSON files: you read it line by line which is simple, flexible, easy to understand and very effective!
 
 ## ndjson-lines-seq what?
 
