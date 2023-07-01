@@ -42,7 +42,7 @@ If we talk about the file format itself, there aren't many issues not having a s
 The issue arise if we work with web servers and browsers: they need to know the right [MIME type](https://datatracker.ietf.org/doc/html/rfc6838) in order to support it properly.
 And since there is no standard they are either totally unsupported or supported sporadically.
 
-At the moment ndjson is (or better SHOULD ad per spec) reported as `application/x-ndjson` and jsonl is reported as `application/jsonl` (see [this issue](https://github.com/wardi/jsonlines/issues/19) if you want to help writing the relevant RFC)
+At the moment ndjson is (or better SHOULD) reported as `application/x-ndjson` and jsonl is reported as `application/jsonl` (see [this issue](https://github.com/wardi/jsonlines/issues/19) if you want to help writing the relevant RFC)
 
 I personally prefer jsonl since it was the first one I've come across on my job... and the extension is shorter :angel:!
 
