@@ -15,8 +15,12 @@ Come qualsiasi altro sito web, da qualche parte alcuni dati transitano e altri v
 
 * Il sito è hostato su [Netlify](https://www.netlify.com) che può memorizzare alcune informazioni, tra cui l'IP di origine delle richieste alle pagine, nei propri _access log_ per un periodo di 30 giorni
 * Per avere una stima sulle visite delle pagine utilizzo [Plausible Analytics](https://plausible.io), un servizio _privacy first_ completamente hostato in Europa e che non colleziona dati sensibili o fa uso di cookie.
-* Il sistema di commenti [Hyvor Talk](https://talk.hyvor.com) è sempre un'offerta _privacy first_, di default non installa alcun cookie e non svolge alcun tracciamento riconducibile al singolo visitatore. Viene installato on cookie tecnico solo qualora venga effettuato un login alla loro piattaforma per commentare tramite il proprio account personale (ma ricordo che i commenti si possono lasciare anche anonimamente)
+* Come sistema di commenti, utilizzo un'istanza di Remark42 auto-ospitata; si tratta di un software open source estremamente attento alla privacy.
 
+
+## Cookie
+
+Non vengono installati cookie di nessun tipo con l'eccezione dell'autenticazione per i commenti, che è totalmente opt-in, e installa solamente due cookie con finalità esclusivamente tecniche come definito nella [relativa sezione](#commenti).
 
 ## Hosting
 Il sito è hostato tramite [Netlify](https://www.netlify.com). Netlify in qualità di CDN/Host non effettua alcun tracciamento o elaborazione per mio conto.
@@ -50,14 +54,33 @@ L'esigenza non è identificare gli utenti, ma piuttosto avere un'idea spannometr
 Per ulteriori informazioni questa è la  [Privacy Policy completa di Plausible](https://plausible.io/data-policy).
 
 ## Commenti
-Per i commenti questo sito usa Hyvor Talk come piattaforma per i commenti. Questo servizio è sviluppato in Sri Lanka ma per erogare i propri  servizi utilizza server e reti 100%  europee (DigitalOcean - Francoforte) in conformità alla normativa GDPR:
 
-* **Per i lettori**:
-  * Non viene memorizzato alcun dato personale, viene solamente memorizzata la visita con fine esclusivo di identificare il tier di pagamento (eh sì, è un servizio che pago)
-* **Per chi commenta**:
-  * I commenti vengono analizzati da un sistema antispam sviluppato in casa da Hyvor Talk
-  * Per mia scelta **non viene memorizzato** alcun indirizzo IP (che sarebbe utile per effettuare ban nel caso di spam, ma per ora non è necessario)
-  * Il campo `email` è **totalmente opzionale** e viene solamente utilizzato per generare la miniatura tramite [Gravatar](https://it.gravatar.com/)
-  * I cookie `authsess` viene generato **se e solo se** viene scelto di effettuare il login sul portale di Hyvor
+Come sistema di commenti, utilizzo [Remark42](https://remark42.com/). Ho auto-ospitato questo servizio in un cloud privato sicuro in Europa (per essere più specifici, in Italia) e i backup sono conservati presso lo stesso provider italiano.
 
-Per ulteriori informazioni ecco la [privacy policy di Hyvor](https://talk.hyvor.com/docs/privacy).
+Remark42 cerca di essere molto sensibile riguardo a qualsiasi informazione privata o semi-privata:
+
+- L'autenticazione richiede il minimo accesso possibile dai fornitori di autenticazione, e tutte le informazioni extra restituite da essi vengono immediatamente eliminate e non memorizzate in alcuna forma.
+- In generale, Remark42 conserva solo l'ID utente, il nome utente e il link all'avatar. Nessuno di questi campi viene esposto direttamente: **ID e nome sono criptati, l'avatar è trasmesso tramite proxy.**
+- **Non viene effettuato alcun tracciamento di sorta.**
+- Il meccanismo di accesso utilizza un JWT memorizzato in un cookie (JWT, HttpOnly, protetto). Il secondo cookie (XSRF_TOKEN) è un ID casuale che previene CSRF. Entrambi i cookie sono associati al dominio `remark42.hypertesto.me`.
+- Non è possibile effettuare un login *cross-site*, ovvero il comportamento dell'utente non può essere analizzato su siti indipendenti che utilizzano Remark42.
+- Tutti i dati potenzialmente sensibili memorizzati da Remark42 sono criptati e resi in forma di hash.
+
+Remark42 ti consente anche di fare due cose (che sono anche tuoi diritti da GDPR):
+
+- Puoi richiedere tutte le informazioni che Remark42 ha su di te e riceverle in un file gz (esportazione).
+- Puoi richiedere la cancellazione di tutte le informazioni che ti riguardano tramite una richiesta di tipo "deleteme".
+
+Potresti ricevere notifiche via email solo in queste circostanze:
+
+- Decidi di effettuare l'accesso tramite email (opt-in).
+- Decidi di effettuare l'accesso tramite Telegram (opt-in, @hypercomments_bot).
+- Decidi di ricevere le notifiche via mail per le nuove risposte ai tuoi commenti (opt-in, e puoi disiscriverti seguendo il link presente nell'email).
+
+Le email transazionali vengono inviate come definito nella sezione successiva.
+
+## Email transazionali
+
+Le email transazionali vengono inviate utilizzando un servizio europeo conforme al GDPR: [Scaleway TEM](https://www.scaleway.com/en/transactional-email-tem/).
+
+Le email vengono inviate dal dominio `remark42.hypertesto.me` con autenticazione SPF e DKIM al fine di migliorare la consegna delle email, rilevare eventuali falsificazioni e prevenire lo spam.
