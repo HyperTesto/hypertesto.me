@@ -9,10 +9,10 @@
   weight = 30
 
 [[main]]
-  identifier = "appearance"
-  weight = 99
+  identifier = "locale"
+  weight = 100
   [main.params]
-    action = "appearance"
+    action = "locale"
 
 [[footer]]
   name = "Categorie"
