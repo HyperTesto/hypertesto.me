@@ -11,3 +11,8 @@ summaryLength = 0
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[privacy]
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
