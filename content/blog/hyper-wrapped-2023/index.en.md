@@ -88,7 +88,7 @@ val start = System.currentTimeMills()
 // stuff
 val duration = System.currentTimeMillis() - start
 ```
-Yes? Then you fell into the trap: `System.currentTimeMillis()` uses the system clock, and hence is not [monotonic](https://en.wikipedia.org/wiki/Monotonic_function). You are not guaranteed that two consecutive calls to it return two *strictly increasing*[^5] numbers (the function returns a Long), so you c.  
+Yes? Then you fell into the trap: `System.currentTimeMillis()` uses the system clock, and hence is not [monotonic](https://en.wikipedia.org/wiki/Monotonic_function). You are not guaranteed that two consecutive calls to it return two *strictly increasing*[^5] numbers (the function returns a Long), so the resulting duration could be negative.  
 
 The term "strictly increasing" has a specific meaning in algebra:  
 {{< katex >}}
@@ -195,7 +195,7 @@ There is still a debate going on and [more tech players are dropping bombs](http
 At least all this mess gave me a chance to try AlmaLinux (I loved it!) and learn the difference between 1:1 compatibility and ABI compatibility.
 
 ## HashiCorp vs OpenTofu
-It's been a hot summer, so hot that Red Hat was not the only one to add chaos to the open-source ecosystem: [HashiCorp changed](https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license) the licensing of its open-source products from Mozilla Public License 2.0 (MPL 2.0) to Business Source License 1.1 (BUSL 1.1)](https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license).
+It's been a hot summer, so hot that Red Hat was not the only one to add chaos to the open-source ecosystem: [HashiCorp changed the licensing of its open-source products from Mozilla Public License 2.0 (MPL 2.0) to Business Source License 1.1 (BUSL 1.1)](https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license).
 
 As a response to it, the Linux Foundation forked Terraform (a software to write infrastructure as code) creating OpenTofu and [its manifesto](https://opentofu.org/manifesto).
 
