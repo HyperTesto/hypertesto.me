@@ -13,7 +13,7 @@ Parsing partial dates can be a common challenge in Java programming, and Java 8'
 
 ## Why (or not) parse partial dates?
 Isn't parsing "full" dates enough of a headache?
-Well, in a perfect world, we may handle only fully written dates and possibly in [ISO 8061](https://it.wikipedia.org/wiki/ISO_8601) but the reality is that neither users nor our data sources do it. Think about it: how many times did you require a user to fill, for example, its birthday with a precision up to a millisecond? I guess never [^0].
+Well, in a perfect world, we may handle only fully written dates and possibly in [ISO 8601](https://it.wikipedia.org/wiki/ISO_8601) but the reality is that neither users nor our data sources do it. Think about it: how many times did you require a user to fill, for example, its birthday with a precision up to a millisecond? I guess never [^0].
 
 There are of course many ways to tackle this problem, one of the easiest being storing the date information with the exact resolution you need, so the omitted part becomes irrelevant. That's why in the database world we have many ways to store date/time information; for example, let's check Postgres:
 
