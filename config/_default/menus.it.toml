@@ -1,12 +1,7 @@
 [[main]]
-  name = "Chiuso in casa"
-  pageRef = "chiuso-in-casa"
+  name = "Serie"
+  pageRef = "categories/serie"
   weight = 20
-
-[[main]]
-  name = "Guida Galattica per Hughisti"
-  pageRef = "ggph"
-  weight = 30
 
 [[main]]
   identifier = "locale"

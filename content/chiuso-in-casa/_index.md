@@ -1,6 +1,8 @@
 ---
 title: Chiuso in casa
 weight: "-230"
+categories:
+    - serie
 ---
 _Chiuso in casa_ è una serie a episodi per ingannare il tempo visto che, ahimé, non ho contatti umani da un bel po' e devo fingere di fare qualcosa di produttivo :-)
 
