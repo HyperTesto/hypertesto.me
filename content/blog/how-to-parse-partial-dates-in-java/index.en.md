@@ -9,13 +9,17 @@ tags:
 categories:
     - programming
 ---
-Parsing partial dates can be a common challenge in Java programming, and Java 8's Instant API offers a powerful solution. In this article, we will explore how to effectively parse partial dates using Java 8's Instant API.
+Parsing partial dates can be a common challenge in Java programming, and Java 8's Instant API offers a powerful solution. 
+In this article, we will explore how to effectively parse partial dates using Java 8's Instant API.
 
 ## Why (or not) parse partial dates?
 Isn't parsing "full" dates enough of a headache?
 Well, in a perfect world, we may handle only fully written dates and possibly in [ISO 8601](https://it.wikipedia.org/wiki/ISO_8601) but the reality is that neither users nor our data sources do it. Think about it: how many times did you require a user to fill, for example, its birthday with a precision up to a millisecond? I guess never [^0].
 
-There are of course many ways to tackle this problem, one of the easiest being storing the date information with the exact resolution you need, so the omitted part becomes irrelevant. That's why in the database world we have many ways to store date/time information; for example, let's check Postgres:
+There are, of course, many ways to tackle this problem,
+one of the easiest being storing the date information with the exact resolution you need,
+so the omitted part becomes irrelevant.
+That's why in the database world we have many ways to store date/time information; for example, let's check Postgres:
 
 - `TIMESTAMP`: the standard timestamp (timezone is assumed to be UTC)
 - `TIMESTAMPZ`: stores the timestamp along with timezone information
@@ -33,9 +37,11 @@ I was working on a CLI tool that along with other features, can query a database
 The CLI has two arguments to filter over those two columns: `--from` and `--to` both of them accepting a date formatted as `yyyyMMdd[-HHmmss]`.  
 Do you notice there's a part between square brackets? That's the optional part.
 
-The idea of the optional part is that, without adding more arguments to the CLI, a user can query one or more full days if it provides the two arguments with only the mandatory part, or can go more fine-grained if needed (even mixing the formats).
+The idea of the optional part is that, without adding more arguments to the CLI, 
+a user can query one or more full days if it provides the two arguments with only the mandatory part, 
+or can go more fine-grained if needed (even mixing the formats).
 
-To do it we have two different argument semantics:
+To do it, we have two different argument semantics:
 - `--from`: if omitted, the time part should be set to the start of the day which is "all zeroes" 
 - `--to`: if omitted it should be set to the end of the day which is `23:59:59.999` (Here I haven't used the same format just for clarity)
 
@@ -67,7 +73,7 @@ it will give you an exception:
 Text '20231231' could not be parsed: Unable to obtain Instant from TemporalAccessor: {},ISO resolved to 2023-12-31 of type java.time.format.Parsed
 ```
 Why does it fail?  
-Instant doesn't apply any default implicitly and the string `20231231` only contains information about a date. It does not contain any information about the time of day. As such, there's no sufficient information to create an instance of the Instant class.
+Instant doesn't apply any default implicitly and the string `20231231` only contains information about a date. It doesn’t contain any information about the time of day. As such, there's no sufficient information to create an instance of the Instant class.
 
 #### Instant class, attempt #2
 Now that we know that Instant class wants the parser to explicitly declare defaults, let's execute this code:
@@ -91,12 +97,13 @@ Instant is 2023-12-31T00:00:00Z
 Notice that:
 - `parseDefaulting` takes a `ChronoField` and a value.  
 In this example, I've hard-coded a `0`, but you should use some meaningful constant; I like to use [LocalTime](https://docs.oracle.com/javase/8/docs/api/java/time/LocalTime.html) for this.
-- I also added an explicit timezone (UTC), try to omit it and compare the output (assuming you are in a different timezone than UTC)
+- I also added an explicit timezone (UTC), try to omit it and compare the output (assuming you’re in a different timezone than UTC)
 
 This is almost everything we need to finally parse dates with optional parts.
 
 ## Instant class with optional parts
-With all the information that we have now, it's very easy: all we need is to define the optional part in the pattern string and play with `parseDefaulting`.
+With all the information that we have now, it's almost effortless:
+all we need is to define the optional part in the pattern string and play with `parseDefaulting`.
 
 That's what I've come up with to handle the different semantics of `--from` and `--to` in my use case:
 
@@ -163,9 +170,11 @@ Full 'to' argument is 2023-12-31T12:12:12.999999999Z
 ```
 
 ## Conclusion
-In conclusion, this article has briefly explored the utility and methodology of parsing partial dates using Java 8's Instant API. Through practical examples, we've seen how parsing partial dates with Instant API is easy, provided we have a clean idea of how to handle defaults. 
+In conclusion, this article has briefly explored the utility and methodology of parsing partial dates using Java 8's Instant API.
+Through practical examples, we've seen how parsing partial dates with Instant API is straightforward, provided we have a clean idea of how to handle defaults. 
 
-Lastly, don't forget there isn't only Instant API in modern Java, in fact, there are `LocalDateTime` and `ZonedDateTime` classes which are also fine for this kind of processing [^1].
+Lastly, remember there isn't only Instant API in modern Java, in fact,
+there are `LocalDateTime` and `ZonedDateTime`classes which are also fine for this kind of processing [^1].
 
 I hope the article was useful to you, thanks for reading it!
 
