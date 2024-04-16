@@ -15,7 +15,7 @@ Benvenuti sul mio sito personale!
 
 *Sono Enrico, {{< myAge >}} anni, caotico buono, molto piacere (夜露死苦)[^0].*
 
-Sono un informatico nato e cresciuto in Italia,  immerso tra le Dolomiti: le famose montagne patrimonio dell'UNESCO.
+Sono un informatico nato e cresciuto in Italia, immerso tra le Dolomiti: le famose montagne patrimonio dell'UNESCO.
 
 Al lavoro faccio un po' lo sviluppatore e un po' il sistemista e trasformo caffè in soluzioni e altri sottoprodotti[^1].
 

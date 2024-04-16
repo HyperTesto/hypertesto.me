@@ -26,7 +26,7 @@ Puntualmente ogni volta è un supplizio:
 
 Collegandomi in ufficio in VPN, non ho bisogno di cose particolari per aprire porte dinamicamente, perciò da questo punto di vista soluzioni come TeamWiever/AnyDesk non sono strettamente necessarie. 
 
-In questi giorni  mi sono messo a fare esperimenti e ho trovato un altro fantastico progetto open source: [X2Go](https://wiki.x2go.org/doku.php "X2Go").
+In questi giorni mi sono messo a fare esperimenti e ho trovato un altro fantastico progetto open source: [X2Go](https://wiki.x2go.org/doku.php "X2Go").
 
 Il sito non ispira molta fiducia, ma vi garantisco che ha superato le mie più rosee aspettative:
 
@@ -96,11 +96,11 @@ Se non avete esigenze particolari questo è tutto ciò che dovete configurare. B
 
 ### Considerazioni finali
 
-Come ho già avuto modo di dire, sono rimasto sbalordito dalla qualità di X2Go. L'ho utilizzato una decina di ore facendo prove di connessioni da ADSL di casa, Iliad, Ho Mobile e tranne qualche inevitabile laggata dato che vivo in montagna e internet stabile qui è ancora un sogno... non mi sembrava di essere in remoto.
+Come ho già avuto modo di dire, sono rimasto sbalordito dalla qualità di X2Go. L'ho utilizzato una decina di ore facendo prove di connessioni da ADSL di casa, Iliad, Ho Mobile e tranne qualche inevitabile laggata dato che vivo in montagna e internet stabile qui è ancora un sogno... Non mi sembrava di essere in remoto.
 
-Ho volutamente tralasciato il discorso apertura porte poichè facendo tunnel via SSH, valgono le regole che applichereste ad esso.
+Ho volutamente tralasciato il discorso apertura porte poiché facendo tunnel via SSH, valgono le regole che applichereste a esso.
 
 A presto signori!
 
 [^0]: Uncle singer? Zio cantante! (https://youtu.be/aQnT6FcJFkI?t=203)
-[^1]:  Uso TeamViewer con licenza regolarmente registrata, altra storia anche lì. Se capite come caspita funziona con il loro pannello e come disdire l'abbonamento senza invare raccomandate, lasciate un commento
+[^1]:  Uso TeamViewer con licenza regolarmente registrata, altra storia anche lì. Se capite come caspita funziona con il loro pannello e come disdire l'abbonamento senza inviare raccomandate, lasciate un commento

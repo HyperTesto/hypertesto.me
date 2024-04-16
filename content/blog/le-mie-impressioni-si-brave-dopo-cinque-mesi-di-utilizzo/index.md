@@ -55,7 +55,7 @@ I pro sono innumerevoli, alcuni sono davvero piccolezze, ma anche nel mio ambito
 
 #### Verdetto
 
-Il mio passaggio da Firefox e stato totalmente indolore, ci ho messo un paio di giorni ad abituarmi, non mi aspettavo che sarebbe stato così facile! Per chi proviene da Chrome  il passaggio dovrebbe essere molto meno traumatico.
+Il mio passaggio da Firefox e stato totalmente indolore, ci ho messo un paio di giorni ad abituarmi, non mi aspettavo che sarebbe stato così facile! Per chi proviene da Chrome il passaggio dovrebbe essere molto meno traumatico.
 
 La qualità del software migliora di giorno in giorno, certo con qualche piccolo inciampo, ma non è facile fare un browser in grado di battere i due grandi player del settore.
 

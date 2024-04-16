@@ -7,7 +7,7 @@ categories: []
 tags:
   - musica
 ---
-Dopo aver chiuso il 2022 con lo "spettrale paziente", Spotify me l'ha fatta... di nuovo!  
+Dopo aver chiuso il 2022 con lo "spettrale paziente", Spotify me l'ha fatta... Di nuovo!  
 Oramai so che se nel mio discovery weekly compaiono gruppi con meno di 10,000 ascolti mensili si tratta di *roba buona* 🚬.  
 
 Le correnti questa volta mi hanno trasportato in un mare torbido con degli echi vagamente psichedelici (giusto un pochino).
@@ -32,7 +32,7 @@ Non so quante volte l'ho ascoltata in loop.
 Ho tenuto la migliore per ultima... la canzone è davvero difficile da descrivere a parole: una marcia di un qualcosa che esce dalle profondità della
 litosfera, o in alternativa un bel trip acido.
 
-Consiglio l'ascolto in cuffia... in auto solo se volete attirare l'attenzione: non garantisco donzelle o chad ma un fermo dalla stradale o da qualche tossico
+Consiglio l'ascolto in cuffia... In auto solo se volete attirare l'attenzione: non garantisco donzelle o chad ma un fermo dalla stradale o da qualche tossico
 è assicurato!
 
 {{< button href="https://open.spotify.com/playlist/5Jzzjr23WCg6xz3aYrztjm?si=b2b8d7eb7d534336" target="_blank" >}}

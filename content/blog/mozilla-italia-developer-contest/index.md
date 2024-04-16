@@ -20,7 +20,7 @@ In breve si tratta di un concorso informale (ovvero niente attestati o frivolezz
 
 * riconoscitore di comandi vocali
 * assistente vocale
-* tecnoligie di assistenza a disabilità (controllo vocale del sistema operativo)
+* tecnologie di assistenza a disabilità (controllo vocale del sistema operativo)
 
 ### Cos'è DeepSpeech
 

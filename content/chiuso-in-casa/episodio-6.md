@@ -10,7 +10,7 @@ tags:
 title: 'Chiuso in casa - Episodio #6'
 ---
 Eccoci qua, in puntuale ritardo.  
-Non sapevo che canzone condividere, così ho chiesto al forno... non lo avessi mai
+Non sapevo che canzone condividere, così ho chiesto al forno... Non lo avessi mai
 fatto! Si è _scaldato_ subito e non mi parla più da ore.
 
 ### Canzone del giorno
@@ -49,10 +49,10 @@ Proviamo almeno a dare un senso alla birra.
 
 Il mito vole che l'umanità parlasse male del dio Ra, che infuriatosi mandò sulla
 Terra la dea Hator per sistemare la faccenda. La dea in questione,
-e qui cito letteralmente il libro, _"aveva la testa di leone ed il temperamento di un cane shih tzu"_.    
+e qui cito letteralmente il libro, _"aveva la testa di leone e il temperamento di un cane shih tzu"_.    
 La dea cominciò quindi a trucidare tutti quanti e la cosa prese una brutta piega,
 perciò Ra, che nel frattempo aveva cambiato idea,
-dovette ricorrere ad un barbatrucco per riuscire a placarla: preparò **7000 barili**
+dovette ricorrere a un barbatrucco per riuscire a placarla: preparò **7000 barili**
 di birra che fece tingere di rosso e li versò sui campi. A quel punto Hator scambiò
 la birra per sangue e fece una gran bella sbronza.  
 Quando si risvegliò, aveva dimenticato la sua missione originale.
@@ -78,7 +78,7 @@ Poi quando erano tutti marci, il sacerdote ordinava loro di fare del sano bunga 
 Sì, avete capito bene: un'orgia da Guinnes World Record, per di più ricorrente!
 
 Succedeva che molte donne rimanessero incinte, ma per loro era un vanto. Bisognava
-quindi trovare un nome appropriato ad un pargolo di così straordinaria origine, ma si sa,
+quindi trovare un nome appropriato a un pargolo di così straordinaria origine, ma si sa,
 con la bocca impastata è difficile pronunciare bene il nome in ufficio anagrafe...
 esistono quindi individui che rispondono al pronunciabilissimo nome di _Kenherkhepeshef_[^0]
 
@@ -89,7 +89,7 @@ Insomma, una declinazione piuttosto originale del famoso detto "_l'importante è
 A questo punto, tutti si concedevano un bel pisolino ed entravano in azione i pochi rimasti sobri,
 che dovevano portare la statua della dea in un'altra stanza e,
 ai primi bagliori dell'alba, dovevano svegliare tutti quanti **A SUON DI TAMBURI**.  
-A quanto pare oltre che ad essere moooolto disinibiti, erano anche dei sadici.
+A quanto pare oltre che a essere moooolto disinibiti, erano anche dei sadici.
 
 
 Anche per oggi è tutto! A domani 😉.

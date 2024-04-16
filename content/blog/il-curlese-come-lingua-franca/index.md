@@ -24,7 +24,7 @@ vanno a riprodurre lo scenario di test e gli output che evidenzino le eventuali 
 
 No, la risposta non è un bel vaffanculo indirizzato alle persone giuste... putroppo.
 
-## Magico magico curl
+## Magico, magico curl
 
 In nostro soccorso arriva `curl`, un programma installato praticamente su qualsiasi distro (anche nei MAC, vero Apple?[^3])
 con cui è possibile fare richieste http in qualsiasi salsa ed estrarre una marea di informazioni.
@@ -33,13 +33,13 @@ Non entro nel merito del funzionamento di tutti i possibili parametri, per quell
 il manuale da conoscere a menadito (vedetelo come una di quelle poesie che a scuola
 facevano imparare a memoria, ma in versione informatichese).
 
-Ma passiamo ad un esempio così da chiarire perchè `curl` è così figo:
+Ma passiamo a un esempio così da chiarire perchè `curl` è così figo:
 
 ![curl-esempio](/images/curl_esempio.png)
 
 Come potete vedere c'è semplicemente tutto: input, output, negoziazione dei parametri,
 messaggi scambiati "sotto il cofano" e c'è anche la possibilità di sbattere tutto in un
-fantastico (a aggiungerei anche *scambiabile*) file di testo con una redirezione dell'output.
+fantastico (e aggiungerei anche *scambiabile*) file di testo con una redirezione dell'output.
 
 L'esempio che ho messo è piuttosto banale, perchè in questo scenario funziona tutto alla perfezione, ma come
 ho detto nell'introduzione, l'utilizzo di curl come "lingua franca", torna estremamente utile
@@ -62,14 +62,14 @@ cominciano con `>` sono i messaggi inviati, quelle che cominciano con `<` invece
 * `--connect-timeout <seconds>`: imposta un timeout di connessione, utile ad esempio se manca connettività
     e passa un era geologica prima di ricevere il due di picche (potreste anche interrompere con `ctrl-C`, ma noi
     studiosi del curlese vogliamo che qualsiasi eventuale risposta sia totalmente esplicitata nell'output)
-* `--local-port <num/range>`: utilissimo per simulare un flusso tra due potre conosciute e censite su un firewall
+* `--local-port <num/range>`: utilissimo per simulare un flusso tra due porte conosciute e censite su un firewall
 * `-x`, `--proxy [protocol://]host[:port]`: utilizza un proxy per la richiesta
 * `--trace-ascii <file>`, `--trace <file>`: abilita un dump di tutti i dati scambiati, la versione ascii è più human friendly
-* `--trace-time`: aggiunge un timestamp ad ogni linea di dump/trace. Questo è utilissimo se dovete debuggare
+* `--trace-time`: aggiunge un timestamp a ogni linea di dump/trace. Questo è utilissimo se dovete debuggare
 fenomeni paranormali in cui dei messaggi arrivano con delay o cose simili. Di norma se
 si è in uno scenario simile il buon senso vorrebbe che ci si doti anche di un `tcpdump` su
 tutti i nodi interessati dallo scambio dei messaggi (server, client, firewall vari, ...), ma
-putroppo non è sempre possibile disporne.
+purtroppo non è sempre possibile disporne.
 
 Bene, ora che siete adeguatamente *imparati* sull'argomento, non vi resta che diffondere
 il verbo! Vi lascio qualche idea su come procedere per richiedere formalmente l'esecuzione
@@ -87,7 +87,7 @@ Ovviamente senza dimenticare il caso contrario:
 * *I test di curlazione sono giunti al termine*
 
 **Un'ultima nota prima di andare**: nell'immagine ho messo "negoziazione SSL" in modo un po' improprio
-poichè in quell'output si vedono solo il certificato (nella parte di interesse per la validazione) e
+poiché in quell'output si vedono solo il certificato (nella parte di interesse per la validazione) e
 i cifrari concordati. Di norma è comunque più che sufficiente, a patto di interloquire
 con le persone giuste.
 

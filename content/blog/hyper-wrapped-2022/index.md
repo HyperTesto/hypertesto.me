@@ -8,7 +8,7 @@ tags:
 categories: ""
 authors: hypertesto
 ---
-È dall'anno scorso che avevo voglia di fare un articolo del genere, il 2022 era proprio l'anno giusto per inaugurare quella che spero diventerà un'usanza... e poi avevo anche il titolo azzeccato, quindi non potevo proprio tirarmi indietro.
+È dall'anno scorso che avevo voglia di fare un articolo del genere, il 2022 era proprio l'anno giusto per inaugurare quella che spero diventerà un'usanza... E poi avevo anche il titolo azzeccato, quindi non potevo proprio tirarmi indietro.
 
 Il 2022 è stato in generale un anno abbastanza di merda, non so se meglio o peggio del 2021, ma non serve che vi illustri io i motivi visto che sono cose sotto gli occhi di tutti.  
 
@@ -18,14 +18,14 @@ Ogni avvenimento o aspetto principale ha il suo capitolo dedicato, preparatevi p
 
 ## Cambio residenza
 Con la scusa dei lockdown sono tornato nel mio paese natale già nel 2020, e ci sono anche rimasto dopo aver mollato il mio appartamento in affitto a Trento. Ho fatto dapprima un po' il nomade in casa dei miei: prima con loro, poi in un appartamento libero, poi in un altro e con l'occasione del mio
-passaggio ufficiale in telelavoro avvenuta questa primavera ho ufficializzato la mia nuova residenza al piano terra... ben due piani sotto a dove era in origine![^10]
+passaggio ufficiale in telelavoro avvenuta questa primavera ho ufficializzato la mia nuova residenza al piano terra... Ben due piani sotto a dove era in origine![^10]
 
 Nel corso dell'anno sono diventato proprietario di due appartamenti (a piano terra, per l'appunto) dai quali poi ne ho ricavato uno solo. Ho fatto letteralmente tre cose, il minimo indispensabile per far quadrare la burocrazia e sistemarmi al meglio: 
-* un piccolo muro in cartongesso con una porta per unire i due appartamenti (le due entrate erano in fondo ad un corridoio una su un lato e una di fronte, quindi ho fatto la porta un pelo più avanti per chiuderli entrambi) 
+* un piccolo muro in cartongesso con una porta per unire i due appartamenti (le due entrate erano in fondo a un corridoio una su un lato e una di fronte, quindi ho fatto la porta un pelo più avanti per chiuderli entrambi) 
 * una scrivania su misura per il mio home-office (spoiler: mi è costata molto meno che prendere due scrivanie con due mobili decenti per riempire bene lo spazio)
-* ho sistemato doccia e lavandino nel bagno che sarebbe diventato il principale visto che quel che c'era era messo piuttosto male
+* ho sistemato doccia e lavandino nel bagno che sarebbe diventato il principale visto che, quel che c'era, era messo piuttosto male
 
-Queste tre cose che a tanti sembreranno da nulla mi hanno fatto abbastanza *girare i cojoni*: le ho pagate tutte molto di più del preventivato (grazie Putin), sia materiali che manodopera sono arrivati in ritardo (il lavandino merita un  paragrafo tutto suo) e tutta la burocrazia in generale mi ha causato abbastanza stress. In realtà penso sia più il mio modo di vedere il mondo che è incompatibile con il modo in cui funzionano queste cose burocratiche.
+Queste tre cose che a tanti sembreranno da nulla mi hanno fatto abbastanza *girare i cojoni*: le ho pagate tutte molto di più del preventivato (grazie Putin), sia materiali che manodopera sono arrivati in ritardo (il lavandino merita un paragrafo tutto suo) e tutta la burocrazia in generale mi ha causato abbastanza stress. In realtà penso sia più il mio modo di vedere il mondo che è incompatibile con il modo in cui funzionano queste cose burocratiche.
 
 Comunque alla fine tutto è andato al suo posto soprattutto grazie al preziosissimo contributo ~~dei miei operai assunti irregolarmente~~ dei miei famigliari[^1].
 
@@ -47,7 +47,7 @@ Sistemare il lavandino con la sua specchiera è stato un calvario:
 
 L'unica cosa che mi era rimasta dell'ordine iniziale era il mobile-specchio, che comunque aveva preso qualche botta perchè il legno era crepato in un punto che fortunatamente rimane nascosto, il cristallo dello specchio invece era miracolosamente intatto. Comunque alla fine l'ho tenuto per farci altro.  
 
-Il lavandino è sicuramente di alta qualità e il lavoro alla fine è venuto molto bene... ma se ci ripenso mi sale il kraken 😡😡.
+Il lavandino è sicuramente di alta qualità e il lavoro alla fine è venuto molto bene... Ma se ci ripenso mi sale il kraken 😡😡.
 
 
 ### Fuffi e altre bestie mitiche
@@ -57,7 +57,7 @@ Fuffi, Il gatto dei miei, è super contento di avere ~~lo schiavetto~~ il portin
 
 Anche i gatti del vicinato a quanto pare hanno gradito la mia presenza: due hanno già provato a fare irruzione e una terza (una gatta nera un tantino invadente) si è fatta anche un bel giretto dentro mentre ero di spalle.
 
-Di tanto in tanto compare anche la volpe, ma almeno non prova ad entrarmi in casa! Almeno spero.
+Di tanto in tanto compare anche la volpe, ma almeno non prova a entrarmi in casa! Almeno spero.
 ## The office
 Questo in realtà dovrebbe far parte del capitolo precedente, ma meritava un capitolo tutto suo con blackjack e squillo di lusso!  
 
@@ -90,7 +90,7 @@ In pratica mi ha suggerito, visto che già dovevo fare il cartongesso per il por
 Per i *non ancora imparati*  la scrivania a sbalzo non ha le gambe che poggiano sul pavimento, ma è direttamente fissata al muro.
 {{< /alert >}}
 
-Mi ha quindi fatto un progettino e abbiamo fatto fare la scrivania su misura ad una falegnameria locale; questa soluzione è costata circa la metà della combo di mobili più costosa ed è venuta davvero una figata!  
+Mi ha quindi fatto un progettino e abbiamo fatto fare la scrivania su misura a una falegnameria locale; questa soluzione è costata circa la metà della combo di mobili più costosa ed è venuta davvero una figata!  
 Beccatevi il time-lapse del lavoro!
 
 <img src="the_office.webp" />
@@ -104,7 +104,7 @@ Per il resto della stanza abbiamo optato per una specie di paretina attrezzata c
 {{< figure src="quadri_ad.jpg" title="I quadri del mitico [Andrea De Nardin](https://www.instagram.com/andrea.denardin/)" caption="I quadri del mitico [Andrea De Nardin](https://www.instagram.com/andrea.denardin/)">}}
 Ho voluto mettere anche un po' di piante e un paio di quadri che ho preso direttamente da un amico che, a differenza mia, le foto le sa fare ;-)
 
-Per chi lo ha notato dalla foto: no, non sono i mobili ad essere *sgherli*, sono proprio i muri che non sono a piombo.
+Per chi lo ha notato dalla foto: no, non sono i mobili a essere *sgherli*, sono proprio i muri che non sono a piombo.
 
 ## Il Leapcon 2022
 Dopo due anni di tentativi andati a vuoto causa *Coviddi*, siamo finalmente riusciti a trovarci per il Leapcon. Cos'è il Leapcon? È l'evento ufficiale, che sperabilmente sarà a cadenza annuale, dell'organizzazione di Star Citizen di cui faccio parte. Tutti bravi ragazzi e anche brave forchette!
@@ -128,9 +128,9 @@ In sintesi: *son contento aver partecipato manifestazione*.
 Non so nemmeno da dove cominciare, la faccenda è di dominio pubblico e la quasi totalità dei passaggi è disponibile in rete, un riassunto temo non renderebbe giustizia. Io comunque ci provo.  
 
 Il tutto è cominciato con Elon Musk che a fine Gennaio si è comprato un bel po' di azioni di Twitter, rendendolo il maggior azionista, poi ha provato a comprarsi direttamente la baracca con un'offerta, salvo poi fare marcia indietro.  
-Non è chiaro cosa intendesse fare, ma molti concordano nel dire che sia stata una manovra per abbassare il valore di Twitter in modo da comprarlo ad un prezzo più basso.
+Non è chiaro cosa intendesse fare, ma molti concordano nel dire che sia stata una manovra per abbassare il valore di Twitter in modo da comprarlo a un prezzo più basso.
 
-Durante tutto il tira e molla si è letto di tutto: lui si è dichiarato "un assolutista della libertà di espressione", poi contrario alla censura, poi si è dichiarato apertamente contrario al ban di Trump dalla piattaforma... insomma, ha sfornato parecchie perle. 
+Durante tutto il tira e molla si è letto di tutto: lui si è dichiarato "un assolutista della libertà di espressione", poi contrario alla censura, poi si è dichiarato apertamente contrario al ban di Trump dalla piattaforma... Insomma, ha sfornato parecchie perle. 
 
 Alla fine del tira e molla, il 27 Novembre, Twitter è diventato di sua proprietà e ha cominciato a fare le sue *Muskiate*:
 * ha licenziato da un giorno all'altro buona parte del management
@@ -165,7 +165,7 @@ Ho usato Atom praticamente dalla suo primo rilascio ufficiale quindi mi è dispi
 
 Gli anni scorsi avevo già provato a migrare su altro (VSCode in primis) ma nonostante Atom fosse percettibilmente lento (come gran parte della robaccia fatta in Electron) mi ci sono sempre sentito a casa soprattutto con l'integrazione con GIT.
 
-Ad oggi, sono passato su Codium (la versione di VSCode snellita della parte di telemetria M$); mi ci devo ancora abituare ma devo dire che non è stato poi così traumatico, anzi è percettibilmente più veloce, perlomeno all'avvio.  
+A oggi, sono passato su Codium (la versione di VSCode snellita della parte di telemetria M$); mi ci devo ancora abituare ma devo dire che non è stato poi così traumatico, anzi è percettibilmente più veloce, perlomeno all'avvio.  
 Per come lo uso io ha già quasi tutto di default, ci ho solo installato un po' di robine carine per il Markdown (Front Matter CMS è stata una gran scoperta, spero di scriverci un articolo più avanti) e uno spell checker che mi pare funzioni piuttosto bene.
 
 Durante l'anno ho sperimentato anche con [Helix](https://helix-editor.com/) e [Lapce](https://lapce.dev/) e ho anche addocchiato [Zed](https://zed.dev/).  
@@ -187,7 +187,7 @@ Accio commenti!
 
 Dopo Harry Potter, che se ben ricordo ho finito di ascoltare tra Maggio e Giugno, ho ascoltato un paio di altre cosine e poi ho scoperto la mia seconda droga: Sandman.
 
-Sandman, che non è un libro ma bensì è un fumetto, è fatto un po' diversamente rispetto ad un audiolibro "convenzionale" letto da un solo speaker: ci sono più voci, rumori, musica... insomma praticamente un film senza la componente visiva. Molto figo.
+Sandman, che non è un libro ma bensì è un fumetto, è fatto un po' diversamente rispetto a un audiolibro "convenzionale" letto da un solo speaker: ci sono più voci, rumori, musica... insomma praticamente un film senza la componente visiva. Molto figo.
 
 Con Sandman sono arrivato a metà del terzo atto che è uscito non troppo tempo fa.  
 Se ne avete l'occasione, oltre a leggere il fumetto originale, ascoltate l'audiolibro che rispetto al telefilm uscito quest'estate su Netflix[^80] è più fedele e ha un piglio decisamente più horror! 
@@ -226,12 +226,12 @@ L'unico neo è che i siti fatti con Tailwind CSS si somigliano tutti parecchio, 
 
 Durante l'anno ho fatto talmente tante modifiche alle CORS policy che ho perso il conto di quante volte le ho rotte. I commenti di conseguenza non hanno funzionato per un periodo.
 
-Comunque con la scusa dei fix e degli aggiornamenti al tema ho avuto modo di tenere piuttosto aggiornata la versione di Hugo, anzi, l'occasione è stata anche ghiotta per implementare un minimo di workflow per avere una versione si staging del sito tramite Netlify... inutile dire che all'inizio ho fatto la modifica, ho spaccato mezza roba e me ne sono accorto dopo un mese abbondante.
+Comunque con la scusa dei fix e degli aggiornamenti al tema ho avuto modo di tenere piuttosto aggiornata la versione di Hugo, anzi, l'occasione è stata anche ghiotta per implementare un minimo di workflow per avere una versione si staging del sito tramite Netlify... Inutile dire che all'inizio ho fatto la modifica, ho spaccato mezza roba e me ne sono accorto dopo un mese abbondante.
 
 Shame on me.
 
 ## Piani per il 2023
-Non mi piace particolarmente il concetto di fissare degli obiettivi per l'anno... preferisco vedere le cose in ottica più *rolling-release*; diciamo che vedo più questa lista come un "cose da fare opportunisticamente prima o poi, forse mai".  
+Non mi piace particolarmente il concetto di fissare degli obiettivi per l'anno... Preferisco vedere le cose in ottica più *rolling-release*; diciamo che vedo più questa lista come un "cose da fare opportunisticamente prima o poi, forse mai".  
 
 Comunque sia ecco le cose in ordine rigorosamente casuale:
 
@@ -257,7 +257,7 @@ Se vi va, potete *mipiaciare* l'articolo direttamente qui sulla pagina, sui soci
 
 [^10]: Per fortuna che quando lavoravo in sede a Trento non avevo ancora spostato la residenza, altrimenti altro che ritorno a casa dopo il primo lockdown! [Chiuso in casa](/chiuso-in-casa) avrebbe avuto un bel po' di puntate extra!
 [^20]: Salvo poi richiedere nuovamente l'apertura per uscire dopo nemmeno un minuto[^30]
-[^30]: Oppure entrare dalla finestra per poi tirare dritto e uscire dal portone... gatti
+[^30]: Oppure entrare dalla finestra per poi tirare dritto e uscire dal portone... Gatti
 [^40]: Poco male perchè nel mentre ho pranzato pure io
 [^50]: In realtà dentro di me ho vissuto la scena in stile [Suor Nausicaa del bergamasco ricoperta di lacrime di immensa carità cristiana](https://www.youtube.com/watch?v=6zJH2Bpx1-g)
 [^60]: E quelle da fighetti con i led RGB, quelle con le gambe storte o uscite direttamente da un romanzo ottocentesco le lascio volentieri ad altri

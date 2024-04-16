@@ -60,11 +60,11 @@ evitare un'apocalisse.
 
 La cosa è ugualmente vera anche andando più a nord, in Inghilterra:
 
-> L'approccio anglossassone standard alla questione è riassunto in un detto di Abbot
+> L'approccio anglosassone standard alla questione è riassunto in un detto di Abbot
 Aelfric: «Birra se ce n'è, acqua se la birra non c'è».   
 Il vino, prosegue Aelfric malinconicamente, era davvero troppo caro per il monaco
 inglese medio. Di contro, la razione standard di birra era solo un gallone al giorno
-(di più nei giorni festivi). I monaci anglosassioni si sbronzavano alla pari dei
+(di più nei giorni festivi). I monaci anglosassoni si sbronzavano alla pari dei
 loro cugini italiani.
 
 Anche per oggi abbiamo concluso la nostra fantastica avventura. Ricordatevi la cosa

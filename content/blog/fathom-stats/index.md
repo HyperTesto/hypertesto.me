@@ -45,7 +45,7 @@ Vi riporto direttamente l'introduzione tratta dal [sito ufficiale](https://usefa
 >
 >
 
-Per il momento il servizio è solo self-hosted, comunque installazione e configurazione sono davvero semplici (ho scritto una piccola [guida](/blog/installare-fathom-su-ubuntu-16.04) a riguardo) ed inoltre non occupa molte risorse (probabilmente gira senza problemi anche su un raspberry).
+Per il momento il servizio è solo self-hosted, comunque installazione e configurazione sono davvero semplici (ho scritto una piccola [guida](/blog/installare-fathom-su-ubuntu-16.04) a riguardo) e inoltre non occupa molte risorse (probabilmente gira senza problemi anche su un raspberry).
 
 La dashboard è davvero molto semplice e c'è anche la possibilità di filtrare per data!
 

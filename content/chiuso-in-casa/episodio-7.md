@@ -32,12 +32,12 @@ abbondantemente massacrato e non ci tornò mai più. Ma il vino romano entrò in
 Germania, raggiunse la foresta di Teutoburgo e venne ingurgitato dagli assetati
 indigeni, che ne vollero ancora.  
 Quegli indigeni erano davvero un popolo senza fondo. Se vi state immaginando un'orda
-di tedeschi primitivi che presenziano ad una versione scarsamente tecnologia
+di tedeschi primitivi che presenziano a una versione scarsamente tecnologia
 dell'Oktoberfest che dura tutto l'anno, non siete lontani dalla realtà.
 
 L'alcool permeava le loro vite in tutto:
 
-* Ad ogni importante decisione politica. No, non dopo, per festeggiare; si sbronzavano
+* A ogni importante decisione politica. No, non dopo, per festeggiare; si sbronzavano
 prima. Secondo loro da sbronzi non avrebbero potuto mentire[^0]...
  doveva essere davvero molto divertente il comizio che ne scaturiva.
 * Durante le riconciliazioni con gli avversari. Sempre che questi ultimi non si
@@ -54,7 +54,7 @@ falsariga degli Egizi, ma a differenza di questi ultimi senza spendere una fortu
 e portandosi nell'oltretomba quello che contava veramente: **il loro equipaggiamento alcolico**[^1].
 
 Ma come bevevano i barbari nelle occasioni speciali? Abbiamo una testimonianza di
-un greco di nome Prisco che nel 448 d.C. dovette andare in missione... a cena con **Attila**[^2].
+un greco di nome Prisco che nel 448 d.C. dovette andare in missione... A cena con **Attila**[^2].
 Qualcuno aveva rubato i calici romani di quest'ultimo, che era andato
 su tutte le furie, perciò voleva fare quattro chiacchiere moooolto
 amichevoli con il nuovo proprietario delle coppe 😨. Prisco quindi era stato mandato per provare a calmare le acque.  
@@ -65,12 +65,12 @@ gentilmente offerto dal padrone di casa[^3].
 Poi cominciarono i brindisi, che vennero aperti dal padrone di casa, che secondo usanza
 si doveva scolare una tazza di vino. Poi toccava agli ospiti e via così sfidandosi
  chi beveva di più, come imponeva una tradizione tracia. Poi, finalmente, portarono
- anche da mangiare e gli ospiti poterono bere e  mangiare a volontà.  
+ anche da mangiare e gli ospiti poterono bere e mangiare a volontà.  
 Purtroppo non sappiamo quali fossero i riti di chiusura poichè Prisco se ne andò
 prima che la cena terminasse.   
 Secondo la sua versione "non avrebbe più concluso nessun affare e non aveva più voglia di bere".
 
-Cioè... noi uomini moderni non possiamo sapere come andava a finire un banchetto
+Cioè... Noi uomini moderni non possiamo sapere come andava a finire un banchetto
 barbaro perchè il _signorino_ non aveva più voglia di bere. Noi ricercatori dell'ubriachezza
 storica siamo davvero contrariati da questo suo comportamento poco professionale. 👎👎
 

@@ -7,7 +7,7 @@ tags:
   - hugo
   - Bash
 ---
-I am activating multi language for my website, and I've decided to work with page bundles to manage content translations.
+I am activating multi-language for my website, and I've decided to work with page bundles to manage content translations.
 
 I'll write more about hugo content management soon (hopefully), but for the scope of this post let's say page bundles are very handy for this use case (and in general).
 

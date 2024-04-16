@@ -30,7 +30,7 @@ La seconda canzone é:
 
 > **Donald, wherès your trousers?**,  Kalevala hms
 
-Dedicata a tutti coloro che lavorano da remoto... in mutande, o peggio 🙈.  
+Dedicata a tutti coloro che lavorano da remoto... In mutande, o peggio 🙈.  
 
 Qua bisogna fare due appunti: questa è una reinterpretazione di una canzone umoristica di
 Andy Stewart e Neil Grant (Donald Where's Your Troosers?), che nel 1960 è diventata
@@ -77,7 +77,7 @@ ubriacarci su base regolare.
 Questo è quello che chiamerei un gran colpo di scena.
 E la cosa bella è che non c'era ancora la stradale a ritirati la patente
 per guida in stato di ebrezza. Bè, oddio, non esisteva nemmeno il concetto stesso
-di guida... ma insomma, mi avete capito 😉.  
+di guida... Ma insomma, mi avete capito 😉.  
 
 Preparatevi al peggio, vi garantisco che non abbiamo ancora visto niente dei nostri
 antenati ebbri. "_El vìn bòn_" scorrerà a fiumi.

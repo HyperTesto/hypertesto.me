@@ -21,7 +21,7 @@ Di queste nove canzoni, quella che vi condivido oggi é:
 
 Questa è l’ottava e ultima traccia del nono album dei Black Sabbath, Heaven and Hell, uscito il 25 aprile del **1980**. Quarant'anni e la loro musica spacca ancora di brutto!
 
-Cos'altro aggiungere... canzone adatta per i chiusi in casa!
+Cos'altro aggiungere... Canzone adatta per i chiusi in casa!
 
 ### La citazione del giorno
 
@@ -29,7 +29,7 @@ La citazione del giorno è tratta da **"I grandi classici riveduti e scorretti"*
 
 Il grande classico riveduto e scorretto in questione è _La divina commedia_, credo che qui non ci sia bisogno di un'introduzione, giusto?
 
-Dante si trova nel sesto cerchio, tra gli eretici, e incontra [Farinata](https://it.wikipedia.org/wiki/Farinata_degli_Uberti), che non riconoscendolo gli chiede di chi è figlio. Quando gli rivela che è un Alighieri, il buon Farinata si compiace poichè aveva fatto cacciare gli Alighieri da Firenze...
+Dante si trova nel sesto cerchio, tra gli eretici, e incontra [Farinata](https://it.wikipedia.org/wiki/Farinata_degli_Uberti), che non riconoscendolo gli chiede di chi è figlio. Quando gli rivela che è un Alighieri, il buon Farinata si compiace poiché aveva fatto cacciare gli Alighieri da Firenze...
 
 > Dante allora gli rivela che dopo la morte di Farinata, anche tutta la sua famiglia ha seguito lo stesso destino, con la piccola differenza che gli Alighieri sono tornati a Firenze e i Farinata no. Dante droppa il microfono[^1], tutte le anime esclamano un «OOOOH». _Thug life_. Farinata è zittito. 1-0.
 

@@ -19,8 +19,8 @@ There are of course many ways to tackle this problem, one of the easiest being s
 
 - `TIMESTAMP`: the standard timestamp (timezone is assumed to be UTC)
 - `TIMESTAMPZ`: stores the timestamp along with timezone information
-- `DATE`: only stores date (eg. 2023-12-31)
-- `TIME`: only stores time (eg. 23:59.999)
+- `DATE`: only stores date (e.g. 2023-12-31)
+- `TIME`: only stores time (e.g. 23:59.999)
 - `TIMEZ`: only stores time along with timezone information
 
 So, before over-complicating your parsing logic you should ask yourself: "Is the omitted part in the date/time I'm going to parse relevant? Should it be stored?"

@@ -21,7 +21,7 @@ I also experimented a bit on [ActivityPub](https://it.wikipedia.org/wiki/Activit
 
 Content side, I've opened the [English section](/en)! (otherwise you wouldn't be reading this in English). I even wrote some articles during the year! I plan to gradually "deprecate" Italian for technical articles and write more in English. But fear not: I'll stick with Italian where it makes sense!
 
-I also replaced Hyvor Talk (which I covered in [this article](/10-1-valide-alternative-a-disqus)) because I had issues with the new version 3 and honestly it was an overkill for a blog like mine. So I self-hosted [Remark42](https://remark42.com/) which is fine for my needs and also has a Telegram integration!
+I also replaced Hyvor Talk (which I covered in [this article](/10-1-valide-alternative-a-disqus)) because I had issues with the new version 3, and honestly it was an overkill for a blog like mine. So I self-hosted [Remark42](https://remark42.com/) which is fine for my needs and also has a Telegram integration!
 I migrated the comments manually, it was faster than doing an automation for like 20 entries.
 
 The revision of the comment section gave me the chance to play with [Scaleway TEM](https://www.scaleway.com/en/transactional-email-tem/) for transactional emails and rewrite my [privacy policy](/page/privacy). I'm very satisfied with the result.
@@ -47,7 +47,7 @@ Oh... I was forgetting the killer feature of the killer features: voice notes. I
 ## I am part of the Proton family
 I was past due on this matter; I have postponed it since 2021. It was time to gradually loosen my dependency on Google services and Proton was my final (and only) choice considering my privacy concerns.
 
-Proton is a Swiss company that is recognized globally for its commitment to privacy and they proven to have a very deep understanding of cryptography. It will sound dumb to say, but not every wannabe security/privacy company gets cryptography right.
+Proton is a Swiss company that is recognized globally for its commitment to privacy, and they have proven to have a very deep understanding of cryptography. It will sound dumb to say, but not every wannabe security/privacy company gets cryptography right.
 
 I went all in for the unlimited plan that gives me:
 - 15 email accounts spread among three domains
@@ -55,7 +55,7 @@ I went all in for the unlimited plan that gives me:
 - 25 calendars
 - Proton Drive with 500GB total space (shared with email)
 - 10 high-speed VPNs
-- Proton pass (I have plans to migrate from BitWarden but it will take some time)
+- Proton pass (I have plans to migrate from BitWarden, but it will take some time)
 
 I am not using every feature to 100% of its potential, but they are there in case I need them (and I'm sure I will). 7.99 €/month is a reasonable price to me.
 
@@ -201,7 +201,7 @@ As a response to it, the Linux Foundation forked Terraform (a software to write 
 
 I don't have strong opinions here since I wasn't familiar with Terraform, I will only say that this mess happened the moment I chose to learn it. Maybe it's me who brings bad luck 😒.
 
-On the study side, I'll go with OpenTofu: someone has to read that documentation to catch mistakes (if there are any) and contribute to it if able to. But I'll try my best to apply my playbooks to Terraform too; flexibility isn't a bad thing to achieve and I'm pretty sure it will pay me back on my professional career.
+On the study side, I'll go with OpenTofu: someone has to read that documentation to catch mistakes (if there are any) and contribute to it if able to. But I'll try my best to apply my playbooks to Terraform too; flexibility isn't a bad thing to achieve, and I'm pretty sure it will pay me back on my professional career.
 
 ## 2023 was the year of Linux on desktop!
 Just kidding 😉.

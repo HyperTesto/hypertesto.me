@@ -41,14 +41,14 @@ Sono uscito di casa sei volte:
 * Per ora a Maggio siamo ancora a quota 0
 
 Pensate, ho scoperto che mi bastava attraversare la strada per andare dal fruttivendolo...
-quattro anni mi ci sono voluti per accorgermene![^0]
+Quattro anni mi ci sono voluti per accorgermene![^0]
 
 Comunque in totale ho collezionato ben due ore d'aria, quasi il mio limite fisico di sopportazione. Tre ore non le avrei sicuramente rette! 😂
 
 ### Sport
 Nonostante tutto, sono riuscito a continuare con il mio programma di allenamento a corpo libero. Adesso posso sfoggiare il mio fisco statuario e dal pallore nobiliare affacciandomi dal balcone per sfidare con fare minaccioso tutti i passanti non muniti di autocertificazione.
 
-Ho anche continuato a correre... in casa, rigorosamente scalzo per non ammazzare quelli del piano di sotto.
+Ho anche continuato a correre... In casa, rigorosamente scalzo per non ammazzare quelli del piano di sotto.
 
 Devo dire che ho accumulato un bel po' di chilometri:
 

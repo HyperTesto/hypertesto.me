@@ -9,7 +9,7 @@ tags:
 - siti statici
 title: Come ho scoperto i generatori di siti statici
 ---
-Il mio primo avvicinamento al mondo dei generatori di siti statici è nato sostanzialmente ~~dall'odio profondo~~ dall'antipatia che ho sviluppato per il PHP e all'ecosistema che gravita attorno ad esso:
+Il mio primo avvicinamento al mondo dei generatori di siti statici è nato sostanzialmente ~~dall'odio profondo~~ dall'antipatia che ho sviluppato per il PHP e all'ecosistema che gravita attorno a esso:
 
 1. Generalmente è lento da far spavento (anche se la 7 ha fatto miracoli sotto questo punto di vista)[1]
 2. Lascia al programmatore una libertà incredibile per implementazioni bacate (ad esempio query costruite direttamente concatenando parametri di una form)
@@ -17,7 +17,7 @@ Il mio primo avvicinamento al mondo dei generatori di siti statici è nato sosta
 
 Tornando al discorso originale, quando ho cominciato a "ravanare" con i siti WEB (principalmente blog), ho utilizzato un po' Joomla per poi passare a Wordpress, che è davvero un progretto fantastico e ben mantenuto, ma... c***o è pur sempre in PHP. Se parliamo di velocità in termini di semplicità di configurazione e tempo di apprendimento Wordpress è davvero un missile, però mannaggia a quella pagina che ci mette sempre una vita a caricare!
 
-Comunque nulla di insormontabile con Wordpress: una cache qua, un plug-in là ed un po' di compressione e sito funziona che è una meraviglia. Con 50 plug-in ma comunque funzionante.
+Comunque nulla di insormontabile con Wordpress: una cache qua, un plug-in là e un po' di compressione e sito funziona che è una meraviglia. Con 50 plug-in ma comunque funzionante.
 
 Però si sa che la fortuna è cieca ma la sfiga le diottrie le ha ancora tutte... **BOOM!** Il sito si pianta. Nessun problema ci sono i back— cazzo i backup.
 
@@ -46,7 +46,7 @@ Ottimo: con una sola mossa ci siamo tolti di mezzo la necessità di ricorrere a 
 Non avendo un database, ma avendo solo semplici file di testo, il meccanismo più semplice è mettere il sito sotto un sistema di controllo di versione, come ad esempio [Git](https://it.wikipedia.org/wiki/Git_(software)). In un colpo solo abbiamo i backup e anche un meccanismo che ci permette di fare rollback in caso qualcuno faccia danni.
 
 
-Lasciando gli approfondimenti ad una serie di articoli che pubblicherò a breve, vi lascio una [comparativa](https://www.staticgen.com/) dei generatori di siti statici più utilizzati e [l'idea](https://jamstack.org/) attorno al quale sono stati sviluppati.
+Lasciando gli approfondimenti a una serie di articoli che pubblicherò a breve, vi lascio una [comparativa](https://www.staticgen.com/) dei generatori di siti statici più utilizzati e [l'idea](https://jamstack.org/) attorno al quale sono stati sviluppati.
 
 Rimanete sintonizzati!
 

@@ -28,7 +28,7 @@ Nella pratica, per i siti web e blog "semplici", la GDPR trova applicazione nell
 ## Cookie
 
 Un cookie, tradotto letteralmente con biscotto, in sostanza è un'informazione che viene immagazzinata (non sempre) dal nostro pc quando visitiamo un sito o una pagina web.
-I cookie possono immagazzinare le informazioni più disparate: da un ID di sessione ad un elenco di pagine visitate.
+I cookie possono immagazzinare le informazioni più disparate: da un ID di sessione a un elenco di pagine visitate.
 La grossa distinzione fatta è la seguente:
 
 * cookie tecnici

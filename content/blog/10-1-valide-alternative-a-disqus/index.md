@@ -33,12 +33,12 @@ Questo elenco non vuole essere esaustivo, ma rappresenta il **mio** punto di vis
 4. **Rallenta i tempi di caricamento:** non ne siete sicuri? aprite un qualsiasi sito che fa uso di Disqus e verificate. Se invece siete pigri vi potete accontentare di questa prova fatta su un blog che gestivo quando andavo ancora alle superiori (e che non ho ancora sistemato, _mea culpa_)
 
    ![](/images/schermata-a-2020-07-20-09-03-45.png)  
-   _Poteve vedere l'immagine ingrandita cliccando [👉 qui](/images/schermata-a-2020-07-20-09-03-45.png)_
+   _Potete vedere l'immagine ingrandita cliccando [👉 qui](/images/schermata-a-2020-07-20-09-03-45.png)_
 
    Notate non solo il tempo impiegato dalle varie risorse, ma anche la quantità di roba che carica; ci sono più richieste al CDN di Disqus che alla pagina stessa!
 5. **Non permette commenti anonimi:** da un lato essendo un servizio ancora molto utilizzato molti posseggono già un account Disqus, tuttavia obbligare qualcuno a creare un account  per lasciarvi magari un semplice grazie, è un deterrente. Io stesso tendo a non lasciare commenti se mi devo creare account per farlo; e questo per me  vale anche per siti che usano i commenti di wordpress ad esempio.
 
-Ora che vi ho spaventato abbastanza possiamo passare ad alcune considerazioni sull'utilizzo di soluzioni saas oppure self-hosted ed infine alla mia comparazione dei servizi che ho provato in questi anni.
+Ora che vi ho spaventato abbastanza possiamo passare ad alcune considerazioni sull'utilizzo di soluzioni saas oppure self-hosted e infine alla mia comparazione dei servizi che ho provato in questi anni.
 
 ### Cosa serve (secondo me) ad un sistema di commenti come si deve
 
@@ -51,14 +51,14 @@ Queste considerazioni unite ad altre presenti tra le righe dei paragrafi precede
 1. **Formattazione avanzata**: dal più semplice grassetto all'inserimento di link o immagini. Il top del sogno per me è avere la possibilità di farlo anche scrivendo in markdown, ma non è un requisito stretto.
 2. **Voti ai commenti:** stile reddit, con upvote e downvote. Questo per introdurre anche il punto successivo.
 3. **Varie opzioni di ordinamento:** dal più recente al più vecchio e viceversa, e per pertinenza (ovvero in base ai voti ricevuti).
-4. **Commenti anonimi:** non voglio obbligare nessuno ad iscriversi ad un sevizio che magari userà una volta nella vita. Meglio impiegare cinque minuti ad esprimere un'opinione piuttosto che impiegarli a riempire form di iscrizione.
+4. **Commenti anonimi:** non voglio obbligare nessuno a iscriversi a un sevizio che magari userà una volta nella vita. Meglio impiegare cinque minuti ad esprimere un'opinione piuttosto che impiegarli a riempire form di iscrizione.
 5. **Autenticazione tramite SSO:** nel caso uno desideri lasciare un commento dovrebbe poterlo fare autenticandosi con uno dei suoi account social o non delle principali piattaforme come ad esempio Google o Facebook (attenzione: sappiamo che FB e Google non sono dei santi dal punto di vista privacy, ma se c'è la possibilità di lasciare commenti anonimi, l'utente più effettuare una scelta ponderata).
 6. **Privacy by design:** punto importantissimo e fondamentale, non voglio assolutamente che i miei (pochissimi) utenti vengano usati come prodotti magari perché qualche servizio viene spacciato per gratuito.
 
 Lato utenza finale questo per me è sufficiente, mentre per quel che riguarda aspetti di integrazione e utilizzo da parte mia, questo è il desiderata:
 
 1. **Possibilità di personalizzazioni al tema:** questo per adattare al meglio i commenti al look and feel della pagina. Non sono un designer, ma...
-2. **Dashboard con vista omnicomprensiva dei commenti**: in sostanza tutti i commenti in un posto solo.
+2. **Dashboard con vista onnicomprensiva dei commenti**: in sostanza tutti i commenti in un posto solo.
 3. **Moderazione:** dalla stessa vista deve essere possibile moderare i commenti
 4. **Varie opzioni di moderazione:** ad esempio approvazione manuale di commenti che rientrano in determinati criteri (ad esempio se contengono link), oppure approvazione manuale in base allo spam score, e così via.
 5. **Esportazione dei commenti in formati di uso comune**: se voglio cambiare mi piacerebbe farlo passando i dati da un servizio all'altro tramite un semplice CSV
@@ -69,7 +69,7 @@ E anche per quel che riguarda la parte più di "backend" questo è quello che se
 
 Aggiungo infine un piccolo extra non indispensabile ma che fa di certo comodo: la moderazione dei commenti direttamente nella pagina che li ospita.
 
-Sicuramente non sono pochi punti ma non sono requisiti troppo esoterici... insomma nel 2020 penso che questo sia il minimo sindacale per un sistema di commenti al passo con i tempi.
+Sicuramente non sono pochi punti ma non sono requisiti troppo esoterici... Insomma nel 2020 penso che questo sia il minimo sindacale per un sistema di commenti al passo con i tempi.
 
 ### Self-hosted o SaaS?
 
@@ -106,7 +106,7 @@ I software che ho provato sono:
 * Remark42
 * Staticman
 
-Prima di vederli nel dattaglio ad uno ad uno, vi indico quali sono i miei parametri di valutazione.
+Prima di vederli nel dettaglio a uno a uno, vi indico quali sono i miei parametri di valutazione.
 
 Prima di tutto, sarebbe ottimo se rispettassero i punti elencati nei paragrafi precedenti, tuttavia, sono conscio che per un prodotto opensource non sono poca cosa,  quindi ai fini di questa comparazione mi focalizzerò su altri aspetti che ritengo importanti, ovvero:
 
@@ -137,13 +137,13 @@ Questo è sicuramente il più famoso dei software presentati poc'anzi. In realt�
 
 Discourse è mastodontico perciò sognatevi che giri con risorse minimali: vi serviranno almeno 2GB di RAM e anche una CPU adeguata per far funzionare il tutto.
 
-Come già indicato, questo è molto di più di un sistema di commenti, ritentevo però giusto citarlo tra le varie possibilità.
+Come già indicato, questo è molto di più di un sistema di commenti, ritenevo però giusto citarlo tra le varie possibilità.
 
 #### [Isso](https://posativ.org/isso/)
 
 ![/images/isso.png](https://app.forestry.io/sites/uksyov8ynxkynq/body-media//images/isso.png)
 
-Se avete già cercato in internet alternative a Disqus questo sarà sicuramente stato uno dei primi risultati poichè è anche una delle soluizioni che sono state sviluppate prima.
+Se avete già cercato in internet alternative a Disqus questo sarà sicuramente stato uno dei primi risultati poiché è anche una delle soluzioni che sono state sviluppate prima.
 
 Tra tutte le soluzioni è sicuramente quella dall'aspetto più spartano, è comunque funzionale.
 
@@ -160,7 +160,7 @@ Commento per me è stato amore a prima vista. Leggero, sufficientemente completo
 Ora che ne ho cantato le lodi, devo essere onesto e dire che osservandone lo sviluppo da vicino per più di un anno, questa soluzione al momento non è ottimale per una serie di motivi:
 
 * Lo sviluppo è in mano ad una singola persona e procede a rilento e con lunghi periodi di silenzio
-* Ci sono una serie di bug piuttosto importanti (ed impattanti proprio nell'uso che ne fa l'utente finale) che non sono mai stati fixati nostante le segnalazioni siano state fatte da tempo. In alcuni casi ci sono merge request pendenti da mesi con i relativi fix che non sono mai state integrate.
+* Ci sono una serie di bug piuttosto importanti (e impattanti proprio nell'uso che ne fa l'utente finale) che non sono mai stati fixati nonostante le segnalazioni siano state fatte da tempo. In alcuni casi ci sono merge request pendenti da mesi con i relativi fix che non sono mai state integrate.
 * Non è ancora possibile effettuare commenti anonimi (nonostante tale feature sia molto richiesta e anche dichiarata come in roadmap)
 
 Di tutte le soluzioni presenta la grafica secondo me più pulita, infatti è un vero peccato che perda punti per aspetti puramente di gestione.
@@ -175,11 +175,11 @@ Potete anche usufruire della versione SaaS pagando ciò che vi sentite, di tutti
 
 Lo osservo da circa 8 mesi, e secondo me è il progetto più promettente tra quelli che vi ho presentato. È attivamente sviluppato e sicuramente tra i tutti è quello più completo dal punto di vista delle feature.
 
-È possibile commentare in modo anonimo tramite una procedura un po' controintuitiva: selezionare "Anonymous" come opzione per il login (sotto alla voce "other").
+È possibile commentare in modo anonimo tramite una procedura un po' contro intuitiva: selezionare "Anonymous" come opzione per il login (sotto alla voce "other").
 
 Tra le varie soluzioni presenta secondo me l'editor più completo mantenendo comunque una grafica piuttosto pulita anche se migliorabile sotto certi aspetti.
 
-Non esiste ancora una versione SaaS, ma con molta probabilità verrà introdotta in futuro (spero non troppo remoto!). Per ora il miglior modo per supportare il progetto è contributire direttamente al suo svoluppo oppure donare tramite [Patreon](https://www.patreon.com/remark42 "remark42 patreon").
+Non esiste ancora una versione SaaS, ma con molta probabilità verrà introdotta in futuro (spero non troppo remoto!). Per ora il miglior modo per supportare il progetto è contribuire direttamente al suo svoluppo oppure donare tramite [Patreon](https://www.patreon.com/remark42 "remark42 patreon").
 
 #### [Staticman](https://staticman.net/)
 
@@ -203,7 +203,7 @@ E veniamo alle soluzioni puramente saas. In internet ne potete trovare svariate,
 * JustComments
 * Hyvor Talk
 
-Prima di analizzarli uno ad uno, vi indico qual è il questo caso il mio framework di valutazione:
+Prima di analizzarli uno a uno, vi indico qual è il questo caso il mio framework di valutazione:
 
 * **Aderenza più stretta ai punti indicati nei primi paragrafi:** giacchè si paga, è anche lecito aspettarsi di più
 * **Possibilità di personalizzazione:** completa o parziale tramite impostazioni o css.
@@ -228,7 +228,7 @@ _La tabella è stata compilata in momenti diversi, se notate errori o avete prec
 
 Premetto che ho pensato parecchio se inserire Valine qui o nella categoria opensource. Il dubbio nasce dal fatto che tecnicamente Valine è un progetto opensource, tuttavia per funzionare si basa sullo stack offerto da Leancloud che ha anche un ottimo tier di utilizzo gratuito a voler essere onesti. Ho quindi prefertito tenerlo come saas.
 
-Rispetto a Staticman è una soluzione chiavi in mano per siti statici, ovvero vi basterà aggiungere poche righe di Javascript nelle vostre pagine, ed avrete già la possibilità di commentare e vedere una lista di commenti con una grafica molto pulita.
+Rispetto a Staticman è una soluzione chiavi in mano per siti statici, ovvero vi basterà aggiungere poche righe di Javascript nelle vostre pagine, e avrete già la possibilità di commentare e vedere una lista di commenti con una grafica molto pulita.
 
 Attualmente è supportato solo Leancloud come provider per la parte di storage, ma in roadmap è già pianificato il supporto a FireBase.
 
@@ -245,7 +245,7 @@ Parlando sempre di grafica, l'editor inserire i commenti mi è sembrato piuttost
 
 Le funzionalità ci sono grossomodo tutte: voto ai commenti, ordinamento, ecc..
 
-Il tier di utilizzo gratuito è piuttosto interessante poichè garantisce 100 commenti al mese. Quello che non mi piace è che nel tier gratuito non è possibile moderare in modo granulare i commenti: o si modera tutto o niente.
+Il tier di utilizzo gratuito è piuttosto interessante poiché garantisce 100 commenti al mese. Quello che non mi piace è che nel tier gratuito non è possibile moderare in modo granulare i commenti: o si modera tutto o niente.
 
 #### [ReplyBox](https://getreplybox.com/)
 
@@ -253,7 +253,7 @@ Il tier di utilizzo gratuito è piuttosto interessante poichè garantisce 100 co
 
 ReplyBox è stato recentemente rebrandizzato e sono cambiate in modo sostanziale.
 
-Non è presente un tier di utilizzo gratuito, anche se è disponibilie un periodo di prova di 14 giorni, che forse sono un po' pochi per valutare per bene la soluzione. Il piano base è di 10€/mese, non di certo il più economico.
+Non è presente un tier di utilizzo gratuito, anche se è disponibile un periodo di prova di 14 giorni, che forse sono un po' pochi per valutare per bene la soluzione. Il piano base è di 10€/mese, non di certo il più economico.
 
 Il look and feel di base sembra molto una via di mezzo tra i commenti di WordPress e Disqus. Pulito ed elegante.
 
@@ -301,7 +301,7 @@ Come ultimo bit di informazione, volevo citarvi [Utterances](https://utteranc.es
 
 Vien da sè che sarà necessario disporre di un account su GitHub per poter commentare, sicuramente potrebbe essere interessante per un certo segmento di pubblico quindi valeva la pena citarlo.
 
-Sono disponibili esattaemente le stesse fauture di GitHub, perciò è possibile aggiungere reactions ma non è possibile effettuare ordinamenti.
+Sono disponibili esattamente le stesse fauture di GitHub, perciò è possibile aggiungere reactions ma non è possibile effettuare ordinamenti.
 
 Come per staticman, questo sistema è nato per gravitare attorno al mondo dei generatori di siti statici, anche se può tranquillamente essere installato su wordpress o semplici pagine HTML fatte a mano.
 
@@ -313,6 +313,6 @@ Come succede molte volte nel mondo dell'informatica, non c'è una soluzione gius
 
 Esistono, e vanno assolutamente supportati, servizi che nascono e vengono sviluppati in ottica orienta alla privacy. Pagare qualche euro al mese non è necessariamente una sconfitta per chi sarebbe in grado di metter su una baracca per conto proprio, ma piuttosto una scelta libera fatta per rispetto di un'utenza che, nonostante le ultime norme europee, è sempre stata trattata come merce di scambio.
 
-Personalmente ritengo che allo stato attuale, nonostante la soddisfazione e le conoscienze che vi potete portate a casa hostando una soluzione per conto vostro, sia più conveniente affidarsi a servizi saas onesti che hanno fatto della privacy il motore della propria attività.
+Personalmente ritengo che allo stato attuale, nonostante la soddisfazione e le conoscenze che vi potete portate a casa hostando una soluzione per conto vostro, sia più conveniente affidarsi a servizi saas onesti che hanno fatto della privacy il motore della propria attività.
 
 **La scelta finale è libera ed è vostra, io spero solo di avervi dato elementi sufficienti per decidere, io per ora mi limito a consigliarvi vivamente** [**Hyvor Talk**](https://talk.hyvor.com?aff=6531)**.**

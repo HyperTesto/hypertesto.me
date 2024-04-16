@@ -17,7 +17,7 @@ Welcome to my personal website!
 
 I am a computer scientist born and raised in Italy, nestled in the Dolomites: the famous UNESCO World Heritage mountains.
 
-At work I am a bit of a developer and a bit of a sysadmin, and I turn coffee into solutions and other byproducts[^1].
+At work, I am a bit of a developer and a bit of a sysadmin, and I turn coffee into solutions and other byproducts[^1].
 
 In my spare time, I do pretty much the same things I do at work, plus I like to exercise free-body, run, read, listen to music, and be a cat doorman.
 
@@ -31,7 +31,7 @@ I use these programming languages at work and in my spare time:
 * Kotlin
 * Java
 * Bash
-* A random mixiture of PHP, Python and C
+* A random mixture of PHP, Python and C
 
 I'm also studying **Go** and **Rust**!
 

@@ -41,7 +41,7 @@ In ordine di come mi vengono in mente queste sono altre caratteristiche che avev
 * Supporto a tutti i linguaggi che utilizzavo... addirittura un compagno di università aveva fatto il suo plugin
 per fare highlight delle grammatiche Bison
 * Un sacco di temi (a dirlo ora mi viene la pelle d'oca)
-* Ad ogni patch migliorava di netto (e con esso anche Electron)
+* A ogni patch migliorava di netto (e con esso anche Electron)
 * Aprire un editor passando una cartella come parametro del comando dato da terminale... nulla di rivoluzionario
 ma era una comodità che uso ancora spesso
 
@@ -59,7 +59,7 @@ ne sono nati principalmente due:
 * [Pulsar Edit](https://pulsar-edit.dev/)
 
 Da quel che ho letto sostanzialmente la community si è divisa in due dando vita a questi due progetti con obiettivi
-differenti sul medio lungo periodo; ad ogni modo non ho investito tempo per capire meglio nè le motivazioni che hanno 
+differenti sul medio lungo periodo; a ogni modo non ho investito tempo per capire meglio nè le motivazioni che hanno 
 portato a questa scissione nè gli obiettivi a lungo termine dei due progetti. 
 
 Aldilà delle considerazioni che si possono fare sulla natura dei fork, ho deciso di escluderli a priori dalle prove
@@ -81,7 +81,7 @@ delle cose per giudicarle con coscienza.
 Può piacere o no, ma Microsoft ha creato un editor davvero solido e con una community 
 a supporto molto attiva.
 
-Ad ogni modo, nell'ultimo paio d'anni ho visto un collega di lavoro fare cose da ninja su VSCode stimolando *i miei sensi di ragno*, 
+A ogni modo, nell'ultimo paio d'anni ho visto un collega di lavoro fare cose da ninja su VSCode stimolando *i miei sensi di ragno*, 
 perciò l'idea di provarlo c'era già da prima che sganciassero *la bomba*.
 
 A Dicembre, dopo un piccolo periodo di prove saltuarie, ho deciso di passare stabilmente VSCode: più precisamente
@@ -140,7 +140,7 @@ cose che mi piacciono maggiormente sono che è completamente scritto in Rust e c
 
 Ho già detto quanto mi piace che non sia l'ennesima robaccia basata su Electron?
 
-Ad ogni modo non ho ancora avuto il piacere di provarlo su strada non avendo ancora ottenuto l'accesso alla alpha. Per ora mi limito a seguire
+A ogni modo non ho ancora avuto il piacere di provarlo su strada non avendo ancora ottenuto l'accesso alla alpha. Per ora mi limito a seguire
 il [blog](https://zed.dev/blog) e [l'account Twitter ufficiale](https://twitter.com/zeddotdev) dove postano spesso brevi video e news croccanti.
 
 Siccome il progetto, soprattutto per la parte che concerne l'editing collaborativo dove ci sono sicuramente server di mezzo, non è per nulla privo di costi,
@@ -167,13 +167,13 @@ le funzionalità un po' come fa VSCode, ma le tab sono organizzate orizzontalmen
 * nello stesso pannello trova posto anche la parte di integrazione con git: è una piacevole via di
 mezzo tra quella di Atom e VSCode.*Voto diesci*.
 
-Ovviamente siamo ancora ad uno stato embrionale dello sviluppo: seppure "la ciccia" sia già presente, mancano parecchie piccole cosine qua e là e soprattutto è ancora molto grezzo (se guardate lo screenshot vedete che è tutto un po' "piatto").
+Ovviamente siamo ancora a uno stato embrionale dello sviluppo: seppure "la ciccia" sia già presente, mancano parecchie piccole cosine qua e là e soprattutto è ancora molto grezzo (se guardate lo screenshot vedete che è tutto un po' "piatto").
 
 Se lo provate aspettatevi comunque di incappare in qualche bug, soprattutto se cominciate a smanettare con le impostazioni le cose possono precipitare molto rapidamente: sono riuscito a
 piantare la mia macchina con la CPU al 100% facendo un paio di audaci cambi di font[^6] 🔥.
 
 ## Sublime Text 4
-Grande assente della rassegna... la verità è che l'ho installato, l'ho usato una decina di minuti e poi me ne sono completamente dimenticato 😅.  
+Grande assente della rassegna... La verità è che l'ho installato, l'ho usato una decina di minuti e poi me ne sono completamente dimenticato 😅.  
 Pazienza, si vede che non mi aveva convinto!
 
 ## Helix
@@ -209,7 +209,7 @@ più logico e, tra l'altro, il fatto di lavorare prima sulle selezioni mi aiuta 
 <figure>
   <img class="mx-auto my-0 rounded-md" alt="" src="helix.webp">
   <figcaption class="text-center">Una panoramica di Helix. Prima l'apertura che mostra in automatico il file picker, poi l'apertura del file
-  markdown di questa pagina, poi l'apertura del menù di scelta rapida con <kbd>spazio</kbd> ed infine la riapertura del filepicker.</figcaption>
+  markdown di questa pagina, poi l'apertura del menù di scelta rapida con <kbd>spazio</kbd> e infine la riapertura del filepicker.</figcaption>
 </figure>
 
 Helix è entrato di diritto nell'insieme di programmi che non devono mancare sul mio computer locale. Non lo uso per programmare, ma piuttosto
@@ -224,7 +224,7 @@ Tra l'altro [il file tree laterale potrebbe fare presto la sua comparsa](https:/
 E con questo si chiude questo articolo. Come avevo scritto all'inizio, non avevo obiettivi particolari se non avere una sottospecie
 di narrazione degli eventi del processo decisionale che mi ha portato su VSCode ed Helix. 
 
-Non considerate le mie scelte come indicazioni su quale sia l'editor migliore... in questi casi si tratta, come direbbe il mitico Giorgione, *di
+Non considerate le mie scelte come indicazioni su quale sia l'editor migliore... In questi casi si tratta, come direbbe il mitico Giorgione, *di
 scelte private*.
 
 Se avete qualche altra chicca da farmi provare o volete condividere la vostra esperienza sarò lieto di leggervi tra i commenti!
@@ -235,7 +235,7 @@ Volendola espandere scriverei "centrale nel flusso di lavoro di molti sviluppato
 [^2]: Ovviamente nel valutare plugin ed estensioni escludo quelle per il supporto ai vari linguaggi; quelle servono per forza di cose
 ed è così che funzionava anche Atom
 [^3]: Installato con rpm e non da FlatHub. Avevo avuto qualche magagna con la versione flatpak che in realtà sarebbe la prima scelta
-se procedete ad installarlo dal Software Center di Fedora
+se procedete a installarlo dal Software Center di Fedora
 [^4]: Uno tra tutti: che sono sviluppati con Electron a cui ormai sono abbastanza allergico
 [^5]: Video consigliato: [https://emacsconf.org/2022/talks/treesitter/](https://emacsconf.org/2022/talks/treesitter/)
 [^6]: Sono piuttosto sicuro che il colpevole sia l'Inconsolata [Nerd Font](https://www.nerdfonts.com/).

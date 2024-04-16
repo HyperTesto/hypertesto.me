@@ -16,7 +16,7 @@ Like any other website, certain data is transmitted and processed while other is
 - The website is hosted on [Netlify](https://www.netlify.com/), which may store some information, including the IP address of requests to the pages, in its access log for a period of 30 days.
 - To estimate page visits, I use [Plausible Analytics](https://plausible.io/), a privacy-first service hosted entirely in Europe that does not collect sensitive data or use cookies.
 
-- As a commenting system i use a self-hosted [Remark42](https://remark42.com/) instance which is privacy-first and open source software.
+- As a commenting system I use a self-hosted [Remark42](https://remark42.com/) instance which is privacy-first and open source software.
 
 ## Cookies
 
@@ -69,8 +69,8 @@ Remark42 also let you do those two things (which also happen to be your rights a
 - You can request a cleanup of all information related to you with a "deleteme" request.
 
 You may receive mail notification only under these circumstances:
-- You choose to login using email (opt-in)
-- You choose to login using Telegram (opt-in, @hypercomments_bot)
+- You choose to log in using email (opt-in)
+- You choose to log in using Telegram (opt-in, @hypercomments_bot)
 - You choose to receive mail notifications on new responses to your comments (opt-in, and you can unsubscribe following the link inside the email)
 
 Transactional mail are sent as defined in the next section

@@ -10,7 +10,7 @@ tags:
 title: 'Chiuso in casa - Episodio #3'
 ---
 Eccoci qua, un po' in ritardo sulle tabelle di marcia. I contrattempi, a quanto pare,
-sono esentati dallo stare a casa loro... brutti! 凸(￣ヘ￣).  
+sono esentati dallo stare a casa loro... Brutti! 凸(￣ヘ￣).  
 Buona lettura.
 
 ### Canzone del giorno
@@ -27,11 +27,11 @@ Ultima citazione tratta da _I grandi classici riveduti e scorretti_.
 
 Siamo nell'Inghilterra di metà Ottocento, con **Il ritratto di Dorian Gray**: sappiamo che
 il protagonista era un tantino narcisista e che durante lo sviluppo della storia ne
-ha combinate un po' di tutti i colori... delle innocue bravate 👼.  
+ha combinate un po' di tutti i colori... Delle innocue bravate 👼.  
 OK, forse non proprio innocue; ma sarà capitato anche a voi di ammazzare un amico mentre
-gli fate vedere la vostra collezione di carte Pokemon... no?  
+gli fate vedere la vostra collezione di carte Pokemon... No?  
 
-Comunque, la storia ruota fondamentalmente attorno ad un quadro, e gli autori introducono
+Comunque, la storia ruota fondamentalmente attorno a un quadro, e gli autori introducono
 in modo magistrale il mestiere di ritrattista:
 
 > Ai tempi non esiteva ancora Photoshop ma i pittori, se ben pagati, ci davano dentro

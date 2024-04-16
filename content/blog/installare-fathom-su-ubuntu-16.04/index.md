@@ -12,22 +12,22 @@ tags:
 title: Installare Fathom su Ubuntu 16.04
 ---
 
-Phatom è un piccolo servizio opensource, sviluppato in Go, che fa una sola cosa e la fa bene: il tracciamento delle visite ad un sito.
+Fathom è un piccolo servizio opensource, sviluppato in Go, che fa una sola cosa e la fa bene: il tracciamento delle visite a un sito.
 La raccolta di questo tipo dati non è una cosa da sottovalutare se si vuole essere conformi alla nuova normativa sulla privacy (e si ha un minimo di riguardo per i diritti degli utenti).
 
-Fathom, anche e sopratutto grazie alla sua natura open, permette di raccogliere ed analizzare le statistiche di un sito rispettando la privacy degli utenti, poichè non vengono né raccolti né memorizzati dati sensibili.
+Fathom, anche e sopratutto grazie alla sua natura open, permette di raccogliere e analizzare le statistiche di un sito rispettando la privacy degli utenti, poiché non vengono né raccolti né memorizzati dati sensibili.
 
-Poichè per il momento non è disponibile come saas, l'unico modo di poterlo utilizzare è installarlo da sè (probabilmente ce ne sarà una a pagamento in futuro).
+Poiché per il momento non è disponibile come saas, l'unico modo di poterlo utilizzare è installarlo da sè (probabilmente ce ne sarà una a pagamento in futuro).
 
-In questo articolo vedremo come installarlo e configurarlo con un occhio di riguardo alla sicurezza. Per farlo sono necessari un server VPS o dedicato ed un dominio valido.
+In questo articolo vedremo come installarlo e configurarlo con un occhio di riguardo alla sicurezza. Per farlo sono necessari un server VPS o dedicato e un dominio valido.
 
 ## Architettura
 
-Ci sono svariati modi in cui è possibile installare Fatom riportati sulla [documentazione ufficiale](https://github.com/usefathom/fathom/wiki/Installing-&-running-Fathom), quello che è veramente importante è esporre il servizio in HTTPS per garantire maggiore sicurezza e massima compatibilità con le policy di sicurezza dei browser (e visto che grazie a [Let's Encrypt](https://letsencrypt.org/) possiamo anche avere il certificato SSL gratis non ci sono scuse per non farlo).
+Ci sono svariati modi in cui è possibile installare Fathom riportati sulla [documentazione ufficiale](https://github.com/usefathom/fathom/wiki/Installing-&-running-Fathom), quello che è veramente importante è esporre il servizio in HTTPS per garantire maggiore sicurezza e massima compatibilità con le policy di sicurezza dei browser (e visto che grazie a [Let's Encrypt](https://letsencrypt.org/) possiamo anche avere il certificato SSL gratis non ci sono scuse per non farlo).
 
 ![architettura del sistema](/images/fathom-arch.png)
 
-L'architettura che andremo ad implementare prevede:
+L'architettura che andremo a implementare prevede:
 
 * Nginx configurato come reverse proxye terminatore SSL
 * Una o più istanze di Fathom in ascolto in locale
@@ -65,7 +65,7 @@ $ mysql -u fathom -p fathom_db
 
 Le tabelle verranno create in automatico al primo avvio del servizio.
 
-## Installazione ed avvio del servizio
+## Installazione e avvio del servizio
 
 Fathom viene distribuito tramite un comodo binario precompilato che possiamo installare come comando disponibile a tutti gli utenti.
 
@@ -116,7 +116,7 @@ $ cd /home/fathom
 $ fathom server
 ```
 
-Se non ci sono errori di configurazione, il server è stato avviato correttamente e ha creato anche le tabelle nel DB (Potete verificarlo facendo un curl sulla porta 9000  per verificare l'effettiva risposta del server). Chiudete servizio premendo `ctrl+c`.
+Se non ci sono errori di configurazione, il server è stato avviato correttamente e ha creato anche le tabelle nel DB (Potete verificarlo facendo un curl sulla porta 9000 per verificare l'effettiva risposta del server). Chiudete servizio premendo `ctrl+c`.
 
 Come ultimo step di configurazione del servizio occorre creare l'utente per accedere all'interfaccia WEB:
 
@@ -167,7 +167,7 @@ Installare e configurare SSL è davvero semplice con il tool ufficale:
 $ certbot --nginx -d fathom.mysite.com
 ```
 
-**Nota:** Se è la prima volta che usate certbot, vi verrà richiesto di inserire un indirizzo mail e accettare i termini di servizio. Dopodiché certbot scambierà alcuni messaggi con i server di Let's encrypt ed avvierà la "challange" con la quale verifica l'effettivo controllo del dominio per il quale è richiesto il certificato.
+**Nota:** Se è la prima volta che usate certbot, vi verrà richiesto di inserire un indirizzo mail e accettare i termini di servizio. Dopodiché certbot scambierà alcuni messaggi con i server di Let's encrypt e avvierà la "challange" con la quale verifica l'effettivo controllo del dominio per il quale è richiesto il certificato.
 
 Se la challange di verifica del dominio è andata a buon fine otterrete questo output:
 
@@ -191,7 +191,7 @@ Solo per essere sicuri che tale procedura funzioni è possibile lanciare una sim
 $ sudo certbot renew --dry-run -d fathom.mysite
 ```
 
-Se tutto è andato a buon fine fatom è raggiungibile all'indirizzo https://fathom.mysite.com (se il servizio fatom non è attivo lo potete avviare come fatto qualche comando fa).
+Se tutto è andato a buon fine Fathom è raggiungibile all'indirizzo https://fathom.mysite.com (se il servizio Fathom non è attivo lo potete avviare come fatto qualche comando fa).
 
 ### Avvio automatico del servizio
 
@@ -216,7 +216,7 @@ ExecStart=/usr/local/bin/fathom server
 WantedBy=multi-user.target
 ```
 
-Ricaricare la configurazione ed aggiungere la unit all'avvio del sistema:
+Ricaricare la configurazione e aggiungere la unit all'avvio del sistema:
 
 ```bash
 $ systemctl daemon-reload
@@ -246,7 +246,7 @@ Per attivare il tracking delle visite, occorre inserire questo script nella vost
 	m=f.getElementsByTagName('script')[0];
 	o.async=1; o.src=t; o.id='fathom-script';
 	m.parentNode.insertBefore(o,m)
-})(document, window, '//fatom.mysite.com/tracker.js', 'fathom');
+})(document, window, '//fathom.mysite.com/tracker.js', 'fathom');
 fathom('trackPageview');
 </script>
 <!-- / Fathom -->

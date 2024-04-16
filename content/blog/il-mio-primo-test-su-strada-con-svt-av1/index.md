@@ -16,7 +16,7 @@ Il codec è concepito per ottenere il miglior compromesso fra latenza, performan
 
 Ma prima di partire; cos'è [AV1](https://it.wikipedia.org/wiki/AOMedia_Video_1)?
 
-AV1 è un codec video open source. È pensato per l'utilizzo in ambito web per per fare in modo che piattaforme video o i produttori di dispositivi non paghino royalty alla Moving Picture Experts Group (MPEG), lo sviluppatore di codec come H.264 e HEVC (che sono utilizzati un po' ovunque).
+AV1 è un codec video open source. È pensato per l'utilizzo in ambito web per fare in modo che piattaforme video o i produttori di dispositivi non paghino royalty alla Moving Picture Experts Group (MPEG), lo sviluppatore di codec come H.264 e HEVC (che sono utilizzati un po' ovunque).
 
 Il progetto vanta il supporto di tutti i più grandi player di settore:
 
@@ -32,7 +32,7 @@ Ho voluto provare velocemente quanto è più veloce rispetto all'implementazione
 Stream #0:0: Video: h264 (High), yuv420p(progressive), 720x480 [SAR 1:1 DAR 3:2], SAR 186:157 DAR 279:157, 29.97 fps, 29.97 tbr, 1k tbn, 59.94 tbc (default)
 ```
 
-L'encode con libaom tarmite ffmpeg ha uno speedup (sulla mia macchina) dello 0.03x in media... immaginate quanto può durare la codifica di un film!
+L'encode con libaom tarmite ffmpeg ha uno speedup (sulla mia macchina) dello 0.03x in media... Immaginate quanto può durare la codifica di un film!
 
 Questo è il test con liboam:
 
@@ -92,4 +92,4 @@ $ ls -sh
 3,0M /home/hypertesto/Video/TEST.ivf
 ```
 
-Il video ad una prima analisi con mpv presenta alcuni artefatti rispetto all'originale: stiamo sempre parlando di encoder e decoder del tutto sperimentali, perciò mi aspetto grandi miglioramenti già nell'immediato vista l'attenzione ricevuta recentemente da tutti i big del mondo video.
+Il video a una prima analisi con mpv presenta alcuni artefatti rispetto all'originale: stiamo sempre parlando di encoder e decoder del tutto sperimentali, perciò mi aspetto grandi miglioramenti già nell'immediato vista l'attenzione ricevuta recentemente da tutti i big del mondo video.

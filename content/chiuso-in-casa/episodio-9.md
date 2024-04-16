@@ -29,7 +29,7 @@ precolombiane per continuare il nostro viaggio nella **Breve storia dell'ubriach
 
 Avete presente _Apocalypto_ di Mel Gibson? Ecco, se lo avete visto ricorderete sicuramente
 con dovizia di dettagli che i Maya erano un tantino assetati di sangue. Se non lo avete
-visto, interrompete qualsiasi cosa voi stiate facendo ed andate a recuperalo, facendo però
+visto, interrompete qualsiasi cosa voi stiate facendo e andate a recuperalo, facendo però
 attenzione a queste due cose che vi dico:
 
 * potete prima terminare di leggere l'episodio 😉
@@ -78,7 +78,7 @@ ormai perduta.
 
 Giustamente! Se la sbronza comincia il venerdì sera e la mattina dopo sono tutti
 ancora talmente distrutti da non ricordare che giorno è, nel dubbio e meglio bere...
-non sia mai che si manchi di rispetto a qualche divinità!
+Non sia mai che si manchi di rispetto a qualche divinità!
 
 ![you cant](https://gifimage.net/wp-content/uploads/2018/11/you-cant-gif-2.gif)
 

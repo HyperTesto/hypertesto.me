@@ -44,13 +44,13 @@ Questi sono gli step che ho dovuto seguire:
 # yum install -y docker-ce
 ```
 
-* Avvio ed attivazione del servizio
+* Avvio e attivazione del servizio
 
 ```bash
 # systemctl start docker
 # systemctl enable docker
 ```
 
-Per le verifiche ed il post-installazione vi rimando alla [documentazione ufficiale](https://docs.docker.com/install/linux/linux-postinstall/).
+Per le verifiche e il post-installazione vi rimando alla [documentazione ufficiale](https://docs.docker.com/install/linux/linux-postinstall/).
 
 Alla prossima!

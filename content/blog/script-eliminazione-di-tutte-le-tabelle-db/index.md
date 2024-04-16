@@ -13,15 +13,15 @@ tags:
 - Bash
 title: Un semplice script per l'eliminazione di tutte le tabelle di un DB MySQL
 ---
-Ieri mi sono trovato nella situazione di dover ricreare un database poichè le tabelle ed i dati contenuti erano cambiati.
+Ieri mi sono trovato nella situazione di dover ricreare un database poiché le tabelle e i dati contenuti erano cambiati.
 
-Creare tutti gli `ALTER` e `UPDATE` del caso era fuori discussione poichè si trattava di circa 2 milioni di record e non avevo tutti gli elementi per poter procedere.
+Creare tutti gli `ALTER` e `UPDATE` del caso era fuori discussione poiché si trattava di circa 2 milioni di record e non avevo tutti gli elementi per poter procedere.
 
 La soluzione più facile è quella di importare un dump o uno script che effettua il `DROP` del database e la successiva creazione *from scratch* (perchè dirlo così suona più figo).
 
 Il problema? Non avevo i permessi per poter ricreare il database.
 
-L'unica soluzione rimanente consiste nell'eliminare tutte le tabelle contenute nel database. Facile, no? **NO!** Qualcuno si ricorda dei [vincoli di integrità referenziale](https://it.wikipedia.org/wiki/Vincolo_di_integrit%C3%A0_referenziale)? Bè io si... almeno dopo che ho lanciato il mio script ;-)
+L'unica soluzione rimanente consiste nell'eliminare tutte le tabelle contenute nel database. Facile, no? **NO!** Qualcuno si ricorda dei [vincoli di integrità referenziale](https://it.wikipedia.org/wiki/Vincolo_di_integrit%C3%A0_referenziale)? Bè io si... Almeno dopo che ho lanciato il mio script ;-)
 
 Il problema è che se sono definiti dei vincoli di integrità referenziale su una tabella e non sono definiti degli `ON DELETE CASCADE`, non è possibile eliminala. In soldoni se avete una relazione 1 a N tra la tabella A e la tabella B, non potete eliminare A se non eliminate prima B (per approfondire ecco un [video](https://www.youtube.com/watch?v=qOlhsLIc0lA)).
 

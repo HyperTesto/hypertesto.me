@@ -21,7 +21,7 @@ Il processo httpd crasha circa alle 3 di notte ogni 3 giorni con un bel messaggi
 seg fault or similar nasty error detected in the parent process
 ```
 
-Il messaggio è davvero molto generico, ma con un po' di analisi ed un po' di aiuto sono riuscito a replicare il problema lanciando un graceful reload del servizio.  
+Il messaggio è davvero molto generico, ma con un po' di analisi e un po' di aiuto sono riuscito a replicare il problema lanciando un graceful reload del servizio.  
 
 Il fatto che il problema si presenta con una cadenza molto regolare in momenti in cui il sistema è palesemente scarico mi ha indirizzato verso qualche operazione schedulata. Infatti ho subito trovato conferma di questa ipotesi: su RHEL 7 la configurazione standard di Apache prevede l'esecuzione del logrotate esattamente con la cadenza con la quale si è verificata l'anomalia. Bingo!
 

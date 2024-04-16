@@ -23,7 +23,7 @@ Ecco cosa sto facendo in queste settimane in ordine sparso:
 
 ## L'idea
 
-L'altro giorno in un condominio vicino, dai balconi qualcuno ha fatto una cover di Tiziano _Ferro_ (però non ricordo la canzone esatta)... perciò mi sono detto: «Enrico, qua ci serve più _metal_ per uscirne indenni!» (Ferro --> metal... 😉😇)
+L'altro giorno in un condominio vicino, dai balconi qualcuno ha fatto una cover di Tiziano _Ferro_ (però non ricordo la canzone esatta)... Perciò mi sono detto: «Enrico, qua ci serve più _metal_ per uscirne indenni!» (Ferro --> metal... 😉😇)
 
 Quindi eccomi qui davanti al PC a preparare una playlist e a scrivere l'introduzione di questa serie. L'idea è semplice, in ogni episodio condividerò:
 

@@ -14,11 +14,11 @@ title: Hostare repo Git privati con Gitea
 
 Negli anni ho accumulato un sacco di sorgenti tra codice Java, Bash e altri linguaggi (addirittura il [Moonscript](https://moonscript.org/) di cui non ricordavo nemmeno l'esistenza), prima di perderli accidentalmente ho deciso di caricarli su un server Git privato.
 
-Ci sono un sacco di opzioni per server git "self-hosted", tra tutte io ho scelto [Gitea](https://gitea.io/en-us/) perchè oltre ad essere leggerissimo è davvero facile da installare e da gestire successivamente. Gitea è nato come fork di [Gogs](https://gogs.io/) ed è attivamente sviluppato e manutenuto da una comunità molto vivace.
+Ci sono un sacco di opzioni per server git "self-hosted", tra tutte io ho scelto [Gitea](https://gitea.io/en-us/) perchè oltre a essere leggerissimo è davvero facile da installare e da gestire successivamente. Gitea è nato come fork di [Gogs](https://gogs.io/) ed è attivamente sviluppato e manutenuto da una comunità molto vivace.
 
 Dal punto di vista tecnico, Gogs è scritto in [Go](https://golang.org/) ed è distribuito con un file semplice file binario quindi l'installazione è davvero un processo semplice.
 
-Per scelta personale ho preferito installarlo con un container docker e metterlo dietro ad un reverse proxy per gestire la terminazione SSL. Utilizzando questi tool la distro Linux che utilizzate è piuttosto indifferente.
+Per scelta personale ho preferito installarlo con un container docker e metterlo dietro a un reverse proxy per gestire la terminazione SSL. Utilizzando questi tool la distro Linux che utilizzate è piuttosto indifferente.
 
 Nell'immagine vedete l'architettura di massima della soluzione proposta:
 

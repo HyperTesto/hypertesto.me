@@ -27,7 +27,7 @@ Oggi si procede sempre con **La breve storia dell'ubriachezza**.
 
 Vi ricordate a scuola quando la maestra vi faceva colorare la mezzaluna fertile e vi
 parlava dei Sumeri?
-Bel posto la Mesopotamia, vero? Terra fertile, aria buona... e a quanto pare
+Bel posto la Mesopotamia, vero? Terra fertile, aria buona... E a quanto pare
 anche la birra!  
 Come facciamo a saperlo? Grossomodo, è uno dei primi argomenti di cui
 si è cominciato a scrivere dopo l'invenzione della scrittura.
@@ -35,13 +35,13 @@ Non avendo ancora a disposizione la moneta, quello che potremmo definire come un
 scontrino **non** fiscale primitivo, consisteva in una nota in cui si indicava
 un generico "pagherò".
 
-Ovviamente nei primi testi scritti non si parlava solo di birra... ma la birra
+Ovviamente nei primi testi scritti non si parlava solo di birra... Ma la birra
 in qualche modo alla fine c'era sempre. Avevano _Nikasi_, la dea della birrificazione.
 E se hai una dea che fa la birra, vuoi che non bevano anche re e sacerdoti[^0]? Sarebbe
 uno spreco!
 
-Indovinate un po'... anche la civiltà è nata grazie alla birra: praticamente il dio
-della conoscenza ha perso ad un gara di bevute con la dea della sveltina che ha poi
+Indovinate un po'... Anche la civiltà è nata grazie alla birra: praticamente il dio
+della conoscenza ha perso a un gara di bevute con la dea della sveltina che ha poi
 approfittato dello stato di incoscienza di lui, per rubare la sua sapienza e portarla
 sulla terra. Robe da matti 🤦🤦🤦.
 

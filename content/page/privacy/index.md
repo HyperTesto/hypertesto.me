@@ -51,7 +51,7 @@ Per **stimare** in modo sufficientemente preciso i visitatori unici non vengono 
 
 L'esigenza non è identificare gli utenti, ma piuttosto avere un'idea spannometrica delle pagine più visitate. Per questo motivo ho reso pubblica la [dashboard con i dati collezionati](https://plausible.io/hypertesto.me).
 
-Per ulteriori informazioni questa è la  [Privacy Policy completa di Plausible](https://plausible.io/data-policy).
+Per ulteriori informazioni questa è la [Privacy Policy completa di Plausible](https://plausible.io/data-policy).
 
 ## Commenti
 

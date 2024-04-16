@@ -15,7 +15,7 @@ Come promesso nel precedente articolo, ecco una brevissima guida su come riprist
 
 Quando si smanetta con i pannelli dei vari DE, capita spesso di incasinarli e fare disastri, nel mio caso specifico, ho inavvertitamente rimosso il pannello inferiore di LXQt.
 
-Nel momento in cui scrivo non ho trovato soluzioni ufficiali su canali più mainstream: quelle presenti sono tutte piuttosto datate e non hanno funzionato sulla mia installazione fresca. Ad onor del vero potrebbe darsi che i miei termini di ricerca non fossero proprio corretti, infatti usavo "LXDE" invece di "LXQt".
+Nel momento in cui scrivo non ho trovato soluzioni ufficiali su canali più mainstream: quelle presenti sono tutte piuttosto datate e non hanno funzionato sulla mia installazione fresca. A onor del vero potrebbe darsi che i miei termini di ricerca non fossero proprio corretti, infatti usavo "LXDE" invece di "LXQt".
 
 Comunque, il ripristino si esegue con una semplice sovrascrittura/copia di un file di configurazione.
 

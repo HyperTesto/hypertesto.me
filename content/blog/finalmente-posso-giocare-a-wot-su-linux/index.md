@@ -17,7 +17,7 @@ La settimana scorsa per curiosità ho installato Mint 19.1 sul mio nuovo disco N
 
 {{< figure src="/images/wot.png" caption="Il mio garage. Mi mancava ❤️" >}}
 
-Non non solo ci sono riuscito senza troppe difficoltà, ma gira che è una meraviglia! Ovviamente non ha le stesse performance che ha su Windows, intendiamoci.
+Non solo ci sono riuscito senza troppe difficoltà, ma gira che è una meraviglia! Ovviamente non ha le stesse performance che ha su Windows, intendiamoci.
 
 A titolo informativo questi sono i dati di targa del mio PC:
 
@@ -69,7 +69,7 @@ Il processo di installazione l'ho diviso in tre fasi così da risultare più fru
 **WARNING:** Questo procedimento è testato su Linux Mint 19.1 fresco di installazione, non so se possa andar bene anche in altri scenari.
 
 ### Driver Nvidia
-Per l'installazione NVIDIA occorre scaricare i driver dal sito ufficiale, poichè i driver dei repository non sono sufficientemente aggiornati.
+Per l'installazione NVIDIA occorre scaricare i driver dal sito ufficiale, poiché i driver dei repository non sono sufficientemente aggiornati.
 
 Prima di tutto scarichiamo in una cartella (nel mio esempio la home) il file binario:
 
@@ -77,7 +77,7 @@ Prima di tutto scarichiamo in una cartella (nel mio esempio la home) il file bin
 $ cd ~
 $ wget http://us.download.nvidia.com/XFree86/Linux-x86_64/418.56/NVIDIA-Linux-x86_64-418.56.run
 ```
-**Assicuratevi di non avere nulla di aperto poichè il resto della procedura prevede il fermo della sessione X attiva.**
+**Assicuratevi di non avere nulla di aperto poiché il resto della procedura prevede il fermo della sessione X attiva.**
 
 Premere i tasti `ctrl + alt + F1` per aprire una nuova TTY, effettuare il login
 
@@ -120,7 +120,7 @@ $ sudo apt update && sudo apt-get install lutris
 ```
 Se tutto è andato a buon fine ora potete lanciare Lutris e cominciare il processo di installazione di WoT.
 
-Nella barra di ricerca cercate "World of Tanks", cliccate sulla voce che compare ed infine su "Install". Da qui in poi basterà seguire la procedura guidata (leggi: premere OK in modalità scimmia).
+Nella barra di ricerca cercate "World of Tanks", cliccate sulla voce che compare e infine su "Install". Da qui in poi basterà seguire la procedura guidata (leggi: premere OK in modalità scimmia).
 
 {{< figure src="/images/lutris.png" caption="Ricerca tramite Lutris" >}}
 

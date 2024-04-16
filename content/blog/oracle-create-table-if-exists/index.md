@@ -30,12 +30,12 @@ Nella stessa risposta ci sono anche tre utili spunti su come aggirare il problem
 
 > If you really need to, however,  
 
-> * You can attempt to create the table and catch the `ORA-00955: name is already used by an existing object" exception.
+> * You can attempt to create the table and catch the `ORA-00955: name is already used by an existing object` exception.
 > * You can query USER_TABLES (or ALL_TABLES or DBA_TABLES depending on whether you are creating objects owned by other users and your privileges in the database) to check to see whether the table already exists.
-> * You can try to drop the table before creating it and catch the `ORA-00942: table or view does not exist" exception if it doesn't.
+> * You can try to drop the table before creating it and catch the `ORA-00942: table or view does not exist` exception if it doesn't.
 >
 
-Ritengo la prima soluzione concettualmente più giusta poiché analogo  al try-catch in programmazione (ovviamente ignoro se con Oracle ci siano casi limite o altri grattacapi).
+Ritengo la prima soluzione concettualmente più giusta poiché analogo al try-catch in programmazione (ovviamente ignoro se con Oracle ci siano casi limite o altri grattacapi).
 
 Questa è la soluzione che ho adottato:
 
