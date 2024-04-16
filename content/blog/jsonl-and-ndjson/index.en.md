@@ -12,11 +12,13 @@ I admit that I had never heard of this data format before this spring.
 I was getting some errors following the official documentation of an open source library for creating ASR systems[^0].  
 Nothing was making sense until I noticed I wasn't working with a JSON array of objects, but rather JSON objects separated by a newline. _Eureka_!
 
-In its simplicity is truly an ingenious solution to the problem of deserializing large JSON files: you read it line by line, which is simple, flexible, easy to understand and very effective!
+Its simplicity is truly an ingenious solution to the problem of deserializing large JSON files:
+you read it line by line, which is simple, flexible, easy to understand and very effective!
 
 ## ndjson-lines-seq what?
 
-This format is very simple, but its standardization is not; in fact there are 2 commonly accepted (not officially recognized but identical in practice) specs:
+This format is very simple, but its standardization is not;
+in fact, there are two commonly accepted (not officially recognized but identical in practice) specs:
 
 * Newline Delimited JSON (ndjson)
 * JSON Lines (jsonl[^1])
