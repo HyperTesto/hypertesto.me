@@ -12,7 +12,7 @@ I admit that I had never heard of this data format before this spring.
 I was getting some errors following the official documentation of an open source library for creating ASR systems[^0].  
 Nothing was making sense until I noticed I wasn't working with a JSON array of objects, but rather JSON objects separated by a newline. _Eureka_!
 
-In its simplicity is truly an ingenious solution to the problem of deserializing large JSON files: you read it line by line which is simple, flexible, easy to understand and very effective!
+In its simplicity is truly an ingenious solution to the problem of deserializing large JSON files: you read it line by line, which is simple, flexible, easy to understand and very effective!
 
 ## ndjson-lines-seq what?
 
@@ -39,17 +39,18 @@ As far as I understand, this RFC is still a _proposed standard_ and jsonl and nd
 
 If we talk about the file format itself, there aren't many issues not having a standard, as long as both parties involved  know how to serialize and deserialize it. After all there are countless non-standardized formats serialized and deserialized billions of times every day, no?
 
-The issue arise if we work with web servers and browsers: they need to know the right [MIME type](https://datatracker.ietf.org/doc/html/rfc6838) in order to support it properly.
-And since there is no standard they are either totally unsupported or supported sporadically.
+The issue arises if we work with web servers and browsers:
+they need to know the right [MIME type](https://datatracker.ietf.org/doc/html/rfc6838) to support it properly.
+And since there is no standard, they are either totally unsupported or supported sporadically.
 
 At the moment ndjson is (or better SHOULD) reported as `application/x-ndjson` and jsonl is reported as `application/jsonl` (see [this issue](https://github.com/wardi/jsonlines/issues/19) if you want to help writing the relevant RFC)
 
-I personally prefer jsonl since it was the first one I've come across on my job... and the extension is shorter :angel:!
+I personally prefer jsonl since it was the first one I've come across in my job... and the extension is shorter :angel:!
 
 [^0]: I'd like to rant about the fact that the official documentation had such a format ambiguity easily fixable by using the right file extension; but the project was MIT licensed, and having neither reported nor opened a pull request for it, I can't complain.  
-Moreover my employer has his "non-policies", so I just have to forget and get over it. 
+Moreover, my employer has his "non-policies", so I just have to forget and get over it. 
 
-[^1]: Don't confuse it with [JSON-LD](https://json-ld.org/) which is a totally different beast (that also happen to be [formally specified by W3C](https://www.w3.org/2020/08/json-ld-wg-charter.html))
+[^1]: Don't confuse it with [JSON-LD](https://json-ld.org/) which is a totally different beast (that also happens to be [formally specified by W3C](https://www.w3.org/2020/08/json-ld-wg-charter.html))
 
 [^2]: https://github.com/ndjson/ndjson-spec/issues/35#issuecomment-1285673417
 
