@@ -84,6 +84,10 @@ package = "netlify-plugin-csp-generator"
   from = "/users/*"
   to = "https://thinkcentre.tail4162e7.ts.net/users/:splat"
   status = 200
+[[redirects]]
+  from = "/posts/*"
+  to = "https://thinkcentre.tail4162e7.ts.net/posts/:splat"
+  status = 200
 
 # Headers for atom feed
 [[headers]]
