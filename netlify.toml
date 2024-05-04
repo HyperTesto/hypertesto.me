@@ -4,7 +4,7 @@
 
 [build.environment]
   NODE_ENV = "production"
-  GO_VERSION = "1.22"
+  GO_VERSION = "1.22.x"
   TZ = "UTC +2"
 
 [context.production.environment]
