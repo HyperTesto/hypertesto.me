@@ -1,5 +1,5 @@
 {
-  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "$schema": "https://beta.frontmatter.codes/frontmatter.schema.json",
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "default",
@@ -46,87 +46,25 @@
       ]
     }
   ],
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "path": "[[workspace]]/archetypes",
-      "title": "archetypes"
+      "title": "blog",
+      "path": "[[workspace]]/content/blog"
     },
     {
-      "path": "[[workspace]]/content/blog",
-      "title": "blog"
+      "title": "ggph",
+      "path": "[[workspace]]/content/ggph"
     },
     {
-      "path": "[[workspace]]/content/ggph",
-      "title": "ggph"
+      "title": "chiuso-in-casa",
+      "path": "[[workspace]]/content/chiuso-in-casa"
     },
     {
-      "path": "[[workspace]]/content/chiuso-in-casa",
-      "title": "chiuso-in-casa"
-    },
-    {
+      "title": "page",
       "path": "[[workspace]]/content/page"
     }
-  ],
-  "frontMatter.taxonomy.tags": [
-    "AV1",
-    "Bash",
-    "HP 255 G6",
-    "MySQL",
-    "RHEL7",
-    "apache",
-    "brave",
-    "browser",
-    "bug",
-    "commenti",
-    "contest",
-    "covid-19",
-    "database",
-    "debug",
-    "deep speech",
-    "disqus",
-    "distro",
-    "docker",
-    "fathom",
-    "fedora",
-    "fibra",
-    "games",
-    "gdpr",
-    "git",
-    "gogs",
-    "guide",
-    "hugo",
-    "internet",
-    "iorestoacasa",
-    "java",
-    "linux",
-    "lubuntu",
-    "lxqt",
-    "mozilla",
-    "oracle",
-    "privacy",
-    "quarantena",
-    "remote desktop",
-    "saas",
-    "self-hosted",
-    "server",
-    "siti statici",
-    "sql",
-    "ssg",
-    "statistiche",
-    "swag",
-    "test",
-    "wine"
-  ],
-  "frontMatter.taxonomy.categories": [
-    "appunti",
-    "articolo",
-    "chiuso in casa",
-    "guida",
-    "guida galattica per hughisti",
-    "guide",
-    "meta",
-    "note",
-    "snippet",
-    "swag"
   ]
 }
