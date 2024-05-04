@@ -96,7 +96,7 @@ package = "netlify-plugin-csp-generator"
 
 [[redirects]]
   from = "/api/v2/instance"
-  to = "https://thinkcentre.tail4162e7.ts.net/api//api/v2/instance"
+  to = "https://thinkcentre.tail4162e7.ts.net/api/api/v2/instance"
   status = 200
 
 # Headers for atom feed
