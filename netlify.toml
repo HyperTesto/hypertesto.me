@@ -66,3 +66,17 @@ package = "netlify-plugin-csp-generator"
   to = "https://plausible.io/api/event"
   status = 202
   force = true
+
+# Redirects for Hatsu
+[[redirects]]
+  from = "/.well-known/host-meta*"
+  to = "https://thinkcentre.tail4162e7.ts.net/.well-known/host-meta:splat"
+  status = 307
+[[redirects]]
+  from = "/.well-known/nodeinfo*"
+  to = "https://thinkcentre.tail4162e7.ts.net/.well-known/nodeinfo"
+  status = 307
+[[redirects]]
+  from = "/.well-known/webfinger*"
+  to = "https://thinkcentre.tail4162e7.ts.net/.well-known/webfinger"
+  status = 307
