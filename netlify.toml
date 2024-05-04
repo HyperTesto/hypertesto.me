@@ -71,15 +71,15 @@ package = "netlify-plugin-csp-generator"
 [[redirects]]
   from = "/.well-known/host-meta*"
   to = "https://thinkcentre.tail4162e7.ts.net/.well-known/host-meta:splat"
-  status = 307
+  status = 200
 [[redirects]]
   from = "/.well-known/nodeinfo*"
   to = "https://thinkcentre.tail4162e7.ts.net/.well-known/nodeinfo"
-  status = 307
+  status = 200
 [[redirects]]
   from = "/.well-known/webfinger*"
   to = "https://thinkcentre.tail4162e7.ts.net/.well-known/webfinger"
-  status = 307
+  status = 200
 
 # Headers for atom feed
 [[headers]]
