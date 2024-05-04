@@ -80,3 +80,13 @@ package = "netlify-plugin-csp-generator"
   from = "/.well-known/webfinger*"
   to = "https://thinkcentre.tail4162e7.ts.net/.well-known/webfinger"
   status = 307
+
+# Headers for atom feed
+[[headers]]
+  for = "atom.*"
+  [headers.values]
+    Content-Type = "application/atom+xml; charset=UTF-8"
+[[headers]]
+  for = "*.atom"
+  [headers.values]
+    Content-Type = "application/atom+xml; charset=UTF-8"

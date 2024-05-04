@@ -9,8 +9,19 @@ enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
 
+[mediaTypes."application/atom+xml"]
+suffixes = [ "atom" ]
+
+[outputFormats.atom]
+name = "ATOM"
+mediaType = "application/atom+xml"
+baseName = "feed"
+isPlainText = false
+
+
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "ATOM"]
+  section = ["HTML", "RSS", "ATOM"]
 
 [privacy]
   [privacy.youtube]
