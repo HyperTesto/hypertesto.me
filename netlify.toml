@@ -70,34 +70,16 @@ package = "netlify-plugin-csp-generator"
 # Redirects for Hatsu
 [[redirects]]
   from = "/.well-known/host-meta*"
-  to = "https://thinkcentre.tail4162e7.ts.net/.well-known/host-meta:splat"
-  status = 200
+  to = "https://hatsu.hypertesto.me/.well-known/host-meta:splat"
+  status = 307
 [[redirects]]
   from = "/.well-known/nodeinfo*"
-  to = "https://thinkcentre.tail4162e7.ts.net/.well-known/nodeinfo"
-  status = 200
+  to = "https://hatsu.hypertesto.me/.well-known/nodeinfo"
+  status = 307
 [[redirects]]
   from = "/.well-known/webfinger*"
-  to = "https://thinkcentre.tail4162e7.ts.net/.well-known/webfinger"
-  status = 200
-[[redirects]]
-  from = "/users/*"
-  to = "https://thinkcentre.tail4162e7.ts.net/users/:splat"
-  status = 200
-[[redirects]]
-  from = "/posts/*"
-  to = "https://thinkcentre.tail4162e7.ts.net/posts/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/api/v1/statuses/*"
-  to = "https://thinkcentre.tail4162e7.ts.net/api/v1/statuses/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/api/v2/instance"
-  to = "https://thinkcentre.tail4162e7.ts.net/api/api/v2/instance"
-  status = 200
+  to = "https://hatsu.hypertesto.me/.well-known/webfinger"
+  status = 307
 
 # Headers for atom feed
 [[headers]]
