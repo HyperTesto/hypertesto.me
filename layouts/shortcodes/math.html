@@ -1,0 +1,6 @@
+{{ if not .IsNamedParams | and .Params }}
+    {{ errorf "The %q shortcode requires named parameters. See https://gohugo.io/functions/transform/tomath/ for a list of options." .Name }}
+{{ else }}
+    {{ $opts := .Params | default nil }}
+    <span class="katex-display">{{- transform.ToMath .Inner $opts -}}</span>
+{{ end }}
