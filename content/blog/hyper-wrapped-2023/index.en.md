@@ -91,8 +91,9 @@ val duration = System.currentTimeMillis() - start
 Yes? Then you fell into the trap: `System.currentTimeMillis()` uses the system clock, and hence is not [monotonic](https://en.wikipedia.org/wiki/Monotonic_function). You are not guaranteed that two consecutive calls to it return two *strictly increasing*[^5] numbers (the function returns a Long), so the resulting duration could be negative.  
 
 The term "strictly increasing" has a specific meaning in algebra:  
-{{< katex >}}
-> A function \\(f(x)\\) is said to be strictly increasing on an interval \\(I\\) if \\(f(b)>f(a)\\) for all \\(b>a\\), where \\(a,b \in I\\). On the other hand, if \\(f(b)>=f(a)\\) for all \\(b>a\\), the function is said to be (nonstrictly) increasing.
+
+> function {{< math >}}\\f(x)\\{{< /math >}} is said to be strictly increasing on an interval {{< math >}}\\(I\\){{< /math >}} if  {{< math >}}\\(f(b)>f(a)\\) \forall \\(b>a\\){{< /math >}}, where {{< math >}}\\(a,b \in I\\){{< /math >}}. On the other hand, if {{< math >}}\\(f(b) \geq f(a)\\) \forall \\(b>a\\){{< /math >}}, the function is said to be (nonstrictly) increasing.
+
 
 Still not sure why the system clock is not monotonic? It can be altered by: the user manually setting it, DST savings, automatic adjustments from Network Time Protocol (NTP) and many more.
 
