@@ -47,7 +47,7 @@ copyright = "&copy; 2017-2023 HyperTesto | [CC BY-NC 4.0](https://creativecommon
   showTableOfContents = true
   showTaxonomies = true
   showWordCount = false
-  sharingLinks = ["mastodon", "twitter", "facebook", "reddit", "linkedin", "email"]
+  sharingLinks = ["mastodon", "threads","twitter", "facebook", "reddit", "linkedin", "email"]
 
 [list]
   showBreadcrumbs = false
