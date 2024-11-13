@@ -8,7 +8,7 @@ authors: "hypertesto"
 ---
 If you've been following this blog, you might have noticed I have a thing for Kotlin's `Duration` class. I've written about it before, and the more I use it, the more I appreciate how it manages to be both technically sophisticated and developer-friendly.
 
-Today's story started when a unit test caught something interesting: the same duration string "1.5s" would work perfectly with `Duration.parse()` but fail during JSON deserialization with real world data.
+Today's story started when a unit test caught something interesting: the same duration string "1s" would work perfectly with `Duration.parse()` but fail during JSON deserialization with real world data.
 
 What looked like inconsistent behavior taught me a lesson: `Duration.parse()` is flexible by design, `kotlinx.serialization` strict by choice.
 
@@ -90,8 +90,8 @@ data class ProcessDuration(
 )
 
 // Now both these work:
-val formal = """{"duration": "PT1.5S"}"""
-val casual = """{"duration": "1.5s"}"""
+val formal = """{"duration": "PT1S"}"""
+val casual = """{"duration": "1s"}"""
 ```
 
 This approach implements a fundamental principle of data exchange. Watch how our duration gets standardized during serialization:
