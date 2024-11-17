@@ -170,7 +170,7 @@ Network-critical situations include:
 
 And if you thought nested physics grids were complex, wait until we try to share them across servers...
 
-#### Server meshing
+### Server meshing
 Remember how your parents told you to share your toys?
 Server meshing is like that, but with network packets trying to find their way through multiple servers
 without getting lost or arriving too late.
