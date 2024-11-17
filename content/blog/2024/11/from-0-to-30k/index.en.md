@@ -1,8 +1,14 @@
 ---
 title: "From 0 to 30k: a theoretical journey through Star Citizen's network architecture"
 date: 2024-11-17T18:56:31+01:00
-draft: true
+draft: false
 description: ""
+categories:
+- gaming
+tags:
+- star citizen
+- networks
+- simulations
 ---
 _"In space, no one can hear you lag" - unless you're in proximity chat, then everyone hears you rubber-band._
 
@@ -291,9 +297,9 @@ realistic_latency = (
 ```
 Let's simulate some typical scenarios:
 
-{{< figure src="real_world-1.png" title="Simple vs real world simulation">}}
+{{< figure src="real_world-1.png" title="Simple vs real world simulation" caption="Simple vs real world simulation">}}
 
-{{< figure src="real_world-2.png" title="Latencies breakdown">}}
+{{< figure src="real_world-2.png" title="Latencies breakdown" caption="Latencies breakdown">}}
 
 This helps explain why:
 - Combat feels different at different times of day (server load)
