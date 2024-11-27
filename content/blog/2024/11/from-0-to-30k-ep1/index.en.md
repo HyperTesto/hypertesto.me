@@ -224,7 +224,7 @@ Let's look at three different approaches to handling server bandwidth:
 
 Think about it: every time someone spawns their shiny new 890 Jump (and we know there's always someone spawning an 890), the server needs to tell everyone nearby about each of its 12,937 polygons and that one coffee cup that's about to achieve orbit.
 PS: don't forget about those
-## So what have we learned this week?
+## So what have we learned this week?[^3]
 
 Networking isn't just about having a fast internet connection - it's a complex dance of RTT, jitter, bandwidth, and percentiles that all work together to determine whether your perfect shot lands or your ship decides to practice interpretive dance during quantum travel.
 
@@ -240,3 +240,4 @@ And perhaps most importantly, we've learned that somewhere out there, a server i
 [^a]: Though we all know it was their "creative interpretation of flight mechanics" that led to that intimate encounter with an asteroid
 [^b]: Press F to pay respect
 [^2]: If we'll ever gonna see it
+[^3]: I just can't resist
