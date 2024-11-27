@@ -7,8 +7,8 @@ showTableOfContents: true
 
 *"Using space games to understand distributed systems, or how I learned to stop worrying and love the 30k"*
 
-It all began innocently enough with the latest ISC. One moment I was watching them talking about optimizing some
-particular function and *that thing coming next patch*, there I was, flooding my org's Discord with rambles about
+It all began innocently enough with the [latest ISC](https://www.youtube.com/watch?v=Mgbgp4pRSJ4). One moment I was watching them talking about optimizing some
+particular function and *that thing coming next patch[^a]*, there I was, flooding my org's Discord with rambles about
 exponential distributions and network statistics. Because apparently analyzing network architectures of a game that
 has already consumed more of my wallet than I'm willing to admit publicly is what I do for fun now - at least it's cheaper than buying another ship :money_with_wings:.
 
@@ -18,8 +18,8 @@ Though I suspect they just wanted to reclaim the Discord channels from my improm
 ## What's this all about?
 
 Distributed systems are hard. So hard that most computer science books need hundreds of pages just to explain the basics.
-Yet somehow, thousands of players manage to understand concepts like eventual consistency every day
-- they just call it "that weird moment when my friend's ship was there but also wasn't there."
+Yet somehow, thousands of players manage to understand concepts like eventual consistency every day - they just call it
+"that weird moment when my friend's ship was there but also wasn't there."
 
 That's when it hit me: what better way to understand complex distributed systems than through the lens of space catastrophes?
 After all, Star Citizen is basically a distributed systems playground where players unknowingly experience everything from
@@ -47,7 +47,7 @@ Because if I'm going to obsess over a space game's technical architecture, I mig
 Look, while ranting about network architectures and filling my org's Discord with statistical analyses is genuinely my idea of fun,
 there's actually a method to this madness.
 
-- First, we all need something to do while waiting for server meshing to arrive (Soon™). Sure, we could spend this time theory-crafting
+- First, we all need something to do while waiting for *that thing coming next patch[^a]* (Soon™). Sure, we could spend this time theory-crafting
 about optimal fleet compositions or arguing about the best ship for solo play, but why not learn something while we wait?
 
 - Second, distributed systems are fascinating, but they're often taught in the driest way possible. Nobody wants to read another
@@ -68,9 +68,10 @@ Each article combines:
 - Mathematical foundations (where applicable)
 - Enough sarcasm to fill a C2
 
-Whether you're a distributed systems engineer wondering why your Kafka cluster keeps exploding, a game dev trying to understand why
-physics grids are hard, or just someone curious about why computers sometimes hate us, hopefully these articles will help. And if not, at least we'll have some fun watching things break spectacularly in space.
+Whether you're a developer curious about MMO infrastructure, a player wondering why certain technical limitations exist, or just someone interested in how complex distributed systems work,
+these articles aim to explain the challenges through a lens we can all understand: things going wonderfully wrong in space.
 
-*No packets were harmed in the making of these articles, though several 30ks were encountered during research.*
+*Because sometimes the best way to understand a complex system is to watch it fail spectacularly in space.*
 
 [^0]: Or our very Italian way of saying this "*Il mio falegname con trentamile lire lo fa meglio"* (https://www.youtube.com/watch?v=gaOiKy3MRrA)
+[^a]: Server Meshing
