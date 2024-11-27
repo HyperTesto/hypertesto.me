@@ -223,7 +223,7 @@ Let's look at three different approaches to handling server bandwidth:
 {{< figure src="bandwidth.png" alt="RTT" caption="Server bandwith scaling with players count" >}}
 
 Think about it: every time someone spawns their shiny new 890 Jump (and we know there's always someone spawning an 890), the server needs to tell everyone nearby about each of its 12,937 polygons and that one coffee cup that's about to achieve orbit.
-PS: don't forget about those
+
 ## So what have we learned this week?[^3]
 
 Networking isn't just about having a fast internet connection - it's a complex dance of RTT, jitter, bandwidth, and percentiles that all work together to determine whether your perfect shot lands or your ship decides to practice interpretive dance during quantum travel.

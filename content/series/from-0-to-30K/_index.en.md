@@ -1,5 +1,5 @@
 ---
-title: "From 0 to 30k: a theoretical journey of distributed systems through the lens of Star Citizen"
+title: "From 0 to 30K: a theoretical journey of distributed systems through the lens of Star Citizen"
 showTableOfContents: true
 ---
 
