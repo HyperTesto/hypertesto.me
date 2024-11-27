@@ -1,5 +1,5 @@
 ---
-title: "From 0 to 30K - Network"
+title: "From 0 to 30K - The network"
 aliases:
 - /en/blog/2024/11/from-0-to-30k
 date: 2024-11-17T18:56:31+01:00
@@ -26,7 +26,7 @@ Let's start with the network basics behind these daily space dramas. I'll be usi
 these concepts, because if there's one thing I love more than filling Hercules with trolleys, it's turning data into charts.
 
 
-Fair warning: like CIG's release dates, all numbers in this article are subject to change and should be taken with enough salt to fill a Starfarer.
+> Fair warning: like CIG's release dates, all numbers in this article are subject to change and should be taken with enough salt to fill a Starfarer.
 The goal here isn't to provide exact figures, but to understand the underlying concepts that make our space shenanigans possible
 (or occasionally impossible, looking at you, 30k).
 
@@ -39,8 +39,8 @@ Before we quantum travel into the deep analysis, let's understand some key conce
 
 A quick note about the math: in our analysis, we'll be using two main types of statistical distributions to model network behavior:
 
-- **Normal distribution** (also called Gaussian) for typical network conditions - think of your regular quantum travel, where most jumps take about the same time with small variations
-- **Exponential distribution** for modeling network issues - like those rare but dramatic moments when your ship decides interpretive dance is its true calling. It gives us lots of normal values but allows for those occasional dramatic spikes
+- **[Normal distribution](https://en.wikipedia.org/wiki/Normal_distribution)** (also called Gaussian) for typical network conditions - think of your regular quantum travel, where most jumps take about the same time with small variations
+- **[Exponential distribution](https://en.wikipedia.org/wiki/Exponential_distribution)** for modeling network issues - like those rare but dramatic moments when your ship decides interpretive dance is its true calling. It gives us lots of normal values but allows for those occasional dramatic spikes
 
 These aren't just arbitrary choices - they're commonly used in real network analysis because they match what we actually see in practice.
 The normal distribution is perfect for modeling stable connections with small variations, while the exponential distribution captures those
@@ -76,14 +76,24 @@ plt.title('RTT Distribution: Good vs Poor Connection')
 plt.legend()
 ```
 
+{{< figure src="rtt.png" alt="RTT" caption="RTT distribution of two different connections" >}}
+
 This directly affects your gameplay:
 - Low RTT (~50ms): Your shots feel responsive
 - Medium RTT (~150ms): Slight delay but playable
 - High RTT (300ms+): Noticeable lag in all actions
 
-### Jitter: the turbulence factor
+RTT isn't just about your shots landing - it affects everything from cargo trading to mining charge timing.
+A 300ms delay might be barely noticeable when you're casually touring Lorville, but it becomes painfully
+obvious when you're trying to dodge torpedoes in a dogfight.
 
-Notice how the "Poor Connection" had a much wider spread than the "Good Connection" - that's jitter in action. While RTT tells you the average delay, jitter (measured as standard deviation) shows how stable that delay is. It's like comparing:
+That's why some activities are more "latency sensitive" than others, and why your org mate keeps blaming their
+"high ping" for losing that 1v1[^a].
+
+### Jitter: the turbulence[^0] factor
+
+Notice how the "Poor Connection" had a much wider spread than the "Good Connection"? That's jitter in action.
+While RTT tells you the average delay, jitter (measured as standard deviation) shows how stable that delay is. It's like comparing:
 
 - Low jitter (SD ~5ms): Like the tight distribution in our "Good Connection" - smooth quantum travel
 - High jitter (SD ~30ms): Like the wide spread in our "Poor Connection" - bumpy atmospheric flight
@@ -103,31 +113,56 @@ plt.title('Impact of Jitter on Connection Stability')
 plt.legend()
 ```
 
+{{< figure src="jitter.png" alt="Jitter" caption="Jitter distribution of two different connections" >}}
+
+This helps explain many common "network weirdness" moments in the verse.
+High jitter is actually worse for gameplay than consistently high latency - your brain can adapt to a delay,
+but it can't adapt to a delay that keeps changing. Think about it: a stable 150ms RTT means you can learn to
+lead your targets by a consistent amount, but erratic jitter means sometimes you need to lead by 50ms, sometimes by 200ms.
+
+That's why you might have a higher average ping than your friend but a smoother combat experience - stability often matters more than speed.
+
 ### Percentiles: beyond the average
 
 Averages can be misleading. Percentiles give us a better picture:
 
 ```python
 # Generate realistic game session data
-session_data = np.random.exponential(50, 1000)
+session_data = np.random.exponential(50, 10000)
 
-# Calculate key percentiles
-p50 = np.percentile(session_data, 50)  # Median experience
-p95 = np.percentile(session_data, 95)  # Occasional spikes
-p99 = np.percentile(session_data, 99)  # Rare but severe issues
+# Calculate percentiles from 1 to 100
+percentiles = range(1, 101)
+latencies = np.percentile(session_data, percentiles)
 
-# Visualize with markers for percentiles
 plt.figure(figsize=(12, 6))
-sns.histplot(session_data, bins=50)
-plt.axvline(p50, color='g', linestyle='--', label='P50 (Median)')
-plt.axvline(p95, color='y', linestyle='--', label='P95')
-plt.axvline(p99, color='r', linestyle='--', label='P99')
-plt.title('Network Performance Distribution')
-plt.xlabel('Latency (ms)')
+
+# Main plot showing percentiles vs latency
+plt.plot(percentiles, latencies, 'b-', label='Latency Distribution')
+
+# Highlight key percentiles
+p50 = np.percentile(session_data, 50)
+p95 = np.percentile(session_data, 95)
+p99 = np.percentile(session_data, 99)
+
+# Add markers for key percentiles
+plt.plot(50, p50, 'go', label=f'P50 (Median): {p50:.1f}ms')
+plt.plot(95, p95, 'yo', label=f'P95: {p95:.1f}ms')
+plt.plot(99, p99, 'ro', label=f'P99: {p99:.1f}ms')
+
+plt.grid(True, alpha=0.2)
+plt.xlabel('Percentile')
+plt.ylabel('Latency (ms)')
+plt.title('Latency Distribution by Percentile')
 plt.legend()
 ```
 
-This helps explain why:
+{{< figure src="percentiles.png" alt="Jitter" caption="Visualizing percentiles" >}}
+
+Understanding percentiles helps explain those moments when your org mate insists "but my connection is fine!"
+while their ship is break-dancing across Port Olisar[^b]. Sure, their P50 looks great in discord screenshots,
+but that P99 tells the real story of why their "perfectly executed landing" ended up redecorating the spaceport.
+
+When it comes to network performance, averages hide the moments that really matter, this helps explain why:
 - Your average ping might look fine, but you still experience occasional issues
 - Some players have different experiences with similar average connections
 - Network problems often feel worse than the numbers suggest
@@ -139,65 +174,56 @@ This helps explain why:
 While modern internet connections usually handle client bandwidth needs just fine, it's worth thinking about the bigger picture. Your client might only need to send and receive data about nearby ships, but imagine being the server:
 
 ```python
-# Simulate server bandwidth requirements
-def calculate_server_bandwidth(num_players, data_per_player=1000):  # 1KB per player
+# Simulate different server bandwidth requirements
+def calculate_bandwidth_naive(num_players, data_per_player=1000):  # 1KB per player
     total_bandwidth = 0
-    # Each player needs updates about other nearby players
+    # Each player needs updates about ALL other players
+    for player in range(num_players):
+        total_bandwidth += (num_players - 1) * data_per_player  # O(n²) scaling
+    return total_bandwidth / (1024 * 1024)  # Convert to MB/s
+
+def calculate_bandwidth_basic(num_players, data_per_player=1000):  # 1KB per player
+    total_bandwidth = 0
+    # Each player needs updates about nearby players
     for player in range(num_players):
         nearby_players = min(num_players - 1, 50)  # Assume max 50 relevant players
-        total_bandwidth += nearby_players * data_per_player
+        total_bandwidth += nearby_players * data_per_player  # O(n) scaling
+    return total_bandwidth / (1024 * 1024)  # Convert to MB/s
+
+def calculate_bandwidth_optimized(num_players, data_per_player=1000):  # 1KB per player
+    total_bandwidth = 0
+    for player in range(num_players):
+        # Use dynamic interest management and compression
+        nearby_players = min(num_players - 1, 50)
+        compression_ratio = 0.6 + (0.4 * (nearby_players / 50))  # Better compression with fewer players
+        total_bandwidth += nearby_players * data_per_player * compression_ratio
     return total_bandwidth / (1024 * 1024)  # Convert to MB/s
 
 players = range(10, 501, 10)
-bandwidth = [calculate_server_bandwidth(n) for n in players]
+bandwidth_naive = [calculate_bandwidth_naive(n) for n in players]
+bandwidth_basic = [calculate_bandwidth_basic(n) for n in players]
+bandwidth_optimized = [calculate_bandwidth_optimized(n) for n in players]
 
 plt.figure(figsize=(10, 6))
-plt.plot(players, bandwidth)
+plt.plot(players, bandwidth_naive, label='Naive (O(n²))', linestyle='--')
+plt.plot(players, bandwidth_basic, label='Basic Interest Management')
+plt.plot(players, bandwidth_optimized, label='Optimized (with compression)')
 plt.title('Server Bandwidth vs Player Count')
 plt.xlabel('Number of Players')
 plt.ylabel('Bandwidth Required (MB/s)')
+plt.legend()
 plt.grid(True)
 ```
+Let's look at three different approaches to handling server bandwidth:
 
-Hipotetical bandwidth requirements:
-- You visiting Port Olisar: ~100KB/s
-- You during combat: ~300KB/s
-- Server handling Port Olisar during free fly week: *nervous server noises*
+- Naive approach: Every player gets updates about every other player. This scales quadratically (_O(n²)_) - imagine the server trying to tell everyone about everyone else's coffee cups achieving orbit. This is why early MMOs often had strict player caps per server.
+- Basic Interest Management: Players only get updates about nearby entities (what Star Citizen calls "bubbles"). While still non-linear, this grows more slowly than the naive approach since each player only tracks a subset of the total population - you don't need to know about that Reclaimer on the other side of Stanton, but the server load still compounds as player counts increase.
+- Optimized Approach: Combines interest management with dynamic compression and optimization. The closer you are to other players, the more detailed the updates need to be. Imagine getting highly detailed info about the ship you're about to crash into, but just basic position updates for that distant Bengal carrier[^2].
+
+{{< figure src="bandwidth.png" alt="RTT" caption="Server bandwith scaling with players count" >}}
 
 Think about it: every time someone spawns their shiny new 890 Jump (and we know there's always someone spawning an 890), the server needs to tell everyone nearby about each of its 12,937 polygons and that one coffee cup that's about to achieve orbit.
-
-### Real-World Impact on Gameplay
-
-Let's see how these metrics affect different activities:
-
-```python
-# Simulate different gameplay scenarios
-def simulate_gameplay(rtt, jitter, activity_threshold):
-    samples = np.random.normal(rtt, jitter, 1000)
-    reliability = np.mean(samples < activity_threshold)
-    return reliability
-
-activities = {
-    'Mining': 200,  # More latency tolerant
-    'Trading': 150,  # Medium sensitivity
-    'Combat': 100   # Highly sensitive
-}
-
-results = {activity: simulate_gameplay(100, 20, threshold)
-          for activity, threshold in activities.items()}
-
-# Visualize activity reliability
-plt.figure(figsize=(10, 6))
-plt.bar(results.keys(), results.values())
-plt.title('Network Impact on Different Activities')
-plt.ylabel('Reliability Score')
-```
-
-Let's see how these network metrics affect different activities:
-- Mining: Like dating - timing is important but a little delay won't kill you
-- Trading: Similar to your ship's insurance expiration - you have some wiggle room
-- Combat: As precise as explaining to your org why you "borrowed" their Carrack
-
+PS: don't forget about those
 ## So what have we learned this week?
 
 Networking isn't just about having a fast internet connection - it's a complex dance of RTT, jitter, bandwidth, and percentiles that all work together to determine whether your perfect shot lands or your ship decides to practice interpretive dance during quantum travel.
@@ -209,3 +235,8 @@ By analyzing the data and visualizations, we can see why:
 - Your friend's "perfect" 50ms connection might actually perform worse than your "stable" 100ms one when jitter enters the chat
 
 And perhaps most importantly, we've learned that somewhere out there, a server is doing complex bandwidth calculations to figure out how to tell everyone about that one player who decided to fill their C2 with `1E+2` trolleys (because apparently regular notation isn't enough to express this level of abuse).
+
+[^0]: Or _Turbolent_, in CIG terms :angel:
+[^a]: Though we all know it was their "creative interpretation of flight mechanics" that led to that intimate encounter with an asteroid
+[^b]: Press F to pay respect
+[^2]: If we'll ever gonna see it

@@ -1,13 +1,16 @@
 ---
 title: "From 0 to 30k: a theoretical journey of distributed systems through the lens of Star Citizen"
-showTableOfContents: false
+showTableOfContents: true
 ---
+
+{{< figure src="cover.png" alt="cover" >}}
+
 *"Using space games to understand distributed systems, or how I learned to stop worrying and love the 30k"*
 
 It all began innocently enough with the latest ISC. One moment I was watching them talking about optimizing some
 particular function and *that thing coming next patch*, there I was, flooding my org's Discord with rambles about
 exponential distributions and network statistics. Because apparently analyzing network architectures of a game that
-has already consumed more of my wallet than I'm willing to admit publicly is what I do for fun now - at least it's cheaper than buying another Idris.
+has already consumed more of my wallet than I'm willing to admit publicly is what I do for fun now - at least it's cheaper than buying another ship :money_with_wings:.
 
 Turns out my org mates' polite suggestion to "maybe write this down somewhere" was actually a good idea.
 Though I suspect they just wanted to reclaim the Discord channels from my impromptu statistics lectures and network performance rants.
@@ -63,7 +66,7 @@ Each article combines:
 - Interactive Python notebooks to play with
 - Real scenarios from the verse
 - Mathematical foundations (where applicable)
-- Enough sarcasm to fill a Hercules
+- Enough sarcasm to fill a C2
 
 Whether you're a distributed systems engineer wondering why your Kafka cluster keeps exploding, a game dev trying to understand why
 physics grids are hard, or just someone curious about why computers sometimes hate us, hopefully these articles will help. And if not, at least we'll have some fun watching things break spectacularly in space.
