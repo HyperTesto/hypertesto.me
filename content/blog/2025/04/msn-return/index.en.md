@@ -1,5 +1,5 @@
 ---
-title: "Msn Return"
+title: "MSN Return"
 date: 2025-04-01T12:06:20+02:00
 draft: false
 tags: ""
