@@ -11,7 +11,7 @@ authors: "hypertesto"
 
 In an unexpected turn of events, Microsoft has announced that Skype will be discontinued on May 5th, with users being migrated to a revamped version of MSN Messenger. This surprising decision marks a strategic shift in Microsoft's communication platform strategy.
 
-Why MSN's Return? Microsoft's research showed that users increasingly prefer simpler, more personal communication tools. _"We've noticed a strong nostalgia trend in tech"_, stated Microsoft's Head of Communications. "By combining MSN's beloved simplicity with modern technology, we're creating something uniquely appealing."
+Why MSN's Return? Microsoft's research showed that users increasingly prefer simpler, more personal communication tools. _"We've noticed a strong nostalgia trend in tech"_, stated Microsoft's Head of Communications. _"By combining MSN's beloved simplicity with modern technology, we're creating something uniquely appealing."_
 
 ### What's Coming in the New MSN
 
