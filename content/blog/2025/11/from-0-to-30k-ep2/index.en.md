@@ -138,6 +138,36 @@ Another classic demonstration: `0.1 + 0.2` does **not** equal `0.3` in binary fl
 In a dogfight that extra `4 × 10⁻¹⁷` seconds can be the difference between a clean hit and a spectacular miss,
 especially when the error accumulates over thousands of physics updates.
 
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+iterations = 10000
+value = 0.0
+history = []
+
+for i in range(iterations):
+    value += 0.1
+    history.append(value)
+
+# Exact value would be i * 0.1
+exact = np.arange(1, iterations+1) * 0.1
+error = np.array(history) - exact
+
+plt.figure(figsize=(9,5))
+plt.plot(error, label="Floating‑point error")
+plt.axhline(0, color='black', linewidth=0.5)
+plt.title("Error accumulation when adding 0.1 repeatedly")
+plt.xlabel("Iteration")
+plt.ylabel("Error")
+plt.legend()
+plt.tight_layout()
+plt.savefig("float_error_accum.png")
+plt.show()
+```
+
 {{< figure src="float_error_accum.png" alt="Floating‑point error accumulation" caption="Even after a thousand additions of 0.1, the accumulated error is noticeable – enough to miss a target in a dogfight." >}}
 
 
