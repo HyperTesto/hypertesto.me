@@ -1,24 +1,25 @@
 ---
-title: "From 0 to 30k - Numbers"
+title: "From 0 to 30K - Numbers"
 date: 2025-11-06T17:51:32+01:00
-draft: true
-description: ""
-tags: ""
-categories: ""
+description: "A theoretical journey of distributed systems through the lens of Star Citizen"
+draft: false
+categories:
+- gaming
+tags:
+- star citizen
+- networks
+- simulations
+series:
+- From 0 to 30K
 authors: "hypertesto"
 ---
-*"Numbers are like stars: infinite in theory, but you only see a handful at a time"* — unless you’re a compiler, then you see every single bit.
+> Numbers are like stars: infinite in theory, but you only see a handful at a time
 
-Welcome back, spacers! In the previous post we untangled latency, jitter, and bandwidth—the invisible forces that make your ship wobble like a caffeinated asteroid.
-
-**Why go back to basics?**
-Numbers are the *foundation* of every piece of software we’ll ever discuss. Whether we later talk about procedural planet generation, AI path‑finding, or network synchronization, each of those systems ultimately manipulates integers, floating‑point values, or fixed‑point approximations. By mastering how a computer stores and manages numbers now, you’ll have the mental toolbox needed for every future (or optional) deep‑dive we might take.
-
-> TL;DR
-> - Integers: A fixed number of bits gives a hard ceiling (e.g., a signed 32‑bit int tops out at 2 147 483 647). Once you hit that limit you get overflow, which shows up as sudden “negative” values or wrapped counters.
-> - Floating‑point numbers: Even though they can represent astronomically large magnitudes, they store values as approximations (sign + exponent + mantissa). The spacing between representable numbers grows with size, so rounding errors and jitter appear—especially when many small operations accumulate.
-Together, these finite‑bit realities explain the tiny glitches you notice while piloting your ship.
----
+Welcome to Episode 2 of the “Computer‑Science‑through‑Star Citizen” series. After dissecting latency, jitter, and bandwidth in the first post,
+we now turn to the **foundation of every computation** – how a computer actually stores numbers. Whether you’re tracking a ship’s velocity,
+calculating shield regeneration, or tallying in‑game credits, the underlying numeric representation dictates what’s possible, what can go wrong,
+and how much bandwidth you’ll burn. Mastering these basics will give you the mental toolkit for every deeper dive we’ll take later (procedural planets,
+AI path‑finding, network sync, you name it).
 
 ## Integer Basics
 
@@ -48,13 +49,16 @@ To do that we reserve **one bit for the sign** and use **two’s‑complement** 
 So a **signed 32‑bit integer**—the type most of the game’s counters use—can hold roughly **±2 billion**.
 That’s plenty for most in‑game values, but it *is* a hard ceiling; once you exceed it you get the classic overflow behaviour (the value wraps around to the opposite extreme).
 
-Adding `1` to the largest positive signed value flips it to the most negative one:
+Adding `1` to the largest positive signed value flips it to the most negative one[^0]:
 
 ```127 (0b01111111) + 1 → -128 (0b10000000) ← 8‑bit signed overflow```
 
 That’s why a badly‑coded cargo counter can suddenly display “‑1 ton” and make you wonder if the game has entered a black hole.
 
-{{< figure src="int_ranges.png" alt="Integer ranges" caption="Maximum signed/unsigned integer values for common bit‑widths (log scale)." >}}
+{{< figure src="int_ranges.png" alt="Integer ranges" caption="Maximum signed/unsigned integer values for common bit‑widths." >}}
+
+Note that the y axis in in **logarithmic scale**[^log] or the bars representing 8, 16 and 32 bits would be insignificant.
+This emphasizes the exponential growth of the maximum representable value as the bit‑width increases.
 
 ### A quick byte primer
 In few places the article will mentions “bytes”, they are not some kind of wizardry spell, but a name to call "a group of 8 bits".
@@ -82,7 +86,7 @@ It’s a classic engineering trade‑off: *more precision → more resources*.
 ## Floating-point numbers
 
 Most scientific values – ship velocity, fuel consumption, laser damage – live in the realm of **real numbers**. Storing them exactly would require infinite bits,
-so we settle for the **IEEE‑754 floating‑point** formatwhich splits the bits into three logical parts:
+so we settle for the **IEEE‑754 floating‑point**[^1] formatwhich splits the bits into three logical parts:
 
 | Part          | What it stores                                                            | How it contributes to the value                                                                                       |
 |---------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
@@ -193,8 +197,8 @@ When you need exact currency values, a common shortcut is to store the whole‑u
 This avoids any floating‑point rounding quirks while keeping the representation simple and network‑friendly.
 
 ## Double precision coordinates in Star Citizen
-Cloud Imperium Games has confirmed that the engine now uses 64‑bit (double‑precision) floating‑point values for world‑space coordinates.
-Sean Tracy (Technical Director) explained that moving from 32‑bit to 64‑bit “allows greater precision and size for positional space”
+Cloud Imperium Games has confirmed that the engine now uses 64‑bit (double‑precision) floating‑point values for world‑space coordinates[^2].
+Sean Tracy (Technical Director) explained that moving from 32‑bit to 64‑bit “allows greater precision and size for positional space”[^3]
 because the game’s star systems span millions of kilometres, far beyond what a 32‑bit float can accurately represent.
 
 **Why it matters**
@@ -221,3 +225,9 @@ So next time you stare at a UI element that says “Fuel: 99.999 %”, remembe
 In the unforgiving vacuum of space, that hair can be the difference between a clean landing and a spectacular crash‑landing into a rock‑filled nebula.
 
 Happy coding, and may your bits never overflow—unless you enjoy watching your cargo counter roll over into negative infinity. 🚀
+
+[^0]: https://en.wikipedia.org/wiki/Integer_overflow
+[^1]: https://en.wikipedia.org/wiki/IEEE_754
+[^2]: https://gamersnexus.net/gg/2622-star-citizen-sean-tracy-64bit-engine-tech-edge-blending
+[^3]: https://www.reddit.com/r/starcitizen/comments/7nj5yl/star_citizen_64bit_and_double_precision_floating/
+[^log]: https://en.wikipedia.org/wiki/Logarithmic_scale
