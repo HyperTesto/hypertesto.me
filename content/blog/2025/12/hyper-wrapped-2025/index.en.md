@@ -35,15 +35,9 @@ You can be the best tank commander in the world, but your tank is useless if som
 
 Fun fact: my italian regiment became quite respected on our faction and among enemies; and they dedicated us a song for our massive naval logistic, and an anthem:
 
-<figure>
-  <figcaption>Bluefin unloading in progress</figcaption>
-  <audio controls src="bluefin-unloading-in-progress.en.mp3"></audio>
-</figure>
+{{<audio src="/audio/bluefin-unloading-in-progress.mp3" caption="Bluefin unloading in progress">}}
 
-<figure>
-  <figcaption>ARIES cuori di fuoco</figcaption>
-  <audio controls src="ARIES.en.mp3"></audio>
-</figure>
+{{<audio src="/audio/ARIES.mp3" caption="ARIES cuori di fuoco">}}
 
 ## The analogue awakening
 In the midst of all this digital despair, a strange thing happened: I started reading again. This wasn't just a preference; it was a necessity. My eyes went on a permanent, unsanctioned vacation this year. I've already been through two pairs of glasses and I'm heading for a third, thanks to months of vertigo, headaches, and a newfound hyper-sensitivity to light.
