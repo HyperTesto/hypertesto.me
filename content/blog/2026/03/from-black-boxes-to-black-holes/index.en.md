@@ -1,7 +1,7 @@
 ---
 title: "From black boxes to black holes"
 date: 2026-03-16T21:48:31+01:00
-draft: true
+draft: false
 description: "A personal, philosophical reflection on how AI-generated code changes the nature of software reasoning and trust."
 tags:
     - diary
