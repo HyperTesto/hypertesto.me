@@ -6,4 +6,5 @@ sharingLinks: false
 title: April fool!
 layout: "simple"
 ---
+You've been fooled!
 <video autoplay loop src="april-fool-funny.en.mp4" alt="April Fool" />
