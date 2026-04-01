@@ -1,7 +1,7 @@
 ---
 title: "Introducing Agentic Somatic Protocol"
 date: 2026-04-01T01:00:00+01:00
-draft: true
+draft: false
 description: "A personal, philosophical reflection on how AI-generated code changes the nature of software reasoning and trust."
 tags:
     - ai
