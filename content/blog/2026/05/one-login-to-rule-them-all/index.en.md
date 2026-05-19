@@ -131,6 +131,8 @@ Before touching the Caddyfile, register an application in the Azure Portal:
 Once created, note down the Application (client) ID and Directory (tenant) ID from the Overview page. Then go to Certificates & secrets → New client secret 
 and copy the Value immediately; **it's only shown once**.[^3]
 
+Under API permissions add the Microsoft Graph delegated permissions: `openid`, `email`, `profile`, `User.Read`, and grant admin consent.
+
 ## The Caddyfile
 
 ```bash
