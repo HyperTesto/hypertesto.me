@@ -1,28 +1,27 @@
 ---
-title: "P100Y of ISO-litude: a Duration's tale of acceptance"
+title: "Balancing flexibility and strictness with lenient Duration deserialization in Kotlin"
 date: 2024-11-12T21:58:39+01:00
 draft: false
 tags: "kotlin"
 categories: "kotlin"
 authors: "hypertesto"
 ---
-If you've been following this blog, you might have noticed I have a thing for Kotlin's `Duration` class. I've written about it before, and the more I use it, the more I appreciate how it manages to be both technically sophisticated and developer-friendly.
 
-Today's story started when a unit test caught something interesting: the same duration string "1s" would work perfectly with `Duration.parse()` but fail during JSON deserialization with real world data.
+I have written before about Kotlin's `Duration` class, and its blend of technical sophistication and developer friendliness continues to impress. Recently, a unit test highlighted an important distinction in how Kotlin handles duration parsing. The duration string `"1s"` works perfectly with `Duration.parse()`, but fails during JSON deserialization when dealing with real-world data. 
 
-What looked like inconsistent behavior taught me a lesson: `Duration.parse()` is flexible by design, `kotlinx.serialization` strict by choice.
+This apparent inconsistency is actually a deliberate design choice. The `Duration.parse()` method is flexible by design, while `kotlinx.serialization` is intentionally strict to enforce standardization.
 
-## What's happening under the hood?
-Looking at Kotlin's actual source code reveals an interesting story. First, let's look at Duration itself:
+## What happens under the hood?
+
+Examining Kotlin's source code clarifies this behavior. First, let's look at the `Duration` class itself:
 
 ```kotlin
 // In Duration.kt
 public inline class Duration internal constructor(
     private val rawValue: Long
-) : Comparable<Duration> {
+) : Comparable {
     // ...
     companion object {
-
         public fun parse(value: String): Duration = try {
             parseDuration(value, strictIso = false)
         } catch (e: IllegalArgumentException) {
@@ -34,16 +33,15 @@ public inline class Duration internal constructor(
 }
 ```
 
-A few interesting things to note here:
+A few key points stand out in this implementation:
+- `Duration` is an inline class with an internal constructor.
+- This constructor cannot be used for deserialization due to its internal visibility.
+- The `parse()` method intentionally accepts non-ISO formats by explicitly setting `strictIso = false`.
 
-- Duration is an inline class with an internal constructor
-- The constructor couldn't be used for deserialization anyway due to its visibility
-- The `parse()` method intentionally accepts non-ISO formats with `strictIso = false`
-
-Now, let's look at how `kotlinx.serialization` handles Duration:
+Now, let's look at how `kotlinx.serialization` handles the `Duration` class:
 
 ```kotlin
-internal object DurationSerializer : KSerializer<Duration> {
+internal object DurationSerializer : KSerializer {
     override val descriptor: SerialDescriptor =
         PrimitiveSerialDescriptor("kotlin.time.Duration", PrimitiveKind.STRING)
 
@@ -57,15 +55,14 @@ internal object DurationSerializer : KSerializer<Duration> {
 }
 ```
 
-This is where it gets interesting - the serializer makes a deliberate choice to use `parseIsoString()` for deserialization, while it could have used the more permissive `parse()`.
+The serializer makes a deliberate choice to use `parseIsoString()` for deserialization. Instead of relying on the more permissive `parse()` method, it enforces the ISO-8601 standard for data integrity.
 
-## When you can't fire the bouncer, open a side door
+## Implementing a lenient custom serializer
 
-Since we can't change kotlinx.serialization's built-in behavior (and perhaps we shouldn't - there are good reasons for enforcing standards in serialization),
-we can create our own more lenient serializer:
+Since we cannot change the built-in behavior of `kotlinx.serialization`—and generally shouldn't, given the importance of enforcing standards in data exchange—we can create our own custom lenient serializer. 
 
 ```kotlin
-internal object LenientDurationSerializer : KSerializer<Duration> {
+internal object LenientDurationSerializer : KSerializer {
     override val descriptor: SerialDescriptor =
         PrimitiveSerialDescriptor("kotlin.time.Duration", PrimitiveKind.STRING)
 
@@ -79,9 +76,7 @@ internal object LenientDurationSerializer : KSerializer<Duration> {
 }
 ```
 
-This serializer acts like a diplomatic translator: it accepts casual format in input (using `parse()`) but ensures formal ISO-8601 format in output (using `toIsoString()`).
-
-Apply it to your data classes like this:
+This serializer accepts casual input formats by using `parse()`, but ensures formal ISO-8601 formatting on output by using `toIsoString()`. You can apply it to your data classes using the `@Serializable` annotation:
 
 ```kotlin
 data class ProcessDuration(
@@ -94,8 +89,9 @@ val formal = """{"duration": "PT1S"}"""
 val casual = """{"duration": "1s"}"""
 ```
 
-This approach implements a fundamental principle of data exchange. Watch how our duration gets standardized during serialization:
-```kotlin
+This approach adheres to a fundamental principle of data exchange: be flexible in what you accept, but strict in what you produce. Watch how our duration gets standardized during serialization:
+
+```
 // What goes in
 {"duration": "1s"}
 
@@ -103,27 +99,25 @@ This approach implements a fundamental principle of data exchange. Watch how our
 {"duration": "PT1S"}
 ```
 
-They represent the same duration, just dressed differently. Like changing into formal attire for an evening event - same person, different presentation.
-And this is exactly what we want: when writing data that might be consumed by other systems, enforcing a standard format isn't just being pedantic - it's being a good citizen of the ecosystem.
-Our parser can be flexible in what it accepts, but should be strict in what it produces.
+Both strings represent the exact same duration, but the output is standardized. When writing data that might be consumed by other systems, enforcing an ISO format is a necessary practice for maintaining a reliable ecosystem.
 
-## Standards vs reality: a pragmatic approach
-Let's be honest here: while enforcing ISO-8601 in serialization is technically correct (the best kind of correct!), the real world is messier. Much messier.
-Anyone who has dealt with dates, time, and durations in production knows the chaos. You might encounter:
+## Standards vs. reality
 
-- Timestamps like "Last Monday" (thanks, natural language processing team!)
-- Timezones as "GMT+1" or "UTC+1" or "+0100" or "Europe/Paris" or just "1" (pick one, they said... no, not that one!)
-- Dates coming from that legacy system as "23-11-2023"... no wait, "11-23-2023"... actually "2023/11/23" (depends on which server you hit)
-- Durations like "two_and_a_half_hours" (because someone really hates numbers)
-- "5400000ms" (hello Java, is that you?)
-- "P0Y0M0DT1H30M0S" (someone REALLY liked XML back in 2003)
-- That one API that sends timestamps as Facebook likes count since the epoch (because why not?)
+While enforcing ISO-8601 in serialization is technically correct, real-world data is often much less organized. Anyone who has dealt with dates, times, and durations in production environments knows the variety of formats that can appear. 
 
-The Wild West of time formats is real, and it's not going anywhere.
-While standards like ISO-8601 are crucial for reliable data exchange, being too rigid can backfire.
-Sometimes we need to be pragmatic and meet the data where it is, not where we wish it was.
+In a typical production environment, you might encounter:
+- **Natural language timestamps** generated by NLP parsing services (e.g., "Last Monday").
+- **Inconsistent timezones** represented in various ways such as "GMT+1", "UTC+1", "+0100", or "Europe/Paris".
+- **Varying date formats** originating from legacy systems (e.g., "23-11-2023", "11-23-2023", or "2023/11/23").
+- **Raw millisecond values** typically found in Java integrations ("5400000ms").
+- **Excessively verbose XML-style durations** from older architectures ("P0Y0M0DT1H30M0S").
 
-## The moral of our story
-What started as a surprising test failure led me to appreciate the thoughtful design behind Kotlin's Duration.
-Like the protagonist in our ISO-litude tale, I learned that acceptance follows different paths: Duration's `parse()` method welcomes various formats for developer convenience, while `kotlinx.serialization` enforces ISO standards for data exchange.
-In this story of formats and parsing, there's no solitude at all - just a well-designed ecosystem where each component knows its role.
+The variety of time formats is a persistent challenge in software development. While standards like ISO-8601 are crucial for reliable data exchange, being overly rigid can cause integrations to fail. A pragmatic approach requires us to handle the data as it arrives, gracefully converting it into a standardized format for the future.
+
+## Conclusion
+
+Dealing with rigid data formats can sometimes feel like *P100Y of ISO-litude*[^1]: an endless century of strict parsing errors and isolated systems. However, examining Kotlin's source code reveals the thoughtful design behind its time packages. 
+
+By allowing `Duration.parse()` to welcome various formats for developer convenience, while keeping `kotlinx.serialization` anchored to ISO standards, the ecosystem strikes a perfect balance. You do not have to be isolated by strict formats; you simply need a custom serializer to bridge the gap between human-friendly inputs and machine-standardized outputs.
+
+[^1]: For the uninitiated: P100Y is the valid ISO-8601 duration string for exactly 100 years, with apologies to Gabriel García Márquez ;-)
