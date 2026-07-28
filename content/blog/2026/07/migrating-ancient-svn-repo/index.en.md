@@ -1,7 +1,7 @@
 ---
 title: "Migrating an ancient SVN repo the painful way (tunnel vision included)"
 date: 2026-07-28T00:00:00+02:00
-draft: true
+draft: false
 description: "A chronicle of escalating desperation: chunked dumps that tripped over their own chunk boundaries, a growing collection of Python tools that found more problems than they fixed, a 23 GB dump that svndumpfilter declared malformed, a dozen revisions mangled by a web server, and the three-command solution that made all of it unnecessary."
 tags:
   - svn
