@@ -1,5 +1,5 @@
 ---
-title: "Curlese, five years later: curl is still the unversal language of broken integrations"
+title: "Curlese, five years later: curl is still the universal language of broken integrations"
 date: 2026-08-03T18:00:00+02:00
 draft: false
 description: "Five years ago I argued that curl is the only language every team speaks when an integration breaks. A revisit: what changed, what didn't, and the 2026 survival kit."
