@@ -1,8 +1,13 @@
 ---
 date: "2021-12-28T22:34:17+01:00"
-draft: true
+draft: false
 title: Curlish as the Lingua Franca for Developers
 ---
+{{< alert "pencil" >}}
+This translation is a contribution of [Mikhail](https://github.com/ixth).<br/>
+Thank you so much for making this article accessible to English-speaking readers!
+{{< /alert >}}
+
 Over the past few months, I've often found myself working on projects
 that require integrating with third-party APIs — almost always over HTTP(s).
 The problem is that every project has its own more or less complicated network topology.
@@ -91,7 +96,7 @@ as long as you're talking to the right people.
 
 If you have any suggestions or know of other curl options that are particularly useful for debugging, the comments section is all yours!
 
-[^1]: YandereWare™
+[^1]: Baracca™. <br/> *The term "Baracca™" is an inside joke we had with my coworkers, and it humorously refers to things that are "slapdash," "cobbled together," or hastily put together (in fact a "baracca" is literally "shack").*
 [^2]: Just like me.
 [^3]: [RIGHT?!](https://twitter.com/AppleSupport/status/1461330383425970180)
 [^4]: The exact error messages vary considerably depending on the version of `curl`, so don't take these literally—they're only examples.
