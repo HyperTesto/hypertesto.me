@@ -17,6 +17,10 @@ authors:
   - hypertesto
 ---
 
+{{< alert "comment" >}}
+This post is partially made with an experimental editorial flow based on a small ML model trained on my own writings (notes, older blog posts...). The result is not totally satistying for my taste, I will review it soon.
+{{< /alert >}}
+
 Earlier this year a component I work on started making itself unpopular. The codebase is a Java engine, mostly rule-based, and it predates me at the company by some years: its original author left, and since then it has been maintained the way you maintain a gym subscription. _In theory_.
 
 The monitoring showed a number that was hard to unsee: over 30GB of heap allocated by a single instance, nearly all of it dead within seconds of being born. The damage had a specific trigger: generating a report means evaluating every variant against every rule in the engine, and with a large enough domain the process would eat every gigabyte the dev VM had. We restarted it on a regular basis, which worked fine until the restarts started leaving zombie processes behind.[^A] The GC graph looked like the cardiogram of someone who has just seen the restaurant bill.
