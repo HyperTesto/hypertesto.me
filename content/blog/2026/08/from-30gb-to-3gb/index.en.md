@@ -18,7 +18,7 @@ authors:
 ---
 
 {{< alert "comment" >}}
-This post is partially made with an experimental editorial flow based on a small ML model trained on my own writings (notes, older blog posts...). The result is not totally satistying for my taste, I will review it soon.
+This post is partially made with an experimental editorial flow based on a small ML model trained on my own writings (notes, older blog posts...) and kimi-k3. The result is not totally satisfying for my taste and reads a lot like AI-slop, I will review it soon.
 {{< /alert >}}
 
 Earlier this year a component I work on started making itself unpopular. The codebase is a Java engine, mostly rule-based, and it predates me at the company by some years: its original author left, and since then it has been maintained the way you maintain a gym subscription. _In theory_.
